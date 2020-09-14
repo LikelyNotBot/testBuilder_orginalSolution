@@ -10,6 +10,9 @@
 //   1. The first few numbers (called the prefix)
 //   2. The number of digits in the number (called the length)
 
+// Help Desk: I sourced underscore in index.html
+var _;
+
 var detectNetwork = function(cardNumber) {
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
@@ -18,7 +21,8 @@ var detectNetwork = function(cardNumber) {
   // MasterCard always has a prefix of 51, 52, 53, 54, or 55 and a length of 16.
   // Discover always has a prefix of 6011, 644-649, or 65, and a length of 16 or 19.
   // Maestro always has a prefix of 5018, 5020, 5038, or 6304, and a length of 12-19.
-
+  // China UnionPay always has a prefix of 622126-622925, 624-626, or 6282-6288 and a length of 16-19.
+  // Switch always has a prefix of 4903, 4905, 4911, 4936, 564182, 633110, 6333, or 6759 and a length of 16, 18, or 19.
   var data = {
     'American Express': {
       prefixes: ['34', '37'],
@@ -43,6 +47,14 @@ var detectNetwork = function(cardNumber) {
     'Maestro': {
       prefixes: ['5018', '5020', '5038', '6304'],
       lengths: [12, 13, 14, 15, 16, 17, 18, 19]
+    },
+    'China UnionPay': {
+      prefixes: getPrefixesFromRanges([ [622126, 622925], [624, 626], [6282, 6288] ]),
+      lengths: [16, 17, 18, 19]
+    },
+    'Switch': {
+      prefixes: ['4903', '4905', '4911', '4936', '564182', '633110', '6333', '6759'],
+      lengths: [16, 18, 19]
     }
   }
 
@@ -75,6 +87,27 @@ var detectNetwork = function(cardNumber) {
   }
 
 };
+
+/**
+ * @param [array] ranges, any number of pairs of numbers or single numbers,
+ *  as arrays of length 2 or 1 each.
+ * @returns [array] prefixes
+ */
+function getPrefixesFromRanges(ranges) {
+  var prefixes =
+  _.chain(ranges)
+    .map(function(range) {
+    	if (range.length === 1) {
+    		return range[0];
+    	} else if (range.length === 2) {
+    		return _.range(range[0], range[1]+1);
+    	}
+    })
+    .flatten()
+    .map(function(prefix) {return prefix.toString();})
+    .value();
+  return prefixes;
+}
 
 /**
 console.log(detectNetwork('38345678901234')); 	// (Diner's Club)
