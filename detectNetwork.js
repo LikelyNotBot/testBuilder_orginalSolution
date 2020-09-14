@@ -16,21 +16,33 @@ var detectNetwork = function(cardNumber) {
   // The American Express network always starts with a 34 or 37 and is 15 digits long
   // Visa always has a prefix of 4 and a length of 13, 16, or 19.
   // MasterCard always has a prefix of 51, 52, 53, 54, or 55 and a length of 16.
-
-  // Once you've read this, go ahead and try to implement this function, then return to the console.
+  // Discover always has a prefix of 6011, 644-649, or 65, and a length of 16 or 19.
+  // Maestro always has a prefix of 5018, 5020, 5038, or 6304, and a length of 12-19.
 
   var data = {
     'American Express': {
-      prefixes: ['34', '37'], lengths: [15]
+      prefixes: ['34', '37'],
+      lengths: [15]
     },
     'Diner\'s Club': {
-      prefixes: ['38', '39'], lengths: [14]
+      prefixes: ['38', '39'],
+      lengths: [14]
     },
     'Visa': {
-    	prefixes: ['4'], lengths: [13, 16, 19]
+      prefixes: ['4'],
+      lengths: [13, 16, 19]
     },
     'MasterCard': {
-    	prefixes: ['51', '52', '53', '54', '55'], lengths: [16]
+      prefixes: ['51', '52', '53', '54', '55'],
+      lengths: [16]
+    },
+    'Discover': {
+      prefixes: ['6011', '644', '645', '646', '647', '648', '649', '65'],
+      lengths: [16, 19]
+    },
+    'Maestro': {
+      prefixes: ['5018', '5020', '5038', '6304'],
+      lengths: [12, 13, 14, 15, 16, 17, 18, 19]
     }
   }
 
@@ -44,7 +56,6 @@ var detectNetwork = function(cardNumber) {
       }
     }
   }
-
 
   return undefined;
 };
