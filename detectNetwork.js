@@ -34,7 +34,7 @@ var detectNetwork = function(cardNumber) {
     }
   }
 
-for (var network in data) {
+  for (var network in data) {
     if (data[network].lengths.includes(cardNumber.length)) {
       var prefixes = data[network].prefixes;
       for (var i = 0; i < prefixes.length; i++) {
@@ -44,6 +44,7 @@ for (var network in data) {
       }
     }
   }
+
 
   return undefined;
 };
