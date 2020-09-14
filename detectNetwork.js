@@ -46,18 +46,34 @@ var detectNetwork = function(cardNumber) {
     }
   }
 
+  // find which networks are possible matches (candidates)
+  var candidates = [];
   for (var network in data) {
     if (data[network].lengths.includes(cardNumber.length)) {
       var prefixes = data[network].prefixes;
       for (var i = 0; i < prefixes.length; i++) {
         if (prefixes[i] === cardNumber.slice(0, prefixes[i].length)) {
-          return network;
+          candidates.push([network, prefixes[i]]);
         }
       }
     }
   }
 
-  return undefined;
+  // when there are multiple candidates, return the one with a longer prefix
+  if (candidates.length === 0) {
+    return undefined;
+  } else if (candidates.length === 1) {
+    return candidates[0][0];
+  } else {
+    var longestMatch = candidates[0];
+    for (var i=0; i < candidates[0].prefixes.length; i++) {
+      if (longestMatch[1] < candidates[i][1]) {
+        longestMatch = candidates[i];
+      }
+    }
+    return longestMatch[0];
+  }
+
 };
 
 /**
