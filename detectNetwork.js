@@ -10,9 +10,6 @@
 //   1. The first few numbers (called the prefix)
 //   2. The number of digits in the number (called the length)
 
-// Help Desk: I sourced underscore in index.html
-var _;
-
 var detectNetwork = function(cardNumber) {
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
@@ -63,13 +60,16 @@ var detectNetwork = function(cardNumber) {
   }
 
   // find which networks are possible matches (candidates)
+  // the candidates array datastructure:
+  //  [ [network] , prefixes[i] ]
+  //  [ [string], [string] ]
   var candidates = [];
   for (var network in data) {
     if (data[network].lengths.includes(cardNumber.length)) {
       var prefixes = data[network].prefixes;
       for (var i = 0; i < prefixes.length; i++) {
         if (prefixes[i] === cardNumber.slice(0, prefixes[i].length)) {
-          candidates.push([network, prefixes[i]]);
+          candidates.push( [ network, prefixes[i].length ] );
         }
       }
     }
@@ -81,7 +81,18 @@ var detectNetwork = function(cardNumber) {
   } else if (candidates.length === 1) {
     return candidates[0][0];
   } else {
-    var longestMatch = candidates[0];
+      var longestMatch = candidates[0];
+      for (var i = 1; i < candidates.length; i++) {
+        if (longestMatch[1] < candidates[i][1]) {
+          longestMatch = candidates[i];
+        }
+      }
+      return longestMatch[0];
+  }
+
+/*
+  } else {
+    var longestMatch = candidates[0][1];
     for (var i=0; i < candidates[0].prefixes.length; i++) {
       if (longestMatch[1] < candidates[i][1]) {
         longestMatch = candidates[i];
@@ -89,7 +100,7 @@ var detectNetwork = function(cardNumber) {
     }
     return longestMatch[0];
   }
-
+*/
 };
 
 /**
@@ -98,19 +109,15 @@ var detectNetwork = function(cardNumber) {
  * @returns [array] prefixes
  */
 function getPrefixesFromRanges(ranges) {
-  var prefixes =
-  _.chain(ranges)
-    .map(function(range) {
-    	if (range.length === 1) {
-    		return range[0];
-    	} else if (range.length === 2) {
-    		return _.range(range[0], range[1]+1);
-    	}
-    })
-    .flatten()
-    .map(function(prefix) {return prefix.toString();})
-    .value();
-  return prefixes;
+  // for every range in ranges, create an array
+  // with all the numbers in that range.
+  return ranges.map(function(range) {
+    var res = [];
+    for (var i = range[0]; i < range[1] + 1; i++) {
+      res.push(i.toString());
+    }
+    return res;
+  }).flat();
 }
 
 /**
