@@ -108,10 +108,30 @@ var detectNetwork = function(cardNumber) {
  *  as arrays of length 2 or 1 each.
  * @returns [array] prefixes
  */
+/**
+function getPrefixesFromRanges(ranges) {
+  var prefixes =
+  _.chain(ranges)
+    .map(function(range) {
+    	if (range.length === 1) {
+    		return range[0];
+    	} else if (range.length === 2) {
+    		return _.range(range[0], range[1]+1);
+    	}
+    })
+    .flatten()
+    .map(function(prefix) {return prefix.toString();})
+    .value();
+  return prefixes;
+}
+*/
 function getPrefixesFromRanges(ranges) {
   // for every range in ranges, create an array
   // with all the numbers in that range.
   return ranges.map(function(range) {
+    if (range.length === 1) {
+      return range[0].toString();
+    }
     var res = [];
     for (var i = range[0]; i < range[1] + 1; i++) {
       res.push(i.toString());
