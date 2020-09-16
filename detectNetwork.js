@@ -19,8 +19,11 @@ var data = [
   { name: 'China UnionPay',
     prefixes: cupPrefixes,
     lengths: [16, 17, 18, 19]
+  },
+  { name: 'Switch',
+    prefixes: ['4903', '4905', '4911', '4936', '564182', '633110', '6333', '6759'],
+    lengths: [16, 18, 19]
   }
-
 ];
 
 function detectNetwork(cardNumber) {
