@@ -6,11 +6,11 @@ describe('American Express', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 34 and a length of 15', function() {
-		assert(detectNetwork('341378140727679') === 'American Express');
+		assert(detectNetwork('348317992401265') === 'American Express');
 	});
 
 	it('has a prefix of 37 and a length of 15', function() {
-		assert(detectNetwork('374788666961313') === 'American Express');
+		assert(detectNetwork('370982180912398') === 'American Express');
 	});
 
 });
@@ -20,11 +20,11 @@ describe('Diner\'s Club', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 38 and a length of 14', function() {
-		assert(detectNetwork('38552932231334') === 'Diner\'s Club');
+		assert(detectNetwork('38958520800768') === 'Diner\'s Club');
 	});
 
 	it('has a prefix of 39 and a length of 14', function() {
-		assert(detectNetwork('39644698151535') === 'Diner\'s Club');
+		assert(detectNetwork('39285506671843') === 'Diner\'s Club');
 	});
 
 });
@@ -34,15 +34,15 @@ describe('Visa', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 4 and a length of 13', function() {
-		assert(detectNetwork('4508517829752') === 'Visa');
+		assert(detectNetwork('4861798448661') === 'Visa');
 	});
 
 	it('has a prefix of 4 and a length of 16', function() {
-		assert(detectNetwork('4803289498975702') === 'Visa');
+		assert(detectNetwork('4678266491302710') === 'Visa');
 	});
 
 	it('has a prefix of 4 and a length of 19', function() {
-		assert(detectNetwork('4203099292060281048') === 'Visa');
+		assert(detectNetwork('4472099293071475701') === 'Visa');
 	});
 
 });
@@ -52,23 +52,23 @@ describe('MasterCard', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 51 and a length of 16', function() {
-		assert(detectNetwork('5137847133863989') === 'MasterCard');
+		assert(detectNetwork('5126166370976839') === 'MasterCard');
 	});
 
 	it('has a prefix of 52 and a length of 16', function() {
-		assert(detectNetwork('5236603217092754') === 'MasterCard');
+		assert(detectNetwork('5234391098902296') === 'MasterCard');
 	});
 
 	it('has a prefix of 53 and a length of 16', function() {
-		assert(detectNetwork('5364350411877033') === 'MasterCard');
+		assert(detectNetwork('5351859124333390') === 'MasterCard');
 	});
 
 	it('has a prefix of 54 and a length of 16', function() {
-		assert(detectNetwork('5487405489415271') === 'MasterCard');
+		assert(detectNetwork('5440705103330485') === 'MasterCard');
 	});
 
 	it('has a prefix of 55 and a length of 16', function() {
-		assert(detectNetwork('5541436756512787') === 'MasterCard');
+		assert(detectNetwork('5579343617416858') === 'MasterCard');
 	});
 
 });
@@ -78,131 +78,131 @@ describe('Maestro', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 5018 and a length of 12', function() {
-		assert(detectNetwork('501861048853') === 'Maestro');
+		assert(detectNetwork('501881508661') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 12', function() {
-		assert(detectNetwork('502071916688') === 'Maestro');
+		assert(detectNetwork('502044054615') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 12', function() {
-		assert(detectNetwork('503846905607') === 'Maestro');
+		assert(detectNetwork('503887320284') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 12', function() {
-		assert(detectNetwork('630446631060') === 'Maestro');
+		assert(detectNetwork('630495579532') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 13', function() {
-		assert(detectNetwork('5018650002674') === 'Maestro');
+		assert(detectNetwork('5018596829277') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 13', function() {
-		assert(detectNetwork('5020794379623') === 'Maestro');
+		assert(detectNetwork('5020554534492') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 13', function() {
-		assert(detectNetwork('5038245486234') === 'Maestro');
+		assert(detectNetwork('5038163841594') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 13', function() {
-		assert(detectNetwork('6304536580498') === 'Maestro');
+		assert(detectNetwork('6304561953285') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 14', function() {
-		assert(detectNetwork('50182713689060') === 'Maestro');
+		assert(detectNetwork('50184562684538') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 14', function() {
-		assert(detectNetwork('50205686610509') === 'Maestro');
+		assert(detectNetwork('50204235957552') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 14', function() {
-		assert(detectNetwork('50386138620404') === 'Maestro');
+		assert(detectNetwork('50385933561445') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 14', function() {
-		assert(detectNetwork('63040460060728') === 'Maestro');
+		assert(detectNetwork('63041432515829') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 15', function() {
-		assert(detectNetwork('501897063316994') === 'Maestro');
+		assert(detectNetwork('501836607890017') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 15', function() {
-		assert(detectNetwork('502032227691074') === 'Maestro');
+		assert(detectNetwork('502071725030795') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 15', function() {
-		assert(detectNetwork('503817013886991') === 'Maestro');
+		assert(detectNetwork('503823287831019') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 15', function() {
-		assert(detectNetwork('630483953375729') === 'Maestro');
+		assert(detectNetwork('630442980327430') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 16', function() {
-		assert(detectNetwork('5018141009932739') === 'Maestro');
+		assert(detectNetwork('5018212357420680') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 16', function() {
-		assert(detectNetwork('5020938351809338') === 'Maestro');
+		assert(detectNetwork('5020328855188223') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 16', function() {
-		assert(detectNetwork('5038899109222762') === 'Maestro');
+		assert(detectNetwork('5038465400698457') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 16', function() {
-		assert(detectNetwork('6304685474243397') === 'Maestro');
+		assert(detectNetwork('6304898532593099') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 17', function() {
-		assert(detectNetwork('50186368156677635') === 'Maestro');
+		assert(detectNetwork('50186097068571826') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 17', function() {
-		assert(detectNetwork('50201433251837284') === 'Maestro');
+		assert(detectNetwork('50206058846919044') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 17', function() {
-		assert(detectNetwork('50386429467549079') === 'Maestro');
+		assert(detectNetwork('50387375786681895') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 17', function() {
-		assert(detectNetwork('63046754824816963') === 'Maestro');
+		assert(detectNetwork('63044378721017452') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 18', function() {
-		assert(detectNetwork('501897742424824299') === 'Maestro');
+		assert(detectNetwork('501846125855203664') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 18', function() {
-		assert(detectNetwork('502020206656373442') === 'Maestro');
+		assert(detectNetwork('502093428161897375') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 18', function() {
-		assert(detectNetwork('503843951695113092') === 'Maestro');
+		assert(detectNetwork('503843391419605465') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 18', function() {
-		assert(detectNetwork('630423569852308157') === 'Maestro');
+		assert(detectNetwork('630495329899298275') === 'Maestro');
 	});
 
 	it('has a prefix of 5018 and a length of 19', function() {
-		assert(detectNetwork('5018318572582082178') === 'Maestro');
+		assert(detectNetwork('5018784942429212397') === 'Maestro');
 	});
 
 	it('has a prefix of 5020 and a length of 19', function() {
-		assert(detectNetwork('5020156769533358131') === 'Maestro');
+		assert(detectNetwork('5020915578783713470') === 'Maestro');
 	});
 
 	it('has a prefix of 5038 and a length of 19', function() {
-		assert(detectNetwork('5038453281831402083') === 'Maestro');
+		assert(detectNetwork('5038064386898091430') === 'Maestro');
 	});
 
 	it('has a prefix of 6304 and a length of 19', function() {
-		assert(detectNetwork('6304169322776129035') === 'Maestro');
+		assert(detectNetwork('6304199350945854422') === 'Maestro');
 	});
 
 });
@@ -212,67 +212,67 @@ describe('Discover', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 6011 and a length of 16', function() {
-		assert(detectNetwork('6011049044502050') === 'Discover');
+		assert(detectNetwork('6011895616076764') === 'Discover');
 	});
 
 	it('has a prefix of 644 and a length of 16', function() {
-		assert(detectNetwork('6443051482610870') === 'Discover');
+		assert(detectNetwork('6443717113030251') === 'Discover');
 	});
 
 	it('has a prefix of 645 and a length of 16', function() {
-		assert(detectNetwork('6455950443642906') === 'Discover');
+		assert(detectNetwork('6458759563678782') === 'Discover');
 	});
 
 	it('has a prefix of 646 and a length of 16', function() {
-		assert(detectNetwork('6463669959640256') === 'Discover');
+		assert(detectNetwork('6461630954087760') === 'Discover');
 	});
 
 	it('has a prefix of 647 and a length of 16', function() {
-		assert(detectNetwork('6478787188690625') === 'Discover');
+		assert(detectNetwork('6478529023249835') === 'Discover');
 	});
 
 	it('has a prefix of 648 and a length of 16', function() {
-		assert(detectNetwork('6489965143996768') === 'Discover');
+		assert(detectNetwork('6489965341705225') === 'Discover');
 	});
 
 	it('has a prefix of 649 and a length of 16', function() {
-		assert(detectNetwork('6499474430049333') === 'Discover');
+		assert(detectNetwork('6490056419844750') === 'Discover');
 	});
 
 	it('has a prefix of 65 and a length of 16', function() {
-		assert(detectNetwork('6560280894818982') === 'Discover');
+		assert(detectNetwork('6552363416368796') === 'Discover');
 	});
 
 	it('has a prefix of 6011 and a length of 19', function() {
-		assert(detectNetwork('6011536885958141892') === 'Discover');
+		assert(detectNetwork('6011860914437825982') === 'Discover');
 	});
 
 	it('has a prefix of 644 and a length of 19', function() {
-		assert(detectNetwork('6444720030324350307') === 'Discover');
+		assert(detectNetwork('6445798925996958433') === 'Discover');
 	});
 
 	it('has a prefix of 645 and a length of 19', function() {
-		assert(detectNetwork('6450868402776076100') === 'Discover');
+		assert(detectNetwork('6455465496924971142') === 'Discover');
 	});
 
 	it('has a prefix of 646 and a length of 19', function() {
-		assert(detectNetwork('6462051366191096048') === 'Discover');
+		assert(detectNetwork('6461193640626879313') === 'Discover');
 	});
 
 	it('has a prefix of 647 and a length of 19', function() {
-		assert(detectNetwork('6471300928209079026') === 'Discover');
+		assert(detectNetwork('6471175691437432707') === 'Discover');
 	});
 
 	it('has a prefix of 648 and a length of 19', function() {
-		assert(detectNetwork('6480695187649726372') === 'Discover');
+		assert(detectNetwork('6481799280018670656') === 'Discover');
 	});
 
 	it('has a prefix of 649 and a length of 19', function() {
-		assert(detectNetwork('6493867931071310300') === 'Discover');
+		assert(detectNetwork('6495940488437643247') === 'Discover');
 	});
 
 	it('has a prefix of 65 and a length of 19', function() {
-		assert(detectNetwork('6528482925318746025') === 'Discover');
+		assert(detectNetwork('6506324381002806055') === 'Discover');
 	});
 
 });
@@ -282,12963 +282,13065 @@ describe('China UnionPay', function() {
 	var assert = chai.assert;
 
 	it('has a prefix of 624 and a length of 16', function() {
-		assert(detectNetwork('6247023502830144') === 'China UnionPay');
+		assert(detectNetwork('6249306406624944') === 'China UnionPay');
 	});
 
 	it('has a prefix of 625 and a length of 16', function() {
-		assert(detectNetwork('6250156928658513') === 'China UnionPay');
+		assert(detectNetwork('6257882093760617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 626 and a length of 16', function() {
-		assert(detectNetwork('6266670634001322') === 'China UnionPay');
+		assert(detectNetwork('6264054095112859') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6282 and a length of 16', function() {
-		assert(detectNetwork('6282500382053290') === 'China UnionPay');
+		assert(detectNetwork('6282766376473256') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6283 and a length of 16', function() {
-		assert(detectNetwork('6283784216362665') === 'China UnionPay');
+		assert(detectNetwork('6283736622317690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6284 and a length of 16', function() {
-		assert(detectNetwork('6284767413297354') === 'China UnionPay');
+		assert(detectNetwork('6284881352078563') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6285 and a length of 16', function() {
-		assert(detectNetwork('6285369677754591') === 'China UnionPay');
+		assert(detectNetwork('6285091416017690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6286 and a length of 16', function() {
-		assert(detectNetwork('6286853827864645') === 'China UnionPay');
+		assert(detectNetwork('6286496580931938') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6287 and a length of 16', function() {
-		assert(detectNetwork('6287286266641812') === 'China UnionPay');
+		assert(detectNetwork('6287682178005476') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6288 and a length of 16', function() {
-		assert(detectNetwork('6288636114703071') === 'China UnionPay');
+		assert(detectNetwork('6288103028718839') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622126 and a length of 16', function() {
-		assert(detectNetwork('6221260061196163') === 'China UnionPay');
+		assert(detectNetwork('6221264992042327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622127 and a length of 16', function() {
-		assert(detectNetwork('6221279043050401') === 'China UnionPay');
+		assert(detectNetwork('6221275527123006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622128 and a length of 16', function() {
-		assert(detectNetwork('6221286565952169') === 'China UnionPay');
+		assert(detectNetwork('6221280997795481') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622129 and a length of 16', function() {
-		assert(detectNetwork('6221296122313439') === 'China UnionPay');
+		assert(detectNetwork('6221290920034270') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622130 and a length of 16', function() {
-		assert(detectNetwork('6221305117336509') === 'China UnionPay');
+		assert(detectNetwork('6221307198052374') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622131 and a length of 16', function() {
-		assert(detectNetwork('6221317604148685') === 'China UnionPay');
+		assert(detectNetwork('6221311529700154') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622132 and a length of 16', function() {
-		assert(detectNetwork('6221328084927992') === 'China UnionPay');
+		assert(detectNetwork('6221321643799682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622133 and a length of 16', function() {
-		assert(detectNetwork('6221336164710373') === 'China UnionPay');
+		assert(detectNetwork('6221336028024081') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622134 and a length of 16', function() {
-		assert(detectNetwork('6221344046259390') === 'China UnionPay');
+		assert(detectNetwork('6221346810472248') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622135 and a length of 16', function() {
-		assert(detectNetwork('6221355296999401') === 'China UnionPay');
+		assert(detectNetwork('6221353030558532') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622136 and a length of 16', function() {
-		assert(detectNetwork('6221366980733746') === 'China UnionPay');
+		assert(detectNetwork('6221360264182200') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622137 and a length of 16', function() {
-		assert(detectNetwork('6221374275947102') === 'China UnionPay');
+		assert(detectNetwork('6221376922314881') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622138 and a length of 16', function() {
-		assert(detectNetwork('6221384962451716') === 'China UnionPay');
+		assert(detectNetwork('6221382507243895') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622139 and a length of 16', function() {
-		assert(detectNetwork('6221397054300175') === 'China UnionPay');
+		assert(detectNetwork('6221395153759869') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622140 and a length of 16', function() {
-		assert(detectNetwork('6221401237355292') === 'China UnionPay');
+		assert(detectNetwork('6221407070973828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622141 and a length of 16', function() {
-		assert(detectNetwork('6221412428521511') === 'China UnionPay');
+		assert(detectNetwork('6221419549817894') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622142 and a length of 16', function() {
-		assert(detectNetwork('6221427948818982') === 'China UnionPay');
+		assert(detectNetwork('6221426714203012') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622143 and a length of 16', function() {
-		assert(detectNetwork('6221430898288433') === 'China UnionPay');
+		assert(detectNetwork('6221438960120616') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622144 and a length of 16', function() {
-		assert(detectNetwork('6221448141523369') === 'China UnionPay');
+		assert(detectNetwork('6221449415547729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622145 and a length of 16', function() {
-		assert(detectNetwork('6221455509882653') === 'China UnionPay');
+		assert(detectNetwork('6221454313475253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622146 and a length of 16', function() {
-		assert(detectNetwork('6221465778914278') === 'China UnionPay');
+		assert(detectNetwork('6221469964087666') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622147 and a length of 16', function() {
-		assert(detectNetwork('6221470805751131') === 'China UnionPay');
+		assert(detectNetwork('6221475292756869') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622148 and a length of 16', function() {
-		assert(detectNetwork('6221485743853860') === 'China UnionPay');
+		assert(detectNetwork('6221483776673990') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622149 and a length of 16', function() {
-		assert(detectNetwork('6221496810001545') === 'China UnionPay');
+		assert(detectNetwork('6221495985888466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622150 and a length of 16', function() {
-		assert(detectNetwork('6221500116129841') === 'China UnionPay');
+		assert(detectNetwork('6221502044476302') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622151 and a length of 16', function() {
-		assert(detectNetwork('6221513629652553') === 'China UnionPay');
+		assert(detectNetwork('6221512770866262') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622152 and a length of 16', function() {
-		assert(detectNetwork('6221521311898076') === 'China UnionPay');
+		assert(detectNetwork('6221523061230329') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622153 and a length of 16', function() {
-		assert(detectNetwork('6221537136735655') === 'China UnionPay');
+		assert(detectNetwork('6221533711353948') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622154 and a length of 16', function() {
-		assert(detectNetwork('6221547441743106') === 'China UnionPay');
+		assert(detectNetwork('6221544575926148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622155 and a length of 16', function() {
-		assert(detectNetwork('6221552142464909') === 'China UnionPay');
+		assert(detectNetwork('6221552616287758') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622156 and a length of 16', function() {
-		assert(detectNetwork('6221561659219259') === 'China UnionPay');
+		assert(detectNetwork('6221568921256333') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622157 and a length of 16', function() {
-		assert(detectNetwork('6221572703084092') === 'China UnionPay');
+		assert(detectNetwork('6221578718217843') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622158 and a length of 16', function() {
-		assert(detectNetwork('6221589720626180') === 'China UnionPay');
+		assert(detectNetwork('6221586338598325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622159 and a length of 16', function() {
-		assert(detectNetwork('6221591164116707') === 'China UnionPay');
+		assert(detectNetwork('6221590252546823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622160 and a length of 16', function() {
-		assert(detectNetwork('6221608472647991') === 'China UnionPay');
+		assert(detectNetwork('6221601829351889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622161 and a length of 16', function() {
-		assert(detectNetwork('6221616480593453') === 'China UnionPay');
+		assert(detectNetwork('6221619095953494') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622162 and a length of 16', function() {
-		assert(detectNetwork('6221628243207648') === 'China UnionPay');
+		assert(detectNetwork('6221628967687105') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622163 and a length of 16', function() {
-		assert(detectNetwork('6221634661711828') === 'China UnionPay');
+		assert(detectNetwork('6221633658662524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622164 and a length of 16', function() {
-		assert(detectNetwork('6221646091406682') === 'China UnionPay');
+		assert(detectNetwork('6221647573951966') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622165 and a length of 16', function() {
-		assert(detectNetwork('6221657090284169') === 'China UnionPay');
+		assert(detectNetwork('6221654158948598') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622166 and a length of 16', function() {
-		assert(detectNetwork('6221661101248879') === 'China UnionPay');
+		assert(detectNetwork('6221663524687743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622167 and a length of 16', function() {
-		assert(detectNetwork('6221679685973648') === 'China UnionPay');
+		assert(detectNetwork('6221673561308290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622168 and a length of 16', function() {
-		assert(detectNetwork('6221687458457747') === 'China UnionPay');
+		assert(detectNetwork('6221684201543368') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622169 and a length of 16', function() {
-		assert(detectNetwork('6221692866176597') === 'China UnionPay');
+		assert(detectNetwork('6221694666612479') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622170 and a length of 16', function() {
-		assert(detectNetwork('6221707412557525') === 'China UnionPay');
+		assert(detectNetwork('6221707100673626') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622171 and a length of 16', function() {
-		assert(detectNetwork('6221710847047138') === 'China UnionPay');
+		assert(detectNetwork('6221712401067386') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622172 and a length of 16', function() {
-		assert(detectNetwork('6221725550922201') === 'China UnionPay');
+		assert(detectNetwork('6221721291197074') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622173 and a length of 16', function() {
-		assert(detectNetwork('6221732316898768') === 'China UnionPay');
+		assert(detectNetwork('6221736635100663') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622174 and a length of 16', function() {
-		assert(detectNetwork('6221741965001751') === 'China UnionPay');
+		assert(detectNetwork('6221746517877396') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622175 and a length of 16', function() {
-		assert(detectNetwork('6221756647978893') === 'China UnionPay');
+		assert(detectNetwork('6221759000777870') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622176 and a length of 16', function() {
-		assert(detectNetwork('6221765674478371') === 'China UnionPay');
+		assert(detectNetwork('6221764810762536') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622177 and a length of 16', function() {
-		assert(detectNetwork('6221779670882250') === 'China UnionPay');
+		assert(detectNetwork('6221777925092794') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622178 and a length of 16', function() {
-		assert(detectNetwork('6221785626636275') === 'China UnionPay');
+		assert(detectNetwork('6221786230877668') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622179 and a length of 16', function() {
-		assert(detectNetwork('6221799371270285') === 'China UnionPay');
+		assert(detectNetwork('6221799075217214') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622180 and a length of 16', function() {
-		assert(detectNetwork('6221800444370748') === 'China UnionPay');
+		assert(detectNetwork('6221802919778313') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622181 and a length of 16', function() {
-		assert(detectNetwork('6221817038001373') === 'China UnionPay');
+		assert(detectNetwork('6221811984527689') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622182 and a length of 16', function() {
-		assert(detectNetwork('6221823390987970') === 'China UnionPay');
+		assert(detectNetwork('6221822401039553') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622183 and a length of 16', function() {
-		assert(detectNetwork('6221835649696717') === 'China UnionPay');
+		assert(detectNetwork('6221838869013606') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622184 and a length of 16', function() {
-		assert(detectNetwork('6221842813203236') === 'China UnionPay');
+		assert(detectNetwork('6221846758032271') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622185 and a length of 16', function() {
-		assert(detectNetwork('6221859794567774') === 'China UnionPay');
+		assert(detectNetwork('6221858582739920') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622186 and a length of 16', function() {
-		assert(detectNetwork('6221869588582568') === 'China UnionPay');
+		assert(detectNetwork('6221869675452303') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622187 and a length of 16', function() {
-		assert(detectNetwork('6221876965089464') === 'China UnionPay');
+		assert(detectNetwork('6221877753889575') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622188 and a length of 16', function() {
-		assert(detectNetwork('6221887180006934') === 'China UnionPay');
+		assert(detectNetwork('6221886517261610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622189 and a length of 16', function() {
-		assert(detectNetwork('6221894490785483') === 'China UnionPay');
+		assert(detectNetwork('6221891140253435') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622190 and a length of 16', function() {
-		assert(detectNetwork('6221902804856699') === 'China UnionPay');
+		assert(detectNetwork('6221903062237210') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622191 and a length of 16', function() {
-		assert(detectNetwork('6221912048390381') === 'China UnionPay');
+		assert(detectNetwork('6221913003059896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622192 and a length of 16', function() {
-		assert(detectNetwork('6221925958934327') === 'China UnionPay');
+		assert(detectNetwork('6221924800322483') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622193 and a length of 16', function() {
-		assert(detectNetwork('6221933124563526') === 'China UnionPay');
+		assert(detectNetwork('6221932911435801') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622194 and a length of 16', function() {
-		assert(detectNetwork('6221941311689242') === 'China UnionPay');
+		assert(detectNetwork('6221948503807194') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622195 and a length of 16', function() {
-		assert(detectNetwork('6221956476332589') === 'China UnionPay');
+		assert(detectNetwork('6221952138384543') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622196 and a length of 16', function() {
-		assert(detectNetwork('6221962758256959') === 'China UnionPay');
+		assert(detectNetwork('6221965525316519') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622197 and a length of 16', function() {
-		assert(detectNetwork('6221974600248244') === 'China UnionPay');
+		assert(detectNetwork('6221979929517680') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622198 and a length of 16', function() {
-		assert(detectNetwork('6221987499073470') === 'China UnionPay');
+		assert(detectNetwork('6221985047828488') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622199 and a length of 16', function() {
-		assert(detectNetwork('6221996318865963') === 'China UnionPay');
+		assert(detectNetwork('6221996613161003') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622200 and a length of 16', function() {
-		assert(detectNetwork('6222005820708183') === 'China UnionPay');
+		assert(detectNetwork('6222006933964784') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622201 and a length of 16', function() {
-		assert(detectNetwork('6222019997122436') === 'China UnionPay');
+		assert(detectNetwork('6222012522071927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622202 and a length of 16', function() {
-		assert(detectNetwork('6222028262121261') === 'China UnionPay');
+		assert(detectNetwork('6222028487730529') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622203 and a length of 16', function() {
-		assert(detectNetwork('6222038087566595') === 'China UnionPay');
+		assert(detectNetwork('6222031060771220') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622204 and a length of 16', function() {
-		assert(detectNetwork('6222046044559056') === 'China UnionPay');
+		assert(detectNetwork('6222042667841148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622205 and a length of 16', function() {
-		assert(detectNetwork('6222053611456456') === 'China UnionPay');
+		assert(detectNetwork('6222051624308800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622206 and a length of 16', function() {
-		assert(detectNetwork('6222063346107796') === 'China UnionPay');
+		assert(detectNetwork('6222066893474867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622207 and a length of 16', function() {
-		assert(detectNetwork('6222077580261881') === 'China UnionPay');
+		assert(detectNetwork('6222077483910540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622208 and a length of 16', function() {
-		assert(detectNetwork('6222085650902422') === 'China UnionPay');
+		assert(detectNetwork('6222081958107696') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622209 and a length of 16', function() {
-		assert(detectNetwork('6222097874745925') === 'China UnionPay');
+		assert(detectNetwork('6222095047636318') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622210 and a length of 16', function() {
-		assert(detectNetwork('6222108447625257') === 'China UnionPay');
+		assert(detectNetwork('6222109683445909') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622211 and a length of 16', function() {
-		assert(detectNetwork('6222117716424536') === 'China UnionPay');
+		assert(detectNetwork('6222114137529341') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622212 and a length of 16', function() {
-		assert(detectNetwork('6222123133620859') === 'China UnionPay');
+		assert(detectNetwork('6222120281108757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622213 and a length of 16', function() {
-		assert(detectNetwork('6222132593876039') === 'China UnionPay');
+		assert(detectNetwork('6222135251681054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622214 and a length of 16', function() {
-		assert(detectNetwork('6222144405207167') === 'China UnionPay');
+		assert(detectNetwork('6222145282135992') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622215 and a length of 16', function() {
-		assert(detectNetwork('6222155813241698') === 'China UnionPay');
+		assert(detectNetwork('6222151381576732') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622216 and a length of 16', function() {
-		assert(detectNetwork('6222161545011694') === 'China UnionPay');
+		assert(detectNetwork('6222165246719929') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622217 and a length of 16', function() {
-		assert(detectNetwork('6222170694581345') === 'China UnionPay');
+		assert(detectNetwork('6222172586881485') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622218 and a length of 16', function() {
-		assert(detectNetwork('6222185336132165') === 'China UnionPay');
+		assert(detectNetwork('6222182745284960') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622219 and a length of 16', function() {
-		assert(detectNetwork('6222196121079797') === 'China UnionPay');
+		assert(detectNetwork('6222198103126486') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622220 and a length of 16', function() {
-		assert(detectNetwork('6222206120037582') === 'China UnionPay');
+		assert(detectNetwork('6222202581360533') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622221 and a length of 16', function() {
-		assert(detectNetwork('6222210891885861') === 'China UnionPay');
+		assert(detectNetwork('6222215601548691') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622222 and a length of 16', function() {
-		assert(detectNetwork('6222224153570558') === 'China UnionPay');
+		assert(detectNetwork('6222222956819247') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622223 and a length of 16', function() {
-		assert(detectNetwork('6222232567518898') === 'China UnionPay');
+		assert(detectNetwork('6222235272651026') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622224 and a length of 16', function() {
-		assert(detectNetwork('6222242613675701') === 'China UnionPay');
+		assert(detectNetwork('6222242993269031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622225 and a length of 16', function() {
-		assert(detectNetwork('6222257591466368') === 'China UnionPay');
+		assert(detectNetwork('6222251089297732') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622226 and a length of 16', function() {
-		assert(detectNetwork('6222262265419780') === 'China UnionPay');
+		assert(detectNetwork('6222261331715725') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622227 and a length of 16', function() {
-		assert(detectNetwork('6222271647340680') === 'China UnionPay');
+		assert(detectNetwork('6222276706694877') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622228 and a length of 16', function() {
-		assert(detectNetwork('6222284210838216') === 'China UnionPay');
+		assert(detectNetwork('6222281397561380') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622229 and a length of 16', function() {
-		assert(detectNetwork('6222294589452085') === 'China UnionPay');
+		assert(detectNetwork('6222291963561356') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622230 and a length of 16', function() {
-		assert(detectNetwork('6222303495852247') === 'China UnionPay');
+		assert(detectNetwork('6222307389442382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622231 and a length of 16', function() {
-		assert(detectNetwork('6222318599019702') === 'China UnionPay');
+		assert(detectNetwork('6222318336359382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622232 and a length of 16', function() {
-		assert(detectNetwork('6222329898669146') === 'China UnionPay');
+		assert(detectNetwork('6222324048664681') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622233 and a length of 16', function() {
-		assert(detectNetwork('6222337159101833') === 'China UnionPay');
+		assert(detectNetwork('6222336526857611') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622234 and a length of 16', function() {
-		assert(detectNetwork('6222342806252042') === 'China UnionPay');
+		assert(detectNetwork('6222345477415746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622235 and a length of 16', function() {
-		assert(detectNetwork('6222353511786458') === 'China UnionPay');
+		assert(detectNetwork('6222351123097514') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622236 and a length of 16', function() {
-		assert(detectNetwork('6222365967433410') === 'China UnionPay');
+		assert(detectNetwork('6222360989551460') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622237 and a length of 16', function() {
-		assert(detectNetwork('6222378225429898') === 'China UnionPay');
+		assert(detectNetwork('6222372622881793') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622238 and a length of 16', function() {
-		assert(detectNetwork('6222382360410889') === 'China UnionPay');
+		assert(detectNetwork('6222386273103418') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622239 and a length of 16', function() {
-		assert(detectNetwork('6222398255011006') === 'China UnionPay');
+		assert(detectNetwork('6222394516983026') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622240 and a length of 16', function() {
-		assert(detectNetwork('6222401654897177') === 'China UnionPay');
+		assert(detectNetwork('6222401832603355') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622241 and a length of 16', function() {
-		assert(detectNetwork('6222415164144407') === 'China UnionPay');
+		assert(detectNetwork('6222414839397875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622242 and a length of 16', function() {
-		assert(detectNetwork('6222423477155750') === 'China UnionPay');
+		assert(detectNetwork('6222428589678623') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622243 and a length of 16', function() {
-		assert(detectNetwork('6222435305854932') === 'China UnionPay');
+		assert(detectNetwork('6222436086071314') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622244 and a length of 16', function() {
-		assert(detectNetwork('6222446772374701') === 'China UnionPay');
+		assert(detectNetwork('6222443487305887') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622245 and a length of 16', function() {
-		assert(detectNetwork('6222455053584647') === 'China UnionPay');
+		assert(detectNetwork('6222458478586827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622246 and a length of 16', function() {
-		assert(detectNetwork('6222462661885212') === 'China UnionPay');
+		assert(detectNetwork('6222469947645142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622247 and a length of 16', function() {
-		assert(detectNetwork('6222479901304092') === 'China UnionPay');
+		assert(detectNetwork('6222472377806458') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622248 and a length of 16', function() {
-		assert(detectNetwork('6222485847074570') === 'China UnionPay');
+		assert(detectNetwork('6222480820349339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622249 and a length of 16', function() {
-		assert(detectNetwork('6222494898976569') === 'China UnionPay');
+		assert(detectNetwork('6222495866880112') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622250 and a length of 16', function() {
-		assert(detectNetwork('6222504216234061') === 'China UnionPay');
+		assert(detectNetwork('6222509062944038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622251 and a length of 16', function() {
-		assert(detectNetwork('6222514831051460') === 'China UnionPay');
+		assert(detectNetwork('6222519928160323') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622252 and a length of 16', function() {
-		assert(detectNetwork('6222524875795652') === 'China UnionPay');
+		assert(detectNetwork('6222523713864068') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622253 and a length of 16', function() {
-		assert(detectNetwork('6222537239105848') === 'China UnionPay');
+		assert(detectNetwork('6222534534813792') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622254 and a length of 16', function() {
-		assert(detectNetwork('6222546393644831') === 'China UnionPay');
+		assert(detectNetwork('6222545462683778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622255 and a length of 16', function() {
-		assert(detectNetwork('6222557659248948') === 'China UnionPay');
+		assert(detectNetwork('6222550338760196') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622256 and a length of 16', function() {
-		assert(detectNetwork('6222566755359683') === 'China UnionPay');
+		assert(detectNetwork('6222565179501073') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622257 and a length of 16', function() {
-		assert(detectNetwork('6222579865790313') === 'China UnionPay');
+		assert(detectNetwork('6222579222041203') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622258 and a length of 16', function() {
-		assert(detectNetwork('6222583827760273') === 'China UnionPay');
+		assert(detectNetwork('6222584788449639') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622259 and a length of 16', function() {
-		assert(detectNetwork('6222599185172428') === 'China UnionPay');
+		assert(detectNetwork('6222594045935521') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622260 and a length of 16', function() {
-		assert(detectNetwork('6222609710074940') === 'China UnionPay');
+		assert(detectNetwork('6222604052593635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622261 and a length of 16', function() {
-		assert(detectNetwork('6222619285495000') === 'China UnionPay');
+		assert(detectNetwork('6222619114944114') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622262 and a length of 16', function() {
-		assert(detectNetwork('6222623709559657') === 'China UnionPay');
+		assert(detectNetwork('6222622499511455') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622263 and a length of 16', function() {
-		assert(detectNetwork('6222632403418759') === 'China UnionPay');
+		assert(detectNetwork('6222638416063975') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622264 and a length of 16', function() {
-		assert(detectNetwork('6222648923749428') === 'China UnionPay');
+		assert(detectNetwork('6222640534608853') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622265 and a length of 16', function() {
-		assert(detectNetwork('6222656009970216') === 'China UnionPay');
+		assert(detectNetwork('6222657154792988') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622266 and a length of 16', function() {
-		assert(detectNetwork('6222666380932192') === 'China UnionPay');
+		assert(detectNetwork('6222663004424576') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622267 and a length of 16', function() {
-		assert(detectNetwork('6222679260550003') === 'China UnionPay');
+		assert(detectNetwork('6222673636944905') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622268 and a length of 16', function() {
-		assert(detectNetwork('6222686110060143') === 'China UnionPay');
+		assert(detectNetwork('6222680991627401') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622269 and a length of 16', function() {
-		assert(detectNetwork('6222690781693801') === 'China UnionPay');
+		assert(detectNetwork('6222698689470720') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622270 and a length of 16', function() {
-		assert(detectNetwork('6222703910884981') === 'China UnionPay');
+		assert(detectNetwork('6222700064080624') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622271 and a length of 16', function() {
-		assert(detectNetwork('6222714281874337') === 'China UnionPay');
+		assert(detectNetwork('6222712335679858') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622272 and a length of 16', function() {
-		assert(detectNetwork('6222723376705409') === 'China UnionPay');
+		assert(detectNetwork('6222727421636155') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622273 and a length of 16', function() {
-		assert(detectNetwork('6222739332215611') === 'China UnionPay');
+		assert(detectNetwork('6222735544644654') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622274 and a length of 16', function() {
-		assert(detectNetwork('6222744354929311') === 'China UnionPay');
+		assert(detectNetwork('6222741232683655') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622275 and a length of 16', function() {
-		assert(detectNetwork('6222752054726353') === 'China UnionPay');
+		assert(detectNetwork('6222757956397530') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622276 and a length of 16', function() {
-		assert(detectNetwork('6222768237753365') === 'China UnionPay');
+		assert(detectNetwork('6222761026998212') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622277 and a length of 16', function() {
-		assert(detectNetwork('6222777660754664') === 'China UnionPay');
+		assert(detectNetwork('6222771370510380') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622278 and a length of 16', function() {
-		assert(detectNetwork('6222788653278067') === 'China UnionPay');
+		assert(detectNetwork('6222781231183312') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622279 and a length of 16', function() {
-		assert(detectNetwork('6222797849122678') === 'China UnionPay');
+		assert(detectNetwork('6222794848887836') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622280 and a length of 16', function() {
-		assert(detectNetwork('6222802257450990') === 'China UnionPay');
+		assert(detectNetwork('6222807862677925') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622281 and a length of 16', function() {
-		assert(detectNetwork('6222818874387386') === 'China UnionPay');
+		assert(detectNetwork('6222815345672030') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622282 and a length of 16', function() {
-		assert(detectNetwork('6222821135790982') === 'China UnionPay');
+		assert(detectNetwork('6222829696177420') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622283 and a length of 16', function() {
-		assert(detectNetwork('6222833999619481') === 'China UnionPay');
+		assert(detectNetwork('6222836594607598') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622284 and a length of 16', function() {
-		assert(detectNetwork('6222843027410252') === 'China UnionPay');
+		assert(detectNetwork('6222847061639262') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622285 and a length of 16', function() {
-		assert(detectNetwork('6222855379030310') === 'China UnionPay');
+		assert(detectNetwork('6222859392122960') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622286 and a length of 16', function() {
-		assert(detectNetwork('6222860629215837') === 'China UnionPay');
+		assert(detectNetwork('6222860286901504') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622287 and a length of 16', function() {
-		assert(detectNetwork('6222878688790952') === 'China UnionPay');
+		assert(detectNetwork('6222871394873975') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622288 and a length of 16', function() {
-		assert(detectNetwork('6222881590623390') === 'China UnionPay');
+		assert(detectNetwork('6222888836753972') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622289 and a length of 16', function() {
-		assert(detectNetwork('6222892195048978') === 'China UnionPay');
+		assert(detectNetwork('6222894054269699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622290 and a length of 16', function() {
-		assert(detectNetwork('6222909859255292') === 'China UnionPay');
+		assert(detectNetwork('6222904887805776') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622291 and a length of 16', function() {
-		assert(detectNetwork('6222914957256216') === 'China UnionPay');
+		assert(detectNetwork('6222916780321173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622292 and a length of 16', function() {
-		assert(detectNetwork('6222920889373936') === 'China UnionPay');
+		assert(detectNetwork('6222923189122862') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622293 and a length of 16', function() {
-		assert(detectNetwork('6222936714003650') === 'China UnionPay');
+		assert(detectNetwork('6222934577535515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622294 and a length of 16', function() {
-		assert(detectNetwork('6222948381386625') === 'China UnionPay');
+		assert(detectNetwork('6222944925726524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622295 and a length of 16', function() {
-		assert(detectNetwork('6222954094996035') === 'China UnionPay');
+		assert(detectNetwork('6222959844431792') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622296 and a length of 16', function() {
-		assert(detectNetwork('6222967645890871') === 'China UnionPay');
+		assert(detectNetwork('6222960804314798') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622297 and a length of 16', function() {
-		assert(detectNetwork('6222971469407972') === 'China UnionPay');
+		assert(detectNetwork('6222977351432264') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622298 and a length of 16', function() {
-		assert(detectNetwork('6222987028516681') === 'China UnionPay');
+		assert(detectNetwork('6222981990180270') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622299 and a length of 16', function() {
-		assert(detectNetwork('6222999834096985') === 'China UnionPay');
+		assert(detectNetwork('6222998882760916') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622300 and a length of 16', function() {
-		assert(detectNetwork('6223004734465485') === 'China UnionPay');
+		assert(detectNetwork('6223008245975803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622301 and a length of 16', function() {
-		assert(detectNetwork('6223014609078944') === 'China UnionPay');
+		assert(detectNetwork('6223011594714619') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622302 and a length of 16', function() {
-		assert(detectNetwork('6223026038436645') === 'China UnionPay');
+		assert(detectNetwork('6223024381876384') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622303 and a length of 16', function() {
-		assert(detectNetwork('6223037644479780') === 'China UnionPay');
+		assert(detectNetwork('6223034194432769') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622304 and a length of 16', function() {
-		assert(detectNetwork('6223040312366083') === 'China UnionPay');
+		assert(detectNetwork('6223042768958327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622305 and a length of 16', function() {
-		assert(detectNetwork('6223052430908550') === 'China UnionPay');
+		assert(detectNetwork('6223052374300185') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622306 and a length of 16', function() {
-		assert(detectNetwork('6223068862001812') === 'China UnionPay');
+		assert(detectNetwork('6223068345156815') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622307 and a length of 16', function() {
-		assert(detectNetwork('6223072619792209') === 'China UnionPay');
+		assert(detectNetwork('6223073618239277') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622308 and a length of 16', function() {
-		assert(detectNetwork('6223085857306569') === 'China UnionPay');
+		assert(detectNetwork('6223086370062602') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622309 and a length of 16', function() {
-		assert(detectNetwork('6223097323596242') === 'China UnionPay');
+		assert(detectNetwork('6223093651216173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622310 and a length of 16', function() {
-		assert(detectNetwork('6223102159137078') === 'China UnionPay');
+		assert(detectNetwork('6223109966200605') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622311 and a length of 16', function() {
-		assert(detectNetwork('6223119949921411') === 'China UnionPay');
+		assert(detectNetwork('6223115765418181') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622312 and a length of 16', function() {
-		assert(detectNetwork('6223122263417193') === 'China UnionPay');
+		assert(detectNetwork('6223129309092884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622313 and a length of 16', function() {
-		assert(detectNetwork('6223132077544218') === 'China UnionPay');
+		assert(detectNetwork('6223136209791393') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622314 and a length of 16', function() {
-		assert(detectNetwork('6223145018863915') === 'China UnionPay');
+		assert(detectNetwork('6223147711098628') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622315 and a length of 16', function() {
-		assert(detectNetwork('6223156670131434') === 'China UnionPay');
+		assert(detectNetwork('6223155497745301') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622316 and a length of 16', function() {
-		assert(detectNetwork('6223166092596574') === 'China UnionPay');
+		assert(detectNetwork('6223165213730778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622317 and a length of 16', function() {
-		assert(detectNetwork('6223171816105669') === 'China UnionPay');
+		assert(detectNetwork('6223175846140729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622318 and a length of 16', function() {
-		assert(detectNetwork('6223189360416009') === 'China UnionPay');
+		assert(detectNetwork('6223181766755520') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622319 and a length of 16', function() {
-		assert(detectNetwork('6223193706465403') === 'China UnionPay');
+		assert(detectNetwork('6223198997588078') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622320 and a length of 16', function() {
-		assert(detectNetwork('6223204935776278') === 'China UnionPay');
+		assert(detectNetwork('6223203766773940') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622321 and a length of 16', function() {
-		assert(detectNetwork('6223219610336326') === 'China UnionPay');
+		assert(detectNetwork('6223215491903321') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622322 and a length of 16', function() {
-		assert(detectNetwork('6223221597852094') === 'China UnionPay');
+		assert(detectNetwork('6223220751280346') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622323 and a length of 16', function() {
-		assert(detectNetwork('6223233275478470') === 'China UnionPay');
+		assert(detectNetwork('6223231521478226') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622324 and a length of 16', function() {
-		assert(detectNetwork('6223244666375379') === 'China UnionPay');
+		assert(detectNetwork('6223245180346142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622325 and a length of 16', function() {
-		assert(detectNetwork('6223258318824080') === 'China UnionPay');
+		assert(detectNetwork('6223250695978910') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622326 and a length of 16', function() {
-		assert(detectNetwork('6223266543827356') === 'China UnionPay');
+		assert(detectNetwork('6223267940952754') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622327 and a length of 16', function() {
-		assert(detectNetwork('6223275808068401') === 'China UnionPay');
+		assert(detectNetwork('6223273080634126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622328 and a length of 16', function() {
-		assert(detectNetwork('6223286950967971') === 'China UnionPay');
+		assert(detectNetwork('6223281834417683') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622329 and a length of 16', function() {
-		assert(detectNetwork('6223296201309317') === 'China UnionPay');
+		assert(detectNetwork('6223293171833275') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622330 and a length of 16', function() {
-		assert(detectNetwork('6223307303561497') === 'China UnionPay');
+		assert(detectNetwork('6223300858863932') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622331 and a length of 16', function() {
-		assert(detectNetwork('6223319591324331') === 'China UnionPay');
+		assert(detectNetwork('6223310888332364') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622332 and a length of 16', function() {
-		assert(detectNetwork('6223326538096310') === 'China UnionPay');
+		assert(detectNetwork('6223323964942865') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622333 and a length of 16', function() {
-		assert(detectNetwork('6223335764936796') === 'China UnionPay');
+		assert(detectNetwork('6223330134166513') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622334 and a length of 16', function() {
-		assert(detectNetwork('6223342072713722') === 'China UnionPay');
+		assert(detectNetwork('6223341264894926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622335 and a length of 16', function() {
-		assert(detectNetwork('6223352273224564') === 'China UnionPay');
+		assert(detectNetwork('6223352350320456') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622336 and a length of 16', function() {
-		assert(detectNetwork('6223366315553017') === 'China UnionPay');
+		assert(detectNetwork('6223360873590711') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622337 and a length of 16', function() {
-		assert(detectNetwork('6223370202268485') === 'China UnionPay');
+		assert(detectNetwork('6223378081605974') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622338 and a length of 16', function() {
-		assert(detectNetwork('6223381308595219') === 'China UnionPay');
+		assert(detectNetwork('6223389163598161') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622339 and a length of 16', function() {
-		assert(detectNetwork('6223390255572389') === 'China UnionPay');
+		assert(detectNetwork('6223399371209589') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622340 and a length of 16', function() {
-		assert(detectNetwork('6223404561286064') === 'China UnionPay');
+		assert(detectNetwork('6223408607218355') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622341 and a length of 16', function() {
-		assert(detectNetwork('6223416099107346') === 'China UnionPay');
+		assert(detectNetwork('6223417079263538') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622342 and a length of 16', function() {
-		assert(detectNetwork('6223422108765907') === 'China UnionPay');
+		assert(detectNetwork('6223423665633012') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622343 and a length of 16', function() {
-		assert(detectNetwork('6223439038968191') === 'China UnionPay');
+		assert(detectNetwork('6223439898649005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622344 and a length of 16', function() {
-		assert(detectNetwork('6223446863295046') === 'China UnionPay');
+		assert(detectNetwork('6223440707226216') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622345 and a length of 16', function() {
-		assert(detectNetwork('6223451474876764') === 'China UnionPay');
+		assert(detectNetwork('6223455478287257') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622346 and a length of 16', function() {
-		assert(detectNetwork('6223467195460136') === 'China UnionPay');
+		assert(detectNetwork('6223465018477656') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622347 and a length of 16', function() {
-		assert(detectNetwork('6223479014531175') === 'China UnionPay');
+		assert(detectNetwork('6223475031164134') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622348 and a length of 16', function() {
-		assert(detectNetwork('6223489907577788') === 'China UnionPay');
+		assert(detectNetwork('6223485615586577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622349 and a length of 16', function() {
-		assert(detectNetwork('6223495902252611') === 'China UnionPay');
+		assert(detectNetwork('6223490168962103') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622350 and a length of 16', function() {
-		assert(detectNetwork('6223502783956057') === 'China UnionPay');
+		assert(detectNetwork('6223503422000092') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622351 and a length of 16', function() {
-		assert(detectNetwork('6223515547695583') === 'China UnionPay');
+		assert(detectNetwork('6223516448784379') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622352 and a length of 16', function() {
-		assert(detectNetwork('6223523331352377') === 'China UnionPay');
+		assert(detectNetwork('6223528151488384') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622353 and a length of 16', function() {
-		assert(detectNetwork('6223536993121065') === 'China UnionPay');
+		assert(detectNetwork('6223534360982888') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622354 and a length of 16', function() {
-		assert(detectNetwork('6223548626397961') === 'China UnionPay');
+		assert(detectNetwork('6223541096010829') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622355 and a length of 16', function() {
-		assert(detectNetwork('6223552382824717') === 'China UnionPay');
+		assert(detectNetwork('6223555567092907') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622356 and a length of 16', function() {
-		assert(detectNetwork('6223562420034509') === 'China UnionPay');
+		assert(detectNetwork('6223565263041881') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622357 and a length of 16', function() {
-		assert(detectNetwork('6223571067679010') === 'China UnionPay');
+		assert(detectNetwork('6223573958518019') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622358 and a length of 16', function() {
-		assert(detectNetwork('6223580635789600') === 'China UnionPay');
+		assert(detectNetwork('6223583123601124') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622359 and a length of 16', function() {
-		assert(detectNetwork('6223594051241137') === 'China UnionPay');
+		assert(detectNetwork('6223591044029898') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622360 and a length of 16', function() {
-		assert(detectNetwork('6223608502646051') === 'China UnionPay');
+		assert(detectNetwork('6223604769101068') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622361 and a length of 16', function() {
-		assert(detectNetwork('6223615705982491') === 'China UnionPay');
+		assert(detectNetwork('6223612317795543') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622362 and a length of 16', function() {
-		assert(detectNetwork('6223628983554906') === 'China UnionPay');
+		assert(detectNetwork('6223620616464621') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622363 and a length of 16', function() {
-		assert(detectNetwork('6223632453555620') === 'China UnionPay');
+		assert(detectNetwork('6223637653097349') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622364 and a length of 16', function() {
-		assert(detectNetwork('6223646133074500') === 'China UnionPay');
+		assert(detectNetwork('6223649025725854') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622365 and a length of 16', function() {
-		assert(detectNetwork('6223659484517918') === 'China UnionPay');
+		assert(detectNetwork('6223655363579963') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622366 and a length of 16', function() {
-		assert(detectNetwork('6223664731573514') === 'China UnionPay');
+		assert(detectNetwork('6223661090917958') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622367 and a length of 16', function() {
-		assert(detectNetwork('6223671153725928') === 'China UnionPay');
+		assert(detectNetwork('6223677338154858') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622368 and a length of 16', function() {
-		assert(detectNetwork('6223683478890245') === 'China UnionPay');
+		assert(detectNetwork('6223682678932549') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622369 and a length of 16', function() {
-		assert(detectNetwork('6223693075082827') === 'China UnionPay');
+		assert(detectNetwork('6223696709067105') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622370 and a length of 16', function() {
-		assert(detectNetwork('6223709728120102') === 'China UnionPay');
+		assert(detectNetwork('6223702635109753') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622371 and a length of 16', function() {
-		assert(detectNetwork('6223713677372139') === 'China UnionPay');
+		assert(detectNetwork('6223719925175011') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622372 and a length of 16', function() {
-		assert(detectNetwork('6223722954710432') === 'China UnionPay');
+		assert(detectNetwork('6223729772878346') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622373 and a length of 16', function() {
-		assert(detectNetwork('6223739641055630') === 'China UnionPay');
+		assert(detectNetwork('6223735645498714') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622374 and a length of 16', function() {
-		assert(detectNetwork('6223745962319946') === 'China UnionPay');
+		assert(detectNetwork('6223744353193684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622375 and a length of 16', function() {
-		assert(detectNetwork('6223757459141094') === 'China UnionPay');
+		assert(detectNetwork('6223758185038820') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622376 and a length of 16', function() {
-		assert(detectNetwork('6223762246746444') === 'China UnionPay');
+		assert(detectNetwork('6223767098923315') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622377 and a length of 16', function() {
-		assert(detectNetwork('6223779202603808') === 'China UnionPay');
+		assert(detectNetwork('6223774805751503') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622378 and a length of 16', function() {
-		assert(detectNetwork('6223781015771098') === 'China UnionPay');
+		assert(detectNetwork('6223789267101820') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622379 and a length of 16', function() {
-		assert(detectNetwork('6223791021442139') === 'China UnionPay');
+		assert(detectNetwork('6223792108577974') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622380 and a length of 16', function() {
-		assert(detectNetwork('6223808316323311') === 'China UnionPay');
+		assert(detectNetwork('6223803147312163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622381 and a length of 16', function() {
-		assert(detectNetwork('6223818297091611') === 'China UnionPay');
+		assert(detectNetwork('6223810650227284') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622382 and a length of 16', function() {
-		assert(detectNetwork('6223827304862998') === 'China UnionPay');
+		assert(detectNetwork('6223827442968854') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622383 and a length of 16', function() {
-		assert(detectNetwork('6223835183080736') === 'China UnionPay');
+		assert(detectNetwork('6223839641439464') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622384 and a length of 16', function() {
-		assert(detectNetwork('6223845063158723') === 'China UnionPay');
+		assert(detectNetwork('6223841794133882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622385 and a length of 16', function() {
-		assert(detectNetwork('6223850189299876') === 'China UnionPay');
+		assert(detectNetwork('6223851454269211') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622386 and a length of 16', function() {
-		assert(detectNetwork('6223869276325557') === 'China UnionPay');
+		assert(detectNetwork('6223865047260394') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622387 and a length of 16', function() {
-		assert(detectNetwork('6223876402046493') === 'China UnionPay');
+		assert(detectNetwork('6223871569916678') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622388 and a length of 16', function() {
-		assert(detectNetwork('6223882604911599') === 'China UnionPay');
+		assert(detectNetwork('6223884268549108') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622389 and a length of 16', function() {
-		assert(detectNetwork('6223896466316105') === 'China UnionPay');
+		assert(detectNetwork('6223898229433399') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622390 and a length of 16', function() {
-		assert(detectNetwork('6223906359547896') === 'China UnionPay');
+		assert(detectNetwork('6223903097318978') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622391 and a length of 16', function() {
-		assert(detectNetwork('6223917090705030') === 'China UnionPay');
+		assert(detectNetwork('6223915126448120') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622392 and a length of 16', function() {
-		assert(detectNetwork('6223926619653394') === 'China UnionPay');
+		assert(detectNetwork('6223929202093088') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622393 and a length of 16', function() {
-		assert(detectNetwork('6223939914282930') === 'China UnionPay');
+		assert(detectNetwork('6223935983008290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622394 and a length of 16', function() {
-		assert(detectNetwork('6223947782687908') === 'China UnionPay');
+		assert(detectNetwork('6223940091821587') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622395 and a length of 16', function() {
-		assert(detectNetwork('6223959122253238') === 'China UnionPay');
+		assert(detectNetwork('6223958242849914') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622396 and a length of 16', function() {
-		assert(detectNetwork('6223960281229553') === 'China UnionPay');
+		assert(detectNetwork('6223968130810588') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622397 and a length of 16', function() {
-		assert(detectNetwork('6223978305692689') === 'China UnionPay');
+		assert(detectNetwork('6223976554204875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622398 and a length of 16', function() {
-		assert(detectNetwork('6223987743537434') === 'China UnionPay');
+		assert(detectNetwork('6223989965568433') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622399 and a length of 16', function() {
-		assert(detectNetwork('6223992331050820') === 'China UnionPay');
+		assert(detectNetwork('6223992808976743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622400 and a length of 16', function() {
-		assert(detectNetwork('6224006924789583') === 'China UnionPay');
+		assert(detectNetwork('6224006193865901') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622401 and a length of 16', function() {
-		assert(detectNetwork('6224015091184657') === 'China UnionPay');
+		assert(detectNetwork('6224016953050213') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622402 and a length of 16', function() {
-		assert(detectNetwork('6224024318202144') === 'China UnionPay');
+		assert(detectNetwork('6224022855943427') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622403 and a length of 16', function() {
-		assert(detectNetwork('6224036424530628') === 'China UnionPay');
+		assert(detectNetwork('6224036675329422') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622404 and a length of 16', function() {
-		assert(detectNetwork('6224040331624565') === 'China UnionPay');
+		assert(detectNetwork('6224040355718445') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622405 and a length of 16', function() {
-		assert(detectNetwork('6224052604094909') === 'China UnionPay');
+		assert(detectNetwork('6224059294753409') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622406 and a length of 16', function() {
-		assert(detectNetwork('6224061313787249') === 'China UnionPay');
+		assert(detectNetwork('6224062124807820') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622407 and a length of 16', function() {
-		assert(detectNetwork('6224075537223943') === 'China UnionPay');
+		assert(detectNetwork('6224073847561434') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622408 and a length of 16', function() {
-		assert(detectNetwork('6224089741388881') === 'China UnionPay');
+		assert(detectNetwork('6224080495011544') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622409 and a length of 16', function() {
-		assert(detectNetwork('6224096757984834') === 'China UnionPay');
+		assert(detectNetwork('6224090798409750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622410 and a length of 16', function() {
-		assert(detectNetwork('6224102994848335') === 'China UnionPay');
+		assert(detectNetwork('6224103595336355') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622411 and a length of 16', function() {
-		assert(detectNetwork('6224116950584625') === 'China UnionPay');
+		assert(detectNetwork('6224116040340440') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622412 and a length of 16', function() {
-		assert(detectNetwork('6224122039123367') === 'China UnionPay');
+		assert(detectNetwork('6224123212653540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622413 and a length of 16', function() {
-		assert(detectNetwork('6224134604954929') === 'China UnionPay');
+		assert(detectNetwork('6224139557052304') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622414 and a length of 16', function() {
-		assert(detectNetwork('6224143922488947') === 'China UnionPay');
+		assert(detectNetwork('6224142673592940') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622415 and a length of 16', function() {
-		assert(detectNetwork('6224152301587815') === 'China UnionPay');
+		assert(detectNetwork('6224158602008765') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622416 and a length of 16', function() {
-		assert(detectNetwork('6224169614023190') === 'China UnionPay');
+		assert(detectNetwork('6224161277567657') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622417 and a length of 16', function() {
-		assert(detectNetwork('6224179769296027') === 'China UnionPay');
+		assert(detectNetwork('6224170574625381') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622418 and a length of 16', function() {
-		assert(detectNetwork('6224183830351169') === 'China UnionPay');
+		assert(detectNetwork('6224189202411157') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622419 and a length of 16', function() {
-		assert(detectNetwork('6224197220025670') === 'China UnionPay');
+		assert(detectNetwork('6224199477670434') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622420 and a length of 16', function() {
-		assert(detectNetwork('6224208512168191') === 'China UnionPay');
+		assert(detectNetwork('6224202613846425') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622421 and a length of 16', function() {
-		assert(detectNetwork('6224214141986755') === 'China UnionPay');
+		assert(detectNetwork('6224211642539587') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622422 and a length of 16', function() {
-		assert(detectNetwork('6224226101099538') === 'China UnionPay');
+		assert(detectNetwork('6224220430714382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622423 and a length of 16', function() {
-		assert(detectNetwork('6224236601643977') === 'China UnionPay');
+		assert(detectNetwork('6224232450644206') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622424 and a length of 16', function() {
-		assert(detectNetwork('6224247219523485') === 'China UnionPay');
+		assert(detectNetwork('6224243740369180') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622425 and a length of 16', function() {
-		assert(detectNetwork('6224251946125802') === 'China UnionPay');
+		assert(detectNetwork('6224252603293101') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622426 and a length of 16', function() {
-		assert(detectNetwork('6224263183392927') === 'China UnionPay');
+		assert(detectNetwork('6224267157577778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622427 and a length of 16', function() {
-		assert(detectNetwork('6224271639774325') === 'China UnionPay');
+		assert(detectNetwork('6224276333501333') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622428 and a length of 16', function() {
-		assert(detectNetwork('6224284034800209') === 'China UnionPay');
+		assert(detectNetwork('6224283719411715') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622429 and a length of 16', function() {
-		assert(detectNetwork('6224294043105048') === 'China UnionPay');
+		assert(detectNetwork('6224297755078743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622430 and a length of 16', function() {
-		assert(detectNetwork('6224308987953587') === 'China UnionPay');
+		assert(detectNetwork('6224307002840613') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622431 and a length of 16', function() {
-		assert(detectNetwork('6224311705057371') === 'China UnionPay');
+		assert(detectNetwork('6224319276659305') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622432 and a length of 16', function() {
-		assert(detectNetwork('6224325168079753') === 'China UnionPay');
+		assert(detectNetwork('6224320962413876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622433 and a length of 16', function() {
-		assert(detectNetwork('6224339282450625') === 'China UnionPay');
+		assert(detectNetwork('6224337154298810') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622434 and a length of 16', function() {
-		assert(detectNetwork('6224343141936217') === 'China UnionPay');
+		assert(detectNetwork('6224343063363330') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622435 and a length of 16', function() {
-		assert(detectNetwork('6224351270427195') === 'China UnionPay');
+		assert(detectNetwork('6224351115424493') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622436 and a length of 16', function() {
-		assert(detectNetwork('6224367905310121') === 'China UnionPay');
+		assert(detectNetwork('6224360622525232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622437 and a length of 16', function() {
-		assert(detectNetwork('6224371574136141') === 'China UnionPay');
+		assert(detectNetwork('6224379761153600') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622438 and a length of 16', function() {
-		assert(detectNetwork('6224386279555058') === 'China UnionPay');
+		assert(detectNetwork('6224383675841513') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622439 and a length of 16', function() {
-		assert(detectNetwork('6224395152009046') === 'China UnionPay');
+		assert(detectNetwork('6224397931162511') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622440 and a length of 16', function() {
-		assert(detectNetwork('6224409340962302') === 'China UnionPay');
+		assert(detectNetwork('6224409716255003') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622441 and a length of 16', function() {
-		assert(detectNetwork('6224415897288851') === 'China UnionPay');
+		assert(detectNetwork('6224418044098442') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622442 and a length of 16', function() {
-		assert(detectNetwork('6224423201408730') === 'China UnionPay');
+		assert(detectNetwork('6224429357376070') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622443 and a length of 16', function() {
-		assert(detectNetwork('6224436419611406') === 'China UnionPay');
+		assert(detectNetwork('6224434148975507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622444 and a length of 16', function() {
-		assert(detectNetwork('6224442015480607') === 'China UnionPay');
+		assert(detectNetwork('6224445565801396') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622445 and a length of 16', function() {
-		assert(detectNetwork('6224458432250904') === 'China UnionPay');
+		assert(detectNetwork('6224457998228625') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622446 and a length of 16', function() {
-		assert(detectNetwork('6224461406520079') === 'China UnionPay');
+		assert(detectNetwork('6224464001321572') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622447 and a length of 16', function() {
-		assert(detectNetwork('6224474677839265') === 'China UnionPay');
+		assert(detectNetwork('6224473851100977') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622448 and a length of 16', function() {
-		assert(detectNetwork('6224481709414041') === 'China UnionPay');
+		assert(detectNetwork('6224480502617608') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622449 and a length of 16', function() {
-		assert(detectNetwork('6224491844244352') === 'China UnionPay');
+		assert(detectNetwork('6224498721154439') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622450 and a length of 16', function() {
-		assert(detectNetwork('6224507485662208') === 'China UnionPay');
+		assert(detectNetwork('6224509098202027') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622451 and a length of 16', function() {
-		assert(detectNetwork('6224516734418638') === 'China UnionPay');
+		assert(detectNetwork('6224516188477684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622452 and a length of 16', function() {
-		assert(detectNetwork('6224524036667053') === 'China UnionPay');
+		assert(detectNetwork('6224526766539038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622453 and a length of 16', function() {
-		assert(detectNetwork('6224534408379181') === 'China UnionPay');
+		assert(detectNetwork('6224531921583593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622454 and a length of 16', function() {
-		assert(detectNetwork('6224541948340681') === 'China UnionPay');
+		assert(detectNetwork('6224549690687458') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622455 and a length of 16', function() {
-		assert(detectNetwork('6224558352487213') === 'China UnionPay');
+		assert(detectNetwork('6224553807194245') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622456 and a length of 16', function() {
-		assert(detectNetwork('6224560671350039') === 'China UnionPay');
+		assert(detectNetwork('6224564780835922') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622457 and a length of 16', function() {
-		assert(detectNetwork('6224576073136764') === 'China UnionPay');
+		assert(detectNetwork('6224578873364406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622458 and a length of 16', function() {
-		assert(detectNetwork('6224580498039613') === 'China UnionPay');
+		assert(detectNetwork('6224589558240113') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622459 and a length of 16', function() {
-		assert(detectNetwork('6224590048725146') === 'China UnionPay');
+		assert(detectNetwork('6224592219876204') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622460 and a length of 16', function() {
-		assert(detectNetwork('6224608979124288') === 'China UnionPay');
+		assert(detectNetwork('6224608823643363') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622461 and a length of 16', function() {
-		assert(detectNetwork('6224614875226994') === 'China UnionPay');
+		assert(detectNetwork('6224618513488220') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622462 and a length of 16', function() {
-		assert(detectNetwork('6224629984726337') === 'China UnionPay');
+		assert(detectNetwork('6224624046212319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622463 and a length of 16', function() {
-		assert(detectNetwork('6224637812207134') === 'China UnionPay');
+		assert(detectNetwork('6224635992305206') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622464 and a length of 16', function() {
-		assert(detectNetwork('6224644606491706') === 'China UnionPay');
+		assert(detectNetwork('6224641084288410') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622465 and a length of 16', function() {
-		assert(detectNetwork('6224656156065000') === 'China UnionPay');
+		assert(detectNetwork('6224654091448724') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622466 and a length of 16', function() {
-		assert(detectNetwork('6224663111297608') === 'China UnionPay');
+		assert(detectNetwork('6224661936150974') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622467 and a length of 16', function() {
-		assert(detectNetwork('6224678335098761') === 'China UnionPay');
+		assert(detectNetwork('6224673818553823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622468 and a length of 16', function() {
-		assert(detectNetwork('6224680714994322') === 'China UnionPay');
+		assert(detectNetwork('6224682979633140') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622469 and a length of 16', function() {
-		assert(detectNetwork('6224690769929664') === 'China UnionPay');
+		assert(detectNetwork('6224691150088609') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622470 and a length of 16', function() {
-		assert(detectNetwork('6224701585270231') === 'China UnionPay');
+		assert(detectNetwork('6224700015388198') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622471 and a length of 16', function() {
-		assert(detectNetwork('6224715996512214') === 'China UnionPay');
+		assert(detectNetwork('6224712814810274') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622472 and a length of 16', function() {
-		assert(detectNetwork('6224721702196959') === 'China UnionPay');
+		assert(detectNetwork('6224726195180850') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622473 and a length of 16', function() {
-		assert(detectNetwork('6224739534349395') === 'China UnionPay');
+		assert(detectNetwork('6224736478057029') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622474 and a length of 16', function() {
-		assert(detectNetwork('6224740922914429') === 'China UnionPay');
+		assert(detectNetwork('6224743666570446') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622475 and a length of 16', function() {
-		assert(detectNetwork('6224755682444151') === 'China UnionPay');
+		assert(detectNetwork('6224756881689128') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622476 and a length of 16', function() {
-		assert(detectNetwork('6224764019395649') === 'China UnionPay');
+		assert(detectNetwork('6224765406767642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622477 and a length of 16', function() {
-		assert(detectNetwork('6224773695812399') === 'China UnionPay');
+		assert(detectNetwork('6224774830548210') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622478 and a length of 16', function() {
-		assert(detectNetwork('6224787628263336') === 'China UnionPay');
+		assert(detectNetwork('6224788042009602') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622479 and a length of 16', function() {
-		assert(detectNetwork('6224791030272934') === 'China UnionPay');
+		assert(detectNetwork('6224790318935939') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622480 and a length of 16', function() {
-		assert(detectNetwork('6224804815155914') === 'China UnionPay');
+		assert(detectNetwork('6224804853159607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622481 and a length of 16', function() {
-		assert(detectNetwork('6224816479744683') === 'China UnionPay');
+		assert(detectNetwork('6224819648696437') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622482 and a length of 16', function() {
-		assert(detectNetwork('6224828894602789') === 'China UnionPay');
+		assert(detectNetwork('6224823957020720') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622483 and a length of 16', function() {
-		assert(detectNetwork('6224836468056749') === 'China UnionPay');
+		assert(detectNetwork('6224830002838806') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622484 and a length of 16', function() {
-		assert(detectNetwork('6224842868529498') === 'China UnionPay');
+		assert(detectNetwork('6224841718100611') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622485 and a length of 16', function() {
-		assert(detectNetwork('6224854828243075') === 'China UnionPay');
+		assert(detectNetwork('6224853429515756') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622486 and a length of 16', function() {
-		assert(detectNetwork('6224862572821075') === 'China UnionPay');
+		assert(detectNetwork('6224864394020828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622487 and a length of 16', function() {
-		assert(detectNetwork('6224872246799140') === 'China UnionPay');
+		assert(detectNetwork('6224874542463605') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622488 and a length of 16', function() {
-		assert(detectNetwork('6224887981764516') === 'China UnionPay');
+		assert(detectNetwork('6224881400623879') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622489 and a length of 16', function() {
-		assert(detectNetwork('6224898932012342') === 'China UnionPay');
+		assert(detectNetwork('6224892994077767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622490 and a length of 16', function() {
-		assert(detectNetwork('6224903963368793') === 'China UnionPay');
+		assert(detectNetwork('6224900978731554') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622491 and a length of 16', function() {
-		assert(detectNetwork('6224912428147780') === 'China UnionPay');
+		assert(detectNetwork('6224919459123175') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622492 and a length of 16', function() {
-		assert(detectNetwork('6224920729410457') === 'China UnionPay');
+		assert(detectNetwork('6224920894350223') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622493 and a length of 16', function() {
-		assert(detectNetwork('6224935135739866') === 'China UnionPay');
+		assert(detectNetwork('6224938405957746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622494 and a length of 16', function() {
-		assert(detectNetwork('6224947163131293') === 'China UnionPay');
+		assert(detectNetwork('6224943289353145') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622495 and a length of 16', function() {
-		assert(detectNetwork('6224954508198661') === 'China UnionPay');
+		assert(detectNetwork('6224958389290832') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622496 and a length of 16', function() {
-		assert(detectNetwork('6224965523113720') === 'China UnionPay');
+		assert(detectNetwork('6224967622552732') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622497 and a length of 16', function() {
-		assert(detectNetwork('6224970361447618') === 'China UnionPay');
+		assert(detectNetwork('6224971156046446') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622498 and a length of 16', function() {
-		assert(detectNetwork('6224982398975898') === 'China UnionPay');
+		assert(detectNetwork('6224984560742755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622499 and a length of 16', function() {
-		assert(detectNetwork('6224997798423147') === 'China UnionPay');
+		assert(detectNetwork('6224991165950930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622500 and a length of 16', function() {
-		assert(detectNetwork('6225007884461519') === 'China UnionPay');
+		assert(detectNetwork('6225005141807750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622501 and a length of 16', function() {
-		assert(detectNetwork('6225018037035140') === 'China UnionPay');
+		assert(detectNetwork('6225012505186944') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622502 and a length of 16', function() {
-		assert(detectNetwork('6225020669868739') === 'China UnionPay');
+		assert(detectNetwork('6225029280763066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622503 and a length of 16', function() {
-		assert(detectNetwork('6225037626337962') === 'China UnionPay');
+		assert(detectNetwork('6225035005800720') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622504 and a length of 16', function() {
-		assert(detectNetwork('6225049683792791') === 'China UnionPay');
+		assert(detectNetwork('6225045188247607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622505 and a length of 16', function() {
-		assert(detectNetwork('6225052702529630') === 'China UnionPay');
+		assert(detectNetwork('6225059596649423') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622506 and a length of 16', function() {
-		assert(detectNetwork('6225062056455281') === 'China UnionPay');
+		assert(detectNetwork('6225064192869451') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622507 and a length of 16', function() {
-		assert(detectNetwork('6225074972462001') === 'China UnionPay');
+		assert(detectNetwork('6225076844194937') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622508 and a length of 16', function() {
-		assert(detectNetwork('6225085488246903') === 'China UnionPay');
+		assert(detectNetwork('6225082829784062') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622509 and a length of 16', function() {
-		assert(detectNetwork('6225096604918981') === 'China UnionPay');
+		assert(detectNetwork('6225099248755963') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622510 and a length of 16', function() {
-		assert(detectNetwork('6225104951320859') === 'China UnionPay');
+		assert(detectNetwork('6225108611506034') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622511 and a length of 16', function() {
-		assert(detectNetwork('6225115785439416') === 'China UnionPay');
+		assert(detectNetwork('6225114792662576') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622512 and a length of 16', function() {
-		assert(detectNetwork('6225128762888255') === 'China UnionPay');
+		assert(detectNetwork('6225122291242335') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622513 and a length of 16', function() {
-		assert(detectNetwork('6225135425597922') === 'China UnionPay');
+		assert(detectNetwork('6225130345986624') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622514 and a length of 16', function() {
-		assert(detectNetwork('6225146732310520') === 'China UnionPay');
+		assert(detectNetwork('6225149001583378') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622515 and a length of 16', function() {
-		assert(detectNetwork('6225150255943129') === 'China UnionPay');
+		assert(detectNetwork('6225150786603143') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622516 and a length of 16', function() {
-		assert(detectNetwork('6225161930211271') === 'China UnionPay');
+		assert(detectNetwork('6225162135547259') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622517 and a length of 16', function() {
-		assert(detectNetwork('6225174669259467') === 'China UnionPay');
+		assert(detectNetwork('6225172763260415') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622518 and a length of 16', function() {
-		assert(detectNetwork('6225189272024662') === 'China UnionPay');
+		assert(detectNetwork('6225187826879565') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622519 and a length of 16', function() {
-		assert(detectNetwork('6225196494828003') === 'China UnionPay');
+		assert(detectNetwork('6225193635504297') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622520 and a length of 16', function() {
-		assert(detectNetwork('6225202907781522') === 'China UnionPay');
+		assert(detectNetwork('6225208554475363') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622521 and a length of 16', function() {
-		assert(detectNetwork('6225213855847148') === 'China UnionPay');
+		assert(detectNetwork('6225213081688018') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622522 and a length of 16', function() {
-		assert(detectNetwork('6225220179176744') === 'China UnionPay');
+		assert(detectNetwork('6225226674967046') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622523 and a length of 16', function() {
-		assert(detectNetwork('6225239033522550') === 'China UnionPay');
+		assert(detectNetwork('6225232819011821') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622524 and a length of 16', function() {
-		assert(detectNetwork('6225244299733993') === 'China UnionPay');
+		assert(detectNetwork('6225241717915482') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622525 and a length of 16', function() {
-		assert(detectNetwork('6225257454702293') === 'China UnionPay');
+		assert(detectNetwork('6225250031092487') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622526 and a length of 16', function() {
-		assert(detectNetwork('6225261878600002') === 'China UnionPay');
+		assert(detectNetwork('6225260626574833') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622527 and a length of 16', function() {
-		assert(detectNetwork('6225276880380058') === 'China UnionPay');
+		assert(detectNetwork('6225272051088844') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622528 and a length of 16', function() {
-		assert(detectNetwork('6225282530941368') === 'China UnionPay');
+		assert(detectNetwork('6225280858745462') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622529 and a length of 16', function() {
-		assert(detectNetwork('6225290841438701') === 'China UnionPay');
+		assert(detectNetwork('6225293036255279') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622530 and a length of 16', function() {
-		assert(detectNetwork('6225304622531271') === 'China UnionPay');
+		assert(detectNetwork('6225305145292417') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622531 and a length of 16', function() {
-		assert(detectNetwork('6225310490208254') === 'China UnionPay');
+		assert(detectNetwork('6225312574968529') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622532 and a length of 16', function() {
-		assert(detectNetwork('6225324911954471') === 'China UnionPay');
+		assert(detectNetwork('6225323086089422') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622533 and a length of 16', function() {
-		assert(detectNetwork('6225338507111547') === 'China UnionPay');
+		assert(detectNetwork('6225339296682172') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622534 and a length of 16', function() {
-		assert(detectNetwork('6225347905690372') === 'China UnionPay');
+		assert(detectNetwork('6225349474435244') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622535 and a length of 16', function() {
-		assert(detectNetwork('6225359593554808') === 'China UnionPay');
+		assert(detectNetwork('6225359050371001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622536 and a length of 16', function() {
-		assert(detectNetwork('6225360264665637') === 'China UnionPay');
+		assert(detectNetwork('6225365060234282') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622537 and a length of 16', function() {
-		assert(detectNetwork('6225374574916111') === 'China UnionPay');
+		assert(detectNetwork('6225379761055153') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622538 and a length of 16', function() {
-		assert(detectNetwork('6225385235271629') === 'China UnionPay');
+		assert(detectNetwork('6225389821345635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622539 and a length of 16', function() {
-		assert(detectNetwork('6225391540868459') === 'China UnionPay');
+		assert(detectNetwork('6225399361756399') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622540 and a length of 16', function() {
-		assert(detectNetwork('6225406892269360') === 'China UnionPay');
+		assert(detectNetwork('6225409105638205') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622541 and a length of 16', function() {
-		assert(detectNetwork('6225414091396039') === 'China UnionPay');
+		assert(detectNetwork('6225416336842703') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622542 and a length of 16', function() {
-		assert(detectNetwork('6225426515413367') === 'China UnionPay');
+		assert(detectNetwork('6225422554312942') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622543 and a length of 16', function() {
-		assert(detectNetwork('6225435099989229') === 'China UnionPay');
+		assert(detectNetwork('6225439372800104') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622544 and a length of 16', function() {
-		assert(detectNetwork('6225446832296578') === 'China UnionPay');
+		assert(detectNetwork('6225440504954889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622545 and a length of 16', function() {
-		assert(detectNetwork('6225457949153336') === 'China UnionPay');
+		assert(detectNetwork('6225456749530228') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622546 and a length of 16', function() {
-		assert(detectNetwork('6225466590799664') === 'China UnionPay');
+		assert(detectNetwork('6225466049033767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622547 and a length of 16', function() {
-		assert(detectNetwork('6225478061545714') === 'China UnionPay');
+		assert(detectNetwork('6225474508205052') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622548 and a length of 16', function() {
-		assert(detectNetwork('6225482110452618') === 'China UnionPay');
+		assert(detectNetwork('6225482064220773') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622549 and a length of 16', function() {
-		assert(detectNetwork('6225491433417412') === 'China UnionPay');
+		assert(detectNetwork('6225499379951204') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622550 and a length of 16', function() {
-		assert(detectNetwork('6225500235026882') === 'China UnionPay');
+		assert(detectNetwork('6225507401727499') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622551 and a length of 16', function() {
-		assert(detectNetwork('6225514986148171') === 'China UnionPay');
+		assert(detectNetwork('6225515031094065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622552 and a length of 16', function() {
-		assert(detectNetwork('6225529605894338') === 'China UnionPay');
+		assert(detectNetwork('6225525373523001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622553 and a length of 16', function() {
-		assert(detectNetwork('6225531029130405') === 'China UnionPay');
+		assert(detectNetwork('6225536635660523') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622554 and a length of 16', function() {
-		assert(detectNetwork('6225542542023328') === 'China UnionPay');
+		assert(detectNetwork('6225547837658124') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622555 and a length of 16', function() {
-		assert(detectNetwork('6225559438784266') === 'China UnionPay');
+		assert(detectNetwork('6225557259362797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622556 and a length of 16', function() {
-		assert(detectNetwork('6225560917969405') === 'China UnionPay');
+		assert(detectNetwork('6225564239417661') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622557 and a length of 16', function() {
-		assert(detectNetwork('6225574925141174') === 'China UnionPay');
+		assert(detectNetwork('6225579507063800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622558 and a length of 16', function() {
-		assert(detectNetwork('6225581046913508') === 'China UnionPay');
+		assert(detectNetwork('6225589458675120') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622559 and a length of 16', function() {
-		assert(detectNetwork('6225599090403880') === 'China UnionPay');
+		assert(detectNetwork('6225594246353730') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622560 and a length of 16', function() {
-		assert(detectNetwork('6225609215908813') === 'China UnionPay');
+		assert(detectNetwork('6225604713657155') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622561 and a length of 16', function() {
-		assert(detectNetwork('6225616960852700') === 'China UnionPay');
+		assert(detectNetwork('6225610139031515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622562 and a length of 16', function() {
-		assert(detectNetwork('6225624699367721') === 'China UnionPay');
+		assert(detectNetwork('6225628287636265') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622563 and a length of 16', function() {
-		assert(detectNetwork('6225630773909683') === 'China UnionPay');
+		assert(detectNetwork('6225630454015951') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622564 and a length of 16', function() {
-		assert(detectNetwork('6225641595721023') === 'China UnionPay');
+		assert(detectNetwork('6225642373274577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622565 and a length of 16', function() {
-		assert(detectNetwork('6225657432054713') === 'China UnionPay');
+		assert(detectNetwork('6225654868685423') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622566 and a length of 16', function() {
-		assert(detectNetwork('6225666045094703') === 'China UnionPay');
+		assert(detectNetwork('6225663175004185') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622567 and a length of 16', function() {
-		assert(detectNetwork('6225677702191735') === 'China UnionPay');
+		assert(detectNetwork('6225678421161067') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622568 and a length of 16', function() {
-		assert(detectNetwork('6225687887896865') === 'China UnionPay');
+		assert(detectNetwork('6225685781656345') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622569 and a length of 16', function() {
-		assert(detectNetwork('6225691044769575') === 'China UnionPay');
+		assert(detectNetwork('6225692532231397') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622570 and a length of 16', function() {
-		assert(detectNetwork('6225703510544665') === 'China UnionPay');
+		assert(detectNetwork('6225704623902262') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622571 and a length of 16', function() {
-		assert(detectNetwork('6225711874571825') === 'China UnionPay');
+		assert(detectNetwork('6225710406781778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622572 and a length of 16', function() {
-		assert(detectNetwork('6225724159796572') === 'China UnionPay');
+		assert(detectNetwork('6225728778528604') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622573 and a length of 16', function() {
-		assert(detectNetwork('6225730759897277') === 'China UnionPay');
+		assert(detectNetwork('6225732258761955') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622574 and a length of 16', function() {
-		assert(detectNetwork('6225741395112149') === 'China UnionPay');
+		assert(detectNetwork('6225745449440263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622575 and a length of 16', function() {
-		assert(detectNetwork('6225759137800798') === 'China UnionPay');
+		assert(detectNetwork('6225758957780677') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622576 and a length of 16', function() {
-		assert(detectNetwork('6225760726867570') === 'China UnionPay');
+		assert(detectNetwork('6225765743069752') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622577 and a length of 16', function() {
-		assert(detectNetwork('6225775518271483') === 'China UnionPay');
+		assert(detectNetwork('6225770777850333') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622578 and a length of 16', function() {
-		assert(detectNetwork('6225782547646911') === 'China UnionPay');
+		assert(detectNetwork('6225784849716951') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622579 and a length of 16', function() {
-		assert(detectNetwork('6225798817181580') === 'China UnionPay');
+		assert(detectNetwork('6225790511409892') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622580 and a length of 16', function() {
-		assert(detectNetwork('6225804752390394') === 'China UnionPay');
+		assert(detectNetwork('6225809997234959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622581 and a length of 16', function() {
-		assert(detectNetwork('6225816264045513') === 'China UnionPay');
+		assert(detectNetwork('6225814173473020') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622582 and a length of 16', function() {
-		assert(detectNetwork('6225827230564181') === 'China UnionPay');
+		assert(detectNetwork('6225821022942603') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622583 and a length of 16', function() {
-		assert(detectNetwork('6225834545967381') === 'China UnionPay');
+		assert(detectNetwork('6225832834637443') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622584 and a length of 16', function() {
-		assert(detectNetwork('6225842397269305') === 'China UnionPay');
+		assert(detectNetwork('6225849901036365') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622585 and a length of 16', function() {
-		assert(detectNetwork('6225852260690612') === 'China UnionPay');
+		assert(detectNetwork('6225850943497654') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622586 and a length of 16', function() {
-		assert(detectNetwork('6225863614292251') === 'China UnionPay');
+		assert(detectNetwork('6225866443784290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622587 and a length of 16', function() {
-		assert(detectNetwork('6225879458915437') === 'China UnionPay');
+		assert(detectNetwork('6225879669144089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622588 and a length of 16', function() {
-		assert(detectNetwork('6225888163046674') === 'China UnionPay');
+		assert(detectNetwork('6225885112902815') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622589 and a length of 16', function() {
-		assert(detectNetwork('6225899858876606') === 'China UnionPay');
+		assert(detectNetwork('6225891676306945') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622590 and a length of 16', function() {
-		assert(detectNetwork('6225904436729998') === 'China UnionPay');
+		assert(detectNetwork('6225904406643593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622591 and a length of 16', function() {
-		assert(detectNetwork('6225919207784927') === 'China UnionPay');
+		assert(detectNetwork('6225914902894418') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622592 and a length of 16', function() {
-		assert(detectNetwork('6225925190577669') === 'China UnionPay');
+		assert(detectNetwork('6225922113018793') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622593 and a length of 16', function() {
-		assert(detectNetwork('6225934264400812') === 'China UnionPay');
+		assert(detectNetwork('6225939487129964') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622594 and a length of 16', function() {
-		assert(detectNetwork('6225940004282834') === 'China UnionPay');
+		assert(detectNetwork('6225943194365456') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622595 and a length of 16', function() {
-		assert(detectNetwork('6225953705364872') === 'China UnionPay');
+		assert(detectNetwork('6225956397657106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622596 and a length of 16', function() {
-		assert(detectNetwork('6225963977314394') === 'China UnionPay');
+		assert(detectNetwork('6225962521001865') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622597 and a length of 16', function() {
-		assert(detectNetwork('6225974331267038') === 'China UnionPay');
+		assert(detectNetwork('6225979716080698') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622598 and a length of 16', function() {
-		assert(detectNetwork('6225989470583667') === 'China UnionPay');
+		assert(detectNetwork('6225981809519540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622599 and a length of 16', function() {
-		assert(detectNetwork('6225993065382299') === 'China UnionPay');
+		assert(detectNetwork('6225999086715757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622600 and a length of 16', function() {
-		assert(detectNetwork('6226000433354432') === 'China UnionPay');
+		assert(detectNetwork('6226005300544766') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622601 and a length of 16', function() {
-		assert(detectNetwork('6226019944196131') === 'China UnionPay');
+		assert(detectNetwork('6226016693693923') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622602 and a length of 16', function() {
-		assert(detectNetwork('6226028379143468') === 'China UnionPay');
+		assert(detectNetwork('6226027066127750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622603 and a length of 16', function() {
-		assert(detectNetwork('6226039271774772') === 'China UnionPay');
+		assert(detectNetwork('6226038002334184') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622604 and a length of 16', function() {
-		assert(detectNetwork('6226042937362459') === 'China UnionPay');
+		assert(detectNetwork('6226048809806118') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622605 and a length of 16', function() {
-		assert(detectNetwork('6226055750423006') === 'China UnionPay');
+		assert(detectNetwork('6226056535880261') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622606 and a length of 16', function() {
-		assert(detectNetwork('6226069039274707') === 'China UnionPay');
+		assert(detectNetwork('6226067207099750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622607 and a length of 16', function() {
-		assert(detectNetwork('6226074206666644') === 'China UnionPay');
+		assert(detectNetwork('6226074411146895') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622608 and a length of 16', function() {
-		assert(detectNetwork('6226087417166989') === 'China UnionPay');
+		assert(detectNetwork('6226080488372412') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622609 and a length of 16', function() {
-		assert(detectNetwork('6226090257107382') === 'China UnionPay');
+		assert(detectNetwork('6226093054681663') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622610 and a length of 16', function() {
-		assert(detectNetwork('6226109810515152') === 'China UnionPay');
+		assert(detectNetwork('6226106974164468') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622611 and a length of 16', function() {
-		assert(detectNetwork('6226117299683589') === 'China UnionPay');
+		assert(detectNetwork('6226110380233117') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622612 and a length of 16', function() {
-		assert(detectNetwork('6226121983952454') === 'China UnionPay');
+		assert(detectNetwork('6226124206647305') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622613 and a length of 16', function() {
-		assert(detectNetwork('6226139396823118') === 'China UnionPay');
+		assert(detectNetwork('6226131438605669') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622614 and a length of 16', function() {
-		assert(detectNetwork('6226147205633525') === 'China UnionPay');
+		assert(detectNetwork('6226147956825401') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622615 and a length of 16', function() {
-		assert(detectNetwork('6226152718970169') === 'China UnionPay');
+		assert(detectNetwork('6226156454906342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622616 and a length of 16', function() {
-		assert(detectNetwork('6226164691149744') === 'China UnionPay');
+		assert(detectNetwork('6226165318553332') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622617 and a length of 16', function() {
-		assert(detectNetwork('6226170426692029') === 'China UnionPay');
+		assert(detectNetwork('6226178804956166') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622618 and a length of 16', function() {
-		assert(detectNetwork('6226184711064172') === 'China UnionPay');
+		assert(detectNetwork('6226181360655564') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622619 and a length of 16', function() {
-		assert(detectNetwork('6226197154747448') === 'China UnionPay');
+		assert(detectNetwork('6226195222752618') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622620 and a length of 16', function() {
-		assert(detectNetwork('6226205867437094') === 'China UnionPay');
+		assert(detectNetwork('6226206548016874') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622621 and a length of 16', function() {
-		assert(detectNetwork('6226216421727720') === 'China UnionPay');
+		assert(detectNetwork('6226216753088212') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622622 and a length of 16', function() {
-		assert(detectNetwork('6226229817605638') === 'China UnionPay');
+		assert(detectNetwork('6226223104529393') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622623 and a length of 16', function() {
-		assert(detectNetwork('6226235709005176') === 'China UnionPay');
+		assert(detectNetwork('6226236957445706') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622624 and a length of 16', function() {
-		assert(detectNetwork('6226249962081167') === 'China UnionPay');
+		assert(detectNetwork('6226248322602716') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622625 and a length of 16', function() {
-		assert(detectNetwork('6226256039209942') === 'China UnionPay');
+		assert(detectNetwork('6226250344955126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622626 and a length of 16', function() {
-		assert(detectNetwork('6226261736563480') === 'China UnionPay');
+		assert(detectNetwork('6226261026424676') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622627 and a length of 16', function() {
-		assert(detectNetwork('6226277999806688') === 'China UnionPay');
+		assert(detectNetwork('6226275150527720') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622628 and a length of 16', function() {
-		assert(detectNetwork('6226289167502757') === 'China UnionPay');
+		assert(detectNetwork('6226280744918962') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622629 and a length of 16', function() {
-		assert(detectNetwork('6226291936514242') === 'China UnionPay');
+		assert(detectNetwork('6226294981287768') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622630 and a length of 16', function() {
-		assert(detectNetwork('6226304069292494') === 'China UnionPay');
+		assert(detectNetwork('6226302738758349') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622631 and a length of 16', function() {
-		assert(detectNetwork('6226311340944095') === 'China UnionPay');
+		assert(detectNetwork('6226319547928666') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622632 and a length of 16', function() {
-		assert(detectNetwork('6226329782411378') === 'China UnionPay');
+		assert(detectNetwork('6226324895657207') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622633 and a length of 16', function() {
-		assert(detectNetwork('6226337507957138') === 'China UnionPay');
+		assert(detectNetwork('6226336728007135') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622634 and a length of 16', function() {
-		assert(detectNetwork('6226346856857347') === 'China UnionPay');
+		assert(detectNetwork('6226341440707272') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622635 and a length of 16', function() {
-		assert(detectNetwork('6226351104978619') === 'China UnionPay');
+		assert(detectNetwork('6226357812426622') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622636 and a length of 16', function() {
-		assert(detectNetwork('6226367712607762') === 'China UnionPay');
+		assert(detectNetwork('6226362186693595') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622637 and a length of 16', function() {
-		assert(detectNetwork('6226372608508693') === 'China UnionPay');
+		assert(detectNetwork('6226372462686319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622638 and a length of 16', function() {
-		assert(detectNetwork('6226389145411355') === 'China UnionPay');
+		assert(detectNetwork('6226385876275205') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622639 and a length of 16', function() {
-		assert(detectNetwork('6226396181937346') === 'China UnionPay');
+		assert(detectNetwork('6226398652756784') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622640 and a length of 16', function() {
-		assert(detectNetwork('6226406753497517') === 'China UnionPay');
+		assert(detectNetwork('6226408682822870') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622641 and a length of 16', function() {
-		assert(detectNetwork('6226419486739593') === 'China UnionPay');
+		assert(detectNetwork('6226412022120470') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622642 and a length of 16', function() {
-		assert(detectNetwork('6226424624710437') === 'China UnionPay');
+		assert(detectNetwork('6226424553276299') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622643 and a length of 16', function() {
-		assert(detectNetwork('6226431549620392') === 'China UnionPay');
+		assert(detectNetwork('6226430322801357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622644 and a length of 16', function() {
-		assert(detectNetwork('6226443829087994') === 'China UnionPay');
+		assert(detectNetwork('6226442277509482') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622645 and a length of 16', function() {
-		assert(detectNetwork('6226459978425097') === 'China UnionPay');
+		assert(detectNetwork('6226457873032585') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622646 and a length of 16', function() {
-		assert(detectNetwork('6226468714695013') === 'China UnionPay');
+		assert(detectNetwork('6226468465739839') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622647 and a length of 16', function() {
-		assert(detectNetwork('6226476438872271') === 'China UnionPay');
+		assert(detectNetwork('6226470664013267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622648 and a length of 16', function() {
-		assert(detectNetwork('6226487516892790') === 'China UnionPay');
+		assert(detectNetwork('6226483485000681') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622649 and a length of 16', function() {
-		assert(detectNetwork('6226491643815181') === 'China UnionPay');
+		assert(detectNetwork('6226498203832175') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622650 and a length of 16', function() {
-		assert(detectNetwork('6226506109892297') === 'China UnionPay');
+		assert(detectNetwork('6226500783922465') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622651 and a length of 16', function() {
-		assert(detectNetwork('6226518885059054') === 'China UnionPay');
+		assert(detectNetwork('6226512191865323') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622652 and a length of 16', function() {
-		assert(detectNetwork('6226529796796679') === 'China UnionPay');
+		assert(detectNetwork('6226521215631593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622653 and a length of 16', function() {
-		assert(detectNetwork('6226535892556734') === 'China UnionPay');
+		assert(detectNetwork('6226535406258756') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622654 and a length of 16', function() {
-		assert(detectNetwork('6226549146459505') === 'China UnionPay');
+		assert(detectNetwork('6226545405651594') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622655 and a length of 16', function() {
-		assert(detectNetwork('6226553847412045') === 'China UnionPay');
+		assert(detectNetwork('6226552391983324') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622656 and a length of 16', function() {
-		assert(detectNetwork('6226566001171438') === 'China UnionPay');
+		assert(detectNetwork('6226567083827897') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622657 and a length of 16', function() {
-		assert(detectNetwork('6226576520472100') === 'China UnionPay');
+		assert(detectNetwork('6226578492677110') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622658 and a length of 16', function() {
-		assert(detectNetwork('6226585061402954') === 'China UnionPay');
+		assert(detectNetwork('6226584910846015') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622659 and a length of 16', function() {
-		assert(detectNetwork('6226595445592511') === 'China UnionPay');
+		assert(detectNetwork('6226594482777922') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622660 and a length of 16', function() {
-		assert(detectNetwork('6226604836581224') === 'China UnionPay');
+		assert(detectNetwork('6226603790904202') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622661 and a length of 16', function() {
-		assert(detectNetwork('6226619404298559') === 'China UnionPay');
+		assert(detectNetwork('6226610050326149') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622662 and a length of 16', function() {
-		assert(detectNetwork('6226622478025282') === 'China UnionPay');
+		assert(detectNetwork('6226623866048927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622663 and a length of 16', function() {
-		assert(detectNetwork('6226637519503306') === 'China UnionPay');
+		assert(detectNetwork('6226632298194562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622664 and a length of 16', function() {
-		assert(detectNetwork('6226640213328681') === 'China UnionPay');
+		assert(detectNetwork('6226642747255422') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622665 and a length of 16', function() {
-		assert(detectNetwork('6226657250040836') === 'China UnionPay');
+		assert(detectNetwork('6226654080678225') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622666 and a length of 16', function() {
-		assert(detectNetwork('6226669473080747') === 'China UnionPay');
+		assert(detectNetwork('6226663180803390') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622667 and a length of 16', function() {
-		assert(detectNetwork('6226673946086909') === 'China UnionPay');
+		assert(detectNetwork('6226677950010041') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622668 and a length of 16', function() {
-		assert(detectNetwork('6226689296738437') === 'China UnionPay');
+		assert(detectNetwork('6226682235276962') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622669 and a length of 16', function() {
-		assert(detectNetwork('6226699382609536') === 'China UnionPay');
+		assert(detectNetwork('6226696860966447') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622670 and a length of 16', function() {
-		assert(detectNetwork('6226707830455304') === 'China UnionPay');
+		assert(detectNetwork('6226700992411519') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622671 and a length of 16', function() {
-		assert(detectNetwork('6226717490056504') === 'China UnionPay');
+		assert(detectNetwork('6226710237281886') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622672 and a length of 16', function() {
-		assert(detectNetwork('6226721527291642') === 'China UnionPay');
+		assert(detectNetwork('6226721863315559') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622673 and a length of 16', function() {
-		assert(detectNetwork('6226733205756899') === 'China UnionPay');
+		assert(detectNetwork('6226734309722236') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622674 and a length of 16', function() {
-		assert(detectNetwork('6226740558320875') === 'China UnionPay');
+		assert(detectNetwork('6226747573642702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622675 and a length of 16', function() {
-		assert(detectNetwork('6226753957286045') === 'China UnionPay');
+		assert(detectNetwork('6226752818935769') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622676 and a length of 16', function() {
-		assert(detectNetwork('6226760465573132') === 'China UnionPay');
+		assert(detectNetwork('6226765427996562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622677 and a length of 16', function() {
-		assert(detectNetwork('6226773629769949') === 'China UnionPay');
+		assert(detectNetwork('6226777130722444') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622678 and a length of 16', function() {
-		assert(detectNetwork('6226781631968883') === 'China UnionPay');
+		assert(detectNetwork('6226783793190795') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622679 and a length of 16', function() {
-		assert(detectNetwork('6226791945008743') === 'China UnionPay');
+		assert(detectNetwork('6226790918071238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622680 and a length of 16', function() {
-		assert(detectNetwork('6226801046516812') === 'China UnionPay');
+		assert(detectNetwork('6226805318139659') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622681 and a length of 16', function() {
-		assert(detectNetwork('6226810838197818') === 'China UnionPay');
+		assert(detectNetwork('6226817738030959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622682 and a length of 16', function() {
-		assert(detectNetwork('6226820350426071') === 'China UnionPay');
+		assert(detectNetwork('6226829014383276') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622683 and a length of 16', function() {
-		assert(detectNetwork('6226831572169267') === 'China UnionPay');
+		assert(detectNetwork('6226834607925005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622684 and a length of 16', function() {
-		assert(detectNetwork('6226845903154287') === 'China UnionPay');
+		assert(detectNetwork('6226841494088877') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622685 and a length of 16', function() {
-		assert(detectNetwork('6226857192686680') === 'China UnionPay');
+		assert(detectNetwork('6226858019758879') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622686 and a length of 16', function() {
-		assert(detectNetwork('6226860434791354') === 'China UnionPay');
+		assert(detectNetwork('6226865861525406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622687 and a length of 16', function() {
-		assert(detectNetwork('6226879737182908') === 'China UnionPay');
+		assert(detectNetwork('6226874589431116') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622688 and a length of 16', function() {
-		assert(detectNetwork('6226886813041186') === 'China UnionPay');
+		assert(detectNetwork('6226889004985517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622689 and a length of 16', function() {
-		assert(detectNetwork('6226897058427151') === 'China UnionPay');
+		assert(detectNetwork('6226898773159868') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622690 and a length of 16', function() {
-		assert(detectNetwork('6226906968235943') === 'China UnionPay');
+		assert(detectNetwork('6226903652803610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622691 and a length of 16', function() {
-		assert(detectNetwork('6226916792234562') === 'China UnionPay');
+		assert(detectNetwork('6226911242794629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622692 and a length of 16', function() {
-		assert(detectNetwork('6226928708538089') === 'China UnionPay');
+		assert(detectNetwork('6226929065427121') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622693 and a length of 16', function() {
-		assert(detectNetwork('6226930495894804') === 'China UnionPay');
+		assert(detectNetwork('6226931061118182') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622694 and a length of 16', function() {
-		assert(detectNetwork('6226941110752841') === 'China UnionPay');
+		assert(detectNetwork('6226942312012347') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622695 and a length of 16', function() {
-		assert(detectNetwork('6226953484993526') === 'China UnionPay');
+		assert(detectNetwork('6226959629081690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622696 and a length of 16', function() {
-		assert(detectNetwork('6226964093563189') === 'China UnionPay');
+		assert(detectNetwork('6226963028550434') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622697 and a length of 16', function() {
-		assert(detectNetwork('6226976241018994') === 'China UnionPay');
+		assert(detectNetwork('6226972834132940') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622698 and a length of 16', function() {
-		assert(detectNetwork('6226987034911284') === 'China UnionPay');
+		assert(detectNetwork('6226986425245467') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622699 and a length of 16', function() {
-		assert(detectNetwork('6226993472748048') === 'China UnionPay');
+		assert(detectNetwork('6226997490520978') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622700 and a length of 16', function() {
-		assert(detectNetwork('6227005648183704') === 'China UnionPay');
+		assert(detectNetwork('6227008311795949') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622701 and a length of 16', function() {
-		assert(detectNetwork('6227010881083352') === 'China UnionPay');
+		assert(detectNetwork('6227010605412018') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622702 and a length of 16', function() {
-		assert(detectNetwork('6227026958062453') === 'China UnionPay');
+		assert(detectNetwork('6227029609849605') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622703 and a length of 16', function() {
-		assert(detectNetwork('6227039540607076') === 'China UnionPay');
+		assert(detectNetwork('6227035225575409') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622704 and a length of 16', function() {
-		assert(detectNetwork('6227046810988858') === 'China UnionPay');
+		assert(detectNetwork('6227047156926367') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622705 and a length of 16', function() {
-		assert(detectNetwork('6227059339610339') === 'China UnionPay');
+		assert(detectNetwork('6227051320890270') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622706 and a length of 16', function() {
-		assert(detectNetwork('6227067469235893') === 'China UnionPay');
+		assert(detectNetwork('6227060619232510') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622707 and a length of 16', function() {
-		assert(detectNetwork('6227071714813648') === 'China UnionPay');
+		assert(detectNetwork('6227073043522415') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622708 and a length of 16', function() {
-		assert(detectNetwork('6227085753673935') === 'China UnionPay');
+		assert(detectNetwork('6227086563179123') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622709 and a length of 16', function() {
-		assert(detectNetwork('6227099798291717') === 'China UnionPay');
+		assert(detectNetwork('6227097841030545') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622710 and a length of 16', function() {
-		assert(detectNetwork('6227106709218405') === 'China UnionPay');
+		assert(detectNetwork('6227109243991229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622711 and a length of 16', function() {
-		assert(detectNetwork('6227117715548800') === 'China UnionPay');
+		assert(detectNetwork('6227112158680723') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622712 and a length of 16', function() {
-		assert(detectNetwork('6227126528137144') === 'China UnionPay');
+		assert(detectNetwork('6227121335467622') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622713 and a length of 16', function() {
-		assert(detectNetwork('6227132938416065') === 'China UnionPay');
+		assert(detectNetwork('6227132808628715') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622714 and a length of 16', function() {
-		assert(detectNetwork('6227143359779485') === 'China UnionPay');
+		assert(detectNetwork('6227140491407965') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622715 and a length of 16', function() {
-		assert(detectNetwork('6227152653816005') === 'China UnionPay');
+		assert(detectNetwork('6227156143058370') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622716 and a length of 16', function() {
-		assert(detectNetwork('6227168223863494') === 'China UnionPay');
+		assert(detectNetwork('6227163667982447') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622717 and a length of 16', function() {
-		assert(detectNetwork('6227174763905175') === 'China UnionPay');
+		assert(detectNetwork('6227173198739371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622718 and a length of 16', function() {
-		assert(detectNetwork('6227183921132201') === 'China UnionPay');
+		assert(detectNetwork('6227189982182485') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622719 and a length of 16', function() {
-		assert(detectNetwork('6227193556468880') === 'China UnionPay');
+		assert(detectNetwork('6227193424440433') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622720 and a length of 16', function() {
-		assert(detectNetwork('6227201160122456') === 'China UnionPay');
+		assert(detectNetwork('6227204586746701') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622721 and a length of 16', function() {
-		assert(detectNetwork('6227213542293175') === 'China UnionPay');
+		assert(detectNetwork('6227214174398914') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622722 and a length of 16', function() {
-		assert(detectNetwork('6227225486727858') === 'China UnionPay');
+		assert(detectNetwork('6227221335608310') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622723 and a length of 16', function() {
-		assert(detectNetwork('6227233521646286') === 'China UnionPay');
+		assert(detectNetwork('6227232669515063') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622724 and a length of 16', function() {
-		assert(detectNetwork('6227243190009379') === 'China UnionPay');
+		assert(detectNetwork('6227243261317044') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622725 and a length of 16', function() {
-		assert(detectNetwork('6227255373272222') === 'China UnionPay');
+		assert(detectNetwork('6227251087267177') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622726 and a length of 16', function() {
-		assert(detectNetwork('6227263258361328') === 'China UnionPay');
+		assert(detectNetwork('6227267816994434') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622727 and a length of 16', function() {
-		assert(detectNetwork('6227275765653715') === 'China UnionPay');
+		assert(detectNetwork('6227279489606779') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622728 and a length of 16', function() {
-		assert(detectNetwork('6227288595384064') === 'China UnionPay');
+		assert(detectNetwork('6227288939745270') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622729 and a length of 16', function() {
-		assert(detectNetwork('6227290234334997') === 'China UnionPay');
+		assert(detectNetwork('6227298339029273') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622730 and a length of 16', function() {
-		assert(detectNetwork('6227300511683652') === 'China UnionPay');
+		assert(detectNetwork('6227305589079311') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622731 and a length of 16', function() {
-		assert(detectNetwork('6227312778560057') === 'China UnionPay');
+		assert(detectNetwork('6227316240995134') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622732 and a length of 16', function() {
-		assert(detectNetwork('6227326592966533') === 'China UnionPay');
+		assert(detectNetwork('6227323054073373') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622733 and a length of 16', function() {
-		assert(detectNetwork('6227330115074506') === 'China UnionPay');
+		assert(detectNetwork('6227335743153736') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622734 and a length of 16', function() {
-		assert(detectNetwork('6227343036000428') === 'China UnionPay');
+		assert(detectNetwork('6227341820425290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622735 and a length of 16', function() {
-		assert(detectNetwork('6227358205793355') === 'China UnionPay');
+		assert(detectNetwork('6227350440174603') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622736 and a length of 16', function() {
-		assert(detectNetwork('6227369752302151') === 'China UnionPay');
+		assert(detectNetwork('6227368684545030') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622737 and a length of 16', function() {
-		assert(detectNetwork('6227378483290776') === 'China UnionPay');
+		assert(detectNetwork('6227374053758881') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622738 and a length of 16', function() {
-		assert(detectNetwork('6227387929652012') === 'China UnionPay');
+		assert(detectNetwork('6227388924669131') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622739 and a length of 16', function() {
-		assert(detectNetwork('6227394091807201') === 'China UnionPay');
+		assert(detectNetwork('6227399436416058') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622740 and a length of 16', function() {
-		assert(detectNetwork('6227404946561617') === 'China UnionPay');
+		assert(detectNetwork('6227401784735848') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622741 and a length of 16', function() {
-		assert(detectNetwork('6227411402878198') === 'China UnionPay');
+		assert(detectNetwork('6227411204257179') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622742 and a length of 16', function() {
-		assert(detectNetwork('6227423876304629') === 'China UnionPay');
+		assert(detectNetwork('6227421653717466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622743 and a length of 16', function() {
-		assert(detectNetwork('6227437665181486') === 'China UnionPay');
+		assert(detectNetwork('6227433931730050') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622744 and a length of 16', function() {
-		assert(detectNetwork('6227444757768413') === 'China UnionPay');
+		assert(detectNetwork('6227446327550000') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622745 and a length of 16', function() {
-		assert(detectNetwork('6227453924072270') === 'China UnionPay');
+		assert(detectNetwork('6227452875526058') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622746 and a length of 16', function() {
-		assert(detectNetwork('6227460911004143') === 'China UnionPay');
+		assert(detectNetwork('6227462838634690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622747 and a length of 16', function() {
-		assert(detectNetwork('6227470224675757') === 'China UnionPay');
+		assert(detectNetwork('6227473387193202') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622748 and a length of 16', function() {
-		assert(detectNetwork('6227489344541777') === 'China UnionPay');
+		assert(detectNetwork('6227486663488479') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622749 and a length of 16', function() {
-		assert(detectNetwork('6227498084674664') === 'China UnionPay');
+		assert(detectNetwork('6227498905438440') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622750 and a length of 16', function() {
-		assert(detectNetwork('6227500464297399') === 'China UnionPay');
+		assert(detectNetwork('6227508466948847') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622751 and a length of 16', function() {
-		assert(detectNetwork('6227515061183429') === 'China UnionPay');
+		assert(detectNetwork('6227517447081661') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622752 and a length of 16', function() {
-		assert(detectNetwork('6227520126921420') === 'China UnionPay');
+		assert(detectNetwork('6227521966338103') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622753 and a length of 16', function() {
-		assert(detectNetwork('6227534442421358') === 'China UnionPay');
+		assert(detectNetwork('6227533443776641') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622754 and a length of 16', function() {
-		assert(detectNetwork('6227544138756108') === 'China UnionPay');
+		assert(detectNetwork('6227543070698443') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622755 and a length of 16', function() {
-		assert(detectNetwork('6227553436189660') === 'China UnionPay');
+		assert(detectNetwork('6227553991717320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622756 and a length of 16', function() {
-		assert(detectNetwork('6227567654421388') === 'China UnionPay');
+		assert(detectNetwork('6227564316763829') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622757 and a length of 16', function() {
-		assert(detectNetwork('6227579012319610') === 'China UnionPay');
+		assert(detectNetwork('6227570133956642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622758 and a length of 16', function() {
-		assert(detectNetwork('6227588441557182') === 'China UnionPay');
+		assert(detectNetwork('6227585265806241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622759 and a length of 16', function() {
-		assert(detectNetwork('6227598654395527') === 'China UnionPay');
+		assert(detectNetwork('6227591535250763') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622760 and a length of 16', function() {
-		assert(detectNetwork('6227607836824573') === 'China UnionPay');
+		assert(detectNetwork('6227606935623298') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622761 and a length of 16', function() {
-		assert(detectNetwork('6227615954241273') === 'China UnionPay');
+		assert(detectNetwork('6227612729819305') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622762 and a length of 16', function() {
-		assert(detectNetwork('6227623015057555') === 'China UnionPay');
+		assert(detectNetwork('6227623953704609') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622763 and a length of 16', function() {
-		assert(detectNetwork('6227631882467806') === 'China UnionPay');
+		assert(detectNetwork('6227634915062787') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622764 and a length of 16', function() {
-		assert(detectNetwork('6227643478892234') === 'China UnionPay');
+		assert(detectNetwork('6227645501669524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622765 and a length of 16', function() {
-		assert(detectNetwork('6227654117122556') === 'China UnionPay');
+		assert(detectNetwork('6227651151403050') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622766 and a length of 16', function() {
-		assert(detectNetwork('6227666387936955') === 'China UnionPay');
+		assert(detectNetwork('6227661592731549') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622767 and a length of 16', function() {
-		assert(detectNetwork('6227671725135534') === 'China UnionPay');
+		assert(detectNetwork('6227673383188402') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622768 and a length of 16', function() {
-		assert(detectNetwork('6227688037462108') === 'China UnionPay');
+		assert(detectNetwork('6227689763831997') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622769 and a length of 16', function() {
-		assert(detectNetwork('6227698023723981') === 'China UnionPay');
+		assert(detectNetwork('6227691842195126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622770 and a length of 16', function() {
-		assert(detectNetwork('6227702075690858') === 'China UnionPay');
+		assert(detectNetwork('6227703926906536') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622771 and a length of 16', function() {
-		assert(detectNetwork('6227712086290020') === 'China UnionPay');
+		assert(detectNetwork('6227711409691235') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622772 and a length of 16', function() {
-		assert(detectNetwork('6227726739799227') === 'China UnionPay');
+		assert(detectNetwork('6227721419984944') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622773 and a length of 16', function() {
-		assert(detectNetwork('6227738252097701') === 'China UnionPay');
+		assert(detectNetwork('6227734575237620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622774 and a length of 16', function() {
-		assert(detectNetwork('6227742902329425') === 'China UnionPay');
+		assert(detectNetwork('6227746484674747') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622775 and a length of 16', function() {
-		assert(detectNetwork('6227756874615086') === 'China UnionPay');
+		assert(detectNetwork('6227754187964294') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622776 and a length of 16', function() {
-		assert(detectNetwork('6227768322818493') === 'China UnionPay');
+		assert(detectNetwork('6227765593734998') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622777 and a length of 16', function() {
-		assert(detectNetwork('6227777166667473') === 'China UnionPay');
+		assert(detectNetwork('6227778172913668') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622778 and a length of 16', function() {
-		assert(detectNetwork('6227781001096605') === 'China UnionPay');
+		assert(detectNetwork('6227786846294090') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622779 and a length of 16', function() {
-		assert(detectNetwork('6227795729475783') === 'China UnionPay');
+		assert(detectNetwork('6227797900593825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622780 and a length of 16', function() {
-		assert(detectNetwork('6227808370443549') === 'China UnionPay');
+		assert(detectNetwork('6227804261335213') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622781 and a length of 16', function() {
-		assert(detectNetwork('6227814266456488') === 'China UnionPay');
+		assert(detectNetwork('6227812223781412') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622782 and a length of 16', function() {
-		assert(detectNetwork('6227827099335779') === 'China UnionPay');
+		assert(detectNetwork('6227827102939884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622783 and a length of 16', function() {
-		assert(detectNetwork('6227832508758723') === 'China UnionPay');
+		assert(detectNetwork('6227832942804925') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622784 and a length of 16', function() {
-		assert(detectNetwork('6227841532247430') === 'China UnionPay');
+		assert(detectNetwork('6227845083372259') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622785 and a length of 16', function() {
-		assert(detectNetwork('6227857399214444') === 'China UnionPay');
+		assert(detectNetwork('6227856429301081') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622786 and a length of 16', function() {
-		assert(detectNetwork('6227867573241493') === 'China UnionPay');
+		assert(detectNetwork('6227865411968404') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622787 and a length of 16', function() {
-		assert(detectNetwork('6227871609018092') === 'China UnionPay');
+		assert(detectNetwork('6227875841914357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622788 and a length of 16', function() {
-		assert(detectNetwork('6227886292099830') === 'China UnionPay');
+		assert(detectNetwork('6227884794772787') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622789 and a length of 16', function() {
-		assert(detectNetwork('6227892562891018') === 'China UnionPay');
+		assert(detectNetwork('6227894517725089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622790 and a length of 16', function() {
-		assert(detectNetwork('6227903116623785') === 'China UnionPay');
+		assert(detectNetwork('6227903312755987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622791 and a length of 16', function() {
-		assert(detectNetwork('6227912311558961') === 'China UnionPay');
+		assert(detectNetwork('6227915384618782') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622792 and a length of 16', function() {
-		assert(detectNetwork('6227920362891333') === 'China UnionPay');
+		assert(detectNetwork('6227920276539347') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622793 and a length of 16', function() {
-		assert(detectNetwork('6227937232694571') === 'China UnionPay');
+		assert(detectNetwork('6227936922129216') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622794 and a length of 16', function() {
-		assert(detectNetwork('6227946533549105') === 'China UnionPay');
+		assert(detectNetwork('6227942729812679') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622795 and a length of 16', function() {
-		assert(detectNetwork('6227958956150099') === 'China UnionPay');
+		assert(detectNetwork('6227955193592656') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622796 and a length of 16', function() {
-		assert(detectNetwork('6227960416036674') === 'China UnionPay');
+		assert(detectNetwork('6227960470321064') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622797 and a length of 16', function() {
-		assert(detectNetwork('6227975659909082') === 'China UnionPay');
+		assert(detectNetwork('6227979796695062') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622798 and a length of 16', function() {
-		assert(detectNetwork('6227985894784619') === 'China UnionPay');
+		assert(detectNetwork('6227987084533932') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622799 and a length of 16', function() {
-		assert(detectNetwork('6227992349614733') === 'China UnionPay');
+		assert(detectNetwork('6227998712092342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622800 and a length of 16', function() {
-		assert(detectNetwork('6228005982619460') === 'China UnionPay');
+		assert(detectNetwork('6228009787645399') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622801 and a length of 16', function() {
-		assert(detectNetwork('6228010884051569') === 'China UnionPay');
+		assert(detectNetwork('6228018900927711') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622802 and a length of 16', function() {
-		assert(detectNetwork('6228025204760549') === 'China UnionPay');
+		assert(detectNetwork('6228020842850935') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622803 and a length of 16', function() {
-		assert(detectNetwork('6228037185066701') === 'China UnionPay');
+		assert(detectNetwork('6228039215854819') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622804 and a length of 16', function() {
-		assert(detectNetwork('6228045751902278') === 'China UnionPay');
+		assert(detectNetwork('6228048391164534') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622805 and a length of 16', function() {
-		assert(detectNetwork('6228056409016688') === 'China UnionPay');
+		assert(detectNetwork('6228051804234750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622806 and a length of 16', function() {
-		assert(detectNetwork('6228065141365777') === 'China UnionPay');
+		assert(detectNetwork('6228062557993612') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622807 and a length of 16', function() {
-		assert(detectNetwork('6228071024594027') === 'China UnionPay');
+		assert(detectNetwork('6228074286411358') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622808 and a length of 16', function() {
-		assert(detectNetwork('6228087606595186') === 'China UnionPay');
+		assert(detectNetwork('6228086526487229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622809 and a length of 16', function() {
-		assert(detectNetwork('6228096909086184') === 'China UnionPay');
+		assert(detectNetwork('6228097170262368') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622810 and a length of 16', function() {
-		assert(detectNetwork('6228104067237448') === 'China UnionPay');
+		assert(detectNetwork('6228106650368480') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622811 and a length of 16', function() {
-		assert(detectNetwork('6228110863155801') === 'China UnionPay');
+		assert(detectNetwork('6228119014134061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622812 and a length of 16', function() {
-		assert(detectNetwork('6228127852511921') === 'China UnionPay');
+		assert(detectNetwork('6228127683709185') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622813 and a length of 16', function() {
-		assert(detectNetwork('6228139870190709') === 'China UnionPay');
+		assert(detectNetwork('6228131383320312') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622814 and a length of 16', function() {
-		assert(detectNetwork('6228148005412197') === 'China UnionPay');
+		assert(detectNetwork('6228140751723628') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622815 and a length of 16', function() {
-		assert(detectNetwork('6228156482933487') === 'China UnionPay');
+		assert(detectNetwork('6228157595636054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622816 and a length of 16', function() {
-		assert(detectNetwork('6228165138926931') === 'China UnionPay');
+		assert(detectNetwork('6228160603995091') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622817 and a length of 16', function() {
-		assert(detectNetwork('6228177972640667') === 'China UnionPay');
+		assert(detectNetwork('6228172553024260') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622818 and a length of 16', function() {
-		assert(detectNetwork('6228189840593239') === 'China UnionPay');
+		assert(detectNetwork('6228181543154693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622819 and a length of 16', function() {
-		assert(detectNetwork('6228197968390538') === 'China UnionPay');
+		assert(detectNetwork('6228198274512006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622820 and a length of 16', function() {
-		assert(detectNetwork('6228209382307160') === 'China UnionPay');
+		assert(detectNetwork('6228204389080882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622821 and a length of 16', function() {
-		assert(detectNetwork('6228218650639569') === 'China UnionPay');
+		assert(detectNetwork('6228210408702935') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622822 and a length of 16', function() {
-		assert(detectNetwork('6228222067268795') === 'China UnionPay');
+		assert(detectNetwork('6228221683531838') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622823 and a length of 16', function() {
-		assert(detectNetwork('6228234186439727') === 'China UnionPay');
+		assert(detectNetwork('6228230983518663') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622824 and a length of 16', function() {
-		assert(detectNetwork('6228247419247733') === 'China UnionPay');
+		assert(detectNetwork('6228244879342217') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622825 and a length of 16', function() {
-		assert(detectNetwork('6228252204588268') === 'China UnionPay');
+		assert(detectNetwork('6228252059042675') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622826 and a length of 16', function() {
-		assert(detectNetwork('6228268239641825') === 'China UnionPay');
+		assert(detectNetwork('6228266750624429') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622827 and a length of 16', function() {
-		assert(detectNetwork('6228272541906951') === 'China UnionPay');
+		assert(detectNetwork('6228278243634087') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622828 and a length of 16', function() {
-		assert(detectNetwork('6228280674615169') === 'China UnionPay');
+		assert(detectNetwork('6228286234538413') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622829 and a length of 16', function() {
-		assert(detectNetwork('6228294538149761') === 'China UnionPay');
+		assert(detectNetwork('6228298031981903') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622830 and a length of 16', function() {
-		assert(detectNetwork('6228301939382911') === 'China UnionPay');
+		assert(detectNetwork('6228308970522276') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622831 and a length of 16', function() {
-		assert(detectNetwork('6228312864677550') === 'China UnionPay');
+		assert(detectNetwork('6228310938154818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622832 and a length of 16', function() {
-		assert(detectNetwork('6228329683104066') === 'China UnionPay');
+		assert(detectNetwork('6228326562499166') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622833 and a length of 16', function() {
-		assert(detectNetwork('6228330980643694') === 'China UnionPay');
+		assert(detectNetwork('6228332767761054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622834 and a length of 16', function() {
-		assert(detectNetwork('6228341400982296') === 'China UnionPay');
+		assert(detectNetwork('6228343622369106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622835 and a length of 16', function() {
-		assert(detectNetwork('6228354390926445') === 'China UnionPay');
+		assert(detectNetwork('6228351712337557') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622836 and a length of 16', function() {
-		assert(detectNetwork('6228361165829627') === 'China UnionPay');
+		assert(detectNetwork('6228360230778832') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622837 and a length of 16', function() {
-		assert(detectNetwork('6228375805455402') === 'China UnionPay');
+		assert(detectNetwork('6228373267618554') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622838 and a length of 16', function() {
-		assert(detectNetwork('6228382876290634') === 'China UnionPay');
+		assert(detectNetwork('6228388953268698') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622839 and a length of 16', function() {
-		assert(detectNetwork('6228398093643489') === 'China UnionPay');
+		assert(detectNetwork('6228396661260985') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622840 and a length of 16', function() {
-		assert(detectNetwork('6228404832860083') === 'China UnionPay');
+		assert(detectNetwork('6228408789381026') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622841 and a length of 16', function() {
-		assert(detectNetwork('6228417722455709') === 'China UnionPay');
+		assert(detectNetwork('6228419264282484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622842 and a length of 16', function() {
-		assert(detectNetwork('6228423028771584') === 'China UnionPay');
+		assert(detectNetwork('6228429320148746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622843 and a length of 16', function() {
-		assert(detectNetwork('6228437059547708') === 'China UnionPay');
+		assert(detectNetwork('6228431904501343') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622844 and a length of 16', function() {
-		assert(detectNetwork('6228443435285171') === 'China UnionPay');
+		assert(detectNetwork('6228447873314927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622845 and a length of 16', function() {
-		assert(detectNetwork('6228456303081839') === 'China UnionPay');
+		assert(detectNetwork('6228453144718684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622846 and a length of 16', function() {
-		assert(detectNetwork('6228469221714780') === 'China UnionPay');
+		assert(detectNetwork('6228469020897393') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622847 and a length of 16', function() {
-		assert(detectNetwork('6228473570880432') === 'China UnionPay');
+		assert(detectNetwork('6228476229898617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622848 and a length of 16', function() {
-		assert(detectNetwork('6228482528153223') === 'China UnionPay');
+		assert(detectNetwork('6228484518535405') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622849 and a length of 16', function() {
-		assert(detectNetwork('6228494266330397') === 'China UnionPay');
+		assert(detectNetwork('6228490410694507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622850 and a length of 16', function() {
-		assert(detectNetwork('6228501473496151') === 'China UnionPay');
+		assert(detectNetwork('6228502886548169') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622851 and a length of 16', function() {
-		assert(detectNetwork('6228514144601565') === 'China UnionPay');
+		assert(detectNetwork('6228511716237024') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622852 and a length of 16', function() {
-		assert(detectNetwork('6228527038687737') === 'China UnionPay');
+		assert(detectNetwork('6228527078062976') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622853 and a length of 16', function() {
-		assert(detectNetwork('6228534563197968') === 'China UnionPay');
+		assert(detectNetwork('6228534335078323') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622854 and a length of 16', function() {
-		assert(detectNetwork('6228548166717684') === 'China UnionPay');
+		assert(detectNetwork('6228543228244618') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622855 and a length of 16', function() {
-		assert(detectNetwork('6228553759444070') === 'China UnionPay');
+		assert(detectNetwork('6228557429900264') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622856 and a length of 16', function() {
-		assert(detectNetwork('6228569747237123') === 'China UnionPay');
+		assert(detectNetwork('6228563939290693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622857 and a length of 16', function() {
-		assert(detectNetwork('6228574214022552') === 'China UnionPay');
+		assert(detectNetwork('6228570275141686') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622858 and a length of 16', function() {
-		assert(detectNetwork('6228583869200099') === 'China UnionPay');
+		assert(detectNetwork('6228581376850732') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622859 and a length of 16', function() {
-		assert(detectNetwork('6228596026860118') === 'China UnionPay');
+		assert(detectNetwork('6228591874959672') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622860 and a length of 16', function() {
-		assert(detectNetwork('6228604071314517') === 'China UnionPay');
+		assert(detectNetwork('6228601607235029') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622861 and a length of 16', function() {
-		assert(detectNetwork('6228613578495011') === 'China UnionPay');
+		assert(detectNetwork('6228613846674711') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622862 and a length of 16', function() {
-		assert(detectNetwork('6228628920784780') === 'China UnionPay');
+		assert(detectNetwork('6228622363213525') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622863 and a length of 16', function() {
-		assert(detectNetwork('6228638407902626') === 'China UnionPay');
+		assert(detectNetwork('6228634562554256') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622864 and a length of 16', function() {
-		assert(detectNetwork('6228646347512354') === 'China UnionPay');
+		assert(detectNetwork('6228643804892320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622865 and a length of 16', function() {
-		assert(detectNetwork('6228655591736543') === 'China UnionPay');
+		assert(detectNetwork('6228652009547002') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622866 and a length of 16', function() {
-		assert(detectNetwork('6228662843145885') === 'China UnionPay');
+		assert(detectNetwork('6228665013479947') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622867 and a length of 16', function() {
-		assert(detectNetwork('6228671415681244') === 'China UnionPay');
+		assert(detectNetwork('6228675229881491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622868 and a length of 16', function() {
-		assert(detectNetwork('6228686833127225') === 'China UnionPay');
+		assert(detectNetwork('6228680853660296') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622869 and a length of 16', function() {
-		assert(detectNetwork('6228698905026943') === 'China UnionPay');
+		assert(detectNetwork('6228695441531789') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622870 and a length of 16', function() {
-		assert(detectNetwork('6228702483887733') === 'China UnionPay');
+		assert(detectNetwork('6228702224681484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622871 and a length of 16', function() {
-		assert(detectNetwork('6228716241993913') === 'China UnionPay');
+		assert(detectNetwork('6228716564330250') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622872 and a length of 16', function() {
-		assert(detectNetwork('6228728821612028') === 'China UnionPay');
+		assert(detectNetwork('6228729413354132') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622873 and a length of 16', function() {
-		assert(detectNetwork('6228730328397386') === 'China UnionPay');
+		assert(detectNetwork('6228732348933662') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622874 and a length of 16', function() {
-		assert(detectNetwork('6228747965270585') === 'China UnionPay');
+		assert(detectNetwork('6228745197348197') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622875 and a length of 16', function() {
-		assert(detectNetwork('6228757094533297') === 'China UnionPay');
+		assert(detectNetwork('6228757665314561') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622876 and a length of 16', function() {
-		assert(detectNetwork('6228769052228601') === 'China UnionPay');
+		assert(detectNetwork('6228766216393859') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622877 and a length of 16', function() {
-		assert(detectNetwork('6228773291460367') === 'China UnionPay');
+		assert(detectNetwork('6228778653535485') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622878 and a length of 16', function() {
-		assert(detectNetwork('6228789798182068') === 'China UnionPay');
+		assert(detectNetwork('6228787035253965') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622879 and a length of 16', function() {
-		assert(detectNetwork('6228795651126253') === 'China UnionPay');
+		assert(detectNetwork('6228793006009043') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622880 and a length of 16', function() {
-		assert(detectNetwork('6228804690760873') === 'China UnionPay');
+		assert(detectNetwork('6228802858213735') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622881 and a length of 16', function() {
-		assert(detectNetwork('6228813954075522') === 'China UnionPay');
+		assert(detectNetwork('6228810543298566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622882 and a length of 16', function() {
-		assert(detectNetwork('6228827603380816') === 'China UnionPay');
+		assert(detectNetwork('6228823781753982') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622883 and a length of 16', function() {
-		assert(detectNetwork('6228839490110660') === 'China UnionPay');
+		assert(detectNetwork('6228836873268500') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622884 and a length of 16', function() {
-		assert(detectNetwork('6228849758926716') === 'China UnionPay');
+		assert(detectNetwork('6228843220052443') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622885 and a length of 16', function() {
-		assert(detectNetwork('6228853806857837') === 'China UnionPay');
+		assert(detectNetwork('6228855279857660') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622886 and a length of 16', function() {
-		assert(detectNetwork('6228864071463380') === 'China UnionPay');
+		assert(detectNetwork('6228864254371209') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622887 and a length of 16', function() {
-		assert(detectNetwork('6228879675675129') === 'China UnionPay');
+		assert(detectNetwork('6228872673498419') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622888 and a length of 16', function() {
-		assert(detectNetwork('6228886421726695') === 'China UnionPay');
+		assert(detectNetwork('6228881562250569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622889 and a length of 16', function() {
-		assert(detectNetwork('6228899660866442') === 'China UnionPay');
+		assert(detectNetwork('6228899403296155') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622890 and a length of 16', function() {
-		assert(detectNetwork('6228901699415474') === 'China UnionPay');
+		assert(detectNetwork('6228907815524777') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622891 and a length of 16', function() {
-		assert(detectNetwork('6228918711745695') === 'China UnionPay');
+		assert(detectNetwork('6228919900384930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622892 and a length of 16', function() {
-		assert(detectNetwork('6228920472003334') === 'China UnionPay');
+		assert(detectNetwork('6228922143859118') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622893 and a length of 16', function() {
-		assert(detectNetwork('6228933391120226') === 'China UnionPay');
+		assert(detectNetwork('6228932338601308') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622894 and a length of 16', function() {
-		assert(detectNetwork('6228948437017886') === 'China UnionPay');
+		assert(detectNetwork('6228942998779704') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622895 and a length of 16', function() {
-		assert(detectNetwork('6228958349722372') === 'China UnionPay');
+		assert(detectNetwork('6228954973856108') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622896 and a length of 16', function() {
-		assert(detectNetwork('6228969055322764') === 'China UnionPay');
+		assert(detectNetwork('6228968774161733') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622897 and a length of 16', function() {
-		assert(detectNetwork('6228977511799151') === 'China UnionPay');
+		assert(detectNetwork('6228975881496591') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622898 and a length of 16', function() {
-		assert(detectNetwork('6228982108698283') === 'China UnionPay');
+		assert(detectNetwork('6228988759102252') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622899 and a length of 16', function() {
-		assert(detectNetwork('6228998284030251') === 'China UnionPay');
+		assert(detectNetwork('6228991260127691') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622900 and a length of 16', function() {
-		assert(detectNetwork('6229002711912308') === 'China UnionPay');
+		assert(detectNetwork('6229001285465579') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622901 and a length of 16', function() {
-		assert(detectNetwork('6229012804524858') === 'China UnionPay');
+		assert(detectNetwork('6229013148446216') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622902 and a length of 16', function() {
-		assert(detectNetwork('6229026394215984') === 'China UnionPay');
+		assert(detectNetwork('6229027159199908') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622903 and a length of 16', function() {
-		assert(detectNetwork('6229038517976012') === 'China UnionPay');
+		assert(detectNetwork('6229038002078014') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622904 and a length of 16', function() {
-		assert(detectNetwork('6229045730038639') === 'China UnionPay');
+		assert(detectNetwork('6229048741490222') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622905 and a length of 16', function() {
-		assert(detectNetwork('6229059922349371') === 'China UnionPay');
+		assert(detectNetwork('6229057162537508') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622906 and a length of 16', function() {
-		assert(detectNetwork('6229066046114159') === 'China UnionPay');
+		assert(detectNetwork('6229061062507411') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622907 and a length of 16', function() {
-		assert(detectNetwork('6229073688309093') === 'China UnionPay');
+		assert(detectNetwork('6229071662942197') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622908 and a length of 16', function() {
-		assert(detectNetwork('6229082366758372') === 'China UnionPay');
+		assert(detectNetwork('6229086826193136') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622909 and a length of 16', function() {
-		assert(detectNetwork('6229095579827848') === 'China UnionPay');
+		assert(detectNetwork('6229095298008246') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622910 and a length of 16', function() {
-		assert(detectNetwork('6229106546722348') === 'China UnionPay');
+		assert(detectNetwork('6229102776593360') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622911 and a length of 16', function() {
-		assert(detectNetwork('6229114528780101') === 'China UnionPay');
+		assert(detectNetwork('6229117371579498') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622912 and a length of 16', function() {
-		assert(detectNetwork('6229127621932646') === 'China UnionPay');
+		assert(detectNetwork('6229120156321946') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622913 and a length of 16', function() {
-		assert(detectNetwork('6229134535394206') === 'China UnionPay');
+		assert(detectNetwork('6229137557220562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622914 and a length of 16', function() {
-		assert(detectNetwork('6229143583271331') === 'China UnionPay');
+		assert(detectNetwork('6229144895103267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622915 and a length of 16', function() {
-		assert(detectNetwork('6229159631445378') === 'China UnionPay');
+		assert(detectNetwork('6229152115496427') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622916 and a length of 16', function() {
-		assert(detectNetwork('6229164752080342') === 'China UnionPay');
+		assert(detectNetwork('6229160656963650') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622917 and a length of 16', function() {
-		assert(detectNetwork('6229177013079051') === 'China UnionPay');
+		assert(detectNetwork('6229172613000326') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622918 and a length of 16', function() {
-		assert(detectNetwork('6229185386268510') === 'China UnionPay');
+		assert(detectNetwork('6229183994018188') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622919 and a length of 16', function() {
-		assert(detectNetwork('6229193870535947') === 'China UnionPay');
+		assert(detectNetwork('6229190255530069') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622920 and a length of 16', function() {
-		assert(detectNetwork('6229207790233924') === 'China UnionPay');
+		assert(detectNetwork('6229206553914462') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622921 and a length of 16', function() {
-		assert(detectNetwork('6229211152384684') === 'China UnionPay');
+		assert(detectNetwork('6229215836253082') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622922 and a length of 16', function() {
-		assert(detectNetwork('6229228113048935') === 'China UnionPay');
+		assert(detectNetwork('6229225528199233') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622923 and a length of 16', function() {
-		assert(detectNetwork('6229239991504725') === 'China UnionPay');
+		assert(detectNetwork('6229239872872205') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622924 and a length of 16', function() {
-		assert(detectNetwork('6229244556035501') === 'China UnionPay');
+		assert(detectNetwork('6229246788189506') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622925 and a length of 16', function() {
-		assert(detectNetwork('6229253662544394') === 'China UnionPay');
+		assert(detectNetwork('6229250784161961') === 'China UnionPay');
 	});
 
 	it('has a prefix of 624 and a length of 17', function() {
-		assert(detectNetwork('62417975559507262') === 'China UnionPay');
+		assert(detectNetwork('62411000277032926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 625 and a length of 17', function() {
-		assert(detectNetwork('62504500955185028') === 'China UnionPay');
+		assert(detectNetwork('62567228030122267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 626 and a length of 17', function() {
-		assert(detectNetwork('62604063828610152') === 'China UnionPay');
+		assert(detectNetwork('62627921085322695') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6282 and a length of 17', function() {
-		assert(detectNetwork('62822634031593559') === 'China UnionPay');
+		assert(detectNetwork('62820854787223192') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6283 and a length of 17', function() {
-		assert(detectNetwork('62831295943399469') === 'China UnionPay');
+		assert(detectNetwork('62830222469688322') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6284 and a length of 17', function() {
-		assert(detectNetwork('62843900484679429') === 'China UnionPay');
+		assert(detectNetwork('62840956670001254') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6285 and a length of 17', function() {
-		assert(detectNetwork('62853888212613120') === 'China UnionPay');
+		assert(detectNetwork('62852351474207610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6286 and a length of 17', function() {
-		assert(detectNetwork('62867457472479735') === 'China UnionPay');
+		assert(detectNetwork('62865807276842956') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6287 and a length of 17', function() {
-		assert(detectNetwork('62872412004583736') === 'China UnionPay');
+		assert(detectNetwork('62870684106861026') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6288 and a length of 17', function() {
-		assert(detectNetwork('62886450452050109') === 'China UnionPay');
+		assert(detectNetwork('62888033653859741') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622126 and a length of 17', function() {
-		assert(detectNetwork('62212693720434434') === 'China UnionPay');
+		assert(detectNetwork('62212603990829122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622127 and a length of 17', function() {
-		assert(detectNetwork('62212711962360176') === 'China UnionPay');
+		assert(detectNetwork('62212725596979851') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622128 and a length of 17', function() {
-		assert(detectNetwork('62212813687754852') === 'China UnionPay');
+		assert(detectNetwork('62212836242244676') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622129 and a length of 17', function() {
-		assert(detectNetwork('62212913694431891') === 'China UnionPay');
+		assert(detectNetwork('62212967954635592') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622130 and a length of 17', function() {
-		assert(detectNetwork('62213029393535307') === 'China UnionPay');
+		assert(detectNetwork('62213080730601807') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622131 and a length of 17', function() {
-		assert(detectNetwork('62213101285647824') === 'China UnionPay');
+		assert(detectNetwork('62213154917871475') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622132 and a length of 17', function() {
-		assert(detectNetwork('62213223147226607') === 'China UnionPay');
+		assert(detectNetwork('62213217347007739') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622133 and a length of 17', function() {
-		assert(detectNetwork('62213396425875551') === 'China UnionPay');
+		assert(detectNetwork('62213330684918641') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622134 and a length of 17', function() {
-		assert(detectNetwork('62213400670934706') === 'China UnionPay');
+		assert(detectNetwork('62213449340392091') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622135 and a length of 17', function() {
-		assert(detectNetwork('62213501900933874') === 'China UnionPay');
+		assert(detectNetwork('62213546623210073') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622136 and a length of 17', function() {
-		assert(detectNetwork('62213624893740266') === 'China UnionPay');
+		assert(detectNetwork('62213676290428544') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622137 and a length of 17', function() {
-		assert(detectNetwork('62213725479299960') === 'China UnionPay');
+		assert(detectNetwork('62213724186719797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622138 and a length of 17', function() {
-		assert(detectNetwork('62213836792619029') === 'China UnionPay');
+		assert(detectNetwork('62213891111953884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622139 and a length of 17', function() {
-		assert(detectNetwork('62213957535737932') === 'China UnionPay');
+		assert(detectNetwork('62213942568391942') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622140 and a length of 17', function() {
-		assert(detectNetwork('62214046168786214') === 'China UnionPay');
+		assert(detectNetwork('62214028638104121') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622141 and a length of 17', function() {
-		assert(detectNetwork('62214157026985309') === 'China UnionPay');
+		assert(detectNetwork('62214165056596738') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622142 and a length of 17', function() {
-		assert(detectNetwork('62214224743003791') === 'China UnionPay');
+		assert(detectNetwork('62214291346823527') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622143 and a length of 17', function() {
-		assert(detectNetwork('62214353667050207') === 'China UnionPay');
+		assert(detectNetwork('62214352387405577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622144 and a length of 17', function() {
-		assert(detectNetwork('62214402529282778') === 'China UnionPay');
+		assert(detectNetwork('62214473439059911') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622145 and a length of 17', function() {
-		assert(detectNetwork('62214584771092916') === 'China UnionPay');
+		assert(detectNetwork('62214511743408459') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622146 and a length of 17', function() {
-		assert(detectNetwork('62214683638197239') === 'China UnionPay');
+		assert(detectNetwork('62214631329449921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622147 and a length of 17', function() {
-		assert(detectNetwork('62214784365223675') === 'China UnionPay');
+		assert(detectNetwork('62214791321637621') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622148 and a length of 17', function() {
-		assert(detectNetwork('62214816174710283') === 'China UnionPay');
+		assert(detectNetwork('62214819519089488') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622149 and a length of 17', function() {
-		assert(detectNetwork('62214940378286561') === 'China UnionPay');
+		assert(detectNetwork('62214979172013678') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622150 and a length of 17', function() {
-		assert(detectNetwork('62215081943468126') === 'China UnionPay');
+		assert(detectNetwork('62215049409577842') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622151 and a length of 17', function() {
-		assert(detectNetwork('62215157490310392') === 'China UnionPay');
+		assert(detectNetwork('62215113329127400') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622152 and a length of 17', function() {
-		assert(detectNetwork('62215290246088848') === 'China UnionPay');
+		assert(detectNetwork('62215268763560283') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622153 and a length of 17', function() {
-		assert(detectNetwork('62215347634617199') === 'China UnionPay');
+		assert(detectNetwork('62215344279710628') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622154 and a length of 17', function() {
-		assert(detectNetwork('62215466702157773') === 'China UnionPay');
+		assert(detectNetwork('62215494971965625') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622155 and a length of 17', function() {
-		assert(detectNetwork('62215510294640495') === 'China UnionPay');
+		assert(detectNetwork('62215590617151931') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622156 and a length of 17', function() {
-		assert(detectNetwork('62215605696839686') === 'China UnionPay');
+		assert(detectNetwork('62215624960630921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622157 and a length of 17', function() {
-		assert(detectNetwork('62215769102026585') === 'China UnionPay');
+		assert(detectNetwork('62215754643637652') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622158 and a length of 17', function() {
-		assert(detectNetwork('62215800160615643') === 'China UnionPay');
+		assert(detectNetwork('62215878208392543') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622159 and a length of 17', function() {
-		assert(detectNetwork('62215997264276665') === 'China UnionPay');
+		assert(detectNetwork('62215998109377424') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622160 and a length of 17', function() {
-		assert(detectNetwork('62216036317684328') === 'China UnionPay');
+		assert(detectNetwork('62216042199937106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622161 and a length of 17', function() {
-		assert(detectNetwork('62216114076283400') === 'China UnionPay');
+		assert(detectNetwork('62216120575941839') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622162 and a length of 17', function() {
-		assert(detectNetwork('62216231899962903') === 'China UnionPay');
+		assert(detectNetwork('62216283402164422') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622163 and a length of 17', function() {
-		assert(detectNetwork('62216352023112421') === 'China UnionPay');
+		assert(detectNetwork('62216314830197263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622164 and a length of 17', function() {
-		assert(detectNetwork('62216493022262534') === 'China UnionPay');
+		assert(detectNetwork('62216437237222264') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622165 and a length of 17', function() {
-		assert(detectNetwork('62216533748990383') === 'China UnionPay');
+		assert(detectNetwork('62216509201264982') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622166 and a length of 17', function() {
-		assert(detectNetwork('62216683400524690') === 'China UnionPay');
+		assert(detectNetwork('62216664887583683') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622167 and a length of 17', function() {
-		assert(detectNetwork('62216768819856060') === 'China UnionPay');
+		assert(detectNetwork('62216789911571835') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622168 and a length of 17', function() {
-		assert(detectNetwork('62216828182585329') === 'China UnionPay');
+		assert(detectNetwork('62216889819342350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622169 and a length of 17', function() {
-		assert(detectNetwork('62216919823499737') === 'China UnionPay');
+		assert(detectNetwork('62216936475670989') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622170 and a length of 17', function() {
-		assert(detectNetwork('62217029292578753') === 'China UnionPay');
+		assert(detectNetwork('62217095619527933') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622171 and a length of 17', function() {
-		assert(detectNetwork('62217171268510951') === 'China UnionPay');
+		assert(detectNetwork('62217108628009574') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622172 and a length of 17', function() {
-		assert(detectNetwork('62217265242780671') === 'China UnionPay');
+		assert(detectNetwork('62217231231028871') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622173 and a length of 17', function() {
-		assert(detectNetwork('62217307927261261') === 'China UnionPay');
+		assert(detectNetwork('62217394046541468') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622174 and a length of 17', function() {
-		assert(detectNetwork('62217465044888591') === 'China UnionPay');
+		assert(detectNetwork('62217408764099416') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622175 and a length of 17', function() {
-		assert(detectNetwork('62217530380412226') === 'China UnionPay');
+		assert(detectNetwork('62217567633486612') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622176 and a length of 17', function() {
-		assert(detectNetwork('62217699116602631') === 'China UnionPay');
+		assert(detectNetwork('62217625031423385') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622177 and a length of 17', function() {
-		assert(detectNetwork('62217732240658172') === 'China UnionPay');
+		assert(detectNetwork('62217712523328458') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622178 and a length of 17', function() {
-		assert(detectNetwork('62217850102392329') === 'China UnionPay');
+		assert(detectNetwork('62217879072801648') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622179 and a length of 17', function() {
-		assert(detectNetwork('62217925674427665') === 'China UnionPay');
+		assert(detectNetwork('62217920690648290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622180 and a length of 17', function() {
-		assert(detectNetwork('62218025345131192') === 'China UnionPay');
+		assert(detectNetwork('62218035310721462') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622181 and a length of 17', function() {
-		assert(detectNetwork('62218179298027461') === 'China UnionPay');
+		assert(detectNetwork('62218195405401994') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622182 and a length of 17', function() {
-		assert(detectNetwork('62218267231724028') === 'China UnionPay');
+		assert(detectNetwork('62218245689508292') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622183 and a length of 17', function() {
-		assert(detectNetwork('62218383082453793') === 'China UnionPay');
+		assert(detectNetwork('62218327665585101') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622184 and a length of 17', function() {
-		assert(detectNetwork('62218473312537692') === 'China UnionPay');
+		assert(detectNetwork('62218444607724121') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622185 and a length of 17', function() {
-		assert(detectNetwork('62218568100673231') === 'China UnionPay');
+		assert(detectNetwork('62218563850284420') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622186 and a length of 17', function() {
-		assert(detectNetwork('62218663624062140') === 'China UnionPay');
+		assert(detectNetwork('62218693536676386') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622187 and a length of 17', function() {
-		assert(detectNetwork('62218743213756944') === 'China UnionPay');
+		assert(detectNetwork('62218792031982114') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622188 and a length of 17', function() {
-		assert(detectNetwork('62218822577175805') === 'China UnionPay');
+		assert(detectNetwork('62218864181547517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622189 and a length of 17', function() {
-		assert(detectNetwork('62218902262404611') === 'China UnionPay');
+		assert(detectNetwork('62218940603786339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622190 and a length of 17', function() {
-		assert(detectNetwork('62219025571579645') === 'China UnionPay');
+		assert(detectNetwork('62219034676816696') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622191 and a length of 17', function() {
-		assert(detectNetwork('62219184389322971') === 'China UnionPay');
+		assert(detectNetwork('62219176035463592') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622192 and a length of 17', function() {
-		assert(detectNetwork('62219226589587886') === 'China UnionPay');
+		assert(detectNetwork('62219217015554727') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622193 and a length of 17', function() {
-		assert(detectNetwork('62219386323841013') === 'China UnionPay');
+		assert(detectNetwork('62219341731735523') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622194 and a length of 17', function() {
-		assert(detectNetwork('62219404776093764') === 'China UnionPay');
+		assert(detectNetwork('62219490093874830') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622195 and a length of 17', function() {
-		assert(detectNetwork('62219518180773301') === 'China UnionPay');
+		assert(detectNetwork('62219522876154558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622196 and a length of 17', function() {
-		assert(detectNetwork('62219667091639971') === 'China UnionPay');
+		assert(detectNetwork('62219693428506165') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622197 and a length of 17', function() {
-		assert(detectNetwork('62219798908796170') === 'China UnionPay');
+		assert(detectNetwork('62219718323891127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622198 and a length of 17', function() {
-		assert(detectNetwork('62219814692644596') === 'China UnionPay');
+		assert(detectNetwork('62219845326022371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622199 and a length of 17', function() {
-		assert(detectNetwork('62219983831485867') === 'China UnionPay');
+		assert(detectNetwork('62219957480125699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622200 and a length of 17', function() {
-		assert(detectNetwork('62220066153912469') === 'China UnionPay');
+		assert(detectNetwork('62220050615577181') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622201 and a length of 17', function() {
-		assert(detectNetwork('62220120651492487') === 'China UnionPay');
+		assert(detectNetwork('62220170277642114') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622202 and a length of 17', function() {
-		assert(detectNetwork('62220253933725555') === 'China UnionPay');
+		assert(detectNetwork('62220275017529765') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622203 and a length of 17', function() {
-		assert(detectNetwork('62220323005135143') === 'China UnionPay');
+		assert(detectNetwork('62220378918308582') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622204 and a length of 17', function() {
-		assert(detectNetwork('62220415026273491') === 'China UnionPay');
+		assert(detectNetwork('62220488265203348') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622205 and a length of 17', function() {
-		assert(detectNetwork('62220584336443803') === 'China UnionPay');
+		assert(detectNetwork('62220506040506426') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622206 and a length of 17', function() {
-		assert(detectNetwork('62220617029824874') === 'China UnionPay');
+		assert(detectNetwork('62220638402890866') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622207 and a length of 17', function() {
-		assert(detectNetwork('62220799213590293') === 'China UnionPay');
+		assert(detectNetwork('62220774830798590') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622208 and a length of 17', function() {
-		assert(detectNetwork('62220851407240738') === 'China UnionPay');
+		assert(detectNetwork('62220857099312131') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622209 and a length of 17', function() {
-		assert(detectNetwork('62220954952739280') === 'China UnionPay');
+		assert(detectNetwork('62220952125709935') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622210 and a length of 17', function() {
-		assert(detectNetwork('62221073569299609') === 'China UnionPay');
+		assert(detectNetwork('62221019826547066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622211 and a length of 17', function() {
-		assert(detectNetwork('62221151397177671') === 'China UnionPay');
+		assert(detectNetwork('62221179242562911') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622212 and a length of 17', function() {
-		assert(detectNetwork('62221203155564748') === 'China UnionPay');
+		assert(detectNetwork('62221204578314798') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622213 and a length of 17', function() {
-		assert(detectNetwork('62221393595592478') === 'China UnionPay');
+		assert(detectNetwork('62221347294144207') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622214 and a length of 17', function() {
-		assert(detectNetwork('62221401946483197') === 'China UnionPay');
+		assert(detectNetwork('62221420420484631') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622215 and a length of 17', function() {
-		assert(detectNetwork('62221563523012728') === 'China UnionPay');
+		assert(detectNetwork('62221501752066791') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622216 and a length of 17', function() {
-		assert(detectNetwork('62221632736982197') === 'China UnionPay');
+		assert(detectNetwork('62221634919697920') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622217 and a length of 17', function() {
-		assert(detectNetwork('62221704865572732') === 'China UnionPay');
+		assert(detectNetwork('62221701771074098') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622218 and a length of 17', function() {
-		assert(detectNetwork('62221826558910840') === 'China UnionPay');
+		assert(detectNetwork('62221806656753415') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622219 and a length of 17', function() {
-		assert(detectNetwork('62221938349979861') === 'China UnionPay');
+		assert(detectNetwork('62221978603297524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622220 and a length of 17', function() {
-		assert(detectNetwork('62222039054825600') === 'China UnionPay');
+		assert(detectNetwork('62222001611725507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622221 and a length of 17', function() {
-		assert(detectNetwork('62222118114348071') === 'China UnionPay');
+		assert(detectNetwork('62222184479703689') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622222 and a length of 17', function() {
-		assert(detectNetwork('62222285478431700') === 'China UnionPay');
+		assert(detectNetwork('62222205327085147') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622223 and a length of 17', function() {
-		assert(detectNetwork('62222368983301364') === 'China UnionPay');
+		assert(detectNetwork('62222347021024540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622224 and a length of 17', function() {
-		assert(detectNetwork('62222458580686462') === 'China UnionPay');
+		assert(detectNetwork('62222417130890793') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622225 and a length of 17', function() {
-		assert(detectNetwork('62222531706450631') === 'China UnionPay');
+		assert(detectNetwork('62222516938750521') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622226 and a length of 17', function() {
-		assert(detectNetwork('62222633840400256') === 'China UnionPay');
+		assert(detectNetwork('62222693242389113') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622227 and a length of 17', function() {
-		assert(detectNetwork('62222794859864035') === 'China UnionPay');
+		assert(detectNetwork('62222785114159401') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622228 and a length of 17', function() {
-		assert(detectNetwork('62222826255155397') === 'China UnionPay');
+		assert(detectNetwork('62222825641194113') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622229 and a length of 17', function() {
-		assert(detectNetwork('62222953310767223') === 'China UnionPay');
+		assert(detectNetwork('62222978828368997') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622230 and a length of 17', function() {
-		assert(detectNetwork('62223032110841381') === 'China UnionPay');
+		assert(detectNetwork('62223048712976841') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622231 and a length of 17', function() {
-		assert(detectNetwork('62223181395868775') === 'China UnionPay');
+		assert(detectNetwork('62223110025114803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622232 and a length of 17', function() {
-		assert(detectNetwork('62223216822210716') === 'China UnionPay');
+		assert(detectNetwork('62223219016940121') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622233 and a length of 17', function() {
-		assert(detectNetwork('62223370227219280') === 'China UnionPay');
+		assert(detectNetwork('62223338497968777') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622234 and a length of 17', function() {
-		assert(detectNetwork('62223421656613271') === 'China UnionPay');
+		assert(detectNetwork('62223424633663722') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622235 and a length of 17', function() {
-		assert(detectNetwork('62223590496514277') === 'China UnionPay');
+		assert(detectNetwork('62223508751884774') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622236 and a length of 17', function() {
-		assert(detectNetwork('62223696990399149') === 'China UnionPay');
+		assert(detectNetwork('62223624292118138') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622237 and a length of 17', function() {
-		assert(detectNetwork('62223783335534004') === 'China UnionPay');
+		assert(detectNetwork('62223729525027359') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622238 and a length of 17', function() {
-		assert(detectNetwork('62223830450221145') === 'China UnionPay');
+		assert(detectNetwork('62223884280858277') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622239 and a length of 17', function() {
-		assert(detectNetwork('62223928256878336') === 'China UnionPay');
+		assert(detectNetwork('62223970031013451') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622240 and a length of 17', function() {
-		assert(detectNetwork('62224033938290815') === 'China UnionPay');
+		assert(detectNetwork('62224034263721303') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622241 and a length of 17', function() {
-		assert(detectNetwork('62224186413995551') === 'China UnionPay');
+		assert(detectNetwork('62224140964302562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622242 and a length of 17', function() {
-		assert(detectNetwork('62224297959421560') === 'China UnionPay');
+		assert(detectNetwork('62224272223797800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622243 and a length of 17', function() {
-		assert(detectNetwork('62224371800323045') === 'China UnionPay');
+		assert(detectNetwork('62224389293097089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622244 and a length of 17', function() {
-		assert(detectNetwork('62224441803889647') === 'China UnionPay');
+		assert(detectNetwork('62224423689543492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622245 and a length of 17', function() {
-		assert(detectNetwork('62224547099307176') === 'China UnionPay');
+		assert(detectNetwork('62224526679918023') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622246 and a length of 17', function() {
-		assert(detectNetwork('62224657993334471') === 'China UnionPay');
+		assert(detectNetwork('62224614639962823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622247 and a length of 17', function() {
-		assert(detectNetwork('62224727940408244') === 'China UnionPay');
+		assert(detectNetwork('62224795394435620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622248 and a length of 17', function() {
-		assert(detectNetwork('62224874148763231') === 'China UnionPay');
+		assert(detectNetwork('62224841368019814') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622249 and a length of 17', function() {
-		assert(detectNetwork('62224907506596872') === 'China UnionPay');
+		assert(detectNetwork('62224965555361918') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622250 and a length of 17', function() {
-		assert(detectNetwork('62225052421514581') === 'China UnionPay');
+		assert(detectNetwork('62225086831806690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622251 and a length of 17', function() {
-		assert(detectNetwork('62225169869311821') === 'China UnionPay');
+		assert(detectNetwork('62225154691623629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622252 and a length of 17', function() {
-		assert(detectNetwork('62225248125944351') === 'China UnionPay');
+		assert(detectNetwork('62225252765991270') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622253 and a length of 17', function() {
-		assert(detectNetwork('62225317206301588') === 'China UnionPay');
+		assert(detectNetwork('62225353233385344') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622254 and a length of 17', function() {
-		assert(detectNetwork('62225445614828776') === 'China UnionPay');
+		assert(detectNetwork('62225421459603736') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622255 and a length of 17', function() {
-		assert(detectNetwork('62225510253364960') === 'China UnionPay');
+		assert(detectNetwork('62225559884828243') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622256 and a length of 17', function() {
-		assert(detectNetwork('62225659942793731') === 'China UnionPay');
+		assert(detectNetwork('62225687768225631') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622257 and a length of 17', function() {
-		assert(detectNetwork('62225733684064370') === 'China UnionPay');
+		assert(detectNetwork('62225738263272895') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622258 and a length of 17', function() {
-		assert(detectNetwork('62225861211429527') === 'China UnionPay');
+		assert(detectNetwork('62225873325229796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622259 and a length of 17', function() {
-		assert(detectNetwork('62225996615542283') === 'China UnionPay');
+		assert(detectNetwork('62225949224963023') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622260 and a length of 17', function() {
-		assert(detectNetwork('62226083015618051') === 'China UnionPay');
+		assert(detectNetwork('62226061542970223') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622261 and a length of 17', function() {
-		assert(detectNetwork('62226132006235973') === 'China UnionPay');
+		assert(detectNetwork('62226138962716173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622262 and a length of 17', function() {
-		assert(detectNetwork('62226264718355907') === 'China UnionPay');
+		assert(detectNetwork('62226210274504755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622263 and a length of 17', function() {
-		assert(detectNetwork('62226367330061625') === 'China UnionPay');
+		assert(detectNetwork('62226349051934545') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622264 and a length of 17', function() {
-		assert(detectNetwork('62226459836606413') === 'China UnionPay');
+		assert(detectNetwork('62226495752527343') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622265 and a length of 17', function() {
-		assert(detectNetwork('62226598764525974') === 'China UnionPay');
+		assert(detectNetwork('62226508962907802') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622266 and a length of 17', function() {
-		assert(detectNetwork('62226612714443322') === 'China UnionPay');
+		assert(detectNetwork('62226607921088236') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622267 and a length of 17', function() {
-		assert(detectNetwork('62226764353524937') === 'China UnionPay');
+		assert(detectNetwork('62226718657340685') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622268 and a length of 17', function() {
-		assert(detectNetwork('62226861484582859') === 'China UnionPay');
+		assert(detectNetwork('62226888403173816') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622269 and a length of 17', function() {
-		assert(detectNetwork('62226957872758445') === 'China UnionPay');
+		assert(detectNetwork('62226915753216699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622270 and a length of 17', function() {
-		assert(detectNetwork('62227085615607126') === 'China UnionPay');
+		assert(detectNetwork('62227007541053086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622271 and a length of 17', function() {
-		assert(detectNetwork('62227188561927985') === 'China UnionPay');
+		assert(detectNetwork('62227192847401280') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622272 and a length of 17', function() {
-		assert(detectNetwork('62227267953780392') === 'China UnionPay');
+		assert(detectNetwork('62227210180191007') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622273 and a length of 17', function() {
-		assert(detectNetwork('62227352477767670') === 'China UnionPay');
+		assert(detectNetwork('62227308273367712') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622274 and a length of 17', function() {
-		assert(detectNetwork('62227406080354324') === 'China UnionPay');
+		assert(detectNetwork('62227479214299909') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622275 and a length of 17', function() {
-		assert(detectNetwork('62227535282869601') === 'China UnionPay');
+		assert(detectNetwork('62227503214089768') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622276 and a length of 17', function() {
-		assert(detectNetwork('62227649903756706') === 'China UnionPay');
+		assert(detectNetwork('62227674303739620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622277 and a length of 17', function() {
-		assert(detectNetwork('62227753489674046') === 'China UnionPay');
+		assert(detectNetwork('62227739412557729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622278 and a length of 17', function() {
-		assert(detectNetwork('62227809752135667') === 'China UnionPay');
+		assert(detectNetwork('62227851156678951') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622279 and a length of 17', function() {
-		assert(detectNetwork('62227912968375567') === 'China UnionPay');
+		assert(detectNetwork('62227978972380804') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622280 and a length of 17', function() {
-		assert(detectNetwork('62228056428483668') === 'China UnionPay');
+		assert(detectNetwork('62228055752224292') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622281 and a length of 17', function() {
-		assert(detectNetwork('62228194946405702') === 'China UnionPay');
+		assert(detectNetwork('62228167189811849') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622282 and a length of 17', function() {
-		assert(detectNetwork('62228207904089809') === 'China UnionPay');
+		assert(detectNetwork('62228218314133443') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622283 and a length of 17', function() {
-		assert(detectNetwork('62228350791965082') === 'China UnionPay');
+		assert(detectNetwork('62228372567474408') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622284 and a length of 17', function() {
-		assert(detectNetwork('62228466625940077') === 'China UnionPay');
+		assert(detectNetwork('62228405086966523') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622285 and a length of 17', function() {
-		assert(detectNetwork('62228559941668264') === 'China UnionPay');
+		assert(detectNetwork('62228505079729148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622286 and a length of 17', function() {
-		assert(detectNetwork('62228605954489072') === 'China UnionPay');
+		assert(detectNetwork('62228652381189657') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622287 and a length of 17', function() {
-		assert(detectNetwork('62228759096117876') === 'China UnionPay');
+		assert(detectNetwork('62228787196384143') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622288 and a length of 17', function() {
-		assert(detectNetwork('62228808186153858') === 'China UnionPay');
+		assert(detectNetwork('62228839773513531') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622289 and a length of 17', function() {
-		assert(detectNetwork('62228965141164901') === 'China UnionPay');
+		assert(detectNetwork('62228993388012678') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622290 and a length of 17', function() {
-		assert(detectNetwork('62229058791383210') === 'China UnionPay');
+		assert(detectNetwork('62229069222235324') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622291 and a length of 17', function() {
-		assert(detectNetwork('62229133237465134') === 'China UnionPay');
+		assert(detectNetwork('62229119397117996') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622292 and a length of 17', function() {
-		assert(detectNetwork('62229243712826617') === 'China UnionPay');
+		assert(detectNetwork('62229280101041981') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622293 and a length of 17', function() {
-		assert(detectNetwork('62229391602105506') === 'China UnionPay');
+		assert(detectNetwork('62229302404842699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622294 and a length of 17', function() {
-		assert(detectNetwork('62229418972675029') === 'China UnionPay');
+		assert(detectNetwork('62229412635172879') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622295 and a length of 17', function() {
-		assert(detectNetwork('62229512508849126') === 'China UnionPay');
+		assert(detectNetwork('62229574358950892') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622296 and a length of 17', function() {
-		assert(detectNetwork('62229685808144487') === 'China UnionPay');
+		assert(detectNetwork('62229607510918238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622297 and a length of 17', function() {
-		assert(detectNetwork('62229729001198626') === 'China UnionPay');
+		assert(detectNetwork('62229773235223652') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622298 and a length of 17', function() {
-		assert(detectNetwork('62229869083146403') === 'China UnionPay');
+		assert(detectNetwork('62229846594469085') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622299 and a length of 17', function() {
-		assert(detectNetwork('62229928291223461') === 'China UnionPay');
+		assert(detectNetwork('62229912590478575') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622300 and a length of 17', function() {
-		assert(detectNetwork('62230083443834619') === 'China UnionPay');
+		assert(detectNetwork('62230042131106361') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622301 and a length of 17', function() {
-		assert(detectNetwork('62230160757432042') === 'China UnionPay');
+		assert(detectNetwork('62230111676995504') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622302 and a length of 17', function() {
-		assert(detectNetwork('62230215288437520') === 'China UnionPay');
+		assert(detectNetwork('62230202938146586') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622303 and a length of 17', function() {
-		assert(detectNetwork('62230395186665690') === 'China UnionPay');
+		assert(detectNetwork('62230348196175263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622304 and a length of 17', function() {
-		assert(detectNetwork('62230441759864929') === 'China UnionPay');
+		assert(detectNetwork('62230472484239049') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622305 and a length of 17', function() {
-		assert(detectNetwork('62230565642188667') === 'China UnionPay');
+		assert(detectNetwork('62230581370195825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622306 and a length of 17', function() {
-		assert(detectNetwork('62230663991881872') === 'China UnionPay');
+		assert(detectNetwork('62230694531334342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622307 and a length of 17', function() {
-		assert(detectNetwork('62230783323949982') === 'China UnionPay');
+		assert(detectNetwork('62230758395724239') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622308 and a length of 17', function() {
-		assert(detectNetwork('62230868785236060') === 'China UnionPay');
+		assert(detectNetwork('62230853574558533') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622309 and a length of 17', function() {
-		assert(detectNetwork('62230915053590021') === 'China UnionPay');
+		assert(detectNetwork('62230974691152046') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622310 and a length of 17', function() {
-		assert(detectNetwork('62231068601911468') === 'China UnionPay');
+		assert(detectNetwork('62231002528136072') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622311 and a length of 17', function() {
-		assert(detectNetwork('62231156212120250') === 'China UnionPay');
+		assert(detectNetwork('62231110399733338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622312 and a length of 17', function() {
-		assert(detectNetwork('62231280593971445') === 'China UnionPay');
+		assert(detectNetwork('62231234785193943') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622313 and a length of 17', function() {
-		assert(detectNetwork('62231300860833881') === 'China UnionPay');
+		assert(detectNetwork('62231395361506065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622314 and a length of 17', function() {
-		assert(detectNetwork('62231412168177752') === 'China UnionPay');
+		assert(detectNetwork('62231402389288273') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622315 and a length of 17', function() {
-		assert(detectNetwork('62231548662919221') === 'China UnionPay');
+		assert(detectNetwork('62231534659335843') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622316 and a length of 17', function() {
-		assert(detectNetwork('62231633672537700') === 'China UnionPay');
+		assert(detectNetwork('62231676555184391') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622317 and a length of 17', function() {
-		assert(detectNetwork('62231741400868389') === 'China UnionPay');
+		assert(detectNetwork('62231768551248285') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622318 and a length of 17', function() {
-		assert(detectNetwork('62231862893486183') === 'China UnionPay');
+		assert(detectNetwork('62231857426436256') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622319 and a length of 17', function() {
-		assert(detectNetwork('62231967386679194') === 'China UnionPay');
+		assert(detectNetwork('62231933159367247') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622320 and a length of 17', function() {
-		assert(detectNetwork('62232030086514445') === 'China UnionPay');
+		assert(detectNetwork('62232045071412364') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622321 and a length of 17', function() {
-		assert(detectNetwork('62232134668114505') === 'China UnionPay');
+		assert(detectNetwork('62232105626091994') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622322 and a length of 17', function() {
-		assert(detectNetwork('62232216027210407') === 'China UnionPay');
+		assert(detectNetwork('62232296081627249') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622323 and a length of 17', function() {
-		assert(detectNetwork('62232387151283371') === 'China UnionPay');
+		assert(detectNetwork('62232346903188283') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622324 and a length of 17', function() {
-		assert(detectNetwork('62232407865201608') === 'China UnionPay');
+		assert(detectNetwork('62232490669311871') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622325 and a length of 17', function() {
-		assert(detectNetwork('62232599443135314') === 'China UnionPay');
+		assert(detectNetwork('62232520701060638') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622326 and a length of 17', function() {
-		assert(detectNetwork('62232668171145548') === 'China UnionPay');
+		assert(detectNetwork('62232623479025338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622327 and a length of 17', function() {
-		assert(detectNetwork('62232745376346247') === 'China UnionPay');
+		assert(detectNetwork('62232734246355154') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622328 and a length of 17', function() {
-		assert(detectNetwork('62232855290400015') === 'China UnionPay');
+		assert(detectNetwork('62232808905204439') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622329 and a length of 17', function() {
-		assert(detectNetwork('62232916600213886') === 'China UnionPay');
+		assert(detectNetwork('62232911771880809') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622330 and a length of 17', function() {
-		assert(detectNetwork('62233046235093416') === 'China UnionPay');
+		assert(detectNetwork('62233065351617927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622331 and a length of 17', function() {
-		assert(detectNetwork('62233116517789095') === 'China UnionPay');
+		assert(detectNetwork('62233155685103257') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622332 and a length of 17', function() {
-		assert(detectNetwork('62233274316477014') === 'China UnionPay');
+		assert(detectNetwork('62233200648051100') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622333 and a length of 17', function() {
-		assert(detectNetwork('62233300338232383') === 'China UnionPay');
+		assert(detectNetwork('62233346318396952') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622334 and a length of 17', function() {
-		assert(detectNetwork('62233422389129913') === 'China UnionPay');
+		assert(detectNetwork('62233401856650719') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622335 and a length of 17', function() {
-		assert(detectNetwork('62233527553379314') === 'China UnionPay');
+		assert(detectNetwork('62233500777376127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622336 and a length of 17', function() {
-		assert(detectNetwork('62233607417400772') === 'China UnionPay');
+		assert(detectNetwork('62233657117246063') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622337 and a length of 17', function() {
-		assert(detectNetwork('62233716167498963') === 'China UnionPay');
+		assert(detectNetwork('62233701349201660') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622338 and a length of 17', function() {
-		assert(detectNetwork('62233854122301120') === 'China UnionPay');
+		assert(detectNetwork('62233876529944337') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622339 and a length of 17', function() {
-		assert(detectNetwork('62233980479070720') === 'China UnionPay');
+		assert(detectNetwork('62233907892255604') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622340 and a length of 17', function() {
-		assert(detectNetwork('62234042211098019') === 'China UnionPay');
+		assert(detectNetwork('62234069493424554') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622341 and a length of 17', function() {
-		assert(detectNetwork('62234129166353819') === 'China UnionPay');
+		assert(detectNetwork('62234142811637437') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622342 and a length of 17', function() {
-		assert(detectNetwork('62234217909501158') === 'China UnionPay');
+		assert(detectNetwork('62234274404525850') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622343 and a length of 17', function() {
-		assert(detectNetwork('62234387909347644') === 'China UnionPay');
+		assert(detectNetwork('62234355620916495') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622344 and a length of 17', function() {
-		assert(detectNetwork('62234481337254451') === 'China UnionPay');
+		assert(detectNetwork('62234406498555677') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622345 and a length of 17', function() {
-		assert(detectNetwork('62234544309933193') === 'China UnionPay');
+		assert(detectNetwork('62234592834472728') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622346 and a length of 17', function() {
-		assert(detectNetwork('62234678361731330') === 'China UnionPay');
+		assert(detectNetwork('62234674223130224') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622347 and a length of 17', function() {
-		assert(detectNetwork('62234708393096221') === 'China UnionPay');
+		assert(detectNetwork('62234705465875400') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622348 and a length of 17', function() {
-		assert(detectNetwork('62234848105381182') === 'China UnionPay');
+		assert(detectNetwork('62234817536855629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622349 and a length of 17', function() {
-		assert(detectNetwork('62234932484797433') === 'China UnionPay');
+		assert(detectNetwork('62234979288403755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622350 and a length of 17', function() {
-		assert(detectNetwork('62235081021521474') === 'China UnionPay');
+		assert(detectNetwork('62235051400851765') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622351 and a length of 17', function() {
-		assert(detectNetwork('62235115528140692') === 'China UnionPay');
+		assert(detectNetwork('62235122692876918') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622352 and a length of 17', function() {
-		assert(detectNetwork('62235210522955756') === 'China UnionPay');
+		assert(detectNetwork('62235272898725491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622353 and a length of 17', function() {
-		assert(detectNetwork('62235386717940942') === 'China UnionPay');
+		assert(detectNetwork('62235368650053844') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622354 and a length of 17', function() {
-		assert(detectNetwork('62235444710086334') === 'China UnionPay');
+		assert(detectNetwork('62235406383446913') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622355 and a length of 17', function() {
-		assert(detectNetwork('62235556755839401') === 'China UnionPay');
+		assert(detectNetwork('62235500147732247') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622356 and a length of 17', function() {
-		assert(detectNetwork('62235618042014997') === 'China UnionPay');
+		assert(detectNetwork('62235631251865849') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622357 and a length of 17', function() {
-		assert(detectNetwork('62235741038035779') === 'China UnionPay');
+		assert(detectNetwork('62235719888504064') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622358 and a length of 17', function() {
-		assert(detectNetwork('62235802183592383') === 'China UnionPay');
+		assert(detectNetwork('62235804485405854') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622359 and a length of 17', function() {
-		assert(detectNetwork('62235998039681738') === 'China UnionPay');
+		assert(detectNetwork('62235922763387515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622360 and a length of 17', function() {
-		assert(detectNetwork('62236016978402138') === 'China UnionPay');
+		assert(detectNetwork('62236019546804465') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622361 and a length of 17', function() {
-		assert(detectNetwork('62236106177207140') === 'China UnionPay');
+		assert(detectNetwork('62236138326355298') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622362 and a length of 17', function() {
-		assert(detectNetwork('62236297029908148') === 'China UnionPay');
+		assert(detectNetwork('62236299212612327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622363 and a length of 17', function() {
-		assert(detectNetwork('62236379232391494') === 'China UnionPay');
+		assert(detectNetwork('62236327034954642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622364 and a length of 17', function() {
-		assert(detectNetwork('62236497094313702') === 'China UnionPay');
+		assert(detectNetwork('62236489811860204') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622365 and a length of 17', function() {
-		assert(detectNetwork('62236528418762948') === 'China UnionPay');
+		assert(detectNetwork('62236582291802012') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622366 and a length of 17', function() {
-		assert(detectNetwork('62236670030225122') === 'China UnionPay');
+		assert(detectNetwork('62236646822307499') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622367 and a length of 17', function() {
-		assert(detectNetwork('62236772547225910') === 'China UnionPay');
+		assert(detectNetwork('62236787056672122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622368 and a length of 17', function() {
-		assert(detectNetwork('62236848725688281') === 'China UnionPay');
+		assert(detectNetwork('62236822413604803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622369 and a length of 17', function() {
-		assert(detectNetwork('62236964285699594') === 'China UnionPay');
+		assert(detectNetwork('62236909344299731') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622370 and a length of 17', function() {
-		assert(detectNetwork('62237002718040352') === 'China UnionPay');
+		assert(detectNetwork('62237093847222426') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622371 and a length of 17', function() {
-		assert(detectNetwork('62237109679170502') === 'China UnionPay');
+		assert(detectNetwork('62237151860386728') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622372 and a length of 17', function() {
-		assert(detectNetwork('62237249956535290') === 'China UnionPay');
+		assert(detectNetwork('62237234720120238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622373 and a length of 17', function() {
-		assert(detectNetwork('62237354368520426') === 'China UnionPay');
+		assert(detectNetwork('62237355574681398') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622374 and a length of 17', function() {
-		assert(detectNetwork('62237408602153886') === 'China UnionPay');
+		assert(detectNetwork('62237486833101883') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622375 and a length of 17', function() {
-		assert(detectNetwork('62237547756480297') === 'China UnionPay');
+		assert(detectNetwork('62237596515694730') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622376 and a length of 17', function() {
-		assert(detectNetwork('62237674235889201') === 'China UnionPay');
+		assert(detectNetwork('62237609702712241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622377 and a length of 17', function() {
-		assert(detectNetwork('62237785260612413') === 'China UnionPay');
+		assert(detectNetwork('62237745420643086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622378 and a length of 17', function() {
-		assert(detectNetwork('62237895409469930') === 'China UnionPay');
+		assert(detectNetwork('62237818810137454') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622379 and a length of 17', function() {
-		assert(detectNetwork('62237917960855461') === 'China UnionPay');
+		assert(detectNetwork('62237919474081987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622380 and a length of 17', function() {
-		assert(detectNetwork('62238026988909493') === 'China UnionPay');
+		assert(detectNetwork('62238046986350014') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622381 and a length of 17', function() {
-		assert(detectNetwork('62238163264998179') === 'China UnionPay');
+		assert(detectNetwork('62238152903673996') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622382 and a length of 17', function() {
-		assert(detectNetwork('62238210097274019') === 'China UnionPay');
+		assert(detectNetwork('62238213361669235') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622383 and a length of 17', function() {
-		assert(detectNetwork('62238369421696362') === 'China UnionPay');
+		assert(detectNetwork('62238309154428893') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622384 and a length of 17', function() {
-		assert(detectNetwork('62238400114352620') === 'China UnionPay');
+		assert(detectNetwork('62238443754045207') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622385 and a length of 17', function() {
-		assert(detectNetwork('62238576070228897') === 'China UnionPay');
+		assert(detectNetwork('62238568426593178') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622386 and a length of 17', function() {
-		assert(detectNetwork('62238682431888897') === 'China UnionPay');
+		assert(detectNetwork('62238661325670770') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622387 and a length of 17', function() {
-		assert(detectNetwork('62238755101705958') === 'China UnionPay');
+		assert(detectNetwork('62238769696658867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622388 and a length of 17', function() {
-		assert(detectNetwork('62238893852201076') === 'China UnionPay');
+		assert(detectNetwork('62238845546611723') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622389 and a length of 17', function() {
-		assert(detectNetwork('62238904883472885') === 'China UnionPay');
+		assert(detectNetwork('62238906672886698') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622390 and a length of 17', function() {
-		assert(detectNetwork('62239088152849966') === 'China UnionPay');
+		assert(detectNetwork('62239034396262054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622391 and a length of 17', function() {
-		assert(detectNetwork('62239167014422874') === 'China UnionPay');
+		assert(detectNetwork('62239197972986317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622392 and a length of 17', function() {
-		assert(detectNetwork('62239290754769051') === 'China UnionPay');
+		assert(detectNetwork('62239209393394727') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622393 and a length of 17', function() {
-		assert(detectNetwork('62239304976959581') === 'China UnionPay');
+		assert(detectNetwork('62239306011573965') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622394 and a length of 17', function() {
-		assert(detectNetwork('62239474024849264') === 'China UnionPay');
+		assert(detectNetwork('62239486085617986') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622395 and a length of 17', function() {
-		assert(detectNetwork('62239538397340311') === 'China UnionPay');
+		assert(detectNetwork('62239539823525576') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622396 and a length of 17', function() {
-		assert(detectNetwork('62239607876423947') === 'China UnionPay');
+		assert(detectNetwork('62239641879964755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622397 and a length of 17', function() {
-		assert(detectNetwork('62239725497574969') === 'China UnionPay');
+		assert(detectNetwork('62239768232090452') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622398 and a length of 17', function() {
-		assert(detectNetwork('62239802137773796') === 'China UnionPay');
+		assert(detectNetwork('62239868325573024') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622399 and a length of 17', function() {
-		assert(detectNetwork('62239936413115366') === 'China UnionPay');
+		assert(detectNetwork('62239964135219059') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622400 and a length of 17', function() {
-		assert(detectNetwork('62240028690959451') === 'China UnionPay');
+		assert(detectNetwork('62240094103028137') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622401 and a length of 17', function() {
-		assert(detectNetwork('62240139610672850') === 'China UnionPay');
+		assert(detectNetwork('62240112912725437') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622402 and a length of 17', function() {
-		assert(detectNetwork('62240272379488180') === 'China UnionPay');
+		assert(detectNetwork('62240202616501745') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622403 and a length of 17', function() {
-		assert(detectNetwork('62240321562520311') === 'China UnionPay');
+		assert(detectNetwork('62240340394773187') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622404 and a length of 17', function() {
-		assert(detectNetwork('62240402900846212') === 'China UnionPay');
+		assert(detectNetwork('62240488540521685') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622405 and a length of 17', function() {
-		assert(detectNetwork('62240530092101554') === 'China UnionPay');
+		assert(detectNetwork('62240507645979603') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622406 and a length of 17', function() {
-		assert(detectNetwork('62240666861717535') === 'China UnionPay');
+		assert(detectNetwork('62240646113177001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622407 and a length of 17', function() {
-		assert(detectNetwork('62240760789219444') === 'China UnionPay');
+		assert(detectNetwork('62240765822710093') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622408 and a length of 17', function() {
-		assert(detectNetwork('62240898770935726') === 'China UnionPay');
+		assert(detectNetwork('62240837773566310') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622409 and a length of 17', function() {
-		assert(detectNetwork('62240945189310349') === 'China UnionPay');
+		assert(detectNetwork('62240907161358957') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622410 and a length of 17', function() {
-		assert(detectNetwork('62241014099573691') === 'China UnionPay');
+		assert(detectNetwork('62241054933604686') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622411 and a length of 17', function() {
-		assert(detectNetwork('62241145311894396') === 'China UnionPay');
+		assert(detectNetwork('62241103618543433') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622412 and a length of 17', function() {
-		assert(detectNetwork('62241253919199949') === 'China UnionPay');
+		assert(detectNetwork('62241253184446673') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622413 and a length of 17', function() {
-		assert(detectNetwork('62241311343480312') === 'China UnionPay');
+		assert(detectNetwork('62241353558980693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622414 and a length of 17', function() {
-		assert(detectNetwork('62241448191800622') === 'China UnionPay');
+		assert(detectNetwork('62241407640906101') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622415 and a length of 17', function() {
-		assert(detectNetwork('62241562403919121') === 'China UnionPay');
+		assert(detectNetwork('62241547729652792') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622416 and a length of 17', function() {
-		assert(detectNetwork('62241696563635020') === 'China UnionPay');
+		assert(detectNetwork('62241676328613319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622417 and a length of 17', function() {
-		assert(detectNetwork('62241790636053339') === 'China UnionPay');
+		assert(detectNetwork('62241728214194520') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622418 and a length of 17', function() {
-		assert(detectNetwork('62241877557455823') === 'China UnionPay');
+		assert(detectNetwork('62241804821118713') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622419 and a length of 17', function() {
-		assert(detectNetwork('62241997839049976') === 'China UnionPay');
+		assert(detectNetwork('62241941083558749') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622420 and a length of 17', function() {
-		assert(detectNetwork('62242014638291069') === 'China UnionPay');
+		assert(detectNetwork('62242051169600501') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622421 and a length of 17', function() {
-		assert(detectNetwork('62242173042229688') === 'China UnionPay');
+		assert(detectNetwork('62242170882645148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622422 and a length of 17', function() {
-		assert(detectNetwork('62242294649781301') === 'China UnionPay');
+		assert(detectNetwork('62242278501975524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622423 and a length of 17', function() {
-		assert(detectNetwork('62242342896180832') === 'China UnionPay');
+		assert(detectNetwork('62242365074332018') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622424 and a length of 17', function() {
-		assert(detectNetwork('62242457432653865') === 'China UnionPay');
+		assert(detectNetwork('62242432458961771') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622425 and a length of 17', function() {
-		assert(detectNetwork('62242535560463369') === 'China UnionPay');
+		assert(detectNetwork('62242516162456818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622426 and a length of 17', function() {
-		assert(detectNetwork('62242606386917995') === 'China UnionPay');
+		assert(detectNetwork('62242688521362263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622427 and a length of 17', function() {
-		assert(detectNetwork('62242791448770122') === 'China UnionPay');
+		assert(detectNetwork('62242764274530172') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622428 and a length of 17', function() {
-		assert(detectNetwork('62242896432258030') === 'China UnionPay');
+		assert(detectNetwork('62242854382940284') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622429 and a length of 17', function() {
-		assert(detectNetwork('62242920738624414') === 'China UnionPay');
+		assert(detectNetwork('62242929193815551') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622430 and a length of 17', function() {
-		assert(detectNetwork('62243081905053196') === 'China UnionPay');
+		assert(detectNetwork('62243099829568586') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622431 and a length of 17', function() {
-		assert(detectNetwork('62243142585684877') === 'China UnionPay');
+		assert(detectNetwork('62243152435798226') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622432 and a length of 17', function() {
-		assert(detectNetwork('62243253896089670') === 'China UnionPay');
+		assert(detectNetwork('62243287744173821') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622433 and a length of 17', function() {
-		assert(detectNetwork('62243390830261123') === 'China UnionPay');
+		assert(detectNetwork('62243347272083374') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622434 and a length of 17', function() {
-		assert(detectNetwork('62243441860030558') === 'China UnionPay');
+		assert(detectNetwork('62243462882679695') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622435 and a length of 17', function() {
-		assert(detectNetwork('62243573038019334') === 'China UnionPay');
+		assert(detectNetwork('62243507358004183') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622436 and a length of 17', function() {
-		assert(detectNetwork('62243610015966697') === 'China UnionPay');
+		assert(detectNetwork('62243606481776872') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622437 and a length of 17', function() {
-		assert(detectNetwork('62243702607487792') === 'China UnionPay');
+		assert(detectNetwork('62243709626477017') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622438 and a length of 17', function() {
-		assert(detectNetwork('62243891992720335') === 'China UnionPay');
+		assert(detectNetwork('62243823782142618') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622439 and a length of 17', function() {
-		assert(detectNetwork('62243940728381291') === 'China UnionPay');
+		assert(detectNetwork('62243930119187822') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622440 and a length of 17', function() {
-		assert(detectNetwork('62244091063323962') === 'China UnionPay');
+		assert(detectNetwork('62244004856510638') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622441 and a length of 17', function() {
-		assert(detectNetwork('62244157508100462') === 'China UnionPay');
+		assert(detectNetwork('62244123326226762') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622442 and a length of 17', function() {
-		assert(detectNetwork('62244249762300467') === 'China UnionPay');
+		assert(detectNetwork('62244225354867607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622443 and a length of 17', function() {
-		assert(detectNetwork('62244308923311743') === 'China UnionPay');
+		assert(detectNetwork('62244385339010470') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622444 and a length of 17', function() {
-		assert(detectNetwork('62244431904988174') === 'China UnionPay');
+		assert(detectNetwork('62244410005647717') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622445 and a length of 17', function() {
-		assert(detectNetwork('62244505921006131') === 'China UnionPay');
+		assert(detectNetwork('62244584452692009') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622446 and a length of 17', function() {
-		assert(detectNetwork('62244600687443526') === 'China UnionPay');
+		assert(detectNetwork('62244642762321183') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622447 and a length of 17', function() {
-		assert(detectNetwork('62244706640791116') === 'China UnionPay');
+		assert(detectNetwork('62244710426454063') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622448 and a length of 17', function() {
-		assert(detectNetwork('62244835397599729') === 'China UnionPay');
+		assert(detectNetwork('62244894730067537') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622449 and a length of 17', function() {
-		assert(detectNetwork('62244972382727153') === 'China UnionPay');
+		assert(detectNetwork('62244955552663292') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622450 and a length of 17', function() {
-		assert(detectNetwork('62245020497393057') === 'China UnionPay');
+		assert(detectNetwork('62245036787080450') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622451 and a length of 17', function() {
-		assert(detectNetwork('62245142428941713') === 'China UnionPay');
+		assert(detectNetwork('62245166509052568') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622452 and a length of 17', function() {
-		assert(detectNetwork('62245214456798568') === 'China UnionPay');
+		assert(detectNetwork('62245220373708982') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622453 and a length of 17', function() {
-		assert(detectNetwork('62245351704676851') === 'China UnionPay');
+		assert(detectNetwork('62245302687066339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622454 and a length of 17', function() {
-		assert(detectNetwork('62245438426652464') === 'China UnionPay');
+		assert(detectNetwork('62245449667856061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622455 and a length of 17', function() {
-		assert(detectNetwork('62245507467082985') === 'China UnionPay');
+		assert(detectNetwork('62245549945345530') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622456 and a length of 17', function() {
-		assert(detectNetwork('62245637973393642') === 'China UnionPay');
+		assert(detectNetwork('62245637758995941') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622457 and a length of 17', function() {
-		assert(detectNetwork('62245732655117076') === 'China UnionPay');
+		assert(detectNetwork('62245750087881028') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622458 and a length of 17', function() {
-		assert(detectNetwork('62245806651489922') === 'China UnionPay');
+		assert(detectNetwork('62245830070576918') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622459 and a length of 17', function() {
-		assert(detectNetwork('62245922747814784') === 'China UnionPay');
+		assert(detectNetwork('62245994564876151') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622460 and a length of 17', function() {
-		assert(detectNetwork('62246050831864188') === 'China UnionPay');
+		assert(detectNetwork('62246021911488061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622461 and a length of 17', function() {
-		assert(detectNetwork('62246180811818201') === 'China UnionPay');
+		assert(detectNetwork('62246113443300617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622462 and a length of 17', function() {
-		assert(detectNetwork('62246295058988546') === 'China UnionPay');
+		assert(detectNetwork('62246294811543325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622463 and a length of 17', function() {
-		assert(detectNetwork('62246306842157307') === 'China UnionPay');
+		assert(detectNetwork('62246382682896289') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622464 and a length of 17', function() {
-		assert(detectNetwork('62246418644739303') === 'China UnionPay');
+		assert(detectNetwork('62246456062315566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622465 and a length of 17', function() {
-		assert(detectNetwork('62246551461135281') === 'China UnionPay');
+		assert(detectNetwork('62246531771084447') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622466 and a length of 17', function() {
-		assert(detectNetwork('62246678097768069') === 'China UnionPay');
+		assert(detectNetwork('62246683045494248') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622467 and a length of 17', function() {
-		assert(detectNetwork('62246786124653700') === 'China UnionPay');
+		assert(detectNetwork('62246783879574101') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622468 and a length of 17', function() {
-		assert(detectNetwork('62246853979348115') === 'China UnionPay');
+		assert(detectNetwork('62246875458172148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622469 and a length of 17', function() {
-		assert(detectNetwork('62246954350318893') === 'China UnionPay');
+		assert(detectNetwork('62246936629600822') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622470 and a length of 17', function() {
-		assert(detectNetwork('62247018999991856') === 'China UnionPay');
+		assert(detectNetwork('62247080872060081') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622471 and a length of 17', function() {
-		assert(detectNetwork('62247141118697916') === 'China UnionPay');
+		assert(detectNetwork('62247150488777688') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622472 and a length of 17', function() {
-		assert(detectNetwork('62247299851276223') === 'China UnionPay');
+		assert(detectNetwork('62247281487774338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622473 and a length of 17', function() {
-		assert(detectNetwork('62247364097709321') === 'China UnionPay');
+		assert(detectNetwork('62247376976464936') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622474 and a length of 17', function() {
-		assert(detectNetwork('62247451345433919') === 'China UnionPay');
+		assert(detectNetwork('62247440256056264') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622475 and a length of 17', function() {
-		assert(detectNetwork('62247520575461469') === 'China UnionPay');
+		assert(detectNetwork('62247569166537097') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622476 and a length of 17', function() {
-		assert(detectNetwork('62247691680477531') === 'China UnionPay');
+		assert(detectNetwork('62247604140263161') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622477 and a length of 17', function() {
-		assert(detectNetwork('62247769970958800') === 'China UnionPay');
+		assert(detectNetwork('62247782344983857') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622478 and a length of 17', function() {
-		assert(detectNetwork('62247893826362162') === 'China UnionPay');
+		assert(detectNetwork('62247818007390279') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622479 and a length of 17', function() {
-		assert(detectNetwork('62247977966875850') === 'China UnionPay');
+		assert(detectNetwork('62247987392335384') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622480 and a length of 17', function() {
-		assert(detectNetwork('62248050932165522') === 'China UnionPay');
+		assert(detectNetwork('62248072019130641') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622481 and a length of 17', function() {
-		assert(detectNetwork('62248179673194573') === 'China UnionPay');
+		assert(detectNetwork('62248148578892179') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622482 and a length of 17', function() {
-		assert(detectNetwork('62248251813166116') === 'China UnionPay');
+		assert(detectNetwork('62248269647473545') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622483 and a length of 17', function() {
-		assert(detectNetwork('62248395637288980') === 'China UnionPay');
+		assert(detectNetwork('62248375437669428') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622484 and a length of 17', function() {
-		assert(detectNetwork('62248456754998172') === 'China UnionPay');
+		assert(detectNetwork('62248461618910195') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622485 and a length of 17', function() {
-		assert(detectNetwork('62248575215042282') === 'China UnionPay');
+		assert(detectNetwork('62248501118667122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622486 and a length of 17', function() {
-		assert(detectNetwork('62248677029700100') === 'China UnionPay');
+		assert(detectNetwork('62248620239287122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622487 and a length of 17', function() {
-		assert(detectNetwork('62248770124013524') === 'China UnionPay');
+		assert(detectNetwork('62248719155604035') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622488 and a length of 17', function() {
-		assert(detectNetwork('62248844817357481') === 'China UnionPay');
+		assert(detectNetwork('62248832515251111') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622489 and a length of 17', function() {
-		assert(detectNetwork('62248904070834967') === 'China UnionPay');
+		assert(detectNetwork('62248918237329614') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622490 and a length of 17', function() {
-		assert(detectNetwork('62249037961504508') === 'China UnionPay');
+		assert(detectNetwork('62249024141336038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622491 and a length of 17', function() {
-		assert(detectNetwork('62249167666404084') === 'China UnionPay');
+		assert(detectNetwork('62249196545300299') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622492 and a length of 17', function() {
-		assert(detectNetwork('62249241220730995') === 'China UnionPay');
+		assert(detectNetwork('62249247640235508') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622493 and a length of 17', function() {
-		assert(detectNetwork('62249359300323945') === 'China UnionPay');
+		assert(detectNetwork('62249314341998005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622494 and a length of 17', function() {
-		assert(detectNetwork('62249440218360817') === 'China UnionPay');
+		assert(detectNetwork('62249498794072367') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622495 and a length of 17', function() {
-		assert(detectNetwork('62249574990837677') === 'China UnionPay');
+		assert(detectNetwork('62249509653085031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622496 and a length of 17', function() {
-		assert(detectNetwork('62249624773717498') === 'China UnionPay');
+		assert(detectNetwork('62249602272989980') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622497 and a length of 17', function() {
-		assert(detectNetwork('62249750153446466') === 'China UnionPay');
+		assert(detectNetwork('62249723710702227') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622498 and a length of 17', function() {
-		assert(detectNetwork('62249804528794638') === 'China UnionPay');
+		assert(detectNetwork('62249838568184791') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622499 and a length of 17', function() {
-		assert(detectNetwork('62249904492548158') === 'China UnionPay');
+		assert(detectNetwork('62249922643095953') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622500 and a length of 17', function() {
-		assert(detectNetwork('62250094715031827') === 'China UnionPay');
+		assert(detectNetwork('62250033565769163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622501 and a length of 17', function() {
-		assert(detectNetwork('62250113414502794') === 'China UnionPay');
+		assert(detectNetwork('62250110945566031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622502 and a length of 17', function() {
-		assert(detectNetwork('62250264008042627') === 'China UnionPay');
+		assert(detectNetwork('62250247583849904') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622503 and a length of 17', function() {
-		assert(detectNetwork('62250363271688006') === 'China UnionPay');
+		assert(detectNetwork('62250318539767080') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622504 and a length of 17', function() {
-		assert(detectNetwork('62250407562696492') === 'China UnionPay');
+		assert(detectNetwork('62250453973144014') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622505 and a length of 17', function() {
-		assert(detectNetwork('62250550173408709') === 'China UnionPay');
+		assert(detectNetwork('62250576126568947') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622506 and a length of 17', function() {
-		assert(detectNetwork('62250684006712826') === 'China UnionPay');
+		assert(detectNetwork('62250688706188733') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622507 and a length of 17', function() {
-		assert(detectNetwork('62250782668535329') === 'China UnionPay');
+		assert(detectNetwork('62250762237527577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622508 and a length of 17', function() {
-		assert(detectNetwork('62250879436246302') === 'China UnionPay');
+		assert(detectNetwork('62250876720658033') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622509 and a length of 17', function() {
-		assert(detectNetwork('62250984507917219') === 'China UnionPay');
+		assert(detectNetwork('62250984087713158') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622510 and a length of 17', function() {
-		assert(detectNetwork('62251038698932498') === 'China UnionPay');
+		assert(detectNetwork('62251068340075770') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622511 and a length of 17', function() {
-		assert(detectNetwork('62251105472665570') === 'China UnionPay');
+		assert(detectNetwork('62251188494687232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622512 and a length of 17', function() {
-		assert(detectNetwork('62251246183424564') === 'China UnionPay');
+		assert(detectNetwork('62251233388134782') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622513 and a length of 17', function() {
-		assert(detectNetwork('62251341282466132') === 'China UnionPay');
+		assert(detectNetwork('62251394180502070') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622514 and a length of 17', function() {
-		assert(detectNetwork('62251418841796369') === 'China UnionPay');
+		assert(detectNetwork('62251446896564978') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622515 and a length of 17', function() {
-		assert(detectNetwork('62251561514999188') === 'China UnionPay');
+		assert(detectNetwork('62251556194531680') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622516 and a length of 17', function() {
-		assert(detectNetwork('62251643794163276') === 'China UnionPay');
+		assert(detectNetwork('62251692813785883') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622517 and a length of 17', function() {
-		assert(detectNetwork('62251742028326099') === 'China UnionPay');
+		assert(detectNetwork('62251732089076816') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622518 and a length of 17', function() {
-		assert(detectNetwork('62251877277380448') === 'China UnionPay');
+		assert(detectNetwork('62251874712575317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622519 and a length of 17', function() {
-		assert(detectNetwork('62251999436277339') === 'China UnionPay');
+		assert(detectNetwork('62251952391013518') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622520 and a length of 17', function() {
-		assert(detectNetwork('62252046679621898') === 'China UnionPay');
+		assert(detectNetwork('62252050444273629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622521 and a length of 17', function() {
-		assert(detectNetwork('62252141463535078') === 'China UnionPay');
+		assert(detectNetwork('62252124002929242') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622522 and a length of 17', function() {
-		assert(detectNetwork('62252242251978229') === 'China UnionPay');
+		assert(detectNetwork('62252230524311669') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622523 and a length of 17', function() {
-		assert(detectNetwork('62252320471135645') === 'China UnionPay');
+		assert(detectNetwork('62252308210917827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622524 and a length of 17', function() {
-		assert(detectNetwork('62252431945458015') === 'China UnionPay');
+		assert(detectNetwork('62252438588084521') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622525 and a length of 17', function() {
-		assert(detectNetwork('62252557809920783') === 'China UnionPay');
+		assert(detectNetwork('62252530128888530') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622526 and a length of 17', function() {
-		assert(detectNetwork('62252668543318297') === 'China UnionPay');
+		assert(detectNetwork('62252605973192542') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622527 and a length of 17', function() {
-		assert(detectNetwork('62252791540064460') === 'China UnionPay');
+		assert(detectNetwork('62252748835937337') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622528 and a length of 17', function() {
-		assert(detectNetwork('62252871896070825') === 'China UnionPay');
+		assert(detectNetwork('62252809816328806') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622529 and a length of 17', function() {
-		assert(detectNetwork('62252943447034579') === 'China UnionPay');
+		assert(detectNetwork('62252937270289455') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622530 and a length of 17', function() {
-		assert(detectNetwork('62253094981354677') === 'China UnionPay');
+		assert(detectNetwork('62253002676453128') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622531 and a length of 17', function() {
-		assert(detectNetwork('62253185735179689') === 'China UnionPay');
+		assert(detectNetwork('62253190618809707') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622532 and a length of 17', function() {
-		assert(detectNetwork('62253231238032902') === 'China UnionPay');
+		assert(detectNetwork('62253228667959278') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622533 and a length of 17', function() {
-		assert(detectNetwork('62253397784874510') === 'China UnionPay');
+		assert(detectNetwork('62253382395402125') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622534 and a length of 17', function() {
-		assert(detectNetwork('62253408297944013') === 'China UnionPay');
+		assert(detectNetwork('62253496702474604') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622535 and a length of 17', function() {
-		assert(detectNetwork('62253549253906972') === 'China UnionPay');
+		assert(detectNetwork('62253574952931509') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622536 and a length of 17', function() {
-		assert(detectNetwork('62253612566848050') === 'China UnionPay');
+		assert(detectNetwork('62253608033063072') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622537 and a length of 17', function() {
-		assert(detectNetwork('62253713552695356') === 'China UnionPay');
+		assert(detectNetwork('62253775686950191') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622538 and a length of 17', function() {
-		assert(detectNetwork('62253827599850624') === 'China UnionPay');
+		assert(detectNetwork('62253866054610942') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622539 and a length of 17', function() {
-		assert(detectNetwork('62253905215753564') === 'China UnionPay');
+		assert(detectNetwork('62253907600855638') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622540 and a length of 17', function() {
-		assert(detectNetwork('62254072428057296') === 'China UnionPay');
+		assert(detectNetwork('62254075466589759') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622541 and a length of 17', function() {
-		assert(detectNetwork('62254122454813404') === 'China UnionPay');
+		assert(detectNetwork('62254125598744771') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622542 and a length of 17', function() {
-		assert(detectNetwork('62254241406236632') === 'China UnionPay');
+		assert(detectNetwork('62254266926603853') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622543 and a length of 17', function() {
-		assert(detectNetwork('62254316122788431') === 'China UnionPay');
+		assert(detectNetwork('62254323568012828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622544 and a length of 17', function() {
-		assert(detectNetwork('62254464490476907') === 'China UnionPay');
+		assert(detectNetwork('62254480633410360') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622545 and a length of 17', function() {
-		assert(detectNetwork('62254593402919849') === 'China UnionPay');
+		assert(detectNetwork('62254564825360353') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622546 and a length of 17', function() {
-		assert(detectNetwork('62254615790413100') === 'China UnionPay');
+		assert(detectNetwork('62254604680810580') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622547 and a length of 17', function() {
-		assert(detectNetwork('62254755605953976') === 'China UnionPay');
+		assert(detectNetwork('62254789778287654') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622548 and a length of 17', function() {
-		assert(detectNetwork('62254850839389036') === 'China UnionPay');
+		assert(detectNetwork('62254863858359049') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622549 and a length of 17', function() {
-		assert(detectNetwork('62254945917054321') === 'China UnionPay');
+		assert(detectNetwork('62254943680100485') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622550 and a length of 17', function() {
-		assert(detectNetwork('62255011045842524') === 'China UnionPay');
+		assert(detectNetwork('62255018791394478') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622551 and a length of 17', function() {
-		assert(detectNetwork('62255171863746854') === 'China UnionPay');
+		assert(detectNetwork('62255130770491327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622552 and a length of 17', function() {
-		assert(detectNetwork('62255218651804589') === 'China UnionPay');
+		assert(detectNetwork('62255248028504463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622553 and a length of 17', function() {
-		assert(detectNetwork('62255317834142798') === 'China UnionPay');
+		assert(detectNetwork('62255361114091122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622554 and a length of 17', function() {
-		assert(detectNetwork('62255445815019535') === 'China UnionPay');
+		assert(detectNetwork('62255424698477703') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622555 and a length of 17', function() {
-		assert(detectNetwork('62255534181068219') === 'China UnionPay');
+		assert(detectNetwork('62255527150634757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622556 and a length of 17', function() {
-		assert(detectNetwork('62255698564458830') === 'China UnionPay');
+		assert(detectNetwork('62255674463115979') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622557 and a length of 17', function() {
-		assert(detectNetwork('62255786340681655') === 'China UnionPay');
+		assert(detectNetwork('62255790292567421') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622558 and a length of 17', function() {
-		assert(detectNetwork('62255886879004234') === 'China UnionPay');
+		assert(detectNetwork('62255869416486158') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622559 and a length of 17', function() {
-		assert(detectNetwork('62255954036123122') === 'China UnionPay');
+		assert(detectNetwork('62255914790998061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622560 and a length of 17', function() {
-		assert(detectNetwork('62256009693432455') === 'China UnionPay');
+		assert(detectNetwork('62256028244466079') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622561 and a length of 17', function() {
-		assert(detectNetwork('62256138002342813') === 'China UnionPay');
+		assert(detectNetwork('62256129718648992') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622562 and a length of 17', function() {
-		assert(detectNetwork('62256250970339776') === 'China UnionPay');
+		assert(detectNetwork('62256257891224535') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622563 and a length of 17', function() {
-		assert(detectNetwork('62256387864765574') === 'China UnionPay');
+		assert(detectNetwork('62256331030415711') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622564 and a length of 17', function() {
-		assert(detectNetwork('62256409636360992') === 'China UnionPay');
+		assert(detectNetwork('62256447113387823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622565 and a length of 17', function() {
-		assert(detectNetwork('62256565427874705') === 'China UnionPay');
+		assert(detectNetwork('62256557975382983') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622566 and a length of 17', function() {
-		assert(detectNetwork('62256665459584673') === 'China UnionPay');
+		assert(detectNetwork('62256638002980921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622567 and a length of 17', function() {
-		assert(detectNetwork('62256794118989733') === 'China UnionPay');
+		assert(detectNetwork('62256701704986109') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622568 and a length of 17', function() {
-		assert(detectNetwork('62256877449995909') === 'China UnionPay');
+		assert(detectNetwork('62256896245290467') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622569 and a length of 17', function() {
-		assert(detectNetwork('62256949436068945') === 'China UnionPay');
+		assert(detectNetwork('62256937945846046') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622570 and a length of 17', function() {
-		assert(detectNetwork('62257031270991134') === 'China UnionPay');
+		assert(detectNetwork('62257048913634845') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622571 and a length of 17', function() {
-		assert(detectNetwork('62257128929330557') === 'China UnionPay');
+		assert(detectNetwork('62257139350845168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622572 and a length of 17', function() {
-		assert(detectNetwork('62257275014733039') === 'China UnionPay');
+		assert(detectNetwork('62257205083989915') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622573 and a length of 17', function() {
-		assert(detectNetwork('62257326018196649') === 'China UnionPay');
+		assert(detectNetwork('62257322212478457') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622574 and a length of 17', function() {
-		assert(detectNetwork('62257441857387446') === 'China UnionPay');
+		assert(detectNetwork('62257495740321743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622575 and a length of 17', function() {
-		assert(detectNetwork('62257530932630165') === 'China UnionPay');
+		assert(detectNetwork('62257562410301136') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622576 and a length of 17', function() {
-		assert(detectNetwork('62257661847379188') === 'China UnionPay');
+		assert(detectNetwork('62257669031753082') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622577 and a length of 17', function() {
-		assert(detectNetwork('62257744356275800') === 'China UnionPay');
+		assert(detectNetwork('62257791776926160') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622578 and a length of 17', function() {
-		assert(detectNetwork('62257804259234464') === 'China UnionPay');
+		assert(detectNetwork('62257855632306373') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622579 and a length of 17', function() {
-		assert(detectNetwork('62257922323727620') === 'China UnionPay');
+		assert(detectNetwork('62257977587701438') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622580 and a length of 17', function() {
-		assert(detectNetwork('62258035072730895') === 'China UnionPay');
+		assert(detectNetwork('62258098099384327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622581 and a length of 17', function() {
-		assert(detectNetwork('62258136116327256') === 'China UnionPay');
+		assert(detectNetwork('62258120370576763') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622582 and a length of 17', function() {
-		assert(detectNetwork('62258288828223935') === 'China UnionPay');
+		assert(detectNetwork('62258236610023119') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622583 and a length of 17', function() {
-		assert(detectNetwork('62258337554059327') === 'China UnionPay');
+		assert(detectNetwork('62258391234336267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622584 and a length of 17', function() {
-		assert(detectNetwork('62258419646515766') === 'China UnionPay');
+		assert(detectNetwork('62258465190447778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622585 and a length of 17', function() {
-		assert(detectNetwork('62258551716811897') === 'China UnionPay');
+		assert(detectNetwork('62258511214613800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622586 and a length of 17', function() {
-		assert(detectNetwork('62258602755353026') === 'China UnionPay');
+		assert(detectNetwork('62258622734902616') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622587 and a length of 17', function() {
-		assert(detectNetwork('62258755459327878') === 'China UnionPay');
+		assert(detectNetwork('62258758866634368') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622588 and a length of 17', function() {
-		assert(detectNetwork('62258894475724524') === 'China UnionPay');
+		assert(detectNetwork('62258852602036427') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622589 and a length of 17', function() {
-		assert(detectNetwork('62258941767104140') === 'China UnionPay');
+		assert(detectNetwork('62258938718735566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622590 and a length of 17', function() {
-		assert(detectNetwork('62259039222346307') === 'China UnionPay');
+		assert(detectNetwork('62259052631075567') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622591 and a length of 17', function() {
-		assert(detectNetwork('62259132266705140') === 'China UnionPay');
+		assert(detectNetwork('62259199076169311') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622592 and a length of 17', function() {
-		assert(detectNetwork('62259279219767357') === 'China UnionPay');
+		assert(detectNetwork('62259220355190933') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622593 and a length of 17', function() {
-		assert(detectNetwork('62259330088617689') === 'China UnionPay');
+		assert(detectNetwork('62259325690287681') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622594 and a length of 17', function() {
-		assert(detectNetwork('62259420170352072') === 'China UnionPay');
+		assert(detectNetwork('62259418621535125') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622595 and a length of 17', function() {
-		assert(detectNetwork('62259585496014778') === 'China UnionPay');
+		assert(detectNetwork('62259576974328491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622596 and a length of 17', function() {
-		assert(detectNetwork('62259640483169132') === 'China UnionPay');
+		assert(detectNetwork('62259630331945882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622597 and a length of 17', function() {
-		assert(detectNetwork('62259761425420676') === 'China UnionPay');
+		assert(detectNetwork('62259723778570862') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622598 and a length of 17', function() {
-		assert(detectNetwork('62259835872611205') === 'China UnionPay');
+		assert(detectNetwork('62259856280670258') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622599 and a length of 17', function() {
-		assert(detectNetwork('62259907202764965') === 'China UnionPay');
+		assert(detectNetwork('62259947362290937') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622600 and a length of 17', function() {
-		assert(detectNetwork('62260054686728116') === 'China UnionPay');
+		assert(detectNetwork('62260034811006693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622601 and a length of 17', function() {
-		assert(detectNetwork('62260153179389762') === 'China UnionPay');
+		assert(detectNetwork('62260143098584218') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622602 and a length of 17', function() {
-		assert(detectNetwork('62260260196837564') === 'China UnionPay');
+		assert(detectNetwork('62260242985077553') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622603 and a length of 17', function() {
-		assert(detectNetwork('62260399513894013') === 'China UnionPay');
+		assert(detectNetwork('62260394940372085') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622604 and a length of 17', function() {
-		assert(detectNetwork('62260435656332902') === 'China UnionPay');
+		assert(detectNetwork('62260433029878309') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622605 and a length of 17', function() {
-		assert(detectNetwork('62260564682891930') === 'China UnionPay');
+		assert(detectNetwork('62260577919931156') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622606 and a length of 17', function() {
-		assert(detectNetwork('62260683928279782') === 'China UnionPay');
+		assert(detectNetwork('62260696896176518') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622607 and a length of 17', function() {
-		assert(detectNetwork('62260715938643358') === 'China UnionPay');
+		assert(detectNetwork('62260709187222036') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622608 and a length of 17', function() {
-		assert(detectNetwork('62260861565821711') === 'China UnionPay');
+		assert(detectNetwork('62260893398859293') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622609 and a length of 17', function() {
-		assert(detectNetwork('62260925557992040') === 'China UnionPay');
+		assert(detectNetwork('62260932570455106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622610 and a length of 17', function() {
-		assert(detectNetwork('62261025337872009') === 'China UnionPay');
+		assert(detectNetwork('62261035283000907') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622611 and a length of 17', function() {
-		assert(detectNetwork('62261148170288018') === 'China UnionPay');
+		assert(detectNetwork('62261169579433432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622612 and a length of 17', function() {
-		assert(detectNetwork('62261248639046588') === 'China UnionPay');
+		assert(detectNetwork('62261257579392199') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622613 and a length of 17', function() {
-		assert(detectNetwork('62261390169371966') === 'China UnionPay');
+		assert(detectNetwork('62261328164406697') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622614 and a length of 17', function() {
-		assert(detectNetwork('62261472312863629') === 'China UnionPay');
+		assert(detectNetwork('62261430260371065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622615 and a length of 17', function() {
-		assert(detectNetwork('62261506580546189') === 'China UnionPay');
+		assert(detectNetwork('62261597433938425') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622616 and a length of 17', function() {
-		assert(detectNetwork('62261674970000193') === 'China UnionPay');
+		assert(detectNetwork('62261664417269699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622617 and a length of 17', function() {
-		assert(detectNetwork('62261760528949091') === 'China UnionPay');
+		assert(detectNetwork('62261743321157768') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622618 and a length of 17', function() {
-		assert(detectNetwork('62261869869609852') === 'China UnionPay');
+		assert(detectNetwork('62261819768823441') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622619 and a length of 17', function() {
-		assert(detectNetwork('62261979565637207') === 'China UnionPay');
+		assert(detectNetwork('62261902736190630') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622620 and a length of 17', function() {
-		assert(detectNetwork('62262064331879678') === 'China UnionPay');
+		assert(detectNetwork('62262098909686564') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622621 and a length of 17', function() {
-		assert(detectNetwork('62262128964075522') === 'China UnionPay');
+		assert(detectNetwork('62262134884995993') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622622 and a length of 17', function() {
-		assert(detectNetwork('62262277294873955') === 'China UnionPay');
+		assert(detectNetwork('62262212922442335') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622623 and a length of 17', function() {
-		assert(detectNetwork('62262383595728544') === 'China UnionPay');
+		assert(detectNetwork('62262304875216137') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622624 and a length of 17', function() {
-		assert(detectNetwork('62262413681221315') === 'China UnionPay');
+		assert(detectNetwork('62262452995176507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622625 and a length of 17', function() {
-		assert(detectNetwork('62262504883085988') === 'China UnionPay');
+		assert(detectNetwork('62262545173580522') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622626 and a length of 17', function() {
-		assert(detectNetwork('62262678094259793') === 'China UnionPay');
+		assert(detectNetwork('62262653820618812') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622627 and a length of 17', function() {
-		assert(detectNetwork('62262789389817125') === 'China UnionPay');
+		assert(detectNetwork('62262714961066749') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622628 and a length of 17', function() {
-		assert(detectNetwork('62262879105536619') === 'China UnionPay');
+		assert(detectNetwork('62262853177400739') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622629 and a length of 17', function() {
-		assert(detectNetwork('62262969170096560') === 'China UnionPay');
+		assert(detectNetwork('62262902611008973') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622630 and a length of 17', function() {
-		assert(detectNetwork('62263048314079269') === 'China UnionPay');
+		assert(detectNetwork('62263001122929015') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622631 and a length of 17', function() {
-		assert(detectNetwork('62263166011379221') === 'China UnionPay');
+		assert(detectNetwork('62263146153949746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622632 and a length of 17', function() {
-		assert(detectNetwork('62263237207765855') === 'China UnionPay');
+		assert(detectNetwork('62263203500118602') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622633 and a length of 17', function() {
-		assert(detectNetwork('62263311786937498') === 'China UnionPay');
+		assert(detectNetwork('62263356584893154') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622634 and a length of 17', function() {
-		assert(detectNetwork('62263491299004569') === 'China UnionPay');
+		assert(detectNetwork('62263488866276705') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622635 and a length of 17', function() {
-		assert(detectNetwork('62263588199691317') === 'China UnionPay');
+		assert(detectNetwork('62263525479792641') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622636 and a length of 17', function() {
-		assert(detectNetwork('62263657049437300') === 'China UnionPay');
+		assert(detectNetwork('62263685881420968') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622637 and a length of 17', function() {
-		assert(detectNetwork('62263707734439408') === 'China UnionPay');
+		assert(detectNetwork('62263775319014623') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622638 and a length of 17', function() {
-		assert(detectNetwork('62263838694287003') === 'China UnionPay');
+		assert(detectNetwork('62263892964920342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622639 and a length of 17', function() {
-		assert(detectNetwork('62263938980395145') === 'China UnionPay');
+		assert(detectNetwork('62263992942143597') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622640 and a length of 17', function() {
-		assert(detectNetwork('62264004913433056') === 'China UnionPay');
+		assert(detectNetwork('62264072879725781') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622641 and a length of 17', function() {
-		assert(detectNetwork('62264100694351239') === 'China UnionPay');
+		assert(detectNetwork('62264115765600889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622642 and a length of 17', function() {
-		assert(detectNetwork('62264258689206907') === 'China UnionPay');
+		assert(detectNetwork('62264277346307647') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622643 and a length of 17', function() {
-		assert(detectNetwork('62264376014809919') === 'China UnionPay');
+		assert(detectNetwork('62264399892853956') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622644 and a length of 17', function() {
-		assert(detectNetwork('62264418777716089') === 'China UnionPay');
+		assert(detectNetwork('62264493311122510') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622645 and a length of 17', function() {
-		assert(detectNetwork('62264524254605304') === 'China UnionPay');
+		assert(detectNetwork('62264547463423690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622646 and a length of 17', function() {
-		assert(detectNetwork('62264619477315192') === 'China UnionPay');
+		assert(detectNetwork('62264640286680367') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622647 and a length of 17', function() {
-		assert(detectNetwork('62264731211341634') === 'China UnionPay');
+		assert(detectNetwork('62264753436957317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622648 and a length of 17', function() {
-		assert(detectNetwork('62264891194778529') === 'China UnionPay');
+		assert(detectNetwork('62264809891341202') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622649 and a length of 17', function() {
-		assert(detectNetwork('62264947918648156') === 'China UnionPay');
+		assert(detectNetwork('62264926154006417') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622650 and a length of 17', function() {
-		assert(detectNetwork('62265090768028016') === 'China UnionPay');
+		assert(detectNetwork('62265017602488984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622651 and a length of 17', function() {
-		assert(detectNetwork('62265181584132460') === 'China UnionPay');
+		assert(detectNetwork('62265138081718162') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622652 and a length of 17', function() {
-		assert(detectNetwork('62265260016885742') === 'China UnionPay');
+		assert(detectNetwork('62265288626361693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622653 and a length of 17', function() {
-		assert(detectNetwork('62265311279644713') === 'China UnionPay');
+		assert(detectNetwork('62265365789336430') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622654 and a length of 17', function() {
-		assert(detectNetwork('62265459567858363') === 'China UnionPay');
+		assert(detectNetwork('62265484392323421') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622655 and a length of 17', function() {
-		assert(detectNetwork('62265596325441183') === 'China UnionPay');
+		assert(detectNetwork('62265526959786238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622656 and a length of 17', function() {
-		assert(detectNetwork('62265679538104044') === 'China UnionPay');
+		assert(detectNetwork('62265615360023605') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622657 and a length of 17', function() {
-		assert(detectNetwork('62265743175191338') === 'China UnionPay');
+		assert(detectNetwork('62265703001776167') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622658 and a length of 17', function() {
-		assert(detectNetwork('62265809413781387') === 'China UnionPay');
+		assert(detectNetwork('62265866378558158') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622659 and a length of 17', function() {
-		assert(detectNetwork('62265981054907945') === 'China UnionPay');
+		assert(detectNetwork('62265951030655582') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622660 and a length of 17', function() {
-		assert(detectNetwork('62266065945586440') === 'China UnionPay');
+		assert(detectNetwork('62266008401515435') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622661 and a length of 17', function() {
-		assert(detectNetwork('62266124505782563') === 'China UnionPay');
+		assert(detectNetwork('62266146217860478') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622662 and a length of 17', function() {
-		assert(detectNetwork('62266269615359274') === 'China UnionPay');
+		assert(detectNetwork('62266232862496432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622663 and a length of 17', function() {
-		assert(detectNetwork('62266328742602212') === 'China UnionPay');
+		assert(detectNetwork('62266305463992878') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622664 and a length of 17', function() {
-		assert(detectNetwork('62266455317926929') === 'China UnionPay');
+		assert(detectNetwork('62266450008139624') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622665 and a length of 17', function() {
-		assert(detectNetwork('62266567321268385') === 'China UnionPay');
+		assert(detectNetwork('62266545138495154') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622666 and a length of 17', function() {
-		assert(detectNetwork('62266639313417256') === 'China UnionPay');
+		assert(detectNetwork('62266649270583191') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622667 and a length of 17', function() {
-		assert(detectNetwork('62266731743619795') === 'China UnionPay');
+		assert(detectNetwork('62266767991633652') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622668 and a length of 17', function() {
-		assert(detectNetwork('62266832270190524') === 'China UnionPay');
+		assert(detectNetwork('62266842117836280') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622669 and a length of 17', function() {
-		assert(detectNetwork('62266908880968996') === 'China UnionPay');
+		assert(detectNetwork('62266991411659043') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622670 and a length of 17', function() {
-		assert(detectNetwork('62267079505275370') === 'China UnionPay');
+		assert(detectNetwork('62267089980261366') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622671 and a length of 17', function() {
-		assert(detectNetwork('62267161790777833') === 'China UnionPay');
+		assert(detectNetwork('62267175721044466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622672 and a length of 17', function() {
-		assert(detectNetwork('62267226723100630') === 'China UnionPay');
+		assert(detectNetwork('62267209262914163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622673 and a length of 17', function() {
-		assert(detectNetwork('62267337756228023') === 'China UnionPay');
+		assert(detectNetwork('62267341007476020') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622674 and a length of 17', function() {
-		assert(detectNetwork('62267459159241687') === 'China UnionPay');
+		assert(detectNetwork('62267454731636241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622675 and a length of 17', function() {
-		assert(detectNetwork('62267556110239249') === 'China UnionPay');
+		assert(detectNetwork('62267548087766592') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622676 and a length of 17', function() {
-		assert(detectNetwork('62267649063685237') === 'China UnionPay');
+		assert(detectNetwork('62267665541767558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622677 and a length of 17', function() {
-		assert(detectNetwork('62267765111646658') === 'China UnionPay');
+		assert(detectNetwork('62267793463758446') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622678 and a length of 17', function() {
-		assert(detectNetwork('62267840643595897') === 'China UnionPay');
+		assert(detectNetwork('62267873311760317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622679 and a length of 17', function() {
-		assert(detectNetwork('62267920711957834') === 'China UnionPay');
+		assert(detectNetwork('62267979104591828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622680 and a length of 17', function() {
-		assert(detectNetwork('62268095994220846') === 'China UnionPay');
+		assert(detectNetwork('62268042302373755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622681 and a length of 17', function() {
-		assert(detectNetwork('62268160010238786') === 'China UnionPay');
+		assert(detectNetwork('62268174049646825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622682 and a length of 17', function() {
-		assert(detectNetwork('62268232387266381') === 'China UnionPay');
+		assert(detectNetwork('62268233036299431') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622683 and a length of 17', function() {
-		assert(detectNetwork('62268348825465951') === 'China UnionPay');
+		assert(detectNetwork('62268355061486054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622684 and a length of 17', function() {
-		assert(detectNetwork('62268430014613043') === 'China UnionPay');
+		assert(detectNetwork('62268400586308718') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622685 and a length of 17', function() {
-		assert(detectNetwork('62268515006590592') === 'China UnionPay');
+		assert(detectNetwork('62268579287107636') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622686 and a length of 17', function() {
-		assert(detectNetwork('62268627250332341') === 'China UnionPay');
+		assert(detectNetwork('62268602302927999') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622687 and a length of 17', function() {
-		assert(detectNetwork('62268716434007329') === 'China UnionPay');
+		assert(detectNetwork('62268702989019606') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622688 and a length of 17', function() {
-		assert(detectNetwork('62268891350200765') === 'China UnionPay');
+		assert(detectNetwork('62268812666337494') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622689 and a length of 17', function() {
-		assert(detectNetwork('62268939752712847') === 'China UnionPay');
+		assert(detectNetwork('62268921180219110') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622690 and a length of 17', function() {
-		assert(detectNetwork('62269073804327974') === 'China UnionPay');
+		assert(detectNetwork('62269029186062925') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622691 and a length of 17', function() {
-		assert(detectNetwork('62269179209859126') === 'China UnionPay');
+		assert(detectNetwork('62269187183291287') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622692 and a length of 17', function() {
-		assert(detectNetwork('62269231873512386') === 'China UnionPay');
+		assert(detectNetwork('62269242294783027') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622693 and a length of 17', function() {
-		assert(detectNetwork('62269380165321117') === 'China UnionPay');
+		assert(detectNetwork('62269387142477908') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622694 and a length of 17', function() {
-		assert(detectNetwork('62269405828418788') === 'China UnionPay');
+		assert(detectNetwork('62269424385251637') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622695 and a length of 17', function() {
-		assert(detectNetwork('62269599136983213') === 'China UnionPay');
+		assert(detectNetwork('62269572634542617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622696 and a length of 17', function() {
-		assert(detectNetwork('62269603611973316') === 'China UnionPay');
+		assert(detectNetwork('62269695155623076') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622697 and a length of 17', function() {
-		assert(detectNetwork('62269773550229948') === 'China UnionPay');
+		assert(detectNetwork('62269777095143210') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622698 and a length of 17', function() {
-		assert(detectNetwork('62269891716567968') === 'China UnionPay');
+		assert(detectNetwork('62269840015376350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622699 and a length of 17', function() {
-		assert(detectNetwork('62269946645554852') === 'China UnionPay');
+		assert(detectNetwork('62269991157730549') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622700 and a length of 17', function() {
-		assert(detectNetwork('62270033767719150') === 'China UnionPay');
+		assert(detectNetwork('62270040337780541') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622701 and a length of 17', function() {
-		assert(detectNetwork('62270137494658258') === 'China UnionPay');
+		assert(detectNetwork('62270164169898327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622702 and a length of 17', function() {
-		assert(detectNetwork('62270232286453615') === 'China UnionPay');
+		assert(detectNetwork('62270249671767037') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622703 and a length of 17', function() {
-		assert(detectNetwork('62270386796829213') === 'China UnionPay');
+		assert(detectNetwork('62270302384862489') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622704 and a length of 17', function() {
-		assert(detectNetwork('62270453336368420') === 'China UnionPay');
+		assert(detectNetwork('62270426916666564') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622705 and a length of 17', function() {
-		assert(detectNetwork('62270583386128669') === 'China UnionPay');
+		assert(detectNetwork('62270531174973146') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622706 and a length of 17', function() {
-		assert(detectNetwork('62270640087019873') === 'China UnionPay');
+		assert(detectNetwork('62270638711616187') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622707 and a length of 17', function() {
-		assert(detectNetwork('62270782726186047') === 'China UnionPay');
+		assert(detectNetwork('62270735969313446') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622708 and a length of 17', function() {
-		assert(detectNetwork('62270861146254494') === 'China UnionPay');
+		assert(detectNetwork('62270834700615959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622709 and a length of 17', function() {
-		assert(detectNetwork('62270952154341938') === 'China UnionPay');
+		assert(detectNetwork('62270958749895679') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622710 and a length of 17', function() {
-		assert(detectNetwork('62271092488947207') === 'China UnionPay');
+		assert(detectNetwork('62271086342153464') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622711 and a length of 17', function() {
-		assert(detectNetwork('62271134063843409') === 'China UnionPay');
+		assert(detectNetwork('62271170332556566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622712 and a length of 17', function() {
-		assert(detectNetwork('62271203592968221') === 'China UnionPay');
+		assert(detectNetwork('62271223633556223') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622713 and a length of 17', function() {
-		assert(detectNetwork('62271385670665459') === 'China UnionPay');
+		assert(detectNetwork('62271360657136265') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622714 and a length of 17', function() {
-		assert(detectNetwork('62271430785806245') === 'China UnionPay');
+		assert(detectNetwork('62271443885959325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622715 and a length of 17', function() {
-		assert(detectNetwork('62271545070818548') === 'China UnionPay');
+		assert(detectNetwork('62271516049579004') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622716 and a length of 17', function() {
-		assert(detectNetwork('62271604683862408') === 'China UnionPay');
+		assert(detectNetwork('62271650756289499') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622717 and a length of 17', function() {
-		assert(detectNetwork('62271700890590316') === 'China UnionPay');
+		assert(detectNetwork('62271744653201988') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622718 and a length of 17', function() {
-		assert(detectNetwork('62271825472150239') === 'China UnionPay');
+		assert(detectNetwork('62271858521278253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622719 and a length of 17', function() {
-		assert(detectNetwork('62271974581653542') === 'China UnionPay');
+		assert(detectNetwork('62271971466391252') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622720 and a length of 17', function() {
-		assert(detectNetwork('62272053070090196') === 'China UnionPay');
+		assert(detectNetwork('62272048559140095') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622721 and a length of 17', function() {
-		assert(detectNetwork('62272133799906114') === 'China UnionPay');
+		assert(detectNetwork('62272182553094193') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622722 and a length of 17', function() {
-		assert(detectNetwork('62272270046518081') === 'China UnionPay');
+		assert(detectNetwork('62272227120372833') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622723 and a length of 17', function() {
-		assert(detectNetwork('62272334530027031') === 'China UnionPay');
+		assert(detectNetwork('62272303406239105') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622724 and a length of 17', function() {
-		assert(detectNetwork('62272417916782193') === 'China UnionPay');
+		assert(detectNetwork('62272450630894803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622725 and a length of 17', function() {
-		assert(detectNetwork('62272525838637231') === 'China UnionPay');
+		assert(detectNetwork('62272512189963005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622726 and a length of 17', function() {
-		assert(detectNetwork('62272682974742326') === 'China UnionPay');
+		assert(detectNetwork('62272606771475271') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622727 and a length of 17', function() {
-		assert(detectNetwork('62272713247497053') === 'China UnionPay');
+		assert(detectNetwork('62272756226337594') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622728 and a length of 17', function() {
-		assert(detectNetwork('62272840246911581') === 'China UnionPay');
+		assert(detectNetwork('62272864980182801') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622729 and a length of 17', function() {
-		assert(detectNetwork('62272954135445234') === 'China UnionPay');
+		assert(detectNetwork('62272917251751884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622730 and a length of 17', function() {
-		assert(detectNetwork('62273036009702998') === 'China UnionPay');
+		assert(detectNetwork('62273086989369038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622731 and a length of 17', function() {
-		assert(detectNetwork('62273197712877569') === 'China UnionPay');
+		assert(detectNetwork('62273150001209453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622732 and a length of 17', function() {
-		assert(detectNetwork('62273208927527846') === 'China UnionPay');
+		assert(detectNetwork('62273201592724114') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622733 and a length of 17', function() {
-		assert(detectNetwork('62273368045048988') === 'China UnionPay');
+		assert(detectNetwork('62273308226877089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622734 and a length of 17', function() {
-		assert(detectNetwork('62273430451838608') === 'China UnionPay');
+		assert(detectNetwork('62273439671323991') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622735 and a length of 17', function() {
-		assert(detectNetwork('62273574035386370') === 'China UnionPay');
+		assert(detectNetwork('62273548228799061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622736 and a length of 17', function() {
-		assert(detectNetwork('62273603408895028') === 'China UnionPay');
+		assert(detectNetwork('62273626311265024') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622737 and a length of 17', function() {
-		assert(detectNetwork('62273709076484744') === 'China UnionPay');
+		assert(detectNetwork('62273728319352646') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622738 and a length of 17', function() {
-		assert(detectNetwork('62273807913076062') === 'China UnionPay');
+		assert(detectNetwork('62273818136852174') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622739 and a length of 17', function() {
-		assert(detectNetwork('62273940835311975') === 'China UnionPay');
+		assert(detectNetwork('62273986510529179') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622740 and a length of 17', function() {
-		assert(detectNetwork('62274001814389441') === 'China UnionPay');
+		assert(detectNetwork('62274065681332682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622741 and a length of 17', function() {
-		assert(detectNetwork('62274136332516072') === 'China UnionPay');
+		assert(detectNetwork('62274132162024079') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622742 and a length of 17', function() {
-		assert(detectNetwork('62274222228049541') === 'China UnionPay');
+		assert(detectNetwork('62274276793808558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622743 and a length of 17', function() {
-		assert(detectNetwork('62274395526210971') === 'China UnionPay');
+		assert(detectNetwork('62274339301576665') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622744 and a length of 17', function() {
-		assert(detectNetwork('62274428707141232') === 'China UnionPay');
+		assert(detectNetwork('62274474244308766') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622745 and a length of 17', function() {
-		assert(detectNetwork('62274583754203510') === 'China UnionPay');
+		assert(detectNetwork('62274514741443535') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622746 and a length of 17', function() {
-		assert(detectNetwork('62274680317584906') === 'China UnionPay');
+		assert(detectNetwork('62274695331540722') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622747 and a length of 17', function() {
-		assert(detectNetwork('62274737746662192') === 'China UnionPay');
+		assert(detectNetwork('62274786723398084') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622748 and a length of 17', function() {
-		assert(detectNetwork('62274853627524626') === 'China UnionPay');
+		assert(detectNetwork('62274883563124534') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622749 and a length of 17', function() {
-		assert(detectNetwork('62274928886669519') === 'China UnionPay');
+		assert(detectNetwork('62274995286844407') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622750 and a length of 17', function() {
-		assert(detectNetwork('62275079730059502') === 'China UnionPay');
+		assert(detectNetwork('62275026792636529') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622751 and a length of 17', function() {
-		assert(detectNetwork('62275180963921277') === 'China UnionPay');
+		assert(detectNetwork('62275152917209533') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622752 and a length of 17', function() {
-		assert(detectNetwork('62275238753892488') === 'China UnionPay');
+		assert(detectNetwork('62275295344637708') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622753 and a length of 17', function() {
-		assert(detectNetwork('62275393063198062') === 'China UnionPay');
+		assert(detectNetwork('62275387133258939') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622754 and a length of 17', function() {
-		assert(detectNetwork('62275414637627275') === 'China UnionPay');
+		assert(detectNetwork('62275410061143610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622755 and a length of 17', function() {
-		assert(detectNetwork('62275532097215247') === 'China UnionPay');
+		assert(detectNetwork('62275599771114106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622756 and a length of 17', function() {
-		assert(detectNetwork('62275636842526782') === 'China UnionPay');
+		assert(detectNetwork('62275650129992034') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622757 and a length of 17', function() {
-		assert(detectNetwork('62275758244331388') === 'China UnionPay');
+		assert(detectNetwork('62275727294144098') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622758 and a length of 17', function() {
-		assert(detectNetwork('62275846186237754') === 'China UnionPay');
+		assert(detectNetwork('62275822747530827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622759 and a length of 17', function() {
-		assert(detectNetwork('62275950856911404') === 'China UnionPay');
+		assert(detectNetwork('62275959249220670') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622760 and a length of 17', function() {
-		assert(detectNetwork('62276009396216062') === 'China UnionPay');
+		assert(detectNetwork('62276065398356772') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622761 and a length of 17', function() {
-		assert(detectNetwork('62276194455402995') === 'China UnionPay');
+		assert(detectNetwork('62276164892613538') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622762 and a length of 17', function() {
-		assert(detectNetwork('62276256114588249') === 'China UnionPay');
+		assert(detectNetwork('62276226862875654') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622763 and a length of 17', function() {
-		assert(detectNetwork('62276338612466760') === 'China UnionPay');
+		assert(detectNetwork('62276350906173010') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622764 and a length of 17', function() {
-		assert(detectNetwork('62276408612957975') === 'China UnionPay');
+		assert(detectNetwork('62276408841488757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622765 and a length of 17', function() {
-		assert(detectNetwork('62276514769021513') === 'China UnionPay');
+		assert(detectNetwork('62276500481026763') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622766 and a length of 17', function() {
-		assert(detectNetwork('62276691773348627') === 'China UnionPay');
+		assert(detectNetwork('62276682918531910') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622767 and a length of 17', function() {
-		assert(detectNetwork('62276745185883447') === 'China UnionPay');
+		assert(detectNetwork('62276784378371065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622768 and a length of 17', function() {
-		assert(detectNetwork('62276850547900570') === 'China UnionPay');
+		assert(detectNetwork('62276842852439787') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622769 and a length of 17', function() {
-		assert(detectNetwork('62276935783330638') === 'China UnionPay');
+		assert(detectNetwork('62276954162431624') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622770 and a length of 17', function() {
-		assert(detectNetwork('62277041048558525') === 'China UnionPay');
+		assert(detectNetwork('62277048088865659') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622771 and a length of 17', function() {
-		assert(detectNetwork('62277102239943709') === 'China UnionPay');
+		assert(detectNetwork('62277164092369806') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622772 and a length of 17', function() {
-		assert(detectNetwork('62277234208447783') === 'China UnionPay');
+		assert(detectNetwork('62277203530828224') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622773 and a length of 17', function() {
-		assert(detectNetwork('62277381597631565') === 'China UnionPay');
+		assert(detectNetwork('62277354956850254') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622774 and a length of 17', function() {
-		assert(detectNetwork('62277493135887215') === 'China UnionPay');
+		assert(detectNetwork('62277431850707550') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622775 and a length of 17', function() {
-		assert(detectNetwork('62277521726941855') === 'China UnionPay');
+		assert(detectNetwork('62277582560245041') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622776 and a length of 17', function() {
-		assert(detectNetwork('62277695000952029') === 'China UnionPay');
+		assert(detectNetwork('62277609234948130') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622777 and a length of 17', function() {
-		assert(detectNetwork('62277780036315823') === 'China UnionPay');
+		assert(detectNetwork('62277783101118998') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622778 and a length of 17', function() {
-		assert(detectNetwork('62277896417443459') === 'China UnionPay');
+		assert(detectNetwork('62277850217565116') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622779 and a length of 17', function() {
-		assert(detectNetwork('62277922676925922') === 'China UnionPay');
+		assert(detectNetwork('62277987405005876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622780 and a length of 17', function() {
-		assert(detectNetwork('62278085082909191') === 'China UnionPay');
+		assert(detectNetwork('62278052613416087') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622781 and a length of 17', function() {
-		assert(detectNetwork('62278185479015544') === 'China UnionPay');
+		assert(detectNetwork('62278126559692236') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622782 and a length of 17', function() {
-		assert(detectNetwork('62278268573946152') === 'China UnionPay');
+		assert(detectNetwork('62278245110984450') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622783 and a length of 17', function() {
-		assert(detectNetwork('62278305369064103') === 'China UnionPay');
+		assert(detectNetwork('62278313449347226') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622784 and a length of 17', function() {
-		assert(detectNetwork('62278476304891127') === 'China UnionPay');
+		assert(detectNetwork('62278432096195684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622785 and a length of 17', function() {
-		assert(detectNetwork('62278520554021351') === 'China UnionPay');
+		assert(detectNetwork('62278548764675186') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622786 and a length of 17', function() {
-		assert(detectNetwork('62278664758849690') === 'China UnionPay');
+		assert(detectNetwork('62278683251253222') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622787 and a length of 17', function() {
-		assert(detectNetwork('62278704303669123') === 'China UnionPay');
+		assert(detectNetwork('62278730234022981') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622788 and a length of 17', function() {
-		assert(detectNetwork('62278807644089683') === 'China UnionPay');
+		assert(detectNetwork('62278837976861830') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622789 and a length of 17', function() {
-		assert(detectNetwork('62278921288390196') === 'China UnionPay');
+		assert(detectNetwork('62278925991059332') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622790 and a length of 17', function() {
-		assert(detectNetwork('62279065231684212') === 'China UnionPay');
+		assert(detectNetwork('62279074660308773') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622791 and a length of 17', function() {
-		assert(detectNetwork('62279186080766219') === 'China UnionPay');
+		assert(detectNetwork('62279117634765917') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622792 and a length of 17', function() {
-		assert(detectNetwork('62279273273308202') === 'China UnionPay');
+		assert(detectNetwork('62279248271546240') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622793 and a length of 17', function() {
-		assert(detectNetwork('62279340088688161') === 'China UnionPay');
+		assert(detectNetwork('62279303147871844') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622794 and a length of 17', function() {
-		assert(detectNetwork('62279460805132133') === 'China UnionPay');
+		assert(detectNetwork('62279429338132173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622795 and a length of 17', function() {
-		assert(detectNetwork('62279511032347042') === 'China UnionPay');
+		assert(detectNetwork('62279551009817106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622796 and a length of 17', function() {
-		assert(detectNetwork('62279635409461157') === 'China UnionPay');
+		assert(detectNetwork('62279615437827274') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622797 and a length of 17', function() {
-		assert(detectNetwork('62279764766831761') === 'China UnionPay');
+		assert(detectNetwork('62279799776093962') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622798 and a length of 17', function() {
-		assert(detectNetwork('62279869230227418') === 'China UnionPay');
+		assert(detectNetwork('62279885721927005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622799 and a length of 17', function() {
-		assert(detectNetwork('62279989680462385') === 'China UnionPay');
+		assert(detectNetwork('62279969749588114') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622800 and a length of 17', function() {
-		assert(detectNetwork('62280014717585142') === 'China UnionPay');
+		assert(detectNetwork('62280037065197544') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622801 and a length of 17', function() {
-		assert(detectNetwork('62280121757756762') === 'China UnionPay');
+		assert(detectNetwork('62280197489538834') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622802 and a length of 17', function() {
-		assert(detectNetwork('62280218489702915') === 'China UnionPay');
+		assert(detectNetwork('62280290674654391') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622803 and a length of 17', function() {
-		assert(detectNetwork('62280372790464537') === 'China UnionPay');
+		assert(detectNetwork('62280347333003374') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622804 and a length of 17', function() {
-		assert(detectNetwork('62280430433983677') === 'China UnionPay');
+		assert(detectNetwork('62280478204509207') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622805 and a length of 17', function() {
-		assert(detectNetwork('62280555148115851') === 'China UnionPay');
+		assert(detectNetwork('62280550714601851') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622806 and a length of 17', function() {
-		assert(detectNetwork('62280692779272109') === 'China UnionPay');
+		assert(detectNetwork('62280604227372300') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622807 and a length of 17', function() {
-		assert(detectNetwork('62280785274434320') === 'China UnionPay');
+		assert(detectNetwork('62280795060292926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622808 and a length of 17', function() {
-		assert(detectNetwork('62280814691680765') === 'China UnionPay');
+		assert(detectNetwork('62280870531235338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622809 and a length of 17', function() {
-		assert(detectNetwork('62280902293090733') === 'China UnionPay');
+		assert(detectNetwork('62280947015685106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622810 and a length of 17', function() {
-		assert(detectNetwork('62281035262689463') === 'China UnionPay');
+		assert(detectNetwork('62281071751228171') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622811 and a length of 17', function() {
-		assert(detectNetwork('62281188268396877') === 'China UnionPay');
+		assert(detectNetwork('62281189593424241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622812 and a length of 17', function() {
-		assert(detectNetwork('62281208681887539') === 'China UnionPay');
+		assert(detectNetwork('62281202026293048') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622813 and a length of 17', function() {
-		assert(detectNetwork('62281368429117138') === 'China UnionPay');
+		assert(detectNetwork('62281339789248593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622814 and a length of 17', function() {
-		assert(detectNetwork('62281470623345051') === 'China UnionPay');
+		assert(detectNetwork('62281410260607702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622815 and a length of 17', function() {
-		assert(detectNetwork('62281514672232608') === 'China UnionPay');
+		assert(detectNetwork('62281559029577126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622816 and a length of 17', function() {
-		assert(detectNetwork('62281653721695982') === 'China UnionPay');
+		assert(detectNetwork('62281681906907986') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622817 and a length of 17', function() {
-		assert(detectNetwork('62281790512062584') === 'China UnionPay');
+		assert(detectNetwork('62281780318673236') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622818 and a length of 17', function() {
-		assert(detectNetwork('62281833555410929') === 'China UnionPay');
+		assert(detectNetwork('62281893003362494') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622819 and a length of 17', function() {
-		assert(detectNetwork('62281970728580113') === 'China UnionPay');
+		assert(detectNetwork('62281924769340797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622820 and a length of 17', function() {
-		assert(detectNetwork('62282076102165025') === 'China UnionPay');
+		assert(detectNetwork('62282075286672936') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622821 and a length of 17', function() {
-		assert(detectNetwork('62282136222735684') === 'China UnionPay');
+		assert(detectNetwork('62282182818306106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622822 and a length of 17', function() {
-		assert(detectNetwork('62282291281770309') === 'China UnionPay');
+		assert(detectNetwork('62282209521396106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622823 and a length of 17', function() {
-		assert(detectNetwork('62282365536337099') === 'China UnionPay');
+		assert(detectNetwork('62282354535196583') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622824 and a length of 17', function() {
-		assert(detectNetwork('62282443154917444') === 'China UnionPay');
+		assert(detectNetwork('62282446694439517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622825 and a length of 17', function() {
-		assert(detectNetwork('62282515909725262') === 'China UnionPay');
+		assert(detectNetwork('62282554526618112') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622826 and a length of 17', function() {
-		assert(detectNetwork('62282633546689962') === 'China UnionPay');
+		assert(detectNetwork('62282629400749380') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622827 and a length of 17', function() {
-		assert(detectNetwork('62282752487687444') === 'China UnionPay');
+		assert(detectNetwork('62282748467235646') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622828 and a length of 17', function() {
-		assert(detectNetwork('62282806036452827') === 'China UnionPay');
+		assert(detectNetwork('62282835577032302') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622829 and a length of 17', function() {
-		assert(detectNetwork('62282995164703057') === 'China UnionPay');
+		assert(detectNetwork('62282949571066392') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622830 and a length of 17', function() {
-		assert(detectNetwork('62283056808655803') === 'China UnionPay');
+		assert(detectNetwork('62283066365430867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622831 and a length of 17', function() {
-		assert(detectNetwork('62283157111435406') === 'China UnionPay');
+		assert(detectNetwork('62283100876679133') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622832 and a length of 17', function() {
-		assert(detectNetwork('62283234733816318') === 'China UnionPay');
+		assert(detectNetwork('62283281151596220') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622833 and a length of 17', function() {
-		assert(detectNetwork('62283304841002255') === 'China UnionPay');
+		assert(detectNetwork('62283355092844921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622834 and a length of 17', function() {
-		assert(detectNetwork('62283443958196423') === 'China UnionPay');
+		assert(detectNetwork('62283464900180613') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622835 and a length of 17', function() {
-		assert(detectNetwork('62283569233747116') === 'China UnionPay');
+		assert(detectNetwork('62283564910901986') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622836 and a length of 17', function() {
-		assert(detectNetwork('62283616514264260') === 'China UnionPay');
+		assert(detectNetwork('62283618841437767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622837 and a length of 17', function() {
-		assert(detectNetwork('62283761701197562') === 'China UnionPay');
+		assert(detectNetwork('62283706585670023') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622838 and a length of 17', function() {
-		assert(detectNetwork('62283837086786597') === 'China UnionPay');
+		assert(detectNetwork('62283846162184704') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622839 and a length of 17', function() {
-		assert(detectNetwork('62283953394479370') === 'China UnionPay');
+		assert(detectNetwork('62283903388076444') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622840 and a length of 17', function() {
-		assert(detectNetwork('62284024642512029') === 'China UnionPay');
+		assert(detectNetwork('62284015767050300') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622841 and a length of 17', function() {
-		assert(detectNetwork('62284169307960130') === 'China UnionPay');
+		assert(detectNetwork('62284195042129054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622842 and a length of 17', function() {
-		assert(detectNetwork('62284280149342094') === 'China UnionPay');
+		assert(detectNetwork('62284239177162715') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622843 and a length of 17', function() {
-		assert(detectNetwork('62284315086771826') === 'China UnionPay');
+		assert(detectNetwork('62284305092722299') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622844 and a length of 17', function() {
-		assert(detectNetwork('62284456951545482') === 'China UnionPay');
+		assert(detectNetwork('62284450362115610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622845 and a length of 17', function() {
-		assert(detectNetwork('62284566881295761') === 'China UnionPay');
+		assert(detectNetwork('62284579302808074') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622846 and a length of 17', function() {
-		assert(detectNetwork('62284661710674896') === 'China UnionPay');
+		assert(detectNetwork('62284628591911395') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622847 and a length of 17', function() {
-		assert(detectNetwork('62284706906450665') === 'China UnionPay');
+		assert(detectNetwork('62284716535788350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622848 and a length of 17', function() {
-		assert(detectNetwork('62284843683223850') === 'China UnionPay');
+		assert(detectNetwork('62284875353142963') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622849 and a length of 17', function() {
-		assert(detectNetwork('62284968940545958') === 'China UnionPay');
+		assert(detectNetwork('62284991100829328') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622850 and a length of 17', function() {
-		assert(detectNetwork('62285036871225698') === 'China UnionPay');
+		assert(detectNetwork('62285049473533710') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622851 and a length of 17', function() {
-		assert(detectNetwork('62285143952216232') === 'China UnionPay');
+		assert(detectNetwork('62285126521100875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622852 and a length of 17', function() {
-		assert(detectNetwork('62285265102112016') === 'China UnionPay');
+		assert(detectNetwork('62285261942423546') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622853 and a length of 17', function() {
-		assert(detectNetwork('62285399565037480') === 'China UnionPay');
+		assert(detectNetwork('62285378971648875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622854 and a length of 17', function() {
-		assert(detectNetwork('62285430526793462') === 'China UnionPay');
+		assert(detectNetwork('62285480126313782') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622855 and a length of 17', function() {
-		assert(detectNetwork('62285555118909602') === 'China UnionPay');
+		assert(detectNetwork('62285519372947350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622856 and a length of 17', function() {
-		assert(detectNetwork('62285699057478703') === 'China UnionPay');
+		assert(detectNetwork('62285618130753309') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622857 and a length of 17', function() {
-		assert(detectNetwork('62285717083822995') === 'China UnionPay');
+		assert(detectNetwork('62285783903002987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622858 and a length of 17', function() {
-		assert(detectNetwork('62285858978520965') === 'China UnionPay');
+		assert(detectNetwork('62285835640615247') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622859 and a length of 17', function() {
-		assert(detectNetwork('62285973451670838') === 'China UnionPay');
+		assert(detectNetwork('62285951894982322') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622860 and a length of 17', function() {
-		assert(detectNetwork('62286010865106713') === 'China UnionPay');
+		assert(detectNetwork('62286044272731926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622861 and a length of 17', function() {
-		assert(detectNetwork('62286131905555386') === 'China UnionPay');
+		assert(detectNetwork('62286104417186986') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622862 and a length of 17', function() {
-		assert(detectNetwork('62286215337494762') === 'China UnionPay');
+		assert(detectNetwork('62286238810745796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622863 and a length of 17', function() {
-		assert(detectNetwork('62286364890210830') === 'China UnionPay');
+		assert(detectNetwork('62286338987314475') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622864 and a length of 17', function() {
-		assert(detectNetwork('62286437174363281') === 'China UnionPay');
+		assert(detectNetwork('62286436178088574') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622865 and a length of 17', function() {
-		assert(detectNetwork('62286546440367895') === 'China UnionPay');
+		assert(detectNetwork('62286523472540962') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622866 and a length of 17', function() {
-		assert(detectNetwork('62286655650715713') === 'China UnionPay');
+		assert(detectNetwork('62286641762558622') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622867 and a length of 17', function() {
-		assert(detectNetwork('62286787275149958') === 'China UnionPay');
+		assert(detectNetwork('62286778690927374') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622868 and a length of 17', function() {
-		assert(detectNetwork('62286894705388710') === 'China UnionPay');
+		assert(detectNetwork('62286860666141286') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622869 and a length of 17', function() {
-		assert(detectNetwork('62286971871457275') === 'China UnionPay');
+		assert(detectNetwork('62286922108494077') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622870 and a length of 17', function() {
-		assert(detectNetwork('62287060141817128') === 'China UnionPay');
+		assert(detectNetwork('62287033006608800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622871 and a length of 17', function() {
-		assert(detectNetwork('62287190570609158') === 'China UnionPay');
+		assert(detectNetwork('62287125057941293') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622872 and a length of 17', function() {
-		assert(detectNetwork('62287233227322892') === 'China UnionPay');
+		assert(detectNetwork('62287216950135492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622873 and a length of 17', function() {
-		assert(detectNetwork('62287311174671126') === 'China UnionPay');
+		assert(detectNetwork('62287315011101031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622874 and a length of 17', function() {
-		assert(detectNetwork('62287411603252091') === 'China UnionPay');
+		assert(detectNetwork('62287439843274906') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622875 and a length of 17', function() {
-		assert(detectNetwork('62287507989329522') === 'China UnionPay');
+		assert(detectNetwork('62287504173580158') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622876 and a length of 17', function() {
-		assert(detectNetwork('62287655551308642') === 'China UnionPay');
+		assert(detectNetwork('62287646541578169') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622877 and a length of 17', function() {
-		assert(detectNetwork('62287743535093217') === 'China UnionPay');
+		assert(detectNetwork('62287719508278421') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622878 and a length of 17', function() {
-		assert(detectNetwork('62287881348499136') === 'China UnionPay');
+		assert(detectNetwork('62287898326735254') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622879 and a length of 17', function() {
-		assert(detectNetwork('62287932492389269') === 'China UnionPay');
+		assert(detectNetwork('62287980789175342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622880 and a length of 17', function() {
-		assert(detectNetwork('62288079619317685') === 'China UnionPay');
+		assert(detectNetwork('62288084494517313') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622881 and a length of 17', function() {
-		assert(detectNetwork('62288199180616431') === 'China UnionPay');
+		assert(detectNetwork('62288154101789363') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622882 and a length of 17', function() {
-		assert(detectNetwork('62288250080031025') === 'China UnionPay');
+		assert(detectNetwork('62288202923565684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622883 and a length of 17', function() {
-		assert(detectNetwork('62288303163741814') === 'China UnionPay');
+		assert(detectNetwork('62288388238063360') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622884 and a length of 17', function() {
-		assert(detectNetwork('62288476054677621') === 'China UnionPay');
+		assert(detectNetwork('62288422713403718') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622885 and a length of 17', function() {
-		assert(detectNetwork('62288591273599266') === 'China UnionPay');
+		assert(detectNetwork('62288549100223383') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622886 and a length of 17', function() {
-		assert(detectNetwork('62288662143617763') === 'China UnionPay');
+		assert(detectNetwork('62288657603045726') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622887 and a length of 17', function() {
-		assert(detectNetwork('62288705363506221') === 'China UnionPay');
+		assert(detectNetwork('62288772894662113') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622888 and a length of 17', function() {
-		assert(detectNetwork('62288837708462992') === 'China UnionPay');
+		assert(detectNetwork('62288892386046667') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622889 and a length of 17', function() {
-		assert(detectNetwork('62288987424980253') === 'China UnionPay');
+		assert(detectNetwork('62288989388831785') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622890 and a length of 17', function() {
-		assert(detectNetwork('62289022279857071') === 'China UnionPay');
+		assert(detectNetwork('62289051820407667') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622891 and a length of 17', function() {
-		assert(detectNetwork('62289114672464152') === 'China UnionPay');
+		assert(detectNetwork('62289189661984166') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622892 and a length of 17', function() {
-		assert(detectNetwork('62289218506173187') === 'China UnionPay');
+		assert(detectNetwork('62289203132268229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622893 and a length of 17', function() {
-		assert(detectNetwork('62289370771777554') === 'China UnionPay');
+		assert(detectNetwork('62289315263065375') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622894 and a length of 17', function() {
-		assert(detectNetwork('62289457884666123') === 'China UnionPay');
+		assert(detectNetwork('62289472376475357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622895 and a length of 17', function() {
-		assert(detectNetwork('62289599252745811') === 'China UnionPay');
+		assert(detectNetwork('62289511017141412') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622896 and a length of 17', function() {
-		assert(detectNetwork('62289600169198292') === 'China UnionPay');
+		assert(detectNetwork('62289607175879480') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622897 and a length of 17', function() {
-		assert(detectNetwork('62289748596465981') === 'China UnionPay');
+		assert(detectNetwork('62289748767188840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622898 and a length of 17', function() {
-		assert(detectNetwork('62289840375566737') === 'China UnionPay');
+		assert(detectNetwork('62289825047225017') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622899 and a length of 17', function() {
-		assert(detectNetwork('62289914863706337') === 'China UnionPay');
+		assert(detectNetwork('62289992291117416') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622900 and a length of 17', function() {
-		assert(detectNetwork('62290019647166928') === 'China UnionPay');
+		assert(detectNetwork('62290078504055432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622901 and a length of 17', function() {
-		assert(detectNetwork('62290159491009735') === 'China UnionPay');
+		assert(detectNetwork('62290105076058663') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622902 and a length of 17', function() {
-		assert(detectNetwork('62290298876348751') === 'China UnionPay');
+		assert(detectNetwork('62290274169524070') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622903 and a length of 17', function() {
-		assert(detectNetwork('62290387135365454') === 'China UnionPay');
+		assert(detectNetwork('62290389354966507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622904 and a length of 17', function() {
-		assert(detectNetwork('62290442502603379') === 'China UnionPay');
+		assert(detectNetwork('62290458165796794') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622905 and a length of 17', function() {
-		assert(detectNetwork('62290560596643906') === 'China UnionPay');
+		assert(detectNetwork('62290571497790069') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622906 and a length of 17', function() {
-		assert(detectNetwork('62290699589385165') === 'China UnionPay');
+		assert(detectNetwork('62290608896936060') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622907 and a length of 17', function() {
-		assert(detectNetwork('62290754658450542') === 'China UnionPay');
+		assert(detectNetwork('62290780792295106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622908 and a length of 17', function() {
-		assert(detectNetwork('62290836722793477') === 'China UnionPay');
+		assert(detectNetwork('62290893656290309') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622909 and a length of 17', function() {
-		assert(detectNetwork('62290939696624800') === 'China UnionPay');
+		assert(detectNetwork('62290914475505782') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622910 and a length of 17', function() {
-		assert(detectNetwork('62291054950815877') === 'China UnionPay');
+		assert(detectNetwork('62291002417032447') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622911 and a length of 17', function() {
-		assert(detectNetwork('62291151629197424') === 'China UnionPay');
+		assert(detectNetwork('62291174112118396') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622912 and a length of 17', function() {
-		assert(detectNetwork('62291204484716212') === 'China UnionPay');
+		assert(detectNetwork('62291288332897930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622913 and a length of 17', function() {
-		assert(detectNetwork('62291354238232141') === 'China UnionPay');
+		assert(detectNetwork('62291387059536515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622914 and a length of 17', function() {
-		assert(detectNetwork('62291481793861423') === 'China UnionPay');
+		assert(detectNetwork('62291466825585803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622915 and a length of 17', function() {
-		assert(detectNetwork('62291509354383299') === 'China UnionPay');
+		assert(detectNetwork('62291538610011463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622916 and a length of 17', function() {
-		assert(detectNetwork('62291639794042270') === 'China UnionPay');
+		assert(detectNetwork('62291692326579375') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622917 and a length of 17', function() {
-		assert(detectNetwork('62291700609050601') === 'China UnionPay');
+		assert(detectNetwork('62291790055033426') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622918 and a length of 17', function() {
-		assert(detectNetwork('62291869981754461') === 'China UnionPay');
+		assert(detectNetwork('62291853259748409') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622919 and a length of 17', function() {
-		assert(detectNetwork('62291964673285930') === 'China UnionPay');
+		assert(detectNetwork('62291987840548797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622920 and a length of 17', function() {
-		assert(detectNetwork('62292036023863631') === 'China UnionPay');
+		assert(detectNetwork('62292035985127060') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622921 and a length of 17', function() {
-		assert(detectNetwork('62292188020029341') === 'China UnionPay');
+		assert(detectNetwork('62292193904998166') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622922 and a length of 17', function() {
-		assert(detectNetwork('62292282265774446') === 'China UnionPay');
+		assert(detectNetwork('62292216089119528') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622923 and a length of 17', function() {
-		assert(detectNetwork('62292324015175660') === 'China UnionPay');
+		assert(detectNetwork('62292370099076816') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622924 and a length of 17', function() {
-		assert(detectNetwork('62292458182491891') === 'China UnionPay');
+		assert(detectNetwork('62292426328231650') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622925 and a length of 17', function() {
-		assert(detectNetwork('62292596187168986') === 'China UnionPay');
+		assert(detectNetwork('62292552127108655') === 'China UnionPay');
 	});
 
 	it('has a prefix of 624 and a length of 18', function() {
-		assert(detectNetwork('624070134353223542') === 'China UnionPay');
+		assert(detectNetwork('624205836065653179') === 'China UnionPay');
 	});
 
 	it('has a prefix of 625 and a length of 18', function() {
-		assert(detectNetwork('625752371349803045') === 'China UnionPay');
+		assert(detectNetwork('625190042328035893') === 'China UnionPay');
 	});
 
 	it('has a prefix of 626 and a length of 18', function() {
-		assert(detectNetwork('626610424401660443') === 'China UnionPay');
+		assert(detectNetwork('626968163522907990') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6282 and a length of 18', function() {
-		assert(detectNetwork('628267024507716900') === 'China UnionPay');
+		assert(detectNetwork('628209006793444626') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6283 and a length of 18', function() {
-		assert(detectNetwork('628382751838983838') === 'China UnionPay');
+		assert(detectNetwork('628309992361893484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6284 and a length of 18', function() {
-		assert(detectNetwork('628402057590569209') === 'China UnionPay');
+		assert(detectNetwork('628467032548077001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6285 and a length of 18', function() {
-		assert(detectNetwork('628543414063655921') === 'China UnionPay');
+		assert(detectNetwork('628581262768622891') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6286 and a length of 18', function() {
-		assert(detectNetwork('628646792248569169') === 'China UnionPay');
+		assert(detectNetwork('628609208817132092') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6287 and a length of 18', function() {
-		assert(detectNetwork('628754028211004227') === 'China UnionPay');
+		assert(detectNetwork('628773380866936011') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6288 and a length of 18', function() {
-		assert(detectNetwork('628819744165618667') === 'China UnionPay');
+		assert(detectNetwork('628873672876521349') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622126 and a length of 18', function() {
-		assert(detectNetwork('622126658759244918') === 'China UnionPay');
+		assert(detectNetwork('622126433863486452') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622127 and a length of 18', function() {
-		assert(detectNetwork('622127567654537964') === 'China UnionPay');
+		assert(detectNetwork('622127078336847045') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622128 and a length of 18', function() {
-		assert(detectNetwork('622128479113182829') === 'China UnionPay');
+		assert(detectNetwork('622128632598206969') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622129 and a length of 18', function() {
-		assert(detectNetwork('622129639649972112') === 'China UnionPay');
+		assert(detectNetwork('622129433170678332') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622130 and a length of 18', function() {
-		assert(detectNetwork('622130166565805009') === 'China UnionPay');
+		assert(detectNetwork('622130391177009930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622131 and a length of 18', function() {
-		assert(detectNetwork('622131436815492722') === 'China UnionPay');
+		assert(detectNetwork('622131655685272538') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622132 and a length of 18', function() {
-		assert(detectNetwork('622132308908693072') === 'China UnionPay');
+		assert(detectNetwork('622132856838107536') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622133 and a length of 18', function() {
-		assert(detectNetwork('622133994960782658') === 'China UnionPay');
+		assert(detectNetwork('622133169914301704') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622134 and a length of 18', function() {
-		assert(detectNetwork('622134940205033326') === 'China UnionPay');
+		assert(detectNetwork('622134154476952593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622135 and a length of 18', function() {
-		assert(detectNetwork('622135590278584291') === 'China UnionPay');
+		assert(detectNetwork('622135726341369173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622136 and a length of 18', function() {
-		assert(detectNetwork('622136283831378042') === 'China UnionPay');
+		assert(detectNetwork('622136171376310867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622137 and a length of 18', function() {
-		assert(detectNetwork('622137166927135596') === 'China UnionPay');
+		assert(detectNetwork('622137809808776492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622138 and a length of 18', function() {
-		assert(detectNetwork('622138833339139276') === 'China UnionPay');
+		assert(detectNetwork('622138684355086209') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622139 and a length of 18', function() {
-		assert(detectNetwork('622139617604170552') === 'China UnionPay');
+		assert(detectNetwork('622139133378978954') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622140 and a length of 18', function() {
-		assert(detectNetwork('622140277255818877') === 'China UnionPay');
+		assert(detectNetwork('622140666068684137') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622141 and a length of 18', function() {
-		assert(detectNetwork('622141233354626820') === 'China UnionPay');
+		assert(detectNetwork('622141427560016029') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622142 and a length of 18', function() {
-		assert(detectNetwork('622142525616508876') === 'China UnionPay');
+		assert(detectNetwork('622142284560276866') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622143 and a length of 18', function() {
-		assert(detectNetwork('622143087037584343') === 'China UnionPay');
+		assert(detectNetwork('622143145794349467') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622144 and a length of 18', function() {
-		assert(detectNetwork('622144317507882629') === 'China UnionPay');
+		assert(detectNetwork('622144388903546332') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622145 and a length of 18', function() {
-		assert(detectNetwork('622145699763522897') === 'China UnionPay');
+		assert(detectNetwork('622145269158051645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622146 and a length of 18', function() {
-		assert(detectNetwork('622146648520095001') === 'China UnionPay');
+		assert(detectNetwork('622146278156181644') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622147 and a length of 18', function() {
-		assert(detectNetwork('622147063158620964') === 'China UnionPay');
+		assert(detectNetwork('622147744973467232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622148 and a length of 18', function() {
-		assert(detectNetwork('622148395215164978') === 'China UnionPay');
+		assert(detectNetwork('622148741325578708') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622149 and a length of 18', function() {
-		assert(detectNetwork('622149172425053045') === 'China UnionPay');
+		assert(detectNetwork('622149176305397458') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622150 and a length of 18', function() {
-		assert(detectNetwork('622150182125826552') === 'China UnionPay');
+		assert(detectNetwork('622150877994445683') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622151 and a length of 18', function() {
-		assert(detectNetwork('622151243461667852') === 'China UnionPay');
+		assert(detectNetwork('622151777685347930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622152 and a length of 18', function() {
-		assert(detectNetwork('622152692334218557') === 'China UnionPay');
+		assert(detectNetwork('622152737042555142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622153 and a length of 18', function() {
-		assert(detectNetwork('622153953006528661') === 'China UnionPay');
+		assert(detectNetwork('622153816581589318') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622154 and a length of 18', function() {
-		assert(detectNetwork('622154214587317058') === 'China UnionPay');
+		assert(detectNetwork('622154514705108810') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622155 and a length of 18', function() {
-		assert(detectNetwork('622155583251109436') === 'China UnionPay');
+		assert(detectNetwork('622155607986389870') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622156 and a length of 18', function() {
-		assert(detectNetwork('622156949696655608') === 'China UnionPay');
+		assert(detectNetwork('622156136549812406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622157 and a length of 18', function() {
-		assert(detectNetwork('622157790192813471') === 'China UnionPay');
+		assert(detectNetwork('622157907254825692') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622158 and a length of 18', function() {
-		assert(detectNetwork('622158661886452630') === 'China UnionPay');
+		assert(detectNetwork('622158191159695464') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622159 and a length of 18', function() {
-		assert(detectNetwork('622159624498368848') === 'China UnionPay');
+		assert(detectNetwork('622159331564869892') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622160 and a length of 18', function() {
-		assert(detectNetwork('622160483868517682') === 'China UnionPay');
+		assert(detectNetwork('622160430220885084') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622161 and a length of 18', function() {
-		assert(detectNetwork('622161600924383603') === 'China UnionPay');
+		assert(detectNetwork('622161557613876413') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622162 and a length of 18', function() {
-		assert(detectNetwork('622162544398847838') === 'China UnionPay');
+		assert(detectNetwork('622162247529182518') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622163 and a length of 18', function() {
-		assert(detectNetwork('622163587638622284') === 'China UnionPay');
+		assert(detectNetwork('622163333539912923') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622164 and a length of 18', function() {
-		assert(detectNetwork('622164246867169507') === 'China UnionPay');
+		assert(detectNetwork('622164088877975783') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622165 and a length of 18', function() {
-		assert(detectNetwork('622165500850014551') === 'China UnionPay');
+		assert(detectNetwork('622165793234487045') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622166 and a length of 18', function() {
-		assert(detectNetwork('622166134980242156') === 'China UnionPay');
+		assert(detectNetwork('622166493593085282') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622167 and a length of 18', function() {
-		assert(detectNetwork('622167656162552762') === 'China UnionPay');
+		assert(detectNetwork('622167277872500514') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622168 and a length of 18', function() {
-		assert(detectNetwork('622168249464901548') === 'China UnionPay');
+		assert(detectNetwork('622168596568783373') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622169 and a length of 18', function() {
-		assert(detectNetwork('622169197156500077') === 'China UnionPay');
+		assert(detectNetwork('622169836128347188') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622170 and a length of 18', function() {
-		assert(detectNetwork('622170523271689930') === 'China UnionPay');
+		assert(detectNetwork('622170788495073560') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622171 and a length of 18', function() {
-		assert(detectNetwork('622171404762857684') === 'China UnionPay');
+		assert(detectNetwork('622171873609768694') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622172 and a length of 18', function() {
-		assert(detectNetwork('622172344868016838') === 'China UnionPay');
+		assert(detectNetwork('622172530179499709') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622173 and a length of 18', function() {
-		assert(detectNetwork('622173292920397026') === 'China UnionPay');
+		assert(detectNetwork('622173154232708898') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622174 and a length of 18', function() {
-		assert(detectNetwork('622174282734895545') === 'China UnionPay');
+		assert(detectNetwork('622174531885288947') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622175 and a length of 18', function() {
-		assert(detectNetwork('622175390438301849') === 'China UnionPay');
+		assert(detectNetwork('622175835837645492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622176 and a length of 18', function() {
-		assert(detectNetwork('622176986119720573') === 'China UnionPay');
+		assert(detectNetwork('622176834486947022') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622177 and a length of 18', function() {
-		assert(detectNetwork('622177882768742224') === 'China UnionPay');
+		assert(detectNetwork('622177514479027823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622178 and a length of 18', function() {
-		assert(detectNetwork('622178674480965790') === 'China UnionPay');
+		assert(detectNetwork('622178895882565156') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622179 and a length of 18', function() {
-		assert(detectNetwork('622179631368604465') === 'China UnionPay');
+		assert(detectNetwork('622179938598832234') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622180 and a length of 18', function() {
-		assert(detectNetwork('622180497541967017') === 'China UnionPay');
+		assert(detectNetwork('622180028071431183') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622181 and a length of 18', function() {
-		assert(detectNetwork('622181147867098499') === 'China UnionPay');
+		assert(detectNetwork('622181886404695304') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622182 and a length of 18', function() {
-		assert(detectNetwork('622182805377521204') === 'China UnionPay');
+		assert(detectNetwork('622182588013086646') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622183 and a length of 18', function() {
-		assert(detectNetwork('622183351919281048') === 'China UnionPay');
+		assert(detectNetwork('622183731316854941') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622184 and a length of 18', function() {
-		assert(detectNetwork('622184995316416210') === 'China UnionPay');
+		assert(detectNetwork('622184105421155217') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622185 and a length of 18', function() {
-		assert(detectNetwork('622185856072925455') === 'China UnionPay');
+		assert(detectNetwork('622185115696269249') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622186 and a length of 18', function() {
-		assert(detectNetwork('622186810055539097') === 'China UnionPay');
+		assert(detectNetwork('622186036131229414') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622187 and a length of 18', function() {
-		assert(detectNetwork('622187590147709061') === 'China UnionPay');
+		assert(detectNetwork('622187521337785055') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622188 and a length of 18', function() {
-		assert(detectNetwork('622188372492248306') === 'China UnionPay');
+		assert(detectNetwork('622188489684698927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622189 and a length of 18', function() {
-		assert(detectNetwork('622189537664722698') === 'China UnionPay');
+		assert(detectNetwork('622189126301629453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622190 and a length of 18', function() {
-		assert(detectNetwork('622190424496871957') === 'China UnionPay');
+		assert(detectNetwork('622190541044169013') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622191 and a length of 18', function() {
-		assert(detectNetwork('622191212235524497') === 'China UnionPay');
+		assert(detectNetwork('622191321567697601') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622192 and a length of 18', function() {
-		assert(detectNetwork('622192007745057861') === 'China UnionPay');
+		assert(detectNetwork('622192441435900198') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622193 and a length of 18', function() {
-		assert(detectNetwork('622193823485281338') === 'China UnionPay');
+		assert(detectNetwork('622193036400354629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622194 and a length of 18', function() {
-		assert(detectNetwork('622194408230406786') === 'China UnionPay');
+		assert(detectNetwork('622194447828951858') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622195 and a length of 18', function() {
-		assert(detectNetwork('622195625979202820') === 'China UnionPay');
+		assert(detectNetwork('622195155995631371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622196 and a length of 18', function() {
-		assert(detectNetwork('622196672624868266') === 'China UnionPay');
+		assert(detectNetwork('622196168520455588') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622197 and a length of 18', function() {
-		assert(detectNetwork('622197486277944010') === 'China UnionPay');
+		assert(detectNetwork('622197015674695825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622198 and a length of 18', function() {
-		assert(detectNetwork('622198311928583466') === 'China UnionPay');
+		assert(detectNetwork('622198235676876346') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622199 and a length of 18', function() {
-		assert(detectNetwork('622199799086146615') === 'China UnionPay');
+		assert(detectNetwork('622199587060848548') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622200 and a length of 18', function() {
-		assert(detectNetwork('622200146669559039') === 'China UnionPay');
+		assert(detectNetwork('622200542370265037') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622201 and a length of 18', function() {
-		assert(detectNetwork('622201109429058585') === 'China UnionPay');
+		assert(detectNetwork('622201077444435302') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622202 and a length of 18', function() {
-		assert(detectNetwork('622202853687500475') === 'China UnionPay');
+		assert(detectNetwork('622202853160819984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622203 and a length of 18', function() {
-		assert(detectNetwork('622203329427594524') === 'China UnionPay');
+		assert(detectNetwork('622203491241000271') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622204 and a length of 18', function() {
-		assert(detectNetwork('622204653277358342') === 'China UnionPay');
+		assert(detectNetwork('622204828474635731') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622205 and a length of 18', function() {
-		assert(detectNetwork('622205053450327762') === 'China UnionPay');
+		assert(detectNetwork('622205107008943562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622206 and a length of 18', function() {
-		assert(detectNetwork('622206255170888152') === 'China UnionPay');
+		assert(detectNetwork('622206331937984696') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622207 and a length of 18', function() {
-		assert(detectNetwork('622207268321355033') === 'China UnionPay');
+		assert(detectNetwork('622207479369780184') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622208 and a length of 18', function() {
-		assert(detectNetwork('622208791030607643') === 'China UnionPay');
+		assert(detectNetwork('622208529177322652') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622209 and a length of 18', function() {
-		assert(detectNetwork('622209521054125369') === 'China UnionPay');
+		assert(detectNetwork('622209317215492821') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622210 and a length of 18', function() {
-		assert(detectNetwork('622210744237370740') === 'China UnionPay');
+		assert(detectNetwork('622210687019665930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622211 and a length of 18', function() {
-		assert(detectNetwork('622211287608718730') === 'China UnionPay');
+		assert(detectNetwork('622211797875132696') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622212 and a length of 18', function() {
-		assert(detectNetwork('622212792828496227') === 'China UnionPay');
+		assert(detectNetwork('622212608521988634') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622213 and a length of 18', function() {
-		assert(detectNetwork('622213114833402463') === 'China UnionPay');
+		assert(detectNetwork('622213753726083577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622214 and a length of 18', function() {
-		assert(detectNetwork('622214175242680245') === 'China UnionPay');
+		assert(detectNetwork('622214551449545226') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622215 and a length of 18', function() {
-		assert(detectNetwork('622215827317419943') === 'China UnionPay');
+		assert(detectNetwork('622215577237730065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622216 and a length of 18', function() {
-		assert(detectNetwork('622216225082105937') === 'China UnionPay');
+		assert(detectNetwork('622216296793244056') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622217 and a length of 18', function() {
-		assert(detectNetwork('622217976975352547') === 'China UnionPay');
+		assert(detectNetwork('622217301667042721') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622218 and a length of 18', function() {
-		assert(detectNetwork('622218388679464334') === 'China UnionPay');
+		assert(detectNetwork('622218411708997767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622219 and a length of 18', function() {
-		assert(detectNetwork('622219509748941494') === 'China UnionPay');
+		assert(detectNetwork('622219401217528714') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622220 and a length of 18', function() {
-		assert(detectNetwork('622220394863614354') === 'China UnionPay');
+		assert(detectNetwork('622220810082667197') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622221 and a length of 18', function() {
-		assert(detectNetwork('622221110779749942') === 'China UnionPay');
+		assert(detectNetwork('622221709174510127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622222 and a length of 18', function() {
-		assert(detectNetwork('622222360885218384') === 'China UnionPay');
+		assert(detectNetwork('622222140438594951') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622223 and a length of 18', function() {
-		assert(detectNetwork('622223262135305745') === 'China UnionPay');
+		assert(detectNetwork('622223128654558768') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622224 and a length of 18', function() {
-		assert(detectNetwork('622224248688666973') === 'China UnionPay');
+		assert(detectNetwork('622224989864957857') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622225 and a length of 18', function() {
-		assert(detectNetwork('622225370359975976') === 'China UnionPay');
+		assert(detectNetwork('622225154764077077') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622226 and a length of 18', function() {
-		assert(detectNetwork('622226480148200368') === 'China UnionPay');
+		assert(detectNetwork('622226825974476769') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622227 and a length of 18', function() {
-		assert(detectNetwork('622227092811082967') === 'China UnionPay');
+		assert(detectNetwork('622227116901054470') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622228 and a length of 18', function() {
-		assert(detectNetwork('622228111329283755') === 'China UnionPay');
+		assert(detectNetwork('622228394976691010') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622229 and a length of 18', function() {
-		assert(detectNetwork('622229034578833521') === 'China UnionPay');
+		assert(detectNetwork('622229799946418320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622230 and a length of 18', function() {
-		assert(detectNetwork('622230868141290234') === 'China UnionPay');
+		assert(detectNetwork('622230192316110137') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622231 and a length of 18', function() {
-		assert(detectNetwork('622231341569080862') === 'China UnionPay');
+		assert(detectNetwork('622231261643352634') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622232 and a length of 18', function() {
-		assert(detectNetwork('622232934906476094') === 'China UnionPay');
+		assert(detectNetwork('622232825101049453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622233 and a length of 18', function() {
-		assert(detectNetwork('622233143109138398') === 'China UnionPay');
+		assert(detectNetwork('622233173196540207') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622234 and a length of 18', function() {
-		assert(detectNetwork('622234891455005657') === 'China UnionPay');
+		assert(detectNetwork('622234552605344877') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622235 and a length of 18', function() {
-		assert(detectNetwork('622235018709759861') === 'China UnionPay');
+		assert(detectNetwork('622235029265497619') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622236 and a length of 18', function() {
-		assert(detectNetwork('622236462187223765') === 'China UnionPay');
+		assert(detectNetwork('622236061746943908') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622237 and a length of 18', function() {
-		assert(detectNetwork('622237408268005872') === 'China UnionPay');
+		assert(detectNetwork('622237759858255338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622238 and a length of 18', function() {
-		assert(detectNetwork('622238087909368608') === 'China UnionPay');
+		assert(detectNetwork('622238292568471253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622239 and a length of 18', function() {
-		assert(detectNetwork('622239194275445619') === 'China UnionPay');
+		assert(detectNetwork('622239402616441999') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622240 and a length of 18', function() {
-		assert(detectNetwork('622240789195645694') === 'China UnionPay');
+		assert(detectNetwork('622240896903324569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622241 and a length of 18', function() {
-		assert(detectNetwork('622241573084495163') === 'China UnionPay');
+		assert(detectNetwork('622241722487428315') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622242 and a length of 18', function() {
-		assert(detectNetwork('622242782589397514') === 'China UnionPay');
+		assert(detectNetwork('622242022771775087') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622243 and a length of 18', function() {
-		assert(detectNetwork('622243734371153042') === 'China UnionPay');
+		assert(detectNetwork('622243360557422461') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622244 and a length of 18', function() {
-		assert(detectNetwork('622244634242159075') === 'China UnionPay');
+		assert(detectNetwork('622244541044424819') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622245 and a length of 18', function() {
-		assert(detectNetwork('622245253632403888') === 'China UnionPay');
+		assert(detectNetwork('622245814239418184') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622246 and a length of 18', function() {
-		assert(detectNetwork('622246665577201685') === 'China UnionPay');
+		assert(detectNetwork('622246586608968901') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622247 and a length of 18', function() {
-		assert(detectNetwork('622247870445336753') === 'China UnionPay');
+		assert(detectNetwork('622247915888336979') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622248 and a length of 18', function() {
-		assert(detectNetwork('622248092995847773') === 'China UnionPay');
+		assert(detectNetwork('622248897641490983') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622249 and a length of 18', function() {
-		assert(detectNetwork('622249938295816498') === 'China UnionPay');
+		assert(detectNetwork('622249708409358134') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622250 and a length of 18', function() {
-		assert(detectNetwork('622250068359741617') === 'China UnionPay');
+		assert(detectNetwork('622250541915307873') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622251 and a length of 18', function() {
-		assert(detectNetwork('622251827391198406') === 'China UnionPay');
+		assert(detectNetwork('622251546548324599') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622252 and a length of 18', function() {
-		assert(detectNetwork('622252633788412907') === 'China UnionPay');
+		assert(detectNetwork('622252049361177691') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622253 and a length of 18', function() {
-		assert(detectNetwork('622253083875859420') === 'China UnionPay');
+		assert(detectNetwork('622253907065650146') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622254 and a length of 18', function() {
-		assert(detectNetwork('622254006516682660') === 'China UnionPay');
+		assert(detectNetwork('622254760025847984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622255 and a length of 18', function() {
-		assert(detectNetwork('622255731017021779') === 'China UnionPay');
+		assert(detectNetwork('622255917207873384') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622256 and a length of 18', function() {
-		assert(detectNetwork('622256111021967795') === 'China UnionPay');
+		assert(detectNetwork('622256105983289258') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622257 and a length of 18', function() {
-		assert(detectNetwork('622257912663701963') === 'China UnionPay');
+		assert(detectNetwork('622257921665759238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622258 and a length of 18', function() {
-		assert(detectNetwork('622258270089328420') === 'China UnionPay');
+		assert(detectNetwork('622258815420125845') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622259 and a length of 18', function() {
-		assert(detectNetwork('622259643606524769') === 'China UnionPay');
+		assert(detectNetwork('622259629093267505') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622260 and a length of 18', function() {
-		assert(detectNetwork('622260653089773641') === 'China UnionPay');
+		assert(detectNetwork('622260117978054865') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622261 and a length of 18', function() {
-		assert(detectNetwork('622261754091249467') === 'China UnionPay');
+		assert(detectNetwork('622261149890157667') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622262 and a length of 18', function() {
-		assert(detectNetwork('622262789888956302') === 'China UnionPay');
+		assert(detectNetwork('622262897900973228') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622263 and a length of 18', function() {
-		assert(detectNetwork('622263758784667914') === 'China UnionPay');
+		assert(detectNetwork('622263453922255144') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622264 and a length of 18', function() {
-		assert(detectNetwork('622264629266883066') === 'China UnionPay');
+		assert(detectNetwork('622264964858499717') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622265 and a length of 18', function() {
-		assert(detectNetwork('622265078046413722') === 'China UnionPay');
+		assert(detectNetwork('622265494711671811') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622266 and a length of 18', function() {
-		assert(detectNetwork('622266134165191078') === 'China UnionPay');
+		assert(detectNetwork('622266836857936193') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622267 and a length of 18', function() {
-		assert(detectNetwork('622267799716562099') === 'China UnionPay');
+		assert(detectNetwork('622267447415425129') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622268 and a length of 18', function() {
-		assert(detectNetwork('622268278945401779') === 'China UnionPay');
+		assert(detectNetwork('622268683409060416') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622269 and a length of 18', function() {
-		assert(detectNetwork('622269351116600047') === 'China UnionPay');
+		assert(detectNetwork('622269098100567866') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622270 and a length of 18', function() {
-		assert(detectNetwork('622270081340127224') === 'China UnionPay');
+		assert(detectNetwork('622270927416741643') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622271 and a length of 18', function() {
-		assert(detectNetwork('622271152375454605') === 'China UnionPay');
+		assert(detectNetwork('622271069106945590') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622272 and a length of 18', function() {
-		assert(detectNetwork('622272280585409271') === 'China UnionPay');
+		assert(detectNetwork('622272441605929662') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622273 and a length of 18', function() {
-		assert(detectNetwork('622273244633208872') === 'China UnionPay');
+		assert(detectNetwork('622273402895283558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622274 and a length of 18', function() {
-		assert(detectNetwork('622274396402777768') === 'China UnionPay');
+		assert(detectNetwork('622274864505212273') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622275 and a length of 18', function() {
-		assert(detectNetwork('622275455066073259') === 'China UnionPay');
+		assert(detectNetwork('622275438600686733') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622276 and a length of 18', function() {
-		assert(detectNetwork('622276442262253822') === 'China UnionPay');
+		assert(detectNetwork('622276133577507896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622277 and a length of 18', function() {
-		assert(detectNetwork('622277906106889489') === 'China UnionPay');
+		assert(detectNetwork('622277013410801372') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622278 and a length of 18', function() {
-		assert(detectNetwork('622278971860624070') === 'China UnionPay');
+		assert(detectNetwork('622278763818819830') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622279 and a length of 18', function() {
-		assert(detectNetwork('622279318208623600') === 'China UnionPay');
+		assert(detectNetwork('622279042337560690') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622280 and a length of 18', function() {
-		assert(detectNetwork('622280602575800248') === 'China UnionPay');
+		assert(detectNetwork('622280108016967079') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622281 and a length of 18', function() {
-		assert(detectNetwork('622281597684390272') === 'China UnionPay');
+		assert(detectNetwork('622281916460293244') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622282 and a length of 18', function() {
-		assert(detectNetwork('622282335176537719') === 'China UnionPay');
+		assert(detectNetwork('622282067974682867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622283 and a length of 18', function() {
-		assert(detectNetwork('622283104462876972') === 'China UnionPay');
+		assert(detectNetwork('622283395468924319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622284 and a length of 18', function() {
-		assert(detectNetwork('622284134851802611') === 'China UnionPay');
+		assert(detectNetwork('622284579538188702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622285 and a length of 18', function() {
-		assert(detectNetwork('622285634615323367') === 'China UnionPay');
+		assert(detectNetwork('622285515787285683') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622286 and a length of 18', function() {
-		assert(detectNetwork('622286427962397435') === 'China UnionPay');
+		assert(detectNetwork('622286139627602353') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622287 and a length of 18', function() {
-		assert(detectNetwork('622287000489080714') === 'China UnionPay');
+		assert(detectNetwork('622287436062479902') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622288 and a length of 18', function() {
-		assert(detectNetwork('622288276109646166') === 'China UnionPay');
+		assert(detectNetwork('622288799218465780') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622289 and a length of 18', function() {
-		assert(detectNetwork('622289336682978275') === 'China UnionPay');
+		assert(detectNetwork('622289778099006896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622290 and a length of 18', function() {
-		assert(detectNetwork('622290670502391455') === 'China UnionPay');
+		assert(detectNetwork('622290135134004962') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622291 and a length of 18', function() {
-		assert(detectNetwork('622291988288178346') === 'China UnionPay');
+		assert(detectNetwork('622291942189483169') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622292 and a length of 18', function() {
-		assert(detectNetwork('622292088991517447') === 'China UnionPay');
+		assert(detectNetwork('622292205973790693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622293 and a length of 18', function() {
-		assert(detectNetwork('622293372297676292') === 'China UnionPay');
+		assert(detectNetwork('622293810769684607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622294 and a length of 18', function() {
-		assert(detectNetwork('622294215412770090') === 'China UnionPay');
+		assert(detectNetwork('622294851679561117') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622295 and a length of 18', function() {
-		assert(detectNetwork('622295674182424002') === 'China UnionPay');
+		assert(detectNetwork('622295932793574783') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622296 and a length of 18', function() {
-		assert(detectNetwork('622296277427935261') === 'China UnionPay');
+		assert(detectNetwork('622296978223895339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622297 and a length of 18', function() {
-		assert(detectNetwork('622297680726910801') === 'China UnionPay');
+		assert(detectNetwork('622297177042928510') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622298 and a length of 18', function() {
-		assert(detectNetwork('622298146622446517') === 'China UnionPay');
+		assert(detectNetwork('622298721034780987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622299 and a length of 18', function() {
-		assert(detectNetwork('622299101104453022') === 'China UnionPay');
+		assert(detectNetwork('622299468769506174') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622300 and a length of 18', function() {
-		assert(detectNetwork('622300800975775443') === 'China UnionPay');
+		assert(detectNetwork('622300557322633031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622301 and a length of 18', function() {
-		assert(detectNetwork('622301741703569069') === 'China UnionPay');
+		assert(detectNetwork('622301567855122956') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622302 and a length of 18', function() {
-		assert(detectNetwork('622302417552080973') === 'China UnionPay');
+		assert(detectNetwork('622302439945949635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622303 and a length of 18', function() {
-		assert(detectNetwork('622303618028159080') === 'China UnionPay');
+		assert(detectNetwork('622303888600876240') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622304 and a length of 18', function() {
-		assert(detectNetwork('622304650661310364') === 'China UnionPay');
+		assert(detectNetwork('622304880233690684') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622305 and a length of 18', function() {
-		assert(detectNetwork('622305153766867120') === 'China UnionPay');
+		assert(detectNetwork('622305179774876762') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622306 and a length of 18', function() {
-		assert(detectNetwork('622306343408696709') === 'China UnionPay');
+		assert(detectNetwork('622306165552830482') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622307 and a length of 18', function() {
-		assert(detectNetwork('622307005121815874') === 'China UnionPay');
+		assert(detectNetwork('622307252108628342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622308 and a length of 18', function() {
-		assert(detectNetwork('622308119094659327') === 'China UnionPay');
+		assert(detectNetwork('622308993647936048') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622309 and a length of 18', function() {
-		assert(detectNetwork('622309684286355064') === 'China UnionPay');
+		assert(detectNetwork('622309451818523082') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622310 and a length of 18', function() {
-		assert(detectNetwork('622310267514715496') === 'China UnionPay');
+		assert(detectNetwork('622310789905152631') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622311 and a length of 18', function() {
-		assert(detectNetwork('622311590691493340') === 'China UnionPay');
+		assert(detectNetwork('622311778711443432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622312 and a length of 18', function() {
-		assert(detectNetwork('622312003194900979') === 'China UnionPay');
+		assert(detectNetwork('622312367712574882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622313 and a length of 18', function() {
-		assert(detectNetwork('622313118977765712') === 'China UnionPay');
+		assert(detectNetwork('622313312477241744') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622314 and a length of 18', function() {
-		assert(detectNetwork('622314717622634461') === 'China UnionPay');
+		assert(detectNetwork('622314732176127605') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622315 and a length of 18', function() {
-		assert(detectNetwork('622315944429278482') === 'China UnionPay');
+		assert(detectNetwork('622315566849046950') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622316 and a length of 18', function() {
-		assert(detectNetwork('622316997399418425') === 'China UnionPay');
+		assert(detectNetwork('622316581743009040') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622317 and a length of 18', function() {
-		assert(detectNetwork('622317701483638274') === 'China UnionPay');
+		assert(detectNetwork('622317057942295244') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622318 and a length of 18', function() {
-		assert(detectNetwork('622318854081870882') === 'China UnionPay');
+		assert(detectNetwork('622318459436395239') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622319 and a length of 18', function() {
-		assert(detectNetwork('622319072910348171') === 'China UnionPay');
+		assert(detectNetwork('622319827358088568') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622320 and a length of 18', function() {
-		assert(detectNetwork('622320851509011791') === 'China UnionPay');
+		assert(detectNetwork('622320693819985205') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622321 and a length of 18', function() {
-		assert(detectNetwork('622321771773378940') === 'China UnionPay');
+		assert(detectNetwork('622321561192145003') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622322 and a length of 18', function() {
-		assert(detectNetwork('622322831143201841') === 'China UnionPay');
+		assert(detectNetwork('622322516145507847') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622323 and a length of 18', function() {
-		assert(detectNetwork('622323753904522343') === 'China UnionPay');
+		assert(detectNetwork('622323500526819367') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622324 and a length of 18', function() {
-		assert(detectNetwork('622324502833201041') === 'China UnionPay');
+		assert(detectNetwork('622324824955888002') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622325 and a length of 18', function() {
-		assert(detectNetwork('622325706950271036') === 'China UnionPay');
+		assert(detectNetwork('622325882544415655') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622326 and a length of 18', function() {
-		assert(detectNetwork('622326087469315492') === 'China UnionPay');
+		assert(detectNetwork('622326479680263068') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622327 and a length of 18', function() {
-		assert(detectNetwork('622327017806908809') === 'China UnionPay');
+		assert(detectNetwork('622327026387461446') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622328 and a length of 18', function() {
-		assert(detectNetwork('622328549665399770') === 'China UnionPay');
+		assert(detectNetwork('622328306800716702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622329 and a length of 18', function() {
-		assert(detectNetwork('622329806035427810') === 'China UnionPay');
+		assert(detectNetwork('622329900843689818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622330 and a length of 18', function() {
-		assert(detectNetwork('622330768560112022') === 'China UnionPay');
+		assert(detectNetwork('622330200280573472') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622331 and a length of 18', function() {
-		assert(detectNetwork('622331467704658869') === 'China UnionPay');
+		assert(detectNetwork('622331273088722253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622332 and a length of 18', function() {
-		assert(detectNetwork('622332108472561155') === 'China UnionPay');
+		assert(detectNetwork('622332061518093856') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622333 and a length of 18', function() {
-		assert(detectNetwork('622333849614499983') === 'China UnionPay');
+		assert(detectNetwork('622333407209464237') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622334 and a length of 18', function() {
-		assert(detectNetwork('622334837922813170') === 'China UnionPay');
+		assert(detectNetwork('622334285226802131') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622335 and a length of 18', function() {
-		assert(detectNetwork('622335573113718701') === 'China UnionPay');
+		assert(detectNetwork('622335662016508608') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622336 and a length of 18', function() {
-		assert(detectNetwork('622336565427813556') === 'China UnionPay');
+		assert(detectNetwork('622336561905278367') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622337 and a length of 18', function() {
-		assert(detectNetwork('622337567199751219') === 'China UnionPay');
+		assert(detectNetwork('622337089630475472') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622338 and a length of 18', function() {
-		assert(detectNetwork('622338748939282023') === 'China UnionPay');
+		assert(detectNetwork('622338867434885243') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622339 and a length of 18', function() {
-		assert(detectNetwork('622339797940164168') === 'China UnionPay');
+		assert(detectNetwork('622339807542009127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622340 and a length of 18', function() {
-		assert(detectNetwork('622340551982249256') === 'China UnionPay');
+		assert(detectNetwork('622340693816549646') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622341 and a length of 18', function() {
-		assert(detectNetwork('622341385157051565') === 'China UnionPay');
+		assert(detectNetwork('622341054049196967') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622342 and a length of 18', function() {
-		assert(detectNetwork('622342659759416356') === 'China UnionPay');
+		assert(detectNetwork('622342199625739316') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622343 and a length of 18', function() {
-		assert(detectNetwork('622343725567469012') === 'China UnionPay');
+		assert(detectNetwork('622343526966153722') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622344 and a length of 18', function() {
-		assert(detectNetwork('622344290969381916') === 'China UnionPay');
+		assert(detectNetwork('622344727098890780') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622345 and a length of 18', function() {
-		assert(detectNetwork('622345141639674651') === 'China UnionPay');
+		assert(detectNetwork('622345661320390635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622346 and a length of 18', function() {
-		assert(detectNetwork('622346008209430829') === 'China UnionPay');
+		assert(detectNetwork('622346182604958743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622347 and a length of 18', function() {
-		assert(detectNetwork('622347846809858610') === 'China UnionPay');
+		assert(detectNetwork('622347183462927056') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622348 and a length of 18', function() {
-		assert(detectNetwork('622348931472455937') === 'China UnionPay');
+		assert(detectNetwork('622348507126156504') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622349 and a length of 18', function() {
-		assert(detectNetwork('622349795320396474') === 'China UnionPay');
+		assert(detectNetwork('622349962458417068') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622350 and a length of 18', function() {
-		assert(detectNetwork('622350145654974447') === 'China UnionPay');
+		assert(detectNetwork('622350438001296209') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622351 and a length of 18', function() {
-		assert(detectNetwork('622351576001459153') === 'China UnionPay');
+		assert(detectNetwork('622351689277852290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622352 and a length of 18', function() {
-		assert(detectNetwork('622352173147561792') === 'China UnionPay');
+		assert(detectNetwork('622352939744284679') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622353 and a length of 18', function() {
-		assert(detectNetwork('622353549929478391') === 'China UnionPay');
+		assert(detectNetwork('622353599106370569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622354 and a length of 18', function() {
-		assert(detectNetwork('622354972019742588') === 'China UnionPay');
+		assert(detectNetwork('622354533931803372') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622355 and a length of 18', function() {
-		assert(detectNetwork('622355709500459104') === 'China UnionPay');
+		assert(detectNetwork('622355364431439267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622356 and a length of 18', function() {
-		assert(detectNetwork('622356896819450263') === 'China UnionPay');
+		assert(detectNetwork('622356582681947885') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622357 and a length of 18', function() {
-		assert(detectNetwork('622357963626383779') === 'China UnionPay');
+		assert(detectNetwork('622357956236174880') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622358 and a length of 18', function() {
-		assert(detectNetwork('622358825283021359') === 'China UnionPay');
+		assert(detectNetwork('622358853867254788') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622359 and a length of 18', function() {
-		assert(detectNetwork('622359471314736878') === 'China UnionPay');
+		assert(detectNetwork('622359498561837745') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622360 and a length of 18', function() {
-		assert(detectNetwork('622360756834034682') === 'China UnionPay');
+		assert(detectNetwork('622360121795719066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622361 and a length of 18', function() {
-		assert(detectNetwork('622361017300718331') === 'China UnionPay');
+		assert(detectNetwork('622361493892626382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622362 and a length of 18', function() {
-		assert(detectNetwork('622362930856397791') === 'China UnionPay');
+		assert(detectNetwork('622362819163072826') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622363 and a length of 18', function() {
-		assert(detectNetwork('622363804657537406') === 'China UnionPay');
+		assert(detectNetwork('622363852741364450') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622364 and a length of 18', function() {
-		assert(detectNetwork('622364942730921330') === 'China UnionPay');
+		assert(detectNetwork('622364626905054846') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622365 and a length of 18', function() {
-		assert(detectNetwork('622365770897664076') === 'China UnionPay');
+		assert(detectNetwork('622365238504004048') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622366 and a length of 18', function() {
-		assert(detectNetwork('622366601798523793') === 'China UnionPay');
+		assert(detectNetwork('622366801296960029') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622367 and a length of 18', function() {
-		assert(detectNetwork('622367150759802731') === 'China UnionPay');
+		assert(detectNetwork('622367951457373379') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622368 and a length of 18', function() {
-		assert(detectNetwork('622368608615673746') === 'China UnionPay');
+		assert(detectNetwork('622368432234363387') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622369 and a length of 18', function() {
-		assert(detectNetwork('622369670054258823') === 'China UnionPay');
+		assert(detectNetwork('622369043815127732') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622370 and a length of 18', function() {
-		assert(detectNetwork('622370830259748600') === 'China UnionPay');
+		assert(detectNetwork('622370366383638358') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622371 and a length of 18', function() {
-		assert(detectNetwork('622371875833569218') === 'China UnionPay');
+		assert(detectNetwork('622371865057875454') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622372 and a length of 18', function() {
-		assert(detectNetwork('622372985382217010') === 'China UnionPay');
+		assert(detectNetwork('622372278653756031') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622373 and a length of 18', function() {
-		assert(detectNetwork('622373380286669199') === 'China UnionPay');
+		assert(detectNetwork('622373423335606232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622374 and a length of 18', function() {
-		assert(detectNetwork('622374005099142628') === 'China UnionPay');
+		assert(detectNetwork('622374574659178691') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622375 and a length of 18', function() {
-		assert(detectNetwork('622375817977382769') === 'China UnionPay');
+		assert(detectNetwork('622375923500381335') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622376 and a length of 18', function() {
-		assert(detectNetwork('622376078441473999') === 'China UnionPay');
+		assert(detectNetwork('622376153366169845') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622377 and a length of 18', function() {
-		assert(detectNetwork('622377512178938244') === 'China UnionPay');
+		assert(detectNetwork('622377978527160983') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622378 and a length of 18', function() {
-		assert(detectNetwork('622378545781053737') === 'China UnionPay');
+		assert(detectNetwork('622378292099815994') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622379 and a length of 18', function() {
-		assert(detectNetwork('622379792584770050') === 'China UnionPay');
+		assert(detectNetwork('622379163972073260') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622380 and a length of 18', function() {
-		assert(detectNetwork('622380253152196321') === 'China UnionPay');
+		assert(detectNetwork('622380214361823675') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622381 and a length of 18', function() {
-		assert(detectNetwork('622381009640031031') === 'China UnionPay');
+		assert(detectNetwork('622381430064166329') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622382 and a length of 18', function() {
-		assert(detectNetwork('622382734937932634') === 'China UnionPay');
+		assert(detectNetwork('622382294193952003') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622383 and a length of 18', function() {
-		assert(detectNetwork('622383975886391396') === 'China UnionPay');
+		assert(detectNetwork('622383844659538085') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622384 and a length of 18', function() {
-		assert(detectNetwork('622384865212473141') === 'China UnionPay');
+		assert(detectNetwork('622384775696944143') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622385 and a length of 18', function() {
-		assert(detectNetwork('622385570511676772') === 'China UnionPay');
+		assert(detectNetwork('622385626269988145') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622386 and a length of 18', function() {
-		assert(detectNetwork('622386134755230765') === 'China UnionPay');
+		assert(detectNetwork('622386195321420035') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622387 and a length of 18', function() {
-		assert(detectNetwork('622387515469578816') === 'China UnionPay');
+		assert(detectNetwork('622387599885551569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622388 and a length of 18', function() {
-		assert(detectNetwork('622388449051931474') === 'China UnionPay');
+		assert(detectNetwork('622388255066136892') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622389 and a length of 18', function() {
-		assert(detectNetwork('622389047409276446') === 'China UnionPay');
+		assert(detectNetwork('622389589204374755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622390 and a length of 18', function() {
-		assert(detectNetwork('622390395092349954') === 'China UnionPay');
+		assert(detectNetwork('622390830176015682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622391 and a length of 18', function() {
-		assert(detectNetwork('622391333097277339') === 'China UnionPay');
+		assert(detectNetwork('622391358680443021') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622392 and a length of 18', function() {
-		assert(detectNetwork('622392395818938635') === 'China UnionPay');
+		assert(detectNetwork('622392947154034301') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622393 and a length of 18', function() {
-		assert(detectNetwork('622393586063232779') === 'China UnionPay');
+		assert(detectNetwork('622393474473872413') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622394 and a length of 18', function() {
-		assert(detectNetwork('622394167399992608') === 'China UnionPay');
+		assert(detectNetwork('622394444353340240') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622395 and a length of 18', function() {
-		assert(detectNetwork('622395574392716622') === 'China UnionPay');
+		assert(detectNetwork('622395718227910389') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622396 and a length of 18', function() {
-		assert(detectNetwork('622396949837132447') === 'China UnionPay');
+		assert(detectNetwork('622396653583876959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622397 and a length of 18', function() {
-		assert(detectNetwork('622397013872385633') === 'China UnionPay');
+		assert(detectNetwork('622397108346902320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622398 and a length of 18', function() {
-		assert(detectNetwork('622398779980233530') === 'China UnionPay');
+		assert(detectNetwork('622398800257547343') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622399 and a length of 18', function() {
-		assert(detectNetwork('622399927938291043') === 'China UnionPay');
+		assert(detectNetwork('622399092324256952') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622400 and a length of 18', function() {
-		assert(detectNetwork('622400273905936212') === 'China UnionPay');
+		assert(detectNetwork('622400600367076923') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622401 and a length of 18', function() {
-		assert(detectNetwork('622401106011742519') === 'China UnionPay');
+		assert(detectNetwork('622401185190452326') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622402 and a length of 18', function() {
-		assert(detectNetwork('622402635509423420') === 'China UnionPay');
+		assert(detectNetwork('622402055101110997') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622403 and a length of 18', function() {
-		assert(detectNetwork('622403062889045600') === 'China UnionPay');
+		assert(detectNetwork('622403195637087867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622404 and a length of 18', function() {
-		assert(detectNetwork('622404269395838096') === 'China UnionPay');
+		assert(detectNetwork('622404888217543300') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622405 and a length of 18', function() {
-		assert(detectNetwork('622405594624963269') === 'China UnionPay');
+		assert(detectNetwork('622405990411889148') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622406 and a length of 18', function() {
-		assert(detectNetwork('622406275631199764') === 'China UnionPay');
+		assert(detectNetwork('622406884319012051') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622407 and a length of 18', function() {
-		assert(detectNetwork('622407271942928992') === 'China UnionPay');
+		assert(detectNetwork('622407713126521357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622408 and a length of 18', function() {
-		assert(detectNetwork('622408559500285377') === 'China UnionPay');
+		assert(detectNetwork('622408755149683857') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622409 and a length of 18', function() {
-		assert(detectNetwork('622409256314927880') === 'China UnionPay');
+		assert(detectNetwork('622409870657736121') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622410 and a length of 18', function() {
-		assert(detectNetwork('622410689262933852') === 'China UnionPay');
+		assert(detectNetwork('622410423327437208') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622411 and a length of 18', function() {
-		assert(detectNetwork('622411351814758883') === 'China UnionPay');
+		assert(detectNetwork('622411861414998676') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622412 and a length of 18', function() {
-		assert(detectNetwork('622412164281756244') === 'China UnionPay');
+		assert(detectNetwork('622412138015001432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622413 and a length of 18', function() {
-		assert(detectNetwork('622413433618738127') === 'China UnionPay');
+		assert(detectNetwork('622413930750991689') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622414 and a length of 18', function() {
-		assert(detectNetwork('622414006851183303') === 'China UnionPay');
+		assert(detectNetwork('622414958729058642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622415 and a length of 18', function() {
-		assert(detectNetwork('622415779431333371') === 'China UnionPay');
+		assert(detectNetwork('622415007147344036') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622416 and a length of 18', function() {
-		assert(detectNetwork('622416722004582750') === 'China UnionPay');
+		assert(detectNetwork('622416035634978986') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622417 and a length of 18', function() {
-		assert(detectNetwork('622417887743357241') === 'China UnionPay');
+		assert(detectNetwork('622417271922395324') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622418 and a length of 18', function() {
-		assert(detectNetwork('622418346903243866') === 'China UnionPay');
+		assert(detectNetwork('622418366466931371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622419 and a length of 18', function() {
-		assert(detectNetwork('622419503077196320') === 'China UnionPay');
+		assert(detectNetwork('622419151823213763') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622420 and a length of 18', function() {
-		assert(detectNetwork('622420285065152300') === 'China UnionPay');
+		assert(detectNetwork('622420265715403841') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622421 and a length of 18', function() {
-		assert(detectNetwork('622421543172050260') === 'China UnionPay');
+		assert(detectNetwork('622421789015110233') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622422 and a length of 18', function() {
-		assert(detectNetwork('622422312709689756') === 'China UnionPay');
+		assert(detectNetwork('622422929273609580') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622423 and a length of 18', function() {
-		assert(detectNetwork('622423395150030391') === 'China UnionPay');
+		assert(detectNetwork('622423563336547967') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622424 and a length of 18', function() {
-		assert(detectNetwork('622424729330949599') === 'China UnionPay');
+		assert(detectNetwork('622424077662259035') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622425 and a length of 18', function() {
-		assert(detectNetwork('622425418520019045') === 'China UnionPay');
+		assert(detectNetwork('622425698141183566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622426 and a length of 18', function() {
-		assert(detectNetwork('622426387108027267') === 'China UnionPay');
+		assert(detectNetwork('622426587905510188') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622427 and a length of 18', function() {
-		assert(detectNetwork('622427052391325332') === 'China UnionPay');
+		assert(detectNetwork('622427978061701244') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622428 and a length of 18', function() {
-		assert(detectNetwork('622428233958804961') === 'China UnionPay');
+		assert(detectNetwork('622428012231709039') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622429 and a length of 18', function() {
-		assert(detectNetwork('622429233914767124') === 'China UnionPay');
+		assert(detectNetwork('622429334096460657') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622430 and a length of 18', function() {
-		assert(detectNetwork('622430472288657692') === 'China UnionPay');
+		assert(detectNetwork('622430335141098706') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622431 and a length of 18', function() {
-		assert(detectNetwork('622431410696411730') === 'China UnionPay');
+		assert(detectNetwork('622431811287003993') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622432 and a length of 18', function() {
-		assert(detectNetwork('622432431372621541') === 'China UnionPay');
+		assert(detectNetwork('622432956309886726') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622433 and a length of 18', function() {
-		assert(detectNetwork('622433683066196207') === 'China UnionPay');
+		assert(detectNetwork('622433712708902880') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622434 and a length of 18', function() {
-		assert(detectNetwork('622434474268551843') === 'China UnionPay');
+		assert(detectNetwork('622434091093221052') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622435 and a length of 18', function() {
-		assert(detectNetwork('622435504944886047') === 'China UnionPay');
+		assert(detectNetwork('622435233365723966') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622436 and a length of 18', function() {
-		assert(detectNetwork('622436250971855944') === 'China UnionPay');
+		assert(detectNetwork('622436707897583814') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622437 and a length of 18', function() {
-		assert(detectNetwork('622437366051571022') === 'China UnionPay');
+		assert(detectNetwork('622437829312932549') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622438 and a length of 18', function() {
-		assert(detectNetwork('622438947597535133') === 'China UnionPay');
+		assert(detectNetwork('622438099195665129') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622439 and a length of 18', function() {
-		assert(detectNetwork('622439962191455372') === 'China UnionPay');
+		assert(detectNetwork('622439148118091603') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622440 and a length of 18', function() {
-		assert(detectNetwork('622440375525125227') === 'China UnionPay');
+		assert(detectNetwork('622440259042379056') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622441 and a length of 18', function() {
-		assert(detectNetwork('622441107310964031') === 'China UnionPay');
+		assert(detectNetwork('622441796744608827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622442 and a length of 18', function() {
-		assert(detectNetwork('622442873372237718') === 'China UnionPay');
+		assert(detectNetwork('622442651033005912') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622443 and a length of 18', function() {
-		assert(detectNetwork('622443309369307632') === 'China UnionPay');
+		assert(detectNetwork('622443049716568791') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622444 and a length of 18', function() {
-		assert(detectNetwork('622444423290589739') === 'China UnionPay');
+		assert(detectNetwork('622444611005815484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622445 and a length of 18', function() {
-		assert(detectNetwork('622445011192497274') === 'China UnionPay');
+		assert(detectNetwork('622445726650624382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622446 and a length of 18', function() {
-		assert(detectNetwork('622446497400705507') === 'China UnionPay');
+		assert(detectNetwork('622446042965537196') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622447 and a length of 18', function() {
-		assert(detectNetwork('622447754025267623') === 'China UnionPay');
+		assert(detectNetwork('622447793766656813') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622448 and a length of 18', function() {
-		assert(detectNetwork('622448329487190201') === 'China UnionPay');
+		assert(detectNetwork('622448806882781876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622449 and a length of 18', function() {
-		assert(detectNetwork('622449494683756345') === 'China UnionPay');
+		assert(detectNetwork('622449868652861729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622450 and a length of 18', function() {
-		assert(detectNetwork('622450828050322103') === 'China UnionPay');
+		assert(detectNetwork('622450617367566379') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622451 and a length of 18', function() {
-		assert(detectNetwork('622451270516567062') === 'China UnionPay');
+		assert(detectNetwork('622451693609493924') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622452 and a length of 18', function() {
-		assert(detectNetwork('622452932315725024') === 'China UnionPay');
+		assert(detectNetwork('622452210199855645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622453 and a length of 18', function() {
-		assert(detectNetwork('622453204584643872') === 'China UnionPay');
+		assert(detectNetwork('622453701166875245') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622454 and a length of 18', function() {
-		assert(detectNetwork('622454836544513565') === 'China UnionPay');
+		assert(detectNetwork('622454378661505800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622455 and a length of 18', function() {
-		assert(detectNetwork('622455097511727365') === 'China UnionPay');
+		assert(detectNetwork('622455383216855950') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622456 and a length of 18', function() {
-		assert(detectNetwork('622456175267659263') === 'China UnionPay');
+		assert(detectNetwork('622456391040288324') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622457 and a length of 18', function() {
-		assert(detectNetwork('622457613032818524') === 'China UnionPay');
+		assert(detectNetwork('622457237852942735') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622458 and a length of 18', function() {
-		assert(detectNetwork('622458740168541096') === 'China UnionPay');
+		assert(detectNetwork('622458627405023686') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622459 and a length of 18', function() {
-		assert(detectNetwork('622459867860617224') === 'China UnionPay');
+		assert(detectNetwork('622459656002658319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622460 and a length of 18', function() {
-		assert(detectNetwork('622460912755105292') === 'China UnionPay');
+		assert(detectNetwork('622460453927032437') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622461 and a length of 18', function() {
-		assert(detectNetwork('622461546585002924') === 'China UnionPay');
+		assert(detectNetwork('622461615605855944') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622462 and a length of 18', function() {
-		assert(detectNetwork('622462816419697032') === 'China UnionPay');
+		assert(detectNetwork('622462372828147141') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622463 and a length of 18', function() {
-		assert(detectNetwork('622463024902819167') === 'China UnionPay');
+		assert(detectNetwork('622463810301536677') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622464 and a length of 18', function() {
-		assert(detectNetwork('622464970814123134') === 'China UnionPay');
+		assert(detectNetwork('622464103789355592') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622465 and a length of 18', function() {
-		assert(detectNetwork('622465738500955310') === 'China UnionPay');
+		assert(detectNetwork('622465492265617800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622466 and a length of 18', function() {
-		assert(detectNetwork('622466876604758493') === 'China UnionPay');
+		assert(detectNetwork('622466629605056722') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622467 and a length of 18', function() {
-		assert(detectNetwork('622467734348905590') === 'China UnionPay');
+		assert(detectNetwork('622467075059313006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622468 and a length of 18', function() {
-		assert(detectNetwork('622468761882951296') === 'China UnionPay');
+		assert(detectNetwork('622468378142840913') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622469 and a length of 18', function() {
-		assert(detectNetwork('622469589244030077') === 'China UnionPay');
+		assert(detectNetwork('622469111130337740') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622470 and a length of 18', function() {
-		assert(detectNetwork('622470641372256923') === 'China UnionPay');
+		assert(detectNetwork('622470594577789024') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622471 and a length of 18', function() {
-		assert(detectNetwork('622471324514277565') === 'China UnionPay');
+		assert(detectNetwork('622471417142382580') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622472 and a length of 18', function() {
-		assert(detectNetwork('622472696116879753') === 'China UnionPay');
+		assert(detectNetwork('622472110079386712') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622473 and a length of 18', function() {
-		assert(detectNetwork('622473228141549380') === 'China UnionPay');
+		assert(detectNetwork('622473172637606713') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622474 and a length of 18', function() {
-		assert(detectNetwork('622474270685853320') === 'China UnionPay');
+		assert(detectNetwork('622474159916879518') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622475 and a length of 18', function() {
-		assert(detectNetwork('622475028673344960') === 'China UnionPay');
+		assert(detectNetwork('622475913854472584') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622476 and a length of 18', function() {
-		assert(detectNetwork('622476756788161646') === 'China UnionPay');
+		assert(detectNetwork('622476770578337648') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622477 and a length of 18', function() {
-		assert(detectNetwork('622477906973110428') === 'China UnionPay');
+		assert(detectNetwork('622477218272965175') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622478 and a length of 18', function() {
-		assert(detectNetwork('622478309544053466') === 'China UnionPay');
+		assert(detectNetwork('622478017686173229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622479 and a length of 18', function() {
-		assert(detectNetwork('622479560060370994') === 'China UnionPay');
+		assert(detectNetwork('622479841013140515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622480 and a length of 18', function() {
-		assert(detectNetwork('622480345154235935') === 'China UnionPay');
+		assert(detectNetwork('622480262720130340') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622481 and a length of 18', function() {
-		assert(detectNetwork('622481491087864708') === 'China UnionPay');
+		assert(detectNetwork('622481860650455250') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622482 and a length of 18', function() {
-		assert(detectNetwork('622482270520738854') === 'China UnionPay');
+		assert(detectNetwork('622482424254071210') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622483 and a length of 18', function() {
-		assert(detectNetwork('622483541860840282') === 'China UnionPay');
+		assert(detectNetwork('622483086652362792') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622484 and a length of 18', function() {
-		assert(detectNetwork('622484545350403160') === 'China UnionPay');
+		assert(detectNetwork('622484407413233010') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622485 and a length of 18', function() {
-		assert(detectNetwork('622485311072035942') === 'China UnionPay');
+		assert(detectNetwork('622485213741109942') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622486 and a length of 18', function() {
-		assert(detectNetwork('622486571105813559') === 'China UnionPay');
+		assert(detectNetwork('622486132560996043') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622487 and a length of 18', function() {
-		assert(detectNetwork('622487735194326082') === 'China UnionPay');
+		assert(detectNetwork('622487477508490212') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622488 and a length of 18', function() {
-		assert(detectNetwork('622488042886742356') === 'China UnionPay');
+		assert(detectNetwork('622488029905148645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622489 and a length of 18', function() {
-		assert(detectNetwork('622489454858737228') === 'China UnionPay');
+		assert(detectNetwork('622489627442897372') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622490 and a length of 18', function() {
-		assert(detectNetwork('622490552488521020') === 'China UnionPay');
+		assert(detectNetwork('622490645014170461') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622491 and a length of 18', function() {
-		assert(detectNetwork('622491155565009229') === 'China UnionPay');
+		assert(detectNetwork('622491021475918875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622492 and a length of 18', function() {
-		assert(detectNetwork('622492051696067916') === 'China UnionPay');
+		assert(detectNetwork('622492883847746772') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622493 and a length of 18', function() {
-		assert(detectNetwork('622493534702723595') === 'China UnionPay');
+		assert(detectNetwork('622493126584846979') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622494 and a length of 18', function() {
-		assert(detectNetwork('622494186501901263') === 'China UnionPay');
+		assert(detectNetwork('622494711447398896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622495 and a length of 18', function() {
-		assert(detectNetwork('622495529100008118') === 'China UnionPay');
+		assert(detectNetwork('622495473277582561') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622496 and a length of 18', function() {
-		assert(detectNetwork('622496881374681656') === 'China UnionPay');
+		assert(detectNetwork('622496029920091356') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622497 and a length of 18', function() {
-		assert(detectNetwork('622497463069661845') === 'China UnionPay');
+		assert(detectNetwork('622497160028450511') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622498 and a length of 18', function() {
-		assert(detectNetwork('622498099387559606') === 'China UnionPay');
+		assert(detectNetwork('622498016208591908') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622499 and a length of 18', function() {
-		assert(detectNetwork('622499215733835355') === 'China UnionPay');
+		assert(detectNetwork('622499472806839063') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622500 and a length of 18', function() {
-		assert(detectNetwork('622500013380418333') === 'China UnionPay');
+		assert(detectNetwork('622500507949167311') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622501 and a length of 18', function() {
-		assert(detectNetwork('622501546267988173') === 'China UnionPay');
+		assert(detectNetwork('622501983111101136') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622502 and a length of 18', function() {
-		assert(detectNetwork('622502571528408414') === 'China UnionPay');
+		assert(detectNetwork('622502772742207537') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622503 and a length of 18', function() {
-		assert(detectNetwork('622503341868922370') === 'China UnionPay');
+		assert(detectNetwork('622503452571688433') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622504 and a length of 18', function() {
-		assert(detectNetwork('622504190319419601') === 'China UnionPay');
+		assert(detectNetwork('622504509144087800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622505 and a length of 18', function() {
-		assert(detectNetwork('622505218397957601') === 'China UnionPay');
+		assert(detectNetwork('622505528223556528') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622506 and a length of 18', function() {
-		assert(detectNetwork('622506624152399832') === 'China UnionPay');
+		assert(detectNetwork('622506553934782086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622507 and a length of 18', function() {
-		assert(detectNetwork('622507532613041742') === 'China UnionPay');
+		assert(detectNetwork('622507160361238322') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622508 and a length of 18', function() {
-		assert(detectNetwork('622508602236969154') === 'China UnionPay');
+		assert(detectNetwork('622508782265054210') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622509 and a length of 18', function() {
-		assert(detectNetwork('622509833570053866') === 'China UnionPay');
+		assert(detectNetwork('622509213890753167') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622510 and a length of 18', function() {
-		assert(detectNetwork('622510513516863508') === 'China UnionPay');
+		assert(detectNetwork('622510834758617444') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622511 and a length of 18', function() {
-		assert(detectNetwork('622511473805543783') === 'China UnionPay');
+		assert(detectNetwork('622511546738460439') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622512 and a length of 18', function() {
-		assert(detectNetwork('622512008602275627') === 'China UnionPay');
+		assert(detectNetwork('622512118215876126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622513 and a length of 18', function() {
-		assert(detectNetwork('622513589957500652') === 'China UnionPay');
+		assert(detectNetwork('622513725670252129') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622514 and a length of 18', function() {
-		assert(detectNetwork('622514201169378543') === 'China UnionPay');
+		assert(detectNetwork('622514870283455263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622515 and a length of 18', function() {
-		assert(detectNetwork('622515274576691485') === 'China UnionPay');
+		assert(detectNetwork('622515935225618371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622516 and a length of 18', function() {
-		assert(detectNetwork('622516983116921162') === 'China UnionPay');
+		assert(detectNetwork('622516292455138966') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622517 and a length of 18', function() {
-		assert(detectNetwork('622517369118344853') === 'China UnionPay');
+		assert(detectNetwork('622517141662402854') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622518 and a length of 18', function() {
-		assert(detectNetwork('622518862913462495') === 'China UnionPay');
+		assert(detectNetwork('622518540702562080') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622519 and a length of 18', function() {
-		assert(detectNetwork('622519919656572994') === 'China UnionPay');
+		assert(detectNetwork('622519847519245067') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622520 and a length of 18', function() {
-		assert(detectNetwork('622520195352742644') === 'China UnionPay');
+		assert(detectNetwork('622520261092087760') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622521 and a length of 18', function() {
-		assert(detectNetwork('622521190008103143') === 'China UnionPay');
+		assert(detectNetwork('622521469340856066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622522 and a length of 18', function() {
-		assert(detectNetwork('622522131617978280') === 'China UnionPay');
+		assert(detectNetwork('622522292841046263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622523 and a length of 18', function() {
-		assert(detectNetwork('622523665460478722') === 'China UnionPay');
+		assert(detectNetwork('622523501556529669') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622524 and a length of 18', function() {
-		assert(detectNetwork('622524012984340901') === 'China UnionPay');
+		assert(detectNetwork('622524801857263777') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622525 and a length of 18', function() {
-		assert(detectNetwork('622525082607278686') === 'China UnionPay');
+		assert(detectNetwork('622525616835507368') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622526 and a length of 18', function() {
-		assert(detectNetwork('622526702185530389') === 'China UnionPay');
+		assert(detectNetwork('622526025716884988') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622527 and a length of 18', function() {
-		assert(detectNetwork('622527462681531300') === 'China UnionPay');
+		assert(detectNetwork('622527053853942771') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622528 and a length of 18', function() {
-		assert(detectNetwork('622528571835983671') === 'China UnionPay');
+		assert(detectNetwork('622528922181338602') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622529 and a length of 18', function() {
-		assert(detectNetwork('622529341238062985') === 'China UnionPay');
+		assert(detectNetwork('622529864414423000') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622530 and a length of 18', function() {
-		assert(detectNetwork('622530164791744524') === 'China UnionPay');
+		assert(detectNetwork('622530847943502824') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622531 and a length of 18', function() {
-		assert(detectNetwork('622531316985321619') === 'China UnionPay');
+		assert(detectNetwork('622531984998489881') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622532 and a length of 18', function() {
-		assert(detectNetwork('622532305458645586') === 'China UnionPay');
+		assert(detectNetwork('622532389551568431') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622533 and a length of 18', function() {
-		assert(detectNetwork('622533418938644885') === 'China UnionPay');
+		assert(detectNetwork('622533812875242238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622534 and a length of 18', function() {
-		assert(detectNetwork('622534325765641602') === 'China UnionPay');
+		assert(detectNetwork('622534944873834471') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622535 and a length of 18', function() {
-		assert(detectNetwork('622535777296478629') === 'China UnionPay');
+		assert(detectNetwork('622535097633516683') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622536 and a length of 18', function() {
-		assert(detectNetwork('622536212007912569') === 'China UnionPay');
+		assert(detectNetwork('622536071436705886') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622537 and a length of 18', function() {
-		assert(detectNetwork('622537491439164044') === 'China UnionPay');
+		assert(detectNetwork('622537386263119045') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622538 and a length of 18', function() {
-		assert(detectNetwork('622538583982867925') === 'China UnionPay');
+		assert(detectNetwork('622538249268833481') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622539 and a length of 18', function() {
-		assert(detectNetwork('622539159099072158') === 'China UnionPay');
+		assert(detectNetwork('622539735724990668') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622540 and a length of 18', function() {
-		assert(detectNetwork('622540884419946886') === 'China UnionPay');
+		assert(detectNetwork('622540574994904660') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622541 and a length of 18', function() {
-		assert(detectNetwork('622541051299082342') === 'China UnionPay');
+		assert(detectNetwork('622541921760271435') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622542 and a length of 18', function() {
-		assert(detectNetwork('622542486059739425') === 'China UnionPay');
+		assert(detectNetwork('622542132825597383') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622543 and a length of 18', function() {
-		assert(detectNetwork('622543726682270140') === 'China UnionPay');
+		assert(detectNetwork('622543199471547156') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622544 and a length of 18', function() {
-		assert(detectNetwork('622544996895918604') === 'China UnionPay');
+		assert(detectNetwork('622544586153801670') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622545 and a length of 18', function() {
-		assert(detectNetwork('622545368816726917') === 'China UnionPay');
+		assert(detectNetwork('622545744688613795') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622546 and a length of 18', function() {
-		assert(detectNetwork('622546728108487756') === 'China UnionPay');
+		assert(detectNetwork('622546055563059357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622547 and a length of 18', function() {
-		assert(detectNetwork('622547388487739312') === 'China UnionPay');
+		assert(detectNetwork('622547196403211038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622548 and a length of 18', function() {
-		assert(detectNetwork('622548906557370486') === 'China UnionPay');
+		assert(detectNetwork('622548541962850147') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622549 and a length of 18', function() {
-		assert(detectNetwork('622549416675073520') === 'China UnionPay');
+		assert(detectNetwork('622549682867839588') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622550 and a length of 18', function() {
-		assert(detectNetwork('622550818663392899') === 'China UnionPay');
+		assert(detectNetwork('622550795360496841') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622551 and a length of 18', function() {
-		assert(detectNetwork('622551171363665967') === 'China UnionPay');
+		assert(detectNetwork('622551789201605300') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622552 and a length of 18', function() {
-		assert(detectNetwork('622552687604313798') === 'China UnionPay');
+		assert(detectNetwork('622552793411650194') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622553 and a length of 18', function() {
-		assert(detectNetwork('622553359654190445') === 'China UnionPay');
+		assert(detectNetwork('622553593634724907') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622554 and a length of 18', function() {
-		assert(detectNetwork('622554329184383319') === 'China UnionPay');
+		assert(detectNetwork('622554430650009106') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622555 and a length of 18', function() {
-		assert(detectNetwork('622555794109817221') === 'China UnionPay');
+		assert(detectNetwork('622555230908910077') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622556 and a length of 18', function() {
-		assert(detectNetwork('622556822052415586') === 'China UnionPay');
+		assert(detectNetwork('622556361604478492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622557 and a length of 18', function() {
-		assert(detectNetwork('622557015178112328') === 'China UnionPay');
+		assert(detectNetwork('622557394723169477') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622558 and a length of 18', function() {
-		assert(detectNetwork('622558712739666720') === 'China UnionPay');
+		assert(detectNetwork('622558316453958127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622559 and a length of 18', function() {
-		assert(detectNetwork('622559077070038227') === 'China UnionPay');
+		assert(detectNetwork('622559245517779965') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622560 and a length of 18', function() {
-		assert(detectNetwork('622560892464288671') === 'China UnionPay');
+		assert(detectNetwork('622560866657812001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622561 and a length of 18', function() {
-		assert(detectNetwork('622561138601020081') === 'China UnionPay');
+		assert(detectNetwork('622561695473443197') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622562 and a length of 18', function() {
-		assert(detectNetwork('622562033320484104') === 'China UnionPay');
+		assert(detectNetwork('622562634443874258') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622563 and a length of 18', function() {
-		assert(detectNetwork('622563096790190878') === 'China UnionPay');
+		assert(detectNetwork('622563228645331286') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622564 and a length of 18', function() {
-		assert(detectNetwork('622564521231434854') === 'China UnionPay');
+		assert(detectNetwork('622564293474369493') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622565 and a length of 18', function() {
-		assert(detectNetwork('622565355400856617') === 'China UnionPay');
+		assert(detectNetwork('622565826834619866') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622566 and a length of 18', function() {
-		assert(detectNetwork('622566155481273910') === 'China UnionPay');
+		assert(detectNetwork('622566914693958776') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622567 and a length of 18', function() {
-		assert(detectNetwork('622567934453762979') === 'China UnionPay');
+		assert(detectNetwork('622567378009837743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622568 and a length of 18', function() {
-		assert(detectNetwork('622568205489412556') === 'China UnionPay');
+		assert(detectNetwork('622568703311238328') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622569 and a length of 18', function() {
-		assert(detectNetwork('622569132427412232') === 'China UnionPay');
+		assert(detectNetwork('622569440885384357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622570 and a length of 18', function() {
-		assert(detectNetwork('622570977362125900') === 'China UnionPay');
+		assert(detectNetwork('622570312782550681') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622571 and a length of 18', function() {
-		assert(detectNetwork('622571182250068748') === 'China UnionPay');
+		assert(detectNetwork('622571841965614846') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622572 and a length of 18', function() {
-		assert(detectNetwork('622572788868348034') === 'China UnionPay');
+		assert(detectNetwork('622572294277534975') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622573 and a length of 18', function() {
-		assert(detectNetwork('622573534097643639') === 'China UnionPay');
+		assert(detectNetwork('622573454413043162') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622574 and a length of 18', function() {
-		assert(detectNetwork('622574708762285754') === 'China UnionPay');
+		assert(detectNetwork('622574517935166797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622575 and a length of 18', function() {
-		assert(detectNetwork('622575176914744140') === 'China UnionPay');
+		assert(detectNetwork('622575007027322389') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622576 and a length of 18', function() {
-		assert(detectNetwork('622576758923684312') === 'China UnionPay');
+		assert(detectNetwork('622576067530484394') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622577 and a length of 18', function() {
-		assert(detectNetwork('622577496638208790') === 'China UnionPay');
+		assert(detectNetwork('622577869984047657') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622578 and a length of 18', function() {
-		assert(detectNetwork('622578729057937027') === 'China UnionPay');
+		assert(detectNetwork('622578005147119535') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622579 and a length of 18', function() {
-		assert(detectNetwork('622579016150506916') === 'China UnionPay');
+		assert(detectNetwork('622579688797561086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622580 and a length of 18', function() {
-		assert(detectNetwork('622580933817296194') === 'China UnionPay');
+		assert(detectNetwork('622580610702884564') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622581 and a length of 18', function() {
-		assert(detectNetwork('622581554998082149') === 'China UnionPay');
+		assert(detectNetwork('622581850556076038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622582 and a length of 18', function() {
-		assert(detectNetwork('622582486632987325') === 'China UnionPay');
+		assert(detectNetwork('622582493986533867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622583 and a length of 18', function() {
-		assert(detectNetwork('622583099162719933') === 'China UnionPay');
+		assert(detectNetwork('622583366034950061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622584 and a length of 18', function() {
-		assert(detectNetwork('622584688495010303') === 'China UnionPay');
+		assert(detectNetwork('622584131399547617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622585 and a length of 18', function() {
-		assert(detectNetwork('622585951229611890') === 'China UnionPay');
+		assert(detectNetwork('622585956716378792') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622586 and a length of 18', function() {
-		assert(detectNetwork('622586476507203453') === 'China UnionPay');
+		assert(detectNetwork('622586018300299394') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622587 and a length of 18', function() {
-		assert(detectNetwork('622587137810081195') === 'China UnionPay');
+		assert(detectNetwork('622587174534121880') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622588 and a length of 18', function() {
-		assert(detectNetwork('622588312035921876') === 'China UnionPay');
+		assert(detectNetwork('622588551072294375') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622589 and a length of 18', function() {
-		assert(detectNetwork('622589620045233109') === 'China UnionPay');
+		assert(detectNetwork('622589776052809589') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622590 and a length of 18', function() {
-		assert(detectNetwork('622590686648131182') === 'China UnionPay');
+		assert(detectNetwork('622590176313171161') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622591 and a length of 18', function() {
-		assert(detectNetwork('622591808891225288') === 'China UnionPay');
+		assert(detectNetwork('622591388152316325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622592 and a length of 18', function() {
-		assert(detectNetwork('622592538782313159') === 'China UnionPay');
+		assert(detectNetwork('622592252296105109') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622593 and a length of 18', function() {
-		assert(detectNetwork('622593549959644767') === 'China UnionPay');
+		assert(detectNetwork('622593826199330063') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622594 and a length of 18', function() {
-		assert(detectNetwork('622594406994075055') === 'China UnionPay');
+		assert(detectNetwork('622594549145918038') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622595 and a length of 18', function() {
-		assert(detectNetwork('622595025328208623') === 'China UnionPay');
+		assert(detectNetwork('622595836292831240') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622596 and a length of 18', function() {
-		assert(detectNetwork('622596279179299009') === 'China UnionPay');
+		assert(detectNetwork('622596122351695512') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622597 and a length of 18', function() {
-		assert(detectNetwork('622597003280131702') === 'China UnionPay');
+		assert(detectNetwork('622597910263776882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622598 and a length of 18', function() {
-		assert(detectNetwork('622598464221891938') === 'China UnionPay');
+		assert(detectNetwork('622598732278722119') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622599 and a length of 18', function() {
-		assert(detectNetwork('622599428115536006') === 'China UnionPay');
+		assert(detectNetwork('622599396810262653') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622600 and a length of 18', function() {
-		assert(detectNetwork('622600862508892783') === 'China UnionPay');
+		assert(detectNetwork('622600699515393488') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622601 and a length of 18', function() {
-		assert(detectNetwork('622601347128934255') === 'China UnionPay');
+		assert(detectNetwork('622601623636238989') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622602 and a length of 18', function() {
-		assert(detectNetwork('622602881162871458') === 'China UnionPay');
+		assert(detectNetwork('622602479730631094') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622603 and a length of 18', function() {
-		assert(detectNetwork('622603732903666151') === 'China UnionPay');
+		assert(detectNetwork('622603359268830640') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622604 and a length of 18', function() {
-		assert(detectNetwork('622604364995243199') === 'China UnionPay');
+		assert(detectNetwork('622604418855346318') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622605 and a length of 18', function() {
-		assert(detectNetwork('622605411774954472') === 'China UnionPay');
+		assert(detectNetwork('622605784919494323') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622606 and a length of 18', function() {
-		assert(detectNetwork('622606753822181867') === 'China UnionPay');
+		assert(detectNetwork('622606582770349830') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622607 and a length of 18', function() {
-		assert(detectNetwork('622607153970608556') === 'China UnionPay');
+		assert(detectNetwork('622607534159468432') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622608 and a length of 18', function() {
-		assert(detectNetwork('622608913778168899') === 'China UnionPay');
+		assert(detectNetwork('622608010277449065') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622609 and a length of 18', function() {
-		assert(detectNetwork('622609751238520194') === 'China UnionPay');
+		assert(detectNetwork('622609742098825660') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622610 and a length of 18', function() {
-		assert(detectNetwork('622610229198160609') === 'China UnionPay');
+		assert(detectNetwork('622610180690596466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622611 and a length of 18', function() {
-		assert(detectNetwork('622611835989603862') === 'China UnionPay');
+		assert(detectNetwork('622611755483451450') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622612 and a length of 18', function() {
-		assert(detectNetwork('622612033738807063') === 'China UnionPay');
+		assert(detectNetwork('622612630591097611') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622613 and a length of 18', function() {
-		assert(detectNetwork('622613112021179709') === 'China UnionPay');
+		assert(detectNetwork('622613095841527199') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622614 and a length of 18', function() {
-		assert(detectNetwork('622614367947903980') === 'China UnionPay');
+		assert(detectNetwork('622614998247801259') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622615 and a length of 18', function() {
-		assert(detectNetwork('622615301758741706') === 'China UnionPay');
+		assert(detectNetwork('622615473357374259') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622616 and a length of 18', function() {
-		assert(detectNetwork('622616000182581522') === 'China UnionPay');
+		assert(detectNetwork('622616066944222778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622617 and a length of 18', function() {
-		assert(detectNetwork('622617764913258186') === 'China UnionPay');
+		assert(detectNetwork('622617333958431333') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622618 and a length of 18', function() {
-		assert(detectNetwork('622618092515806233') === 'China UnionPay');
+		assert(detectNetwork('622618733840131639') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622619 and a length of 18', function() {
-		assert(detectNetwork('622619394432622808') === 'China UnionPay');
+		assert(detectNetwork('622619134091179062') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622620 and a length of 18', function() {
-		assert(detectNetwork('622620352908570823') === 'China UnionPay');
+		assert(detectNetwork('622620962195131593') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622621 and a length of 18', function() {
-		assert(detectNetwork('622621924685159154') === 'China UnionPay');
+		assert(detectNetwork('622621246515331864') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622622 and a length of 18', function() {
-		assert(detectNetwork('622622931648855608') === 'China UnionPay');
+		assert(detectNetwork('622622916171732637') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622623 and a length of 18', function() {
-		assert(detectNetwork('622623913754913364') === 'China UnionPay');
+		assert(detectNetwork('622623743181001487') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622624 and a length of 18', function() {
-		assert(detectNetwork('622624776792302832') === 'China UnionPay');
+		assert(detectNetwork('622624411363437808') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622625 and a length of 18', function() {
-		assert(detectNetwork('622625562067344074') === 'China UnionPay');
+		assert(detectNetwork('622625850784586408') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622626 and a length of 18', function() {
-		assert(detectNetwork('622626331755327787') === 'China UnionPay');
+		assert(detectNetwork('622626990353906463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622627 and a length of 18', function() {
-		assert(detectNetwork('622627315467379890') === 'China UnionPay');
+		assert(detectNetwork('622627737592491594') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622628 and a length of 18', function() {
-		assert(detectNetwork('622628214896235755') === 'China UnionPay');
+		assert(detectNetwork('622628657966954995') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622629 and a length of 18', function() {
-		assert(detectNetwork('622629081515792382') === 'China UnionPay');
+		assert(detectNetwork('622629049047882274') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622630 and a length of 18', function() {
-		assert(detectNetwork('622630028098849816') === 'China UnionPay');
+		assert(detectNetwork('622630723593929779') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622631 and a length of 18', function() {
-		assert(detectNetwork('622631141834010554') === 'China UnionPay');
+		assert(detectNetwork('622631573140097771') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622632 and a length of 18', function() {
-		assert(detectNetwork('622632292004848701') === 'China UnionPay');
+		assert(detectNetwork('622632015260063017') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622633 and a length of 18', function() {
-		assert(detectNetwork('622633366004152378') === 'China UnionPay');
+		assert(detectNetwork('622633827776604749') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622634 and a length of 18', function() {
-		assert(detectNetwork('622634656944832615') === 'China UnionPay');
+		assert(detectNetwork('622634932689249281') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622635 and a length of 18', function() {
-		assert(detectNetwork('622635115704797903') === 'China UnionPay');
+		assert(detectNetwork('622635200226287969') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622636 and a length of 18', function() {
-		assert(detectNetwork('622636198843526835') === 'China UnionPay');
+		assert(detectNetwork('622636084311248549') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622637 and a length of 18', function() {
-		assert(detectNetwork('622637592265548573') === 'China UnionPay');
+		assert(detectNetwork('622637326692651027') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622638 and a length of 18', function() {
-		assert(detectNetwork('622638996548619279') === 'China UnionPay');
+		assert(detectNetwork('622638023347098991') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622639 and a length of 18', function() {
-		assert(detectNetwork('622639217145225346') === 'China UnionPay');
+		assert(detectNetwork('622639088728970485') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622640 and a length of 18', function() {
-		assert(detectNetwork('622640688617969433') === 'China UnionPay');
+		assert(detectNetwork('622640301529266797') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622641 and a length of 18', function() {
-		assert(detectNetwork('622641246919073050') === 'China UnionPay');
+		assert(detectNetwork('622641251316361156') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622642 and a length of 18', function() {
-		assert(detectNetwork('622642428286239387') === 'China UnionPay');
+		assert(detectNetwork('622642947014973090') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622643 and a length of 18', function() {
-		assert(detectNetwork('622643506252470425') === 'China UnionPay');
+		assert(detectNetwork('622643984663213775') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622644 and a length of 18', function() {
-		assert(detectNetwork('622644065866150879') === 'China UnionPay');
+		assert(detectNetwork('622644619917365178') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622645 and a length of 18', function() {
-		assert(detectNetwork('622645427816664555') === 'China UnionPay');
+		assert(detectNetwork('622645920569210142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622646 and a length of 18', function() {
-		assert(detectNetwork('622646927508901830') === 'China UnionPay');
+		assert(detectNetwork('622646882093548679') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622647 and a length of 18', function() {
-		assert(detectNetwork('622647890493679340') === 'China UnionPay');
+		assert(detectNetwork('622647086631120694') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622648 and a length of 18', function() {
-		assert(detectNetwork('622648913258679458') === 'China UnionPay');
+		assert(detectNetwork('622648539673186400') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622649 and a length of 18', function() {
-		assert(detectNetwork('622649514109093274') === 'China UnionPay');
+		assert(detectNetwork('622649127690608608') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622650 and a length of 18', function() {
-		assert(detectNetwork('622650267636558594') === 'China UnionPay');
+		assert(detectNetwork('622650890972322695') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622651 and a length of 18', function() {
-		assert(detectNetwork('622651181945695177') === 'China UnionPay');
+		assert(detectNetwork('622651462683851262') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622652 and a length of 18', function() {
-		assert(detectNetwork('622652285443817777') === 'China UnionPay');
+		assert(detectNetwork('622652944962362026') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622653 and a length of 18', function() {
-		assert(detectNetwork('622653758090423271') === 'China UnionPay');
+		assert(detectNetwork('622653625503354926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622654 and a length of 18', function() {
-		assert(detectNetwork('622654207555975697') === 'China UnionPay');
+		assert(detectNetwork('622654415564230082') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622655 and a length of 18', function() {
-		assert(detectNetwork('622655738324559532') === 'China UnionPay');
+		assert(detectNetwork('622655853814143555') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622656 and a length of 18', function() {
-		assert(detectNetwork('622656532149970864') === 'China UnionPay');
+		assert(detectNetwork('622656584002447083') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622657 and a length of 18', function() {
-		assert(detectNetwork('622657532128064427') === 'China UnionPay');
+		assert(detectNetwork('622657713498138378') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622658 and a length of 18', function() {
-		assert(detectNetwork('622658515880270780') === 'China UnionPay');
+		assert(detectNetwork('622658357640406491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622659 and a length of 18', function() {
-		assert(detectNetwork('622659593671005376') === 'China UnionPay');
+		assert(detectNetwork('622659328669483505') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622660 and a length of 18', function() {
-		assert(detectNetwork('622660155045159283') === 'China UnionPay');
+		assert(detectNetwork('622660636303053700') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622661 and a length of 18', function() {
-		assert(detectNetwork('622661154344339325') === 'China UnionPay');
+		assert(detectNetwork('622661846400285964') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622662 and a length of 18', function() {
-		assert(detectNetwork('622662634977103669') === 'China UnionPay');
+		assert(detectNetwork('622662019952043774') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622663 and a length of 18', function() {
-		assert(detectNetwork('622663142718860379') === 'China UnionPay');
+		assert(detectNetwork('622663557712213466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622664 and a length of 18', function() {
-		assert(detectNetwork('622664120049113382') === 'China UnionPay');
+		assert(detectNetwork('622664803659709491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622665 and a length of 18', function() {
-		assert(detectNetwork('622665751559688443') === 'China UnionPay');
+		assert(detectNetwork('622665764235021054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622666 and a length of 18', function() {
-		assert(detectNetwork('622666312043958369') === 'China UnionPay');
+		assert(detectNetwork('622666008439751817') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622667 and a length of 18', function() {
-		assert(detectNetwork('622667689615793245') === 'China UnionPay');
+		assert(detectNetwork('622667642102379850') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622668 and a length of 18', function() {
-		assert(detectNetwork('622668316616637255') === 'China UnionPay');
+		assert(detectNetwork('622668850249105323') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622669 and a length of 18', function() {
-		assert(detectNetwork('622669469745206241') === 'China UnionPay');
+		assert(detectNetwork('622669866139289762') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622670 and a length of 18', function() {
-		assert(detectNetwork('622670564146237231') === 'China UnionPay');
+		assert(detectNetwork('622670956027018682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622671 and a length of 18', function() {
-		assert(detectNetwork('622671162738135914') === 'China UnionPay');
+		assert(detectNetwork('622671647866969453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622672 and a length of 18', function() {
-		assert(detectNetwork('622672416772006286') === 'China UnionPay');
+		assert(detectNetwork('622672876732298138') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622673 and a length of 18', function() {
-		assert(detectNetwork('622673518518013374') === 'China UnionPay');
+		assert(detectNetwork('622673465955038702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622674 and a length of 18', function() {
-		assert(detectNetwork('622674575454479591') === 'China UnionPay');
+		assert(detectNetwork('622674979944771849') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622675 and a length of 18', function() {
-		assert(detectNetwork('622675698601768735') === 'China UnionPay');
+		assert(detectNetwork('622675229627278440') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622676 and a length of 18', function() {
-		assert(detectNetwork('622676963898324379') === 'China UnionPay');
+		assert(detectNetwork('622676311690473251') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622677 and a length of 18', function() {
-		assert(detectNetwork('622677415060842030') === 'China UnionPay');
+		assert(detectNetwork('622677715681322656') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622678 and a length of 18', function() {
-		assert(detectNetwork('622678547852381240') === 'China UnionPay');
+		assert(detectNetwork('622678059229276754') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622679 and a length of 18', function() {
-		assert(detectNetwork('622679188932168303') === 'China UnionPay');
+		assert(detectNetwork('622679510389943040') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622680 and a length of 18', function() {
-		assert(detectNetwork('622680008084796247') === 'China UnionPay');
+		assert(detectNetwork('622680675607993379') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622681 and a length of 18', function() {
-		assert(detectNetwork('622681693546685261') === 'China UnionPay');
+		assert(detectNetwork('622681445999061404') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622682 and a length of 18', function() {
-		assert(detectNetwork('622682585877497674') === 'China UnionPay');
+		assert(detectNetwork('622682271774935607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622683 and a length of 18', function() {
-		assert(detectNetwork('622683227279200259') === 'China UnionPay');
+		assert(detectNetwork('622683233057194873') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622684 and a length of 18', function() {
-		assert(detectNetwork('622684699959951208') === 'China UnionPay');
+		assert(detectNetwork('622684620190890320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622685 and a length of 18', function() {
-		assert(detectNetwork('622685550884791786') === 'China UnionPay');
+		assert(detectNetwork('622685641063443392') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622686 and a length of 18', function() {
-		assert(detectNetwork('622686163859828894') === 'China UnionPay');
+		assert(detectNetwork('622686863483003537') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622687 and a length of 18', function() {
-		assert(detectNetwork('622687887060628973') === 'China UnionPay');
+		assert(detectNetwork('622687497001972075') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622688 and a length of 18', function() {
-		assert(detectNetwork('622688480910281399') === 'China UnionPay');
+		assert(detectNetwork('622688099745501587') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622689 and a length of 18', function() {
-		assert(detectNetwork('622689858462973183') === 'China UnionPay');
+		assert(detectNetwork('622689729109076831') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622690 and a length of 18', function() {
-		assert(detectNetwork('622690108564668688') === 'China UnionPay');
+		assert(detectNetwork('622690599102621896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622691 and a length of 18', function() {
-		assert(detectNetwork('622691767184593372') === 'China UnionPay');
+		assert(detectNetwork('622691279363419268') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622692 and a length of 18', function() {
-		assert(detectNetwork('622692992193294036') === 'China UnionPay');
+		assert(detectNetwork('622692214394926948') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622693 and a length of 18', function() {
-		assert(detectNetwork('622693238557858126') === 'China UnionPay');
+		assert(detectNetwork('622693727676297757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622694 and a length of 18', function() {
-		assert(detectNetwork('622694457404028090') === 'China UnionPay');
+		assert(detectNetwork('622694109810710610') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622695 and a length of 18', function() {
-		assert(detectNetwork('622695500117481209') === 'China UnionPay');
+		assert(detectNetwork('622695022663814707') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622696 and a length of 18', function() {
-		assert(detectNetwork('622696364761632634') === 'China UnionPay');
+		assert(detectNetwork('622696641704002314') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622697 and a length of 18', function() {
-		assert(detectNetwork('622697201069569693') === 'China UnionPay');
+		assert(detectNetwork('622697364832388032') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622698 and a length of 18', function() {
-		assert(detectNetwork('622698803018492815') === 'China UnionPay');
+		assert(detectNetwork('622698372604188403') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622699 and a length of 18', function() {
-		assert(detectNetwork('622699598253084710') === 'China UnionPay');
+		assert(detectNetwork('622699799902195816') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622700 and a length of 18', function() {
-		assert(detectNetwork('622700687533674240') === 'China UnionPay');
+		assert(detectNetwork('622700060637228255') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622701 and a length of 18', function() {
-		assert(detectNetwork('622701710541952406') === 'China UnionPay');
+		assert(detectNetwork('622701872173392413') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622702 and a length of 18', function() {
-		assert(detectNetwork('622702776009955609') === 'China UnionPay');
+		assert(detectNetwork('622702344255212553') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622703 and a length of 18', function() {
-		assert(detectNetwork('622703621261509168') === 'China UnionPay');
+		assert(detectNetwork('622703768603290998') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622704 and a length of 18', function() {
-		assert(detectNetwork('622704043397546642') === 'China UnionPay');
+		assert(detectNetwork('622704985815715948') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622705 and a length of 18', function() {
-		assert(detectNetwork('622705459095566804') === 'China UnionPay');
+		assert(detectNetwork('622705357227723840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622706 and a length of 18', function() {
-		assert(detectNetwork('622706258933932539') === 'China UnionPay');
+		assert(detectNetwork('622706557661124989') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622707 and a length of 18', function() {
-		assert(detectNetwork('622707435288812390') === 'China UnionPay');
+		assert(detectNetwork('622707252124565289') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622708 and a length of 18', function() {
-		assert(detectNetwork('622708735866184238') === 'China UnionPay');
+		assert(detectNetwork('622708131175302168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622709 and a length of 18', function() {
-		assert(detectNetwork('622709869485983153') === 'China UnionPay');
+		assert(detectNetwork('622709037943722844') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622710 and a length of 18', function() {
-		assert(detectNetwork('622710590045865266') === 'China UnionPay');
+		assert(detectNetwork('622710673619468252') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622711 and a length of 18', function() {
-		assert(detectNetwork('622711466383022365') === 'China UnionPay');
+		assert(detectNetwork('622711562453800548') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622712 and a length of 18', function() {
-		assert(detectNetwork('622712174047374390') === 'China UnionPay');
+		assert(detectNetwork('622712879855939896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622713 and a length of 18', function() {
-		assert(detectNetwork('622713922351100052') === 'China UnionPay');
+		assert(detectNetwork('622713046416119563') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622714 and a length of 18', function() {
-		assert(detectNetwork('622714190998007048') === 'China UnionPay');
+		assert(detectNetwork('622714626176243036') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622715 and a length of 18', function() {
-		assert(detectNetwork('622715706874941257') === 'China UnionPay');
+		assert(detectNetwork('622715073172574869') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622716 and a length of 18', function() {
-		assert(detectNetwork('622716685910427572') === 'China UnionPay');
+		assert(detectNetwork('622716752467760224') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622717 and a length of 18', function() {
-		assert(detectNetwork('622717269090053324') === 'China UnionPay');
+		assert(detectNetwork('622717883053311876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622718 and a length of 18', function() {
-		assert(detectNetwork('622718041236907526') === 'China UnionPay');
+		assert(detectNetwork('622718604165428613') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622719 and a length of 18', function() {
-		assert(detectNetwork('622719247149700717') === 'China UnionPay');
+		assert(detectNetwork('622719382396396457') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622720 and a length of 18', function() {
-		assert(detectNetwork('622720875961895547') === 'China UnionPay');
+		assert(detectNetwork('622720294316763430') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622721 and a length of 18', function() {
-		assert(detectNetwork('622721470952432681') === 'China UnionPay');
+		assert(detectNetwork('622721905804149350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622722 and a length of 18', function() {
-		assert(detectNetwork('622722233080819045') === 'China UnionPay');
+		assert(detectNetwork('622722738655173163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622723 and a length of 18', function() {
-		assert(detectNetwork('622723265283003841') === 'China UnionPay');
+		assert(detectNetwork('622723654795508564') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622724 and a length of 18', function() {
-		assert(detectNetwork('622724750934153990') === 'China UnionPay');
+		assert(detectNetwork('622724566840369693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622725 and a length of 18', function() {
-		assert(detectNetwork('622725115456069684') === 'China UnionPay');
+		assert(detectNetwork('622725861768450937') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622726 and a length of 18', function() {
-		assert(detectNetwork('622726736710487280') === 'China UnionPay');
+		assert(detectNetwork('622726035778401999') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622727 and a length of 18', function() {
-		assert(detectNetwork('622727235056624847') === 'China UnionPay');
+		assert(detectNetwork('622727921045149516') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622728 and a length of 18', function() {
-		assert(detectNetwork('622728306614180141') === 'China UnionPay');
+		assert(detectNetwork('622728143431405204') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622729 and a length of 18', function() {
-		assert(detectNetwork('622729844159835874') === 'China UnionPay');
+		assert(detectNetwork('622729789017368009') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622730 and a length of 18', function() {
-		assert(detectNetwork('622730764529240358') === 'China UnionPay');
+		assert(detectNetwork('622730227904587928') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622731 and a length of 18', function() {
-		assert(detectNetwork('622731132840904480') === 'China UnionPay');
+		assert(detectNetwork('622731049644569990') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622732 and a length of 18', function() {
-		assert(detectNetwork('622732610897933640') === 'China UnionPay');
+		assert(detectNetwork('622732255355656004') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622733 and a length of 18', function() {
-		assert(detectNetwork('622733853328971994') === 'China UnionPay');
+		assert(detectNetwork('622733813060178199') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622734 and a length of 18', function() {
-		assert(detectNetwork('622734881941737749') === 'China UnionPay');
+		assert(detectNetwork('622734643144178460') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622735 and a length of 18', function() {
-		assert(detectNetwork('622735012356338686') === 'China UnionPay');
+		assert(detectNetwork('622735933886073483') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622736 and a length of 18', function() {
-		assert(detectNetwork('622736266318196376') === 'China UnionPay');
+		assert(detectNetwork('622736783427087840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622737 and a length of 18', function() {
-		assert(detectNetwork('622737417889325559') === 'China UnionPay');
+		assert(detectNetwork('622737041504663879') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622738 and a length of 18', function() {
-		assert(detectNetwork('622738536693368771') === 'China UnionPay');
+		assert(detectNetwork('622738238243663381') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622739 and a length of 18', function() {
-		assert(detectNetwork('622739682822752649') === 'China UnionPay');
+		assert(detectNetwork('622739190307424092') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622740 and a length of 18', function() {
-		assert(detectNetwork('622740588133836418') === 'China UnionPay');
+		assert(detectNetwork('622740136371030699') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622741 and a length of 18', function() {
-		assert(detectNetwork('622741436361168803') === 'China UnionPay');
+		assert(detectNetwork('622741829844124318') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622742 and a length of 18', function() {
-		assert(detectNetwork('622742483925131122') === 'China UnionPay');
+		assert(detectNetwork('622742432721691754') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622743 and a length of 18', function() {
-		assert(detectNetwork('622743766755007822') === 'China UnionPay');
+		assert(detectNetwork('622743087735869816') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622744 and a length of 18', function() {
-		assert(detectNetwork('622744782999214522') === 'China UnionPay');
+		assert(detectNetwork('622744323834948387') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622745 and a length of 18', function() {
-		assert(detectNetwork('622745821725517884') === 'China UnionPay');
+		assert(detectNetwork('622745226698555457') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622746 and a length of 18', function() {
-		assert(detectNetwork('622746847558775674') === 'China UnionPay');
+		assert(detectNetwork('622746064364001066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622747 and a length of 18', function() {
-		assert(detectNetwork('622747478228653299') === 'China UnionPay');
+		assert(detectNetwork('622747876087999308') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622748 and a length of 18', function() {
-		assert(detectNetwork('622748702472534110') === 'China UnionPay');
+		assert(detectNetwork('622748890499902658') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622749 and a length of 18', function() {
-		assert(detectNetwork('622749041641677882') === 'China UnionPay');
+		assert(detectNetwork('622749832260443568') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622750 and a length of 18', function() {
-		assert(detectNetwork('622750941763447901') === 'China UnionPay');
+		assert(detectNetwork('622750504047359190') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622751 and a length of 18', function() {
-		assert(detectNetwork('622751054992058470') === 'China UnionPay');
+		assert(detectNetwork('622751764355303175') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622752 and a length of 18', function() {
-		assert(detectNetwork('622752720290098895') === 'China UnionPay');
+		assert(detectNetwork('622752586034498791') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622753 and a length of 18', function() {
-		assert(detectNetwork('622753928953995566') === 'China UnionPay');
+		assert(detectNetwork('622753132693816261') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622754 and a length of 18', function() {
-		assert(detectNetwork('622754753824821491') === 'China UnionPay');
+		assert(detectNetwork('622754759643070607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622755 and a length of 18', function() {
-		assert(detectNetwork('622755675637202351') === 'China UnionPay');
+		assert(detectNetwork('622755195712860914') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622756 and a length of 18', function() {
-		assert(detectNetwork('622756367097653221') === 'China UnionPay');
+		assert(detectNetwork('622756604716427938') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622757 and a length of 18', function() {
-		assert(detectNetwork('622757022334876224') === 'China UnionPay');
+		assert(detectNetwork('622757712499094107') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622758 and a length of 18', function() {
-		assert(detectNetwork('622758606510754839') === 'China UnionPay');
+		assert(detectNetwork('622758657157633107') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622759 and a length of 18', function() {
-		assert(detectNetwork('622759522986309225') === 'China UnionPay');
+		assert(detectNetwork('622759570893420239') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622760 and a length of 18', function() {
-		assert(detectNetwork('622760585642121853') === 'China UnionPay');
+		assert(detectNetwork('622760590590382075') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622761 and a length of 18', function() {
-		assert(detectNetwork('622761572246036393') === 'China UnionPay');
+		assert(detectNetwork('622761830686890127') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622762 and a length of 18', function() {
-		assert(detectNetwork('622762091087645463') === 'China UnionPay');
+		assert(detectNetwork('622762448797905304') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622763 and a length of 18', function() {
-		assert(detectNetwork('622763801289111324') === 'China UnionPay');
+		assert(detectNetwork('622763996185270960') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622764 and a length of 18', function() {
-		assert(detectNetwork('622764109501844366') === 'China UnionPay');
+		assert(detectNetwork('622764894336894538') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622765 and a length of 18', function() {
-		assert(detectNetwork('622765859357332939') === 'China UnionPay');
+		assert(detectNetwork('622765429549075471') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622766 and a length of 18', function() {
-		assert(detectNetwork('622766198658380633') === 'China UnionPay');
+		assert(detectNetwork('622766152116266317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622767 and a length of 18', function() {
-		assert(detectNetwork('622767262628990118') === 'China UnionPay');
+		assert(detectNetwork('622767802245482646') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622768 and a length of 18', function() {
-		assert(detectNetwork('622768316688518998') === 'China UnionPay');
+		assert(detectNetwork('622768117171696109') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622769 and a length of 18', function() {
-		assert(detectNetwork('622769641355392896') === 'China UnionPay');
+		assert(detectNetwork('622769347830967108') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622770 and a length of 18', function() {
-		assert(detectNetwork('622770286443295606') === 'China UnionPay');
+		assert(detectNetwork('622770348412066747') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622771 and a length of 18', function() {
-		assert(detectNetwork('622771186711339268') === 'China UnionPay');
+		assert(detectNetwork('622771451097312552') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622772 and a length of 18', function() {
-		assert(detectNetwork('622772730363343111') === 'China UnionPay');
+		assert(detectNetwork('622772896251393082') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622773 and a length of 18', function() {
-		assert(detectNetwork('622773192962814138') === 'China UnionPay');
+		assert(detectNetwork('622773495456903799') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622774 and a length of 18', function() {
-		assert(detectNetwork('622774002604291857') === 'China UnionPay');
+		assert(detectNetwork('622774046117594584') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622775 and a length of 18', function() {
-		assert(detectNetwork('622775513938344061') === 'China UnionPay');
+		assert(detectNetwork('622775203145000931') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622776 and a length of 18', function() {
-		assert(detectNetwork('622776367105207981') === 'China UnionPay');
+		assert(detectNetwork('622776784978821190') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622777 and a length of 18', function() {
-		assert(detectNetwork('622777169901651585') === 'China UnionPay');
+		assert(detectNetwork('622777596353168062') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622778 and a length of 18', function() {
-		assert(detectNetwork('622778374174071143') === 'China UnionPay');
+		assert(detectNetwork('622778650101964767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622779 and a length of 18', function() {
-		assert(detectNetwork('622779069717433398') === 'China UnionPay');
+		assert(detectNetwork('622779967525236818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622780 and a length of 18', function() {
-		assert(detectNetwork('622780612074496507') === 'China UnionPay');
+		assert(detectNetwork('622780658665175926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622781 and a length of 18', function() {
-		assert(detectNetwork('622781860402539441') === 'China UnionPay');
+		assert(detectNetwork('622781034489536889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622782 and a length of 18', function() {
-		assert(detectNetwork('622782827293692265') === 'China UnionPay');
+		assert(detectNetwork('622782024150905184') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622783 and a length of 18', function() {
-		assert(detectNetwork('622783082240165130') === 'China UnionPay');
+		assert(detectNetwork('622783796024521512') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622784 and a length of 18', function() {
-		assert(detectNetwork('622784503950094391') === 'China UnionPay');
+		assert(detectNetwork('622784740666131889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622785 and a length of 18', function() {
-		assert(detectNetwork('622785903297476860') === 'China UnionPay');
+		assert(detectNetwork('622785067249144894') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622786 and a length of 18', function() {
-		assert(detectNetwork('622786576495860084') === 'China UnionPay');
+		assert(detectNetwork('622786466088455828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622787 and a length of 18', function() {
-		assert(detectNetwork('622787583485412076') === 'China UnionPay');
+		assert(detectNetwork('622787551997510011') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622788 and a length of 18', function() {
-		assert(detectNetwork('622788815406216026') === 'China UnionPay');
+		assert(detectNetwork('622788927482812796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622789 and a length of 18', function() {
-		assert(detectNetwork('622789682855250520') === 'China UnionPay');
+		assert(detectNetwork('622789213277867189') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622790 and a length of 18', function() {
-		assert(detectNetwork('622790739771128814') === 'China UnionPay');
+		assert(detectNetwork('622790897801438331') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622791 and a length of 18', function() {
-		assert(detectNetwork('622791831304321452') === 'China UnionPay');
+		assert(detectNetwork('622791435149186328') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622792 and a length of 18', function() {
-		assert(detectNetwork('622792830545882359') === 'China UnionPay');
+		assert(detectNetwork('622792349188481823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622793 and a length of 18', function() {
-		assert(detectNetwork('622793411144875347') === 'China UnionPay');
+		assert(detectNetwork('622793837187896904') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622794 and a length of 18', function() {
-		assert(detectNetwork('622794409525488714') === 'China UnionPay');
+		assert(detectNetwork('622794792977679162') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622795 and a length of 18', function() {
-		assert(detectNetwork('622795893261851217') === 'China UnionPay');
+		assert(detectNetwork('622795429739513529') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622796 and a length of 18', function() {
-		assert(detectNetwork('622796205393151632') === 'China UnionPay');
+		assert(detectNetwork('622796793695144773') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622797 and a length of 18', function() {
-		assert(detectNetwork('622797609007396152') === 'China UnionPay');
+		assert(detectNetwork('622797362779578217') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622798 and a length of 18', function() {
-		assert(detectNetwork('622798102614692975') === 'China UnionPay');
+		assert(detectNetwork('622798086891365859') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622799 and a length of 18', function() {
-		assert(detectNetwork('622799949456429931') === 'China UnionPay');
+		assert(detectNetwork('622799405877987476') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622800 and a length of 18', function() {
-		assert(detectNetwork('622800049819227354') === 'China UnionPay');
+		assert(detectNetwork('622800160601588135') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622801 and a length of 18', function() {
-		assert(detectNetwork('622801061082754903') === 'China UnionPay');
+		assert(detectNetwork('622801077811660504') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622802 and a length of 18', function() {
-		assert(detectNetwork('622802218652614589') === 'China UnionPay');
+		assert(detectNetwork('622802156687111613') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622803 and a length of 18', function() {
-		assert(detectNetwork('622803182917797087') === 'China UnionPay');
+		assert(detectNetwork('622803709337740491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622804 and a length of 18', function() {
-		assert(detectNetwork('622804122313157166') === 'China UnionPay');
+		assert(detectNetwork('622804659898646295') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622805 and a length of 18', function() {
-		assert(detectNetwork('622805492685685467') === 'China UnionPay');
+		assert(detectNetwork('622805039341461872') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622806 and a length of 18', function() {
-		assert(detectNetwork('622806704676200293') === 'China UnionPay');
+		assert(detectNetwork('622806269232793583') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622807 and a length of 18', function() {
-		assert(detectNetwork('622807848709589421') === 'China UnionPay');
+		assert(detectNetwork('622807557678478799') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622808 and a length of 18', function() {
-		assert(detectNetwork('622808090577129524') === 'China UnionPay');
+		assert(detectNetwork('622808629446961870') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622809 and a length of 18', function() {
-		assert(detectNetwork('622809365894543690') === 'China UnionPay');
+		assert(detectNetwork('622809112427005155') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622810 and a length of 18', function() {
-		assert(detectNetwork('622810486033300306') === 'China UnionPay');
+		assert(detectNetwork('622810516129652531') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622811 and a length of 18', function() {
-		assert(detectNetwork('622811102260151254') === 'China UnionPay');
+		assert(detectNetwork('622811032405138923') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622812 and a length of 18', function() {
-		assert(detectNetwork('622812818785442745') === 'China UnionPay');
+		assert(detectNetwork('622812118442450050') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622813 and a length of 18', function() {
-		assert(detectNetwork('622813363555562688') === 'China UnionPay');
+		assert(detectNetwork('622813140796808495') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622814 and a length of 18', function() {
-		assert(detectNetwork('622814991047373072') === 'China UnionPay');
+		assert(detectNetwork('622814736676169570') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622815 and a length of 18', function() {
-		assert(detectNetwork('622815285001353418') === 'China UnionPay');
+		assert(detectNetwork('622815722040721936') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622816 and a length of 18', function() {
-		assert(detectNetwork('622816904514047620') === 'China UnionPay');
+		assert(detectNetwork('622816803653570229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622817 and a length of 18', function() {
-		assert(detectNetwork('622817258038913293') === 'China UnionPay');
+		assert(detectNetwork('622817617945502716') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622818 and a length of 18', function() {
-		assert(detectNetwork('622818669337034120') === 'China UnionPay');
+		assert(detectNetwork('622818851394870800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622819 and a length of 18', function() {
-		assert(detectNetwork('622819288073519826') === 'China UnionPay');
+		assert(detectNetwork('622819564630688766') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622820 and a length of 18', function() {
-		assert(detectNetwork('622820734536097250') === 'China UnionPay');
+		assert(detectNetwork('622820593023148693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622821 and a length of 18', function() {
-		assert(detectNetwork('622821018373122624') === 'China UnionPay');
+		assert(detectNetwork('622821760561750249') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622822 and a length of 18', function() {
-		assert(detectNetwork('622822439181923049') === 'China UnionPay');
+		assert(detectNetwork('622822932242184567') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622823 and a length of 18', function() {
-		assert(detectNetwork('622823731843747424') === 'China UnionPay');
+		assert(detectNetwork('622823158048369309') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622824 and a length of 18', function() {
-		assert(detectNetwork('622824026386566743') === 'China UnionPay');
+		assert(detectNetwork('622824682760618570') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622825 and a length of 18', function() {
-		assert(detectNetwork('622825958425877292') === 'China UnionPay');
+		assert(detectNetwork('622825450263387562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622826 and a length of 18', function() {
-		assert(detectNetwork('622826615156063659') === 'China UnionPay');
+		assert(detectNetwork('622826334575994878') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622827 and a length of 18', function() {
-		assert(detectNetwork('622827422976449160') === 'China UnionPay');
+		assert(detectNetwork('622827147568650725') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622828 and a length of 18', function() {
-		assert(detectNetwork('622828800303563404') === 'China UnionPay');
+		assert(detectNetwork('622828152142578107') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622829 and a length of 18', function() {
-		assert(detectNetwork('622829945576704088') === 'China UnionPay');
+		assert(detectNetwork('622829668616826614') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622830 and a length of 18', function() {
-		assert(detectNetwork('622830186380988907') === 'China UnionPay');
+		assert(detectNetwork('622830701771811288') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622831 and a length of 18', function() {
-		assert(detectNetwork('622831621136978381') === 'China UnionPay');
+		assert(detectNetwork('622831736124006201') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622832 and a length of 18', function() {
-		assert(detectNetwork('622832920102655033') === 'China UnionPay');
+		assert(detectNetwork('622832049712291671') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622833 and a length of 18', function() {
-		assert(detectNetwork('622833965834818722') === 'China UnionPay');
+		assert(detectNetwork('622833840978110325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622834 and a length of 18', function() {
-		assert(detectNetwork('622834092434587476') === 'China UnionPay');
+		assert(detectNetwork('622834182983764987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622835 and a length of 18', function() {
-		assert(detectNetwork('622835243856500144') === 'China UnionPay');
+		assert(detectNetwork('622835310052239746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622836 and a length of 18', function() {
-		assert(detectNetwork('622836580084933851') === 'China UnionPay');
+		assert(detectNetwork('622836317658331023') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622837 and a length of 18', function() {
-		assert(detectNetwork('622837321122045481') === 'China UnionPay');
+		assert(detectNetwork('622837703153026910') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622838 and a length of 18', function() {
-		assert(detectNetwork('622838678697275232') === 'China UnionPay');
+		assert(detectNetwork('622838149974944347') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622839 and a length of 18', function() {
-		assert(detectNetwork('622839131964134243') === 'China UnionPay');
+		assert(detectNetwork('622839947992941248') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622840 and a length of 18', function() {
-		assert(detectNetwork('622840883641945124') === 'China UnionPay');
+		assert(detectNetwork('622840477054962632') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622841 and a length of 18', function() {
-		assert(detectNetwork('622841511785261250') === 'China UnionPay');
+		assert(detectNetwork('622841520959460780') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622842 and a length of 18', function() {
-		assert(detectNetwork('622842708357719615') === 'China UnionPay');
+		assert(detectNetwork('622842803568090682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622843 and a length of 18', function() {
-		assert(detectNetwork('622843467925549995') === 'China UnionPay');
+		assert(detectNetwork('622843858016132629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622844 and a length of 18', function() {
-		assert(detectNetwork('622844243577602304') === 'China UnionPay');
+		assert(detectNetwork('622844095550051206') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622845 and a length of 18', function() {
-		assert(detectNetwork('622845207120448579') === 'China UnionPay');
+		assert(detectNetwork('622845642573011867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622846 and a length of 18', function() {
-		assert(detectNetwork('622846007758904921') === 'China UnionPay');
+		assert(detectNetwork('622846678221803043') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622847 and a length of 18', function() {
-		assert(detectNetwork('622847625935103354') === 'China UnionPay');
+		assert(detectNetwork('622847147713695519') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622848 and a length of 18', function() {
-		assert(detectNetwork('622848451765528660') === 'China UnionPay');
+		assert(detectNetwork('622848172430766073') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622849 and a length of 18', function() {
-		assert(detectNetwork('622849010872070349') === 'China UnionPay');
+		assert(detectNetwork('622849464928666285') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622850 and a length of 18', function() {
-		assert(detectNetwork('622850601747685902') === 'China UnionPay');
+		assert(detectNetwork('622850837450433237') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622851 and a length of 18', function() {
-		assert(detectNetwork('622851936277033005') === 'China UnionPay');
+		assert(detectNetwork('622851213678773827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622852 and a length of 18', function() {
-		assert(detectNetwork('622852358007635316') === 'China UnionPay');
+		assert(detectNetwork('622852029431424083') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622853 and a length of 18', function() {
-		assert(detectNetwork('622853393971551583') === 'China UnionPay');
+		assert(detectNetwork('622853195860025555') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622854 and a length of 18', function() {
-		assert(detectNetwork('622854508723923647') === 'China UnionPay');
+		assert(detectNetwork('622854128154273599') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622855 and a length of 18', function() {
-		assert(detectNetwork('622855816139088324') === 'China UnionPay');
+		assert(detectNetwork('622855490890249279') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622856 and a length of 18', function() {
-		assert(detectNetwork('622856204448637292') === 'China UnionPay');
+		assert(detectNetwork('622856482327866419') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622857 and a length of 18', function() {
-		assert(detectNetwork('622857007025419438') === 'China UnionPay');
+		assert(detectNetwork('622857846648823873') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622858 and a length of 18', function() {
-		assert(detectNetwork('622858048831680715') === 'China UnionPay');
+		assert(detectNetwork('622858865114741551') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622859 and a length of 18', function() {
-		assert(detectNetwork('622859996460237663') === 'China UnionPay');
+		assert(detectNetwork('622859433842302850') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622860 and a length of 18', function() {
-		assert(detectNetwork('622860885381317550') === 'China UnionPay');
+		assert(detectNetwork('622860697727277122') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622861 and a length of 18', function() {
-		assert(detectNetwork('622861183404631513') === 'China UnionPay');
+		assert(detectNetwork('622861191567758869') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622862 and a length of 18', function() {
-		assert(detectNetwork('622862144677459248') === 'China UnionPay');
+		assert(detectNetwork('622862047219182857') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622863 and a length of 18', function() {
-		assert(detectNetwork('622863410255796272') === 'China UnionPay');
+		assert(detectNetwork('622863219418625817') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622864 and a length of 18', function() {
-		assert(detectNetwork('622864568945139251') === 'China UnionPay');
+		assert(detectNetwork('622864592681069628') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622865 and a length of 18', function() {
-		assert(detectNetwork('622865666591420898') === 'China UnionPay');
+		assert(detectNetwork('622865112066851486') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622866 and a length of 18', function() {
-		assert(detectNetwork('622866467729994458') === 'China UnionPay');
+		assert(detectNetwork('622866691176096299') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622867 and a length of 18', function() {
-		assert(detectNetwork('622867790023053899') === 'China UnionPay');
+		assert(detectNetwork('622867424384867629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622868 and a length of 18', function() {
-		assert(detectNetwork('622868081772907196') === 'China UnionPay');
+		assert(detectNetwork('622868890396818577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622869 and a length of 18', function() {
-		assert(detectNetwork('622869534558610147') === 'China UnionPay');
+		assert(detectNetwork('622869831017261978') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622870 and a length of 18', function() {
-		assert(detectNetwork('622870415492186745') === 'China UnionPay');
+		assert(detectNetwork('622870611635227299') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622871 and a length of 18', function() {
-		assert(detectNetwork('622871548710512259') === 'China UnionPay');
+		assert(detectNetwork('622871041625976062') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622872 and a length of 18', function() {
-		assert(detectNetwork('622872105350390851') === 'China UnionPay');
+		assert(detectNetwork('622872856143785396') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622873 and a length of 18', function() {
-		assert(detectNetwork('622873572721992225') === 'China UnionPay');
+		assert(detectNetwork('622873136942666022') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622874 and a length of 18', function() {
-		assert(detectNetwork('622874465797462620') === 'China UnionPay');
+		assert(detectNetwork('622874177943544769') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622875 and a length of 18', function() {
-		assert(detectNetwork('622875034716207586') === 'China UnionPay');
+		assert(detectNetwork('622875128788684342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622876 and a length of 18', function() {
-		assert(detectNetwork('622876340833945742') === 'China UnionPay');
+		assert(detectNetwork('622876268452822105') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622877 and a length of 18', function() {
-		assert(detectNetwork('622877104515628501') === 'China UnionPay');
+		assert(detectNetwork('622877547912775312') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622878 and a length of 18', function() {
-		assert(detectNetwork('622878386823371573') === 'China UnionPay');
+		assert(detectNetwork('622878777900906887') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622879 and a length of 18', function() {
-		assert(detectNetwork('622879730525309961') === 'China UnionPay');
+		assert(detectNetwork('622879363271759168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622880 and a length of 18', function() {
-		assert(detectNetwork('622880982757255474') === 'China UnionPay');
+		assert(detectNetwork('622880247136670240') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622881 and a length of 18', function() {
-		assert(detectNetwork('622881395997268133') === 'China UnionPay');
+		assert(detectNetwork('622881381271340176') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622882 and a length of 18', function() {
-		assert(detectNetwork('622882540364120108') === 'China UnionPay');
+		assert(detectNetwork('622882112749193539') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622883 and a length of 18', function() {
-		assert(detectNetwork('622883648571881706') === 'China UnionPay');
+		assert(detectNetwork('622883458534465416') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622884 and a length of 18', function() {
-		assert(detectNetwork('622884755424687767') === 'China UnionPay');
+		assert(detectNetwork('622884717124027252') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622885 and a length of 18', function() {
-		assert(detectNetwork('622885794738781602') === 'China UnionPay');
+		assert(detectNetwork('622885524428950686') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622886 and a length of 18', function() {
-		assert(detectNetwork('622886797749054853') === 'China UnionPay');
+		assert(detectNetwork('622886163597626794') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622887 and a length of 18', function() {
-		assert(detectNetwork('622887877861886334') === 'China UnionPay');
+		assert(detectNetwork('622887076586265163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622888 and a length of 18', function() {
-		assert(detectNetwork('622888880161564709') === 'China UnionPay');
+		assert(detectNetwork('622888121078464725') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622889 and a length of 18', function() {
-		assert(detectNetwork('622889805660028135') === 'China UnionPay');
+		assert(detectNetwork('622889825059519652') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622890 and a length of 18', function() {
-		assert(detectNetwork('622890986930710066') === 'China UnionPay');
+		assert(detectNetwork('622890690381799229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622891 and a length of 18', function() {
-		assert(detectNetwork('622891602985989223') === 'China UnionPay');
+		assert(detectNetwork('622891942101534932') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622892 and a length of 18', function() {
-		assert(detectNetwork('622892833053056962') === 'China UnionPay');
+		assert(detectNetwork('622892151023255447') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622893 and a length of 18', function() {
-		assert(detectNetwork('622893757973365046') === 'China UnionPay');
+		assert(detectNetwork('622893572974552554') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622894 and a length of 18', function() {
-		assert(detectNetwork('622894456631220543') === 'China UnionPay');
+		assert(detectNetwork('622894159256502177') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622895 and a length of 18', function() {
-		assert(detectNetwork('622895156889066088') === 'China UnionPay');
+		assert(detectNetwork('622895369880698399') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622896 and a length of 18', function() {
-		assert(detectNetwork('622896841491767523') === 'China UnionPay');
+		assert(detectNetwork('622896193905096619') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622897 and a length of 18', function() {
-		assert(detectNetwork('622897272337226914') === 'China UnionPay');
+		assert(detectNetwork('622897034605862767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622898 and a length of 18', function() {
-		assert(detectNetwork('622898504719593664') === 'China UnionPay');
+		assert(detectNetwork('622898097794850648') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622899 and a length of 18', function() {
-		assert(detectNetwork('622899443762956628') === 'China UnionPay');
+		assert(detectNetwork('622899897274011475') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622900 and a length of 18', function() {
-		assert(detectNetwork('622900193727597250') === 'China UnionPay');
+		assert(detectNetwork('622900128725570800') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622901 and a length of 18', function() {
-		assert(detectNetwork('622901999900449176') === 'China UnionPay');
+		assert(detectNetwork('622901547962950546') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622902 and a length of 18', function() {
-		assert(detectNetwork('622902770949990153') === 'China UnionPay');
+		assert(detectNetwork('622902008763846195') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622903 and a length of 18', function() {
-		assert(detectNetwork('622903991784893263') === 'China UnionPay');
+		assert(detectNetwork('622903371375840173') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622904 and a length of 18', function() {
-		assert(detectNetwork('622904841630748020') === 'China UnionPay');
+		assert(detectNetwork('622904983364085400') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622905 and a length of 18', function() {
-		assert(detectNetwork('622905098209863244') === 'China UnionPay');
+		assert(detectNetwork('622905470366535397') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622906 and a length of 18', function() {
-		assert(detectNetwork('622906859411529427') === 'China UnionPay');
+		assert(detectNetwork('622906081683966712') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622907 and a length of 18', function() {
-		assert(detectNetwork('622907648981602400') === 'China UnionPay');
+		assert(detectNetwork('622907520620508827') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622908 and a length of 18', function() {
-		assert(detectNetwork('622908069329384965') === 'China UnionPay');
+		assert(detectNetwork('622908679745378473') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622909 and a length of 18', function() {
-		assert(detectNetwork('622909803813998746') === 'China UnionPay');
+		assert(detectNetwork('622909549956458753') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622910 and a length of 18', function() {
-		assert(detectNetwork('622910030739041589') === 'China UnionPay');
+		assert(detectNetwork('622910103448635785') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622911 and a length of 18', function() {
-		assert(detectNetwork('622911370798868904') === 'China UnionPay');
+		assert(detectNetwork('622911476446422146') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622912 and a length of 18', function() {
-		assert(detectNetwork('622912178201616456') === 'China UnionPay');
+		assert(detectNetwork('622912970210409223') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622913 and a length of 18', function() {
-		assert(detectNetwork('622913366509319932') === 'China UnionPay');
+		assert(detectNetwork('622913055369734310') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622914 and a length of 18', function() {
-		assert(detectNetwork('622914836256095765') === 'China UnionPay');
+		assert(detectNetwork('622914641587692448') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622915 and a length of 18', function() {
-		assert(detectNetwork('622915744288616469') === 'China UnionPay');
+		assert(detectNetwork('622915411919162794') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622916 and a length of 18', function() {
-		assert(detectNetwork('622916935561776630') === 'China UnionPay');
+		assert(detectNetwork('622916887952355934') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622917 and a length of 18', function() {
-		assert(detectNetwork('622917522686437010') === 'China UnionPay');
+		assert(detectNetwork('622917500777840991') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622918 and a length of 18', function() {
-		assert(detectNetwork('622918643469302657') === 'China UnionPay');
+		assert(detectNetwork('622918826834607007') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622919 and a length of 18', function() {
-		assert(detectNetwork('622919116662821716') === 'China UnionPay');
+		assert(detectNetwork('622919113347832237') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622920 and a length of 18', function() {
-		assert(detectNetwork('622920362795076163') === 'China UnionPay');
+		assert(detectNetwork('622920240986999515') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622921 and a length of 18', function() {
-		assert(detectNetwork('622921479844570462') === 'China UnionPay');
+		assert(detectNetwork('622921480845914225') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622922 and a length of 18', function() {
-		assert(detectNetwork('622922630810536343') === 'China UnionPay');
+		assert(detectNetwork('622922016272014532') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622923 and a length of 18', function() {
-		assert(detectNetwork('622923907561147188') === 'China UnionPay');
+		assert(detectNetwork('622923119218088840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622924 and a length of 18', function() {
-		assert(detectNetwork('622924249000775782') === 'China UnionPay');
+		assert(detectNetwork('622924919783469455') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622925 and a length of 18', function() {
-		assert(detectNetwork('622925702275893071') === 'China UnionPay');
+		assert(detectNetwork('622925362948162163') === 'China UnionPay');
 	});
 
 	it('has a prefix of 624 and a length of 19', function() {
-		assert(detectNetwork('6246411072626012820') === 'China UnionPay');
+		assert(detectNetwork('6246924150684428006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 625 and a length of 19', function() {
-		assert(detectNetwork('6251123478112785573') === 'China UnionPay');
+		assert(detectNetwork('6253674625500316980') === 'China UnionPay');
 	});
 
 	it('has a prefix of 626 and a length of 19', function() {
-		assert(detectNetwork('6262187923189287063') === 'China UnionPay');
+		assert(detectNetwork('6263134574513248042') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6282 and a length of 19', function() {
-		assert(detectNetwork('6282272792558649946') === 'China UnionPay');
+		assert(detectNetwork('6282976597466123921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6283 and a length of 19', function() {
-		assert(detectNetwork('6283267465384454908') === 'China UnionPay');
+		assert(detectNetwork('6283876051431279147') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6284 and a length of 19', function() {
-		assert(detectNetwork('6284033377022483121') === 'China UnionPay');
+		assert(detectNetwork('6284196417545172221') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6285 and a length of 19', function() {
-		assert(detectNetwork('6285264200297394562') === 'China UnionPay');
+		assert(detectNetwork('6285909059935613142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6286 and a length of 19', function() {
-		assert(detectNetwork('6286038493428435048') === 'China UnionPay');
+		assert(detectNetwork('6286945553949896476') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6287 and a length of 19', function() {
-		assert(detectNetwork('6287344809385636954') === 'China UnionPay');
+		assert(detectNetwork('6287986637547199089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 6288 and a length of 19', function() {
-		assert(detectNetwork('6288883416252317540') === 'China UnionPay');
+		assert(detectNetwork('6288265393002467316') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622126 and a length of 19', function() {
-		assert(detectNetwork('6221264337066407778') === 'China UnionPay');
+		assert(detectNetwork('6221267116446410984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622127 and a length of 19', function() {
-		assert(detectNetwork('6221274704271265262') === 'China UnionPay');
+		assert(detectNetwork('6221274373009771669') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622128 and a length of 19', function() {
-		assert(detectNetwork('6221288732728707985') === 'China UnionPay');
+		assert(detectNetwork('6221282199089617283') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622129 and a length of 19', function() {
-		assert(detectNetwork('6221290516255076003') === 'China UnionPay');
+		assert(detectNetwork('6221291203012594906') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622130 and a length of 19', function() {
-		assert(detectNetwork('6221305644763565814') === 'China UnionPay');
+		assert(detectNetwork('6221307407581745235') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622131 and a length of 19', function() {
-		assert(detectNetwork('6221312253223095615') === 'China UnionPay');
+		assert(detectNetwork('6221314189418177550') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622132 and a length of 19', function() {
-		assert(detectNetwork('6221324862546846335') === 'China UnionPay');
+		assert(detectNetwork('6221320426432244775') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622133 and a length of 19', function() {
-		assert(detectNetwork('6221337178568551114') === 'China UnionPay');
+		assert(detectNetwork('6221339269900628738') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622134 and a length of 19', function() {
-		assert(detectNetwork('6221346697657309906') === 'China UnionPay');
+		assert(detectNetwork('6221349317706760970') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622135 and a length of 19', function() {
-		assert(detectNetwork('6221359859253938606') === 'China UnionPay');
+		assert(detectNetwork('6221355769152728386') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622136 and a length of 19', function() {
-		assert(detectNetwork('6221364294720098305') === 'China UnionPay');
+		assert(detectNetwork('6221362829749043398') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622137 and a length of 19', function() {
-		assert(detectNetwork('6221375945016466667') === 'China UnionPay');
+		assert(detectNetwork('6221375701054727411') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622138 and a length of 19', function() {
-		assert(detectNetwork('6221383484761621224') === 'China UnionPay');
+		assert(detectNetwork('6221389040926405547') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622139 and a length of 19', function() {
-		assert(detectNetwork('6221396252080977034') === 'China UnionPay');
+		assert(detectNetwork('6221398550274728941') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622140 and a length of 19', function() {
-		assert(detectNetwork('6221404574361161136') === 'China UnionPay');
+		assert(detectNetwork('6221400222064420088') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622141 and a length of 19', function() {
-		assert(detectNetwork('6221418581577332901') === 'China UnionPay');
+		assert(detectNetwork('6221415843237908081') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622142 and a length of 19', function() {
-		assert(detectNetwork('6221421327726647097') === 'China UnionPay');
+		assert(detectNetwork('6221421244456019409') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622143 and a length of 19', function() {
-		assert(detectNetwork('6221435499740961928') === 'China UnionPay');
+		assert(detectNetwork('6221430490469643201') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622144 and a length of 19', function() {
-		assert(detectNetwork('6221443107853600887') === 'China UnionPay');
+		assert(detectNetwork('6221445312219366423') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622145 and a length of 19', function() {
-		assert(detectNetwork('6221451444201417222') === 'China UnionPay');
+		assert(detectNetwork('6221452135721113352') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622146 and a length of 19', function() {
-		assert(detectNetwork('6221465828146627097') === 'China UnionPay');
+		assert(detectNetwork('6221462799403048687') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622147 and a length of 19', function() {
-		assert(detectNetwork('6221478849734271471') === 'China UnionPay');
+		assert(detectNetwork('6221476788934544973') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622148 and a length of 19', function() {
-		assert(detectNetwork('6221482155025194300') === 'China UnionPay');
+		assert(detectNetwork('6221481434601279861') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622149 and a length of 19', function() {
-		assert(detectNetwork('6221497956344888835') === 'China UnionPay');
+		assert(detectNetwork('6221495827011821214') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622150 and a length of 19', function() {
-		assert(detectNetwork('6221502123399353767') === 'China UnionPay');
+		assert(detectNetwork('6221506827482706647') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622151 and a length of 19', function() {
-		assert(detectNetwork('6221519060587358428') === 'China UnionPay');
+		assert(detectNetwork('6221518581838789104') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622152 and a length of 19', function() {
-		assert(detectNetwork('6221525656744104349') === 'China UnionPay');
+		assert(detectNetwork('6221520202658651987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622153 and a length of 19', function() {
-		assert(detectNetwork('6221535812755803396') === 'China UnionPay');
+		assert(detectNetwork('6221536669490123313') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622154 and a length of 19', function() {
-		assert(detectNetwork('6221549319190561738') === 'China UnionPay');
+		assert(detectNetwork('6221544811517052671') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622155 and a length of 19', function() {
-		assert(detectNetwork('6221551352004298793') === 'China UnionPay');
+		assert(detectNetwork('6221552343733612331') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622156 and a length of 19', function() {
-		assert(detectNetwork('6221569947064975384') === 'China UnionPay');
+		assert(detectNetwork('6221561347727856558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622157 and a length of 19', function() {
-		assert(detectNetwork('6221576470857645734') === 'China UnionPay');
+		assert(detectNetwork('6221572053948889376') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622158 and a length of 19', function() {
-		assert(detectNetwork('6221587918697736757') === 'China UnionPay');
+		assert(detectNetwork('6221583455197396234') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622159 and a length of 19', function() {
-		assert(detectNetwork('6221594682768663570') === 'China UnionPay');
+		assert(detectNetwork('6221591027400739211') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622160 and a length of 19', function() {
-		assert(detectNetwork('6221608889925621612') === 'China UnionPay');
+		assert(detectNetwork('6221602741663856778') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622161 and a length of 19', function() {
-		assert(detectNetwork('6221615442065912411') === 'China UnionPay');
+		assert(detectNetwork('6221611211181207206') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622162 and a length of 19', function() {
-		assert(detectNetwork('6221628842932241402') === 'China UnionPay');
+		assert(detectNetwork('6221624232339889764') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622163 and a length of 19', function() {
-		assert(detectNetwork('6221639687974736272') === 'China UnionPay');
+		assert(detectNetwork('6221638541790857898') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622164 and a length of 19', function() {
-		assert(detectNetwork('6221643341308827694') === 'China UnionPay');
+		assert(detectNetwork('6221645680324286917') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622165 and a length of 19', function() {
-		assert(detectNetwork('6221657223451537098') === 'China UnionPay');
+		assert(detectNetwork('6221658434415707023') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622166 and a length of 19', function() {
-		assert(detectNetwork('6221662161887424364') === 'China UnionPay');
+		assert(detectNetwork('6221663272540638939') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622167 and a length of 19', function() {
-		assert(detectNetwork('6221677599215927411') === 'China UnionPay');
+		assert(detectNetwork('6221672777398968645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622168 and a length of 19', function() {
-		assert(detectNetwork('6221684337733564065') === 'China UnionPay');
+		assert(detectNetwork('6221686559992243759') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622169 and a length of 19', function() {
-		assert(detectNetwork('6221691142617533618') === 'China UnionPay');
+		assert(detectNetwork('6221690715112557746') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622170 and a length of 19', function() {
-		assert(detectNetwork('6221701880213556118') === 'China UnionPay');
+		assert(detectNetwork('6221709296335901441') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622171 and a length of 19', function() {
-		assert(detectNetwork('6221719892272334017') === 'China UnionPay');
+		assert(detectNetwork('6221719761484611533') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622172 and a length of 19', function() {
-		assert(detectNetwork('6221724242788705533') === 'China UnionPay');
+		assert(detectNetwork('6221725948054691042') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622173 and a length of 19', function() {
-		assert(detectNetwork('6221734282872347247') === 'China UnionPay');
+		assert(detectNetwork('6221736815890529079') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622174 and a length of 19', function() {
-		assert(detectNetwork('6221740516062658121') === 'China UnionPay');
+		assert(detectNetwork('6221743531803409659') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622175 and a length of 19', function() {
-		assert(detectNetwork('6221750923597851941') === 'China UnionPay');
+		assert(detectNetwork('6221758502250040951') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622176 and a length of 19', function() {
-		assert(detectNetwork('6221760219287181111') === 'China UnionPay');
+		assert(detectNetwork('6221764652629612700') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622177 and a length of 19', function() {
-		assert(detectNetwork('6221770962610798045') === 'China UnionPay');
+		assert(detectNetwork('6221774997653961907') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622178 and a length of 19', function() {
-		assert(detectNetwork('6221782213021902701') === 'China UnionPay');
+		assert(detectNetwork('6221786199790775142') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622179 and a length of 19', function() {
-		assert(detectNetwork('6221791117347683349') === 'China UnionPay');
+		assert(detectNetwork('6221798092851220428') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622180 and a length of 19', function() {
-		assert(detectNetwork('6221805688222793673') === 'China UnionPay');
+		assert(detectNetwork('6221809561610550577') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622181 and a length of 19', function() {
-		assert(detectNetwork('6221815562387143861') === 'China UnionPay');
+		assert(detectNetwork('6221814757174770594') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622182 and a length of 19', function() {
-		assert(detectNetwork('6221829040585334947') === 'China UnionPay');
+		assert(detectNetwork('6221827927367157362') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622183 and a length of 19', function() {
-		assert(detectNetwork('6221836317248729046') === 'China UnionPay');
+		assert(detectNetwork('6221837130191451123') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622184 and a length of 19', function() {
-		assert(detectNetwork('6221842240491926661') === 'China UnionPay');
+		assert(detectNetwork('6221840461809131964') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622185 and a length of 19', function() {
-		assert(detectNetwork('6221858781414272296') === 'China UnionPay');
+		assert(detectNetwork('6221850240357378234') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622186 and a length of 19', function() {
-		assert(detectNetwork('6221867438605137312') === 'China UnionPay');
+		assert(detectNetwork('6221863685774338220') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622187 and a length of 19', function() {
-		assert(detectNetwork('6221874730555492517') === 'China UnionPay');
+		assert(detectNetwork('6221876860926706017') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622188 and a length of 19', function() {
-		assert(detectNetwork('6221886148879803898') === 'China UnionPay');
+		assert(detectNetwork('6221885972242716578') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622189 and a length of 19', function() {
-		assert(detectNetwork('6221897060600820188') === 'China UnionPay');
+		assert(detectNetwork('6221891140295159066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622190 and a length of 19', function() {
-		assert(detectNetwork('6221903513890635885') === 'China UnionPay');
+		assert(detectNetwork('6221907040125812505') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622191 and a length of 19', function() {
-		assert(detectNetwork('6221910668940272390') === 'China UnionPay');
+		assert(detectNetwork('6221914450144101087') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622192 and a length of 19', function() {
-		assert(detectNetwork('6221922241989663178') === 'China UnionPay');
+		assert(detectNetwork('6221922495871512494') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622193 and a length of 19', function() {
-		assert(detectNetwork('6221934521927320019') === 'China UnionPay');
+		assert(detectNetwork('6221932464164447987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622194 and a length of 19', function() {
-		assert(detectNetwork('6221948767335632084') === 'China UnionPay');
+		assert(detectNetwork('6221940501129219161') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622195 and a length of 19', function() {
-		assert(detectNetwork('6221951628993499151') === 'China UnionPay');
+		assert(detectNetwork('6221950384017502972') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622196 and a length of 19', function() {
-		assert(detectNetwork('6221964185031142688') === 'China UnionPay');
+		assert(detectNetwork('6221967372019889042') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622197 and a length of 19', function() {
-		assert(detectNetwork('6221974753546905820') === 'China UnionPay');
+		assert(detectNetwork('6221977104385065471') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622198 and a length of 19', function() {
-		assert(detectNetwork('6221984887120302431') === 'China UnionPay');
+		assert(detectNetwork('6221982384875790463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622199 and a length of 19', function() {
-		assert(detectNetwork('6221998150072394683') === 'China UnionPay');
+		assert(detectNetwork('6221991805894326939') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622200 and a length of 19', function() {
-		assert(detectNetwork('6222003466383297236') === 'China UnionPay');
+		assert(detectNetwork('6222001910290892928') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622201 and a length of 19', function() {
-		assert(detectNetwork('6222018238541282404') === 'China UnionPay');
+		assert(detectNetwork('6222016455465734519') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622202 and a length of 19', function() {
-		assert(detectNetwork('6222023554633203773') === 'China UnionPay');
+		assert(detectNetwork('6222024051443503580') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622203 and a length of 19', function() {
-		assert(detectNetwork('6222036895529523374') === 'China UnionPay');
+		assert(detectNetwork('6222037914423216642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622204 and a length of 19', function() {
-		assert(detectNetwork('6222042861554580938') === 'China UnionPay');
+		assert(detectNetwork('6222049994391514440') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622205 and a length of 19', function() {
-		assert(detectNetwork('6222059612188392398') === 'China UnionPay');
+		assert(detectNetwork('6222057652914150946') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622206 and a length of 19', function() {
-		assert(detectNetwork('6222068766166617918') === 'China UnionPay');
+		assert(detectNetwork('6222062123377799241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622207 and a length of 19', function() {
-		assert(detectNetwork('6222079065813128489') === 'China UnionPay');
+		assert(detectNetwork('6222079380104821875') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622208 and a length of 19', function() {
-		assert(detectNetwork('6222088407111514234') === 'China UnionPay');
+		assert(detectNetwork('6222085563661683077') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622209 and a length of 19', function() {
-		assert(detectNetwork('6222097355289598175') === 'China UnionPay');
+		assert(detectNetwork('6222094105405871922') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622210 and a length of 19', function() {
-		assert(detectNetwork('6222105682395155677') === 'China UnionPay');
+		assert(detectNetwork('6222106937049869889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622211 and a length of 19', function() {
-		assert(detectNetwork('6222115067265428012') === 'China UnionPay');
+		assert(detectNetwork('6222118196286199874') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622212 and a length of 19', function() {
-		assert(detectNetwork('6222127972941515967') === 'China UnionPay');
+		assert(detectNetwork('6222123152967090740') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622213 and a length of 19', function() {
-		assert(detectNetwork('6222131080297516538') === 'China UnionPay');
+		assert(detectNetwork('6222136132974942756') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622214 and a length of 19', function() {
-		assert(detectNetwork('6222145535983257890') === 'China UnionPay');
+		assert(detectNetwork('6222147961559157669') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622215 and a length of 19', function() {
-		assert(detectNetwork('6222153338215522307') === 'China UnionPay');
+		assert(detectNetwork('6222155836365047750') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622216 and a length of 19', function() {
-		assert(detectNetwork('6222166475155080768') === 'China UnionPay');
+		assert(detectNetwork('6222168356450185670') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622217 and a length of 19', function() {
-		assert(detectNetwork('6222173015371710943') === 'China UnionPay');
+		assert(detectNetwork('6222175069848277687') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622218 and a length of 19', function() {
-		assert(detectNetwork('6222186062404403437') === 'China UnionPay');
+		assert(detectNetwork('6222183983649313703') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622219 and a length of 19', function() {
-		assert(detectNetwork('6222194682588087251') === 'China UnionPay');
+		assert(detectNetwork('6222194783139966090') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622220 and a length of 19', function() {
-		assert(detectNetwork('6222201221900112713') === 'China UnionPay');
+		assert(detectNetwork('6222201725251534168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622221 and a length of 19', function() {
-		assert(detectNetwork('6222218106853859319') === 'China UnionPay');
+		assert(detectNetwork('6222210484747158313') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622222 and a length of 19', function() {
-		assert(detectNetwork('6222228966993023842') === 'China UnionPay');
+		assert(detectNetwork('6222227539308713020') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622223 and a length of 19', function() {
-		assert(detectNetwork('6222239077029981035') === 'China UnionPay');
+		assert(detectNetwork('6222231184140495620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622224 and a length of 19', function() {
-		assert(detectNetwork('6222244383864482369') === 'China UnionPay');
+		assert(detectNetwork('6222240994719325764') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622225 and a length of 19', function() {
-		assert(detectNetwork('6222254109830088769') === 'China UnionPay');
+		assert(detectNetwork('6222252440545723701') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622226 and a length of 19', function() {
-		assert(detectNetwork('6222269113226219369') === 'China UnionPay');
+		assert(detectNetwork('6222269228762114339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622227 and a length of 19', function() {
-		assert(detectNetwork('6222271595224137468') === 'China UnionPay');
+		assert(detectNetwork('6222276213773010002') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622228 and a length of 19', function() {
-		assert(detectNetwork('6222284698875536103') === 'China UnionPay');
+		assert(detectNetwork('6222281889402409296') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622229 and a length of 19', function() {
-		assert(detectNetwork('6222294657003561845') === 'China UnionPay');
+		assert(detectNetwork('6222293983868549492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622230 and a length of 19', function() {
-		assert(detectNetwork('6222300021907157107') === 'China UnionPay');
+		assert(detectNetwork('6222303728109995018') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622231 and a length of 19', function() {
-		assert(detectNetwork('6222317796068834849') === 'China UnionPay');
+		assert(detectNetwork('6222310417020361042') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622232 and a length of 19', function() {
-		assert(detectNetwork('6222325638049033674') === 'China UnionPay');
+		assert(detectNetwork('6222324540361203406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622233 and a length of 19', function() {
-		assert(detectNetwork('6222336368875774264') === 'China UnionPay');
+		assert(detectNetwork('6222330637767440077') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622234 and a length of 19', function() {
-		assert(detectNetwork('6222342933444813681') === 'China UnionPay');
+		assert(detectNetwork('6222341328132083455') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622235 and a length of 19', function() {
-		assert(detectNetwork('6222353581153365432') === 'China UnionPay');
+		assert(detectNetwork('6222355893484689325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622236 and a length of 19', function() {
-		assert(detectNetwork('6222361377482391615') === 'China UnionPay');
+		assert(detectNetwork('6222361352999672466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622237 and a length of 19', function() {
-		assert(detectNetwork('6222373723519507219') === 'China UnionPay');
+		assert(detectNetwork('6222374500598672407') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622238 and a length of 19', function() {
-		assert(detectNetwork('6222381883628790822') === 'China UnionPay');
+		assert(detectNetwork('6222385901525219579') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622239 and a length of 19', function() {
-		assert(detectNetwork('6222392436151616542') === 'China UnionPay');
+		assert(detectNetwork('6222397155782093345') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622240 and a length of 19', function() {
-		assert(detectNetwork('6222405732852511292') === 'China UnionPay');
+		assert(detectNetwork('6222406274272331959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622241 and a length of 19', function() {
-		assert(detectNetwork('6222414990609567565') === 'China UnionPay');
+		assert(detectNetwork('6222410288380428850') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622242 and a length of 19', function() {
-		assert(detectNetwork('6222420095336314903') === 'China UnionPay');
+		assert(detectNetwork('6222420959707585291') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622243 and a length of 19', function() {
-		assert(detectNetwork('6222436843944622784') === 'China UnionPay');
+		assert(detectNetwork('6222439303118484161') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622244 and a length of 19', function() {
-		assert(detectNetwork('6222441209100504591') === 'China UnionPay');
+		assert(detectNetwork('6222448400637426463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622245 and a length of 19', function() {
-		assert(detectNetwork('6222450678041942772') === 'China UnionPay');
+		assert(detectNetwork('6222457239929494693') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622246 and a length of 19', function() {
-		assert(detectNetwork('6222463790344245931') === 'China UnionPay');
+		assert(detectNetwork('6222467837102305318') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622247 and a length of 19', function() {
-		assert(detectNetwork('6222479768100794447') === 'China UnionPay');
+		assert(detectNetwork('6222477833057693552') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622248 and a length of 19', function() {
-		assert(detectNetwork('6222489090448796826') === 'China UnionPay');
+		assert(detectNetwork('6222484435988797612') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622249 and a length of 19', function() {
-		assert(detectNetwork('6222493764447574329') === 'China UnionPay');
+		assert(detectNetwork('6222497507364175466') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622250 and a length of 19', function() {
-		assert(detectNetwork('6222503199688247646') === 'China UnionPay');
+		assert(detectNetwork('6222505651884048052') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622251 and a length of 19', function() {
-		assert(detectNetwork('6222515713091397397') === 'China UnionPay');
+		assert(detectNetwork('6222517706572347467') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622252 and a length of 19', function() {
-		assert(detectNetwork('6222528656845204496') === 'China UnionPay');
+		assert(detectNetwork('6222528022149745249') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622253 and a length of 19', function() {
-		assert(detectNetwork('6222531308960792996') === 'China UnionPay');
+		assert(detectNetwork('6222538749176866861') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622254 and a length of 19', function() {
-		assert(detectNetwork('6222542341367539910') === 'China UnionPay');
+		assert(detectNetwork('6222547329803781730') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622255 and a length of 19', function() {
-		assert(detectNetwork('6222550425501187440') === 'China UnionPay');
+		assert(detectNetwork('6222554471838820328') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622256 and a length of 19', function() {
-		assert(detectNetwork('6222568753545587862') === 'China UnionPay');
+		assert(detectNetwork('6222567611880661824') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622257 and a length of 19', function() {
-		assert(detectNetwork('6222573964288349837') === 'China UnionPay');
+		assert(detectNetwork('6222577097732273261') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622258 and a length of 19', function() {
-		assert(detectNetwork('6222585547983998391') === 'China UnionPay');
+		assert(detectNetwork('6222588273067830829') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622259 and a length of 19', function() {
-		assert(detectNetwork('6222591241405006088') === 'China UnionPay');
+		assert(detectNetwork('6222593607581408232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622260 and a length of 19', function() {
-		assert(detectNetwork('6222605843977587806') === 'China UnionPay');
+		assert(detectNetwork('6222602233299822876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622261 and a length of 19', function() {
-		assert(detectNetwork('6222612613678489273') === 'China UnionPay');
+		assert(detectNetwork('6222616499533672006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622262 and a length of 19', function() {
-		assert(detectNetwork('6222625906417069227') === 'China UnionPay');
+		assert(detectNetwork('6222622694679811982') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622263 and a length of 19', function() {
-		assert(detectNetwork('6222634006781255834') === 'China UnionPay');
+		assert(detectNetwork('6222632173231146702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622264 and a length of 19', function() {
-		assert(detectNetwork('6222649084187945264') === 'China UnionPay');
+		assert(detectNetwork('6222644569107712637') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622265 and a length of 19', function() {
-		assert(detectNetwork('6222651614920243887') === 'China UnionPay');
+		assert(detectNetwork('6222657849292593170') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622266 and a length of 19', function() {
-		assert(detectNetwork('6222664713805721211') === 'China UnionPay');
+		assert(detectNetwork('6222667027286334705') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622267 and a length of 19', function() {
-		assert(detectNetwork('6222674477629973229') === 'China UnionPay');
+		assert(detectNetwork('6222676921679165967') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622268 and a length of 19', function() {
-		assert(detectNetwork('6222689422789670935') === 'China UnionPay');
+		assert(detectNetwork('6222683729908482580') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622269 and a length of 19', function() {
-		assert(detectNetwork('6222696614241836979') === 'China UnionPay');
+		assert(detectNetwork('6222697900902022488') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622270 and a length of 19', function() {
-		assert(detectNetwork('6222701861352526387') === 'China UnionPay');
+		assert(detectNetwork('6222701374646024871') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622271 and a length of 19', function() {
-		assert(detectNetwork('6222718871519619906') === 'China UnionPay');
+		assert(detectNetwork('6222718199374034771') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622272 and a length of 19', function() {
-		assert(detectNetwork('6222724902962409108') === 'China UnionPay');
+		assert(detectNetwork('6222729612952797957') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622273 and a length of 19', function() {
-		assert(detectNetwork('6222731118376833342') === 'China UnionPay');
+		assert(detectNetwork('6222734479170559219') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622274 and a length of 19', function() {
-		assert(detectNetwork('6222744391465602926') === 'China UnionPay');
+		assert(detectNetwork('6222746894684071449') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622275 and a length of 19', function() {
-		assert(detectNetwork('6222756164422474921') === 'China UnionPay');
+		assert(detectNetwork('6222753538797208918') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622276 and a length of 19', function() {
-		assert(detectNetwork('6222763754733391806') === 'China UnionPay');
+		assert(detectNetwork('6222762684799656847') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622277 and a length of 19', function() {
-		assert(detectNetwork('6222772427954276205') === 'China UnionPay');
+		assert(detectNetwork('6222773875383807155') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622278 and a length of 19', function() {
-		assert(detectNetwork('6222782975632701670') === 'China UnionPay');
+		assert(detectNetwork('6222788823697856406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622279 and a length of 19', function() {
-		assert(detectNetwork('6222795118011656928') === 'China UnionPay');
+		assert(detectNetwork('6222793550625482168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622280 and a length of 19', function() {
-		assert(detectNetwork('6222805038028272515') === 'China UnionPay');
+		assert(detectNetwork('6222802546036582281') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622281 and a length of 19', function() {
-		assert(detectNetwork('6222813610048764969') === 'China UnionPay');
+		assert(detectNetwork('6222810473731612627') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622282 and a length of 19', function() {
-		assert(detectNetwork('6222821911703807532') === 'China UnionPay');
+		assert(detectNetwork('6222821332434202565') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622283 and a length of 19', function() {
-		assert(detectNetwork('6222831630727755426') === 'China UnionPay');
+		assert(detectNetwork('6222830894825582030') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622284 and a length of 19', function() {
-		assert(detectNetwork('6222844257794710970') === 'China UnionPay');
+		assert(detectNetwork('6222849048533388621') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622285 and a length of 19', function() {
-		assert(detectNetwork('6222858588937850805') === 'China UnionPay');
+		assert(detectNetwork('6222859819578169421') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622286 and a length of 19', function() {
-		assert(detectNetwork('6222864343272419934') === 'China UnionPay');
+		assert(detectNetwork('6222869030532587658') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622287 and a length of 19', function() {
-		assert(detectNetwork('6222874533164236197') === 'China UnionPay');
+		assert(detectNetwork('6222876809344001053') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622288 and a length of 19', function() {
-		assert(detectNetwork('6222880210043124773') === 'China UnionPay');
+		assert(detectNetwork('6222889473706475168') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622289 and a length of 19', function() {
-		assert(detectNetwork('6222890518794257885') === 'China UnionPay');
+		assert(detectNetwork('6222890924622576192') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622290 and a length of 19', function() {
-		assert(detectNetwork('6222902858659517940') === 'China UnionPay');
+		assert(detectNetwork('6222908698868289128') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622291 and a length of 19', function() {
-		assert(detectNetwork('6222911103099583850') === 'China UnionPay');
+		assert(detectNetwork('6222914028892186975') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622292 and a length of 19', function() {
-		assert(detectNetwork('6222929843253182609') === 'China UnionPay');
+		assert(detectNetwork('6222928652210616756') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622293 and a length of 19', function() {
-		assert(detectNetwork('6222931266330323373') === 'China UnionPay');
+		assert(detectNetwork('6222938429333571730') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622294 and a length of 19', function() {
-		assert(detectNetwork('6222949751335556834') === 'China UnionPay');
+		assert(detectNetwork('6222944554633130174') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622295 and a length of 19', function() {
-		assert(detectNetwork('6222957727301912870') === 'China UnionPay');
+		assert(detectNetwork('6222955396675845375') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622296 and a length of 19', function() {
-		assert(detectNetwork('6222960372310409698') === 'China UnionPay');
+		assert(detectNetwork('6222963711321194472') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622297 and a length of 19', function() {
-		assert(detectNetwork('6222976331022540529') === 'China UnionPay');
+		assert(detectNetwork('6222977392043108591') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622298 and a length of 19', function() {
-		assert(detectNetwork('6222985424794890649') === 'China UnionPay');
+		assert(detectNetwork('6222984097398855809') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622299 and a length of 19', function() {
-		assert(detectNetwork('6222991469738273691') === 'China UnionPay');
+		assert(detectNetwork('6222993353597376917') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622300 and a length of 19', function() {
-		assert(detectNetwork('6223006589125046290') === 'China UnionPay');
+		assert(detectNetwork('6223009934224444246') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622301 and a length of 19', function() {
-		assert(detectNetwork('6223013394185370310') === 'China UnionPay');
+		assert(detectNetwork('6223018568959404997') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622302 and a length of 19', function() {
-		assert(detectNetwork('6223029285157780118') === 'China UnionPay');
+		assert(detectNetwork('6223029071509652810') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622303 and a length of 19', function() {
-		assert(detectNetwork('6223031283313779305') === 'China UnionPay');
+		assert(detectNetwork('6223037939289981180') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622304 and a length of 19', function() {
-		assert(detectNetwork('6223046776897563259') === 'China UnionPay');
+		assert(detectNetwork('6223041332365205805') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622305 and a length of 19', function() {
-		assert(detectNetwork('6223055993817951356') === 'China UnionPay');
+		assert(detectNetwork('6223059765612403823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622306 and a length of 19', function() {
-		assert(detectNetwork('6223060812575556690') === 'China UnionPay');
+		assert(detectNetwork('6223060184127166931') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622307 and a length of 19', function() {
-		assert(detectNetwork('6223071596633485152') === 'China UnionPay');
+		assert(detectNetwork('6223074385039691568') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622308 and a length of 19', function() {
-		assert(detectNetwork('6223081360100773194') === 'China UnionPay');
+		assert(detectNetwork('6223084133015496547') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622309 and a length of 19', function() {
-		assert(detectNetwork('6223098651190545291') === 'China UnionPay');
+		assert(detectNetwork('6223099192855640228') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622310 and a length of 19', function() {
-		assert(detectNetwork('6223106276084570511') === 'China UnionPay');
+		assert(detectNetwork('6223100171539467667') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622311 and a length of 19', function() {
-		assert(detectNetwork('6223112317891588469') === 'China UnionPay');
+		assert(detectNetwork('6223115392651724540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622312 and a length of 19', function() {
-		assert(detectNetwork('6223123128427623677') === 'China UnionPay');
+		assert(detectNetwork('6223126079786602967') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622313 and a length of 19', function() {
-		assert(detectNetwork('6223134573260204765') === 'China UnionPay');
+		assert(detectNetwork('6223137071140410723') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622314 and a length of 19', function() {
-		assert(detectNetwork('6223146983346988810') === 'China UnionPay');
+		assert(detectNetwork('6223141700715664837') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622315 and a length of 19', function() {
-		assert(detectNetwork('6223154739037914671') === 'China UnionPay');
+		assert(detectNetwork('6223159699033127857') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622316 and a length of 19', function() {
-		assert(detectNetwork('6223160387924371618') === 'China UnionPay');
+		assert(detectNetwork('6223169813517889930') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622317 and a length of 19', function() {
-		assert(detectNetwork('6223177638984965407') === 'China UnionPay');
+		assert(detectNetwork('6223179297740592196') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622318 and a length of 19', function() {
-		assert(detectNetwork('6223180632799893328') === 'China UnionPay');
+		assert(detectNetwork('6223183372786778253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622319 and a length of 19', function() {
-		assert(detectNetwork('6223197852558624083') === 'China UnionPay');
+		assert(detectNetwork('6223193874088522940') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622320 and a length of 19', function() {
-		assert(detectNetwork('6223200922158312265') === 'China UnionPay');
+		assert(detectNetwork('6223201052138877761') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622321 and a length of 19', function() {
-		assert(detectNetwork('6223215636463077255') === 'China UnionPay');
+		assert(detectNetwork('6223214416070680584') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622322 and a length of 19', function() {
-		assert(detectNetwork('6223225584031847359') === 'China UnionPay');
+		assert(detectNetwork('6223224587988167508') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622323 and a length of 19', function() {
-		assert(detectNetwork('6223230304530325036') === 'China UnionPay');
+		assert(detectNetwork('6223236227869102843') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622324 and a length of 19', function() {
-		assert(detectNetwork('6223247131607531529') === 'China UnionPay');
+		assert(detectNetwork('6223247016687812129') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622325 and a length of 19', function() {
-		assert(detectNetwork('6223254708868514380') === 'China UnionPay');
+		assert(detectNetwork('6223257685191655858') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622326 and a length of 19', function() {
-		assert(detectNetwork('6223262690698288632') === 'China UnionPay');
+		assert(detectNetwork('6223263346894183710') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622327 and a length of 19', function() {
-		assert(detectNetwork('6223273305276384103') === 'China UnionPay');
+		assert(detectNetwork('6223279132333404229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622328 and a length of 19', function() {
-		assert(detectNetwork('6223287285091554893') === 'China UnionPay');
+		assert(detectNetwork('6223283060447222741') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622329 and a length of 19', function() {
-		assert(detectNetwork('6223293385470347115') === 'China UnionPay');
+		assert(detectNetwork('6223296656837872931') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622330 and a length of 19', function() {
-		assert(detectNetwork('6223302690642194118') === 'China UnionPay');
+		assert(detectNetwork('6223304896425876335') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622331 and a length of 19', function() {
-		assert(detectNetwork('6223311771248569352') === 'China UnionPay');
+		assert(detectNetwork('6223318593841847755') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622332 and a length of 19', function() {
-		assert(detectNetwork('6223320016563830528') === 'China UnionPay');
+		assert(detectNetwork('6223325803111697654') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622333 and a length of 19', function() {
-		assert(detectNetwork('6223330933331393663') === 'China UnionPay');
+		assert(detectNetwork('6223331538862228116') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622334 and a length of 19', function() {
-		assert(detectNetwork('6223343909772769310') === 'China UnionPay');
+		assert(detectNetwork('6223346523344540998') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622335 and a length of 19', function() {
-		assert(detectNetwork('6223355882240098553') === 'China UnionPay');
+		assert(detectNetwork('6223353579049403738') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622336 and a length of 19', function() {
-		assert(detectNetwork('6223360831595281955') === 'China UnionPay');
+		assert(detectNetwork('6223365021261323798') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622337 and a length of 19', function() {
-		assert(detectNetwork('6223373016297740033') === 'China UnionPay');
+		assert(detectNetwork('6223375191151422376') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622338 and a length of 19', function() {
-		assert(detectNetwork('6223389008563098549') === 'China UnionPay');
+		assert(detectNetwork('6223380837332252221') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622339 and a length of 19', function() {
-		assert(detectNetwork('6223395036483251124') === 'China UnionPay');
+		assert(detectNetwork('6223399548561927135') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622340 and a length of 19', function() {
-		assert(detectNetwork('6223409204949645982') === 'China UnionPay');
+		assert(detectNetwork('6223400089018401871') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622341 and a length of 19', function() {
-		assert(detectNetwork('6223414511123012280') === 'China UnionPay');
+		assert(detectNetwork('6223416094602013006') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622342 and a length of 19', function() {
-		assert(detectNetwork('6223425224069228562') === 'China UnionPay');
+		assert(detectNetwork('6223422567210470627') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622343 and a length of 19', function() {
-		assert(detectNetwork('6223433341781562873') === 'China UnionPay');
+		assert(detectNetwork('6223436618680833192') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622344 and a length of 19', function() {
-		assert(detectNetwork('6223442253865129892') === 'China UnionPay');
+		assert(detectNetwork('6223447618195537635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622345 and a length of 19', function() {
-		assert(detectNetwork('6223459837782932873') === 'China UnionPay');
+		assert(detectNetwork('6223459117119823565') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622346 and a length of 19', function() {
-		assert(detectNetwork('6223462382715382395') === 'China UnionPay');
+		assert(detectNetwork('6223461771553163760') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622347 and a length of 19', function() {
-		assert(detectNetwork('6223474842629757220') === 'China UnionPay');
+		assert(detectNetwork('6223476778383501753') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622348 and a length of 19', function() {
-		assert(detectNetwork('6223488608895174574') === 'China UnionPay');
+		assert(detectNetwork('6223485660616051351') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622349 and a length of 19', function() {
-		assert(detectNetwork('6223499637291343829') === 'China UnionPay');
+		assert(detectNetwork('6223491634560960830') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622350 and a length of 19', function() {
-		assert(detectNetwork('6223503054731458153') === 'China UnionPay');
+		assert(detectNetwork('6223504903090538295') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622351 and a length of 19', function() {
-		assert(detectNetwork('6223515674111393156') === 'China UnionPay');
+		assert(detectNetwork('6223517491734734223') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622352 and a length of 19', function() {
-		assert(detectNetwork('6223523804445216090') === 'China UnionPay');
+		assert(detectNetwork('6223527071979322934') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622353 and a length of 19', function() {
-		assert(detectNetwork('6223530528908425574') === 'China UnionPay');
+		assert(detectNetwork('6223531423228939093') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622354 and a length of 19', function() {
-		assert(detectNetwork('6223541132054758085') === 'China UnionPay');
+		assert(detectNetwork('6223547159556239425') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622355 and a length of 19', function() {
-		assert(detectNetwork('6223551738135630894') === 'China UnionPay');
+		assert(detectNetwork('6223559596769322394') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622356 and a length of 19', function() {
-		assert(detectNetwork('6223566926611572371') === 'China UnionPay');
+		assert(detectNetwork('6223562258658113146') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622357 and a length of 19', function() {
-		assert(detectNetwork('6223570729977391486') === 'China UnionPay');
+		assert(detectNetwork('6223575210464628538') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622358 and a length of 19', function() {
-		assert(detectNetwork('6223581145376831155') === 'China UnionPay');
+		assert(detectNetwork('6223585725852709761') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622359 and a length of 19', function() {
-		assert(detectNetwork('6223590190298989629') === 'China UnionPay');
+		assert(detectNetwork('6223593975478525620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622360 and a length of 19', function() {
-		assert(detectNetwork('6223607882054315347') === 'China UnionPay');
+		assert(detectNetwork('6223601559779086828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622361 and a length of 19', function() {
-		assert(detectNetwork('6223614376445194078') === 'China UnionPay');
+		assert(detectNetwork('6223615939919249448') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622362 and a length of 19', function() {
-		assert(detectNetwork('6223624831550590917') === 'China UnionPay');
+		assert(detectNetwork('6223627035927502391') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622363 and a length of 19', function() {
-		assert(detectNetwork('6223637770340939435') === 'China UnionPay');
+		assert(detectNetwork('6223638436018915507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622364 and a length of 19', function() {
-		assert(detectNetwork('6223643359953647731') === 'China UnionPay');
+		assert(detectNetwork('6223644477289674757') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622365 and a length of 19', function() {
-		assert(detectNetwork('6223653295231209215') === 'China UnionPay');
+		assert(detectNetwork('6223658894887423422') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622366 and a length of 19', function() {
-		assert(detectNetwork('6223663028806980697') === 'China UnionPay');
+		assert(detectNetwork('6223667497680043983') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622367 and a length of 19', function() {
-		assert(detectNetwork('6223672037107438500') === 'China UnionPay');
+		assert(detectNetwork('6223670528160889725') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622368 and a length of 19', function() {
-		assert(detectNetwork('6223684422101535047') === 'China UnionPay');
+		assert(detectNetwork('6223680522835789170') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622369 and a length of 19', function() {
-		assert(detectNetwork('6223699021804210510') === 'China UnionPay');
+		assert(detectNetwork('6223695676513027600') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622370 and a length of 19', function() {
-		assert(detectNetwork('6223705814623302348') === 'China UnionPay');
+		assert(detectNetwork('6223708476211202420') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622371 and a length of 19', function() {
-		assert(detectNetwork('6223715896605433539') === 'China UnionPay');
+		assert(detectNetwork('6223717737257031537') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622372 and a length of 19', function() {
-		assert(detectNetwork('6223724866705677412') === 'China UnionPay');
+		assert(detectNetwork('6223728011525688004') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622373 and a length of 19', function() {
-		assert(detectNetwork('6223730518148260370') === 'China UnionPay');
+		assert(detectNetwork('6223730930371422891') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622374 and a length of 19', function() {
-		assert(detectNetwork('6223743529722045807') === 'China UnionPay');
+		assert(detectNetwork('6223740025891349267') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622375 and a length of 19', function() {
-		assert(detectNetwork('6223758461442743250') === 'China UnionPay');
+		assert(detectNetwork('6223756843134120620') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622376 and a length of 19', function() {
-		assert(detectNetwork('6223764689458541121') === 'China UnionPay');
+		assert(detectNetwork('6223767989911394853') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622377 and a length of 19', function() {
-		assert(detectNetwork('6223777287750281233') === 'China UnionPay');
+		assert(detectNetwork('6223777448611357583') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622378 and a length of 19', function() {
-		assert(detectNetwork('6223781023750489136') === 'China UnionPay');
+		assert(detectNetwork('6223784387949047468') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622379 and a length of 19', function() {
-		assert(detectNetwork('6223799102846544756') === 'China UnionPay');
+		assert(detectNetwork('6223793598450807813') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622380 and a length of 19', function() {
-		assert(detectNetwork('6223806763576943313') === 'China UnionPay');
+		assert(detectNetwork('6223800109622285159') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622381 and a length of 19', function() {
-		assert(detectNetwork('6223815816446257516') === 'China UnionPay');
+		assert(detectNetwork('6223810258091432903') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622382 and a length of 19', function() {
-		assert(detectNetwork('6223820867467528225') === 'China UnionPay');
+		assert(detectNetwork('6223824116090350236') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622383 and a length of 19', function() {
-		assert(detectNetwork('6223832070512588341') === 'China UnionPay');
+		assert(detectNetwork('6223838417562697404') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622384 and a length of 19', function() {
-		assert(detectNetwork('6223841946901532555') === 'China UnionPay');
+		assert(detectNetwork('6223843941055309253') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622385 and a length of 19', function() {
-		assert(detectNetwork('6223857240485235590') === 'China UnionPay');
+		assert(detectNetwork('6223856410591919126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622386 and a length of 19', function() {
-		assert(detectNetwork('6223868194262460294') === 'China UnionPay');
+		assert(detectNetwork('6223863761598530584') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622387 and a length of 19', function() {
-		assert(detectNetwork('6223877531909473084') === 'China UnionPay');
+		assert(detectNetwork('6223872206283972501') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622388 and a length of 19', function() {
-		assert(detectNetwork('6223887341304151242') === 'China UnionPay');
+		assert(detectNetwork('6223884175800312889') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622389 and a length of 19', function() {
-		assert(detectNetwork('6223893861158613410') === 'China UnionPay');
+		assert(detectNetwork('6223892571830841373') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622390 and a length of 19', function() {
-		assert(detectNetwork('6223900301568296774') === 'China UnionPay');
+		assert(detectNetwork('6223903247940320861') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622391 and a length of 19', function() {
-		assert(detectNetwork('6223917526159849130') === 'China UnionPay');
+		assert(detectNetwork('6223912398499715582') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622392 and a length of 19', function() {
-		assert(detectNetwork('6223924316534180186') === 'China UnionPay');
+		assert(detectNetwork('6223929681745293562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622393 and a length of 19', function() {
-		assert(detectNetwork('6223933264163051379') === 'China UnionPay');
+		assert(detectNetwork('6223938977968129953') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622394 and a length of 19', function() {
-		assert(detectNetwork('6223949263028683012') === 'China UnionPay');
+		assert(detectNetwork('6223949756276102239') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622395 and a length of 19', function() {
-		assert(detectNetwork('6223955889553810574') === 'China UnionPay');
+		assert(detectNetwork('6223951183199204923') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622396 and a length of 19', function() {
-		assert(detectNetwork('6223963065365120822') === 'China UnionPay');
+		assert(detectNetwork('6223962160427906911') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622397 and a length of 19', function() {
-		assert(detectNetwork('6223970018256113898') === 'China UnionPay');
+		assert(detectNetwork('6223978215361002453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622398 and a length of 19', function() {
-		assert(detectNetwork('6223983623905301261') === 'China UnionPay');
+		assert(detectNetwork('6223983972500406576') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622399 and a length of 19', function() {
-		assert(detectNetwork('6223993023581379710') === 'China UnionPay');
+		assert(detectNetwork('6223991620124493716') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622400 and a length of 19', function() {
-		assert(detectNetwork('6224009251589676144') === 'China UnionPay');
+		assert(detectNetwork('6224005341012250927') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622401 and a length of 19', function() {
-		assert(detectNetwork('6224014263777630628') === 'China UnionPay');
+		assert(detectNetwork('6224011551521905680') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622402 and a length of 19', function() {
-		assert(detectNetwork('6224023449332413434') === 'China UnionPay');
+		assert(detectNetwork('6224028400550922708') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622403 and a length of 19', function() {
-		assert(detectNetwork('6224036846082225085') === 'China UnionPay');
+		assert(detectNetwork('6224039584047649722') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622404 and a length of 19', function() {
-		assert(detectNetwork('6224046845157871953') === 'China UnionPay');
+		assert(detectNetwork('6224045224564106625') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622405 and a length of 19', function() {
-		assert(detectNetwork('6224053515866764269') === 'China UnionPay');
+		assert(detectNetwork('6224057951802957860') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622406 and a length of 19', function() {
-		assert(detectNetwork('6224066625526288170') === 'China UnionPay');
+		assert(detectNetwork('6224064931173135281') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622407 and a length of 19', function() {
-		assert(detectNetwork('6224077514732042481') === 'China UnionPay');
+		assert(detectNetwork('6224073723926884500') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622408 and a length of 19', function() {
-		assert(detectNetwork('6224087939451178305') === 'China UnionPay');
+		assert(detectNetwork('6224087275600198231') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622409 and a length of 19', function() {
-		assert(detectNetwork('6224090431425514237') === 'China UnionPay');
+		assert(detectNetwork('6224092098173617662') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622410 and a length of 19', function() {
-		assert(detectNetwork('6224102011280815316') === 'China UnionPay');
+		assert(detectNetwork('6224106775651056265') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622411 and a length of 19', function() {
-		assert(detectNetwork('6224112508246664690') === 'China UnionPay');
+		assert(detectNetwork('6224112490959628364') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622412 and a length of 19', function() {
-		assert(detectNetwork('6224120991174608323') === 'China UnionPay');
+		assert(detectNetwork('6224126063259104955') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622413 and a length of 19', function() {
-		assert(detectNetwork('6224134866113730654') === 'China UnionPay');
+		assert(detectNetwork('6224135499803949708') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622414 and a length of 19', function() {
-		assert(detectNetwork('6224142865752293607') === 'China UnionPay');
+		assert(detectNetwork('6224148303833840498') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622415 and a length of 19', function() {
-		assert(detectNetwork('6224155708095306841') === 'China UnionPay');
+		assert(detectNetwork('6224155863399554162') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622416 and a length of 19', function() {
-		assert(detectNetwork('6224163315903236284') === 'China UnionPay');
+		assert(detectNetwork('6224165707659693147') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622417 and a length of 19', function() {
-		assert(detectNetwork('6224177201535322373') === 'China UnionPay');
+		assert(detectNetwork('6224173023891897559') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622418 and a length of 19', function() {
-		assert(detectNetwork('6224188546051806936') === 'China UnionPay');
+		assert(detectNetwork('6224182692137474615') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622419 and a length of 19', function() {
-		assert(detectNetwork('6224199956578323856') === 'China UnionPay');
+		assert(detectNetwork('6224190103138829049') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622420 and a length of 19', function() {
-		assert(detectNetwork('6224201171197528743') === 'China UnionPay');
+		assert(detectNetwork('6224202613038539587') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622421 and a length of 19', function() {
-		assert(detectNetwork('6224218587946937121') === 'China UnionPay');
+		assert(detectNetwork('6224213991655282089') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622422 and a length of 19', function() {
-		assert(detectNetwork('6224229067086405928') === 'China UnionPay');
+		assert(detectNetwork('6224225463054864337') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622423 and a length of 19', function() {
-		assert(detectNetwork('6224231095837304817') === 'China UnionPay');
+		assert(detectNetwork('6224237131133664229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622424 and a length of 19', function() {
-		assert(detectNetwork('6224243342819000561') === 'China UnionPay');
+		assert(detectNetwork('6224246922829185994') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622425 and a length of 19', function() {
-		assert(detectNetwork('6224256314433037429') === 'China UnionPay');
+		assert(detectNetwork('6224258450556522144') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622426 and a length of 19', function() {
-		assert(detectNetwork('6224268322630961221') === 'China UnionPay');
+		assert(detectNetwork('6224265605382981805') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622427 and a length of 19', function() {
-		assert(detectNetwork('6224274411491246895') === 'China UnionPay');
+		assert(detectNetwork('6224274384058649246') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622428 and a length of 19', function() {
-		assert(detectNetwork('6224287726667673498') === 'China UnionPay');
+		assert(detectNetwork('6224289401833924204') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622429 and a length of 19', function() {
-		assert(detectNetwork('6224297739510414772') === 'China UnionPay');
+		assert(detectNetwork('6224291021344610818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622430 and a length of 19', function() {
-		assert(detectNetwork('6224305403503166844') === 'China UnionPay');
+		assert(detectNetwork('6224308299057668926') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622431 and a length of 19', function() {
-		assert(detectNetwork('6224316902798798495') === 'China UnionPay');
+		assert(detectNetwork('6224314490342707621') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622432 and a length of 19', function() {
-		assert(detectNetwork('6224325120202786350') === 'China UnionPay');
+		assert(detectNetwork('6224323695267626645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622433 and a length of 19', function() {
-		assert(detectNetwork('6224330841335613262') === 'China UnionPay');
+		assert(detectNetwork('6224333073414076108') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622434 and a length of 19', function() {
-		assert(detectNetwork('6224340307274017216') === 'China UnionPay');
+		assert(detectNetwork('6224346386044999554') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622435 and a length of 19', function() {
-		assert(detectNetwork('6224354390144936856') === 'China UnionPay');
+		assert(detectNetwork('6224354419923112569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622436 and a length of 19', function() {
-		assert(detectNetwork('6224361245194836083') === 'China UnionPay');
+		assert(detectNetwork('6224369737016395862') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622437 and a length of 19', function() {
-		assert(detectNetwork('6224375483688700368') === 'China UnionPay');
+		assert(detectNetwork('6224370684443727625') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622438 and a length of 19', function() {
-		assert(detectNetwork('6224383535725469139') === 'China UnionPay');
+		assert(detectNetwork('6224387780098638331') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622439 and a length of 19', function() {
-		assert(detectNetwork('6224395633280618749') === 'China UnionPay');
+		assert(detectNetwork('6224399162899598517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622440 and a length of 19', function() {
-		assert(detectNetwork('6224408970101609665') === 'China UnionPay');
+		assert(detectNetwork('6224402093037321366') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622441 and a length of 19', function() {
-		assert(detectNetwork('6224418721876199250') === 'China UnionPay');
+		assert(detectNetwork('6224419999744519995') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622442 and a length of 19', function() {
-		assert(detectNetwork('6224425746389211838') === 'China UnionPay');
+		assert(detectNetwork('6224429011624787132') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622443 and a length of 19', function() {
-		assert(detectNetwork('6224437865683214598') === 'China UnionPay');
+		assert(detectNetwork('6224435650884523028') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622444 and a length of 19', function() {
-		assert(detectNetwork('6224441582801107987') === 'China UnionPay');
+		assert(detectNetwork('6224441394588180929') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622445 and a length of 19', function() {
-		assert(detectNetwork('6224458728842559588') === 'China UnionPay');
+		assert(detectNetwork('6224454767360296221') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622446 and a length of 19', function() {
-		assert(detectNetwork('6224465270645046372') === 'China UnionPay');
+		assert(detectNetwork('6224464903234758302') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622447 and a length of 19', function() {
-		assert(detectNetwork('6224471740570915474') === 'China UnionPay');
+		assert(detectNetwork('6224478224988032551') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622448 and a length of 19', function() {
-		assert(detectNetwork('6224481714845926885') === 'China UnionPay');
+		assert(detectNetwork('6224484130309586742') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622449 and a length of 19', function() {
-		assert(detectNetwork('6224490821163557415') === 'China UnionPay');
+		assert(detectNetwork('6224494094289389805') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622450 and a length of 19', function() {
-		assert(detectNetwork('6224503453762704983') === 'China UnionPay');
+		assert(detectNetwork('6224505744511624928') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622451 and a length of 19', function() {
-		assert(detectNetwork('6224510007917490687') === 'China UnionPay');
+		assert(detectNetwork('6224514801645570632') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622452 and a length of 19', function() {
-		assert(detectNetwork('6224526940221701281') === 'China UnionPay');
+		assert(detectNetwork('6224522891587460811') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622453 and a length of 19', function() {
-		assert(detectNetwork('6224534390378207118') === 'China UnionPay');
+		assert(detectNetwork('6224536844624686726') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622454 and a length of 19', function() {
-		assert(detectNetwork('6224544172473327082') === 'China UnionPay');
+		assert(detectNetwork('6224549813684176238') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622455 and a length of 19', function() {
-		assert(detectNetwork('6224552797505567236') === 'China UnionPay');
+		assert(detectNetwork('6224555937327808246') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622456 and a length of 19', function() {
-		assert(detectNetwork('6224566116595729692') === 'China UnionPay');
+		assert(detectNetwork('6224568729885432555') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622457 and a length of 19', function() {
-		assert(detectNetwork('6224575417035566637') === 'China UnionPay');
+		assert(detectNetwork('6224572813266711407') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622458 and a length of 19', function() {
-		assert(detectNetwork('6224588194343244948') === 'China UnionPay');
+		assert(detectNetwork('6224582310753990807') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622459 and a length of 19', function() {
-		assert(detectNetwork('6224595158028911470') === 'China UnionPay');
+		assert(detectNetwork('6224591443046334517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622460 and a length of 19', function() {
-		assert(detectNetwork('6224604974314917528') === 'China UnionPay');
+		assert(detectNetwork('6224604348449938304') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622461 and a length of 19', function() {
-		assert(detectNetwork('6224613716984680581') === 'China UnionPay');
+		assert(detectNetwork('6224611396824800209') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622462 and a length of 19', function() {
-		assert(detectNetwork('6224622655796975454') === 'China UnionPay');
+		assert(detectNetwork('6224629777238039924') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622463 and a length of 19', function() {
-		assert(detectNetwork('6224635243455639306') === 'China UnionPay');
+		assert(detectNetwork('6224630976840854467') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622464 and a length of 19', function() {
-		assert(detectNetwork('6224647136810733995') === 'China UnionPay');
+		assert(detectNetwork('6224643970460040073') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622465 and a length of 19', function() {
-		assert(detectNetwork('6224653376403683594') === 'China UnionPay');
+		assert(detectNetwork('6224655394647691522') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622466 and a length of 19', function() {
-		assert(detectNetwork('6224661827099369848') === 'China UnionPay');
+		assert(detectNetwork('6224664809514569541') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622467 and a length of 19', function() {
-		assert(detectNetwork('6224673010722427130') === 'China UnionPay');
+		assert(detectNetwork('6224677811244784805') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622468 and a length of 19', function() {
-		assert(detectNetwork('6224680226744054724') === 'China UnionPay');
+		assert(detectNetwork('6224689157395381126') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622469 and a length of 19', function() {
-		assert(detectNetwork('6224695603983942459') === 'China UnionPay');
+		assert(detectNetwork('6224699707160138796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622470 and a length of 19', function() {
-		assert(detectNetwork('6224707430694612302') === 'China UnionPay');
+		assert(detectNetwork('6224708464450946429') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622471 and a length of 19', function() {
-		assert(detectNetwork('6224711407902497319') === 'China UnionPay');
+		assert(detectNetwork('6224713332464255333') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622472 and a length of 19', function() {
-		assert(detectNetwork('6224726478953070048') === 'China UnionPay');
+		assert(detectNetwork('6224724100077243239') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622473 and a length of 19', function() {
-		assert(detectNetwork('6224734306106850786') === 'China UnionPay');
+		assert(detectNetwork('6224738318052525786') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622474 and a length of 19', function() {
-		assert(detectNetwork('6224742825109297308') === 'China UnionPay');
+		assert(detectNetwork('6224742261960107566') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622475 and a length of 19', function() {
-		assert(detectNetwork('6224754628682564424') === 'China UnionPay');
+		assert(detectNetwork('6224753259443771417') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622476 and a length of 19', function() {
-		assert(detectNetwork('6224762813001719800') === 'China UnionPay');
+		assert(detectNetwork('6224768660018121938') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622477 and a length of 19', function() {
-		assert(detectNetwork('6224771271096749102') === 'China UnionPay');
+		assert(detectNetwork('6224774818342369118') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622478 and a length of 19', function() {
-		assert(detectNetwork('6224787476390880506') === 'China UnionPay');
+		assert(detectNetwork('6224783583664256279') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622479 and a length of 19', function() {
-		assert(detectNetwork('6224790235685960515') === 'China UnionPay');
+		assert(detectNetwork('6224792575920651039') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622480 and a length of 19', function() {
-		assert(detectNetwork('6224804818663818793') === 'China UnionPay');
+		assert(detectNetwork('6224802154971522763') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622481 and a length of 19', function() {
-		assert(detectNetwork('6224813333944814693') === 'China UnionPay');
+		assert(detectNetwork('6224810611503270839') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622482 and a length of 19', function() {
-		assert(detectNetwork('6224820700803731553') === 'China UnionPay');
+		assert(detectNetwork('6224828930462065506') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622483 and a length of 19', function() {
-		assert(detectNetwork('6224830752911892037') === 'China UnionPay');
+		assert(detectNetwork('6224831502137813507') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622484 and a length of 19', function() {
-		assert(detectNetwork('6224842959927528868') === 'China UnionPay');
+		assert(detectNetwork('6224847893134728510') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622485 and a length of 19', function() {
-		assert(detectNetwork('6224853710543576551') === 'China UnionPay');
+		assert(detectNetwork('6224853832432707231') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622486 and a length of 19', function() {
-		assert(detectNetwork('6224862298314059969') === 'China UnionPay');
+		assert(detectNetwork('6224866558719280790') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622487 and a length of 19', function() {
-		assert(detectNetwork('6224874068825408131') === 'China UnionPay');
+		assert(detectNetwork('6224876084948850200') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622488 and a length of 19', function() {
-		assert(detectNetwork('6224883696039725119') === 'China UnionPay');
+		assert(detectNetwork('6224880756489723719') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622489 and a length of 19', function() {
-		assert(detectNetwork('6224893549839556028') === 'China UnionPay');
+		assert(detectNetwork('6224892315692248237') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622490 and a length of 19', function() {
-		assert(detectNetwork('6224904613190399157') === 'China UnionPay');
+		assert(detectNetwork('6224904045828979959') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622491 and a length of 19', function() {
-		assert(detectNetwork('6224913969679031020') === 'China UnionPay');
+		assert(detectNetwork('6224912540911139585') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622492 and a length of 19', function() {
-		assert(detectNetwork('6224923626037564263') === 'China UnionPay');
+		assert(detectNetwork('6224921096222058339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622493 and a length of 19', function() {
-		assert(detectNetwork('6224930349329718621') === 'China UnionPay');
+		assert(detectNetwork('6224935138133353431') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622494 and a length of 19', function() {
-		assert(detectNetwork('6224945076081481291') === 'China UnionPay');
+		assert(detectNetwork('6224940842016679502') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622495 and a length of 19', function() {
-		assert(detectNetwork('6224957732802621710') === 'China UnionPay');
+		assert(detectNetwork('6224950131229980084') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622496 and a length of 19', function() {
-		assert(detectNetwork('6224969512575785498') === 'China UnionPay');
+		assert(detectNetwork('6224968456842113876') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622497 and a length of 19', function() {
-		assert(detectNetwork('6224972877660663718') === 'China UnionPay');
+		assert(detectNetwork('6224971311585486680') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622498 and a length of 19', function() {
-		assert(detectNetwork('6224980352890289965') === 'China UnionPay');
+		assert(detectNetwork('6224983587081782395') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622499 and a length of 19', function() {
-		assert(detectNetwork('6224993926364205195') === 'China UnionPay');
+		assert(detectNetwork('6224992031531523013') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622500 and a length of 19', function() {
-		assert(detectNetwork('6225005992358745969') === 'China UnionPay');
+		assert(detectNetwork('6225007026855412394') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622501 and a length of 19', function() {
-		assert(detectNetwork('6225016310732690644') === 'China UnionPay');
+		assert(detectNetwork('6225013748954486116') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622502 and a length of 19', function() {
-		assert(detectNetwork('6225020838286869037') === 'China UnionPay');
+		assert(detectNetwork('6225021803494248925') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622503 and a length of 19', function() {
-		assert(detectNetwork('6225030554785300779') === 'China UnionPay');
+		assert(detectNetwork('6225035956337732248') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622504 and a length of 19', function() {
-		assert(detectNetwork('6225048731862345556') === 'China UnionPay');
+		assert(detectNetwork('6225044395043487756') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622505 and a length of 19', function() {
-		assert(detectNetwork('6225052617952603786') === 'China UnionPay');
+		assert(detectNetwork('6225059628713345968') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622506 and a length of 19', function() {
-		assert(detectNetwork('6225063239093249931') === 'China UnionPay');
+		assert(detectNetwork('6225060303076041696') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622507 and a length of 19', function() {
-		assert(detectNetwork('6225078540144457871') === 'China UnionPay');
+		assert(detectNetwork('6225074862166827612') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622508 and a length of 19', function() {
-		assert(detectNetwork('6225087290132655063') === 'China UnionPay');
+		assert(detectNetwork('6225089088794737500') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622509 and a length of 19', function() {
-		assert(detectNetwork('6225095259801748698') === 'China UnionPay');
+		assert(detectNetwork('6225090223653103896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622510 and a length of 19', function() {
-		assert(detectNetwork('6225105446995598518') === 'China UnionPay');
+		assert(detectNetwork('6225107733785553631') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622511 and a length of 19', function() {
-		assert(detectNetwork('6225118679111709584') === 'China UnionPay');
+		assert(detectNetwork('6225113681152998884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622512 and a length of 19', function() {
-		assert(detectNetwork('6225123891060441714') === 'China UnionPay');
+		assert(detectNetwork('6225124264202886702') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622513 and a length of 19', function() {
-		assert(detectNetwork('6225139851222077771') === 'China UnionPay');
+		assert(detectNetwork('6225139116847719180') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622514 and a length of 19', function() {
-		assert(detectNetwork('6225147612695591929') === 'China UnionPay');
+		assert(detectNetwork('6225149732414389974') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622515 and a length of 19', function() {
-		assert(detectNetwork('6225156033089113435') === 'China UnionPay');
+		assert(detectNetwork('6225150773137625794') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622516 and a length of 19', function() {
-		assert(detectNetwork('6225167888190990046') === 'China UnionPay');
+		assert(detectNetwork('6225164076679757614') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622517 and a length of 19', function() {
-		assert(detectNetwork('6225178872729673424') === 'China UnionPay');
+		assert(detectNetwork('6225179827249583321') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622518 and a length of 19', function() {
-		assert(detectNetwork('6225185022704089122') === 'China UnionPay');
+		assert(detectNetwork('6225188301073496134') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622519 and a length of 19', function() {
-		assert(detectNetwork('6225197966274625630') === 'China UnionPay');
+		assert(detectNetwork('6225196715809483389') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622520 and a length of 19', function() {
-		assert(detectNetwork('6225200131292562976') === 'China UnionPay');
+		assert(detectNetwork('6225202120854168517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622521 and a length of 19', function() {
-		assert(detectNetwork('6225217436079675082') === 'China UnionPay');
+		assert(detectNetwork('6225212577694680022') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622522 and a length of 19', function() {
-		assert(detectNetwork('6225227048448773620') === 'China UnionPay');
+		assert(detectNetwork('6225223982430643084') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622523 and a length of 19', function() {
-		assert(detectNetwork('6225235514203290212') === 'China UnionPay');
+		assert(detectNetwork('6225238440938084697') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622524 and a length of 19', function() {
-		assert(detectNetwork('6225243678548082068') === 'China UnionPay');
+		assert(detectNetwork('6225243166954242640') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622525 and a length of 19', function() {
-		assert(detectNetwork('6225257409847885118') === 'China UnionPay');
+		assert(detectNetwork('6225258857927387642') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622526 and a length of 19', function() {
-		assert(detectNetwork('6225268062862252388') === 'China UnionPay');
+		assert(detectNetwork('6225263450125693341') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622527 and a length of 19', function() {
-		assert(detectNetwork('6225271524581974943') === 'China UnionPay');
+		assert(detectNetwork('6225271364698957987') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622528 and a length of 19', function() {
-		assert(detectNetwork('6225282527165124004') === 'China UnionPay');
+		assert(detectNetwork('6225282033812518097') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622529 and a length of 19', function() {
-		assert(detectNetwork('6225296461871153786') === 'China UnionPay');
+		assert(detectNetwork('6225299509305734048') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622530 and a length of 19', function() {
-		assert(detectNetwork('6225303385260779343') === 'China UnionPay');
+		assert(detectNetwork('6225306155346232455') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622531 and a length of 19', function() {
-		assert(detectNetwork('6225311588123948902') === 'China UnionPay');
+		assert(detectNetwork('6225317166486053569') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622532 and a length of 19', function() {
-		assert(detectNetwork('6225321369526963874') === 'China UnionPay');
+		assert(detectNetwork('6225324982580591726') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622533 and a length of 19', function() {
-		assert(detectNetwork('6225334677500558797') === 'China UnionPay');
+		assert(detectNetwork('6225331053905743825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622534 and a length of 19', function() {
-		assert(detectNetwork('6225343469020385111') === 'China UnionPay');
+		assert(detectNetwork('6225343225036418225') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622535 and a length of 19', function() {
-		assert(detectNetwork('6225354997858694755') === 'China UnionPay');
+		assert(detectNetwork('6225354378843716823') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622536 and a length of 19', function() {
-		assert(detectNetwork('6225363070537287214') === 'China UnionPay');
+		assert(detectNetwork('6225360182722233124') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622537 and a length of 19', function() {
-		assert(detectNetwork('6225376062767728084') === 'China UnionPay');
+		assert(detectNetwork('6225377902882117001') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622538 and a length of 19', function() {
-		assert(detectNetwork('6225380446242248414') === 'China UnionPay');
+		assert(detectNetwork('6225388353843720153') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622539 and a length of 19', function() {
-		assert(detectNetwork('6225391222608789428') === 'China UnionPay');
+		assert(detectNetwork('6225392940824156999') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622540 and a length of 19', function() {
-		assert(detectNetwork('6225408374187464702') === 'China UnionPay');
+		assert(detectNetwork('6225400607354707864') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622541 and a length of 19', function() {
-		assert(detectNetwork('6225410775188615109') === 'China UnionPay');
+		assert(detectNetwork('6225417171177589484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622542 and a length of 19', function() {
-		assert(detectNetwork('6225421342092248957') === 'China UnionPay');
+		assert(detectNetwork('6225422395938337483') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622543 and a length of 19', function() {
-		assert(detectNetwork('6225438597917724525') === 'China UnionPay');
+		assert(detectNetwork('6225437622523072575') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622544 and a length of 19', function() {
-		assert(detectNetwork('6225444616316517758') === 'China UnionPay');
+		assert(detectNetwork('6225440127347194614') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622545 and a length of 19', function() {
-		assert(detectNetwork('6225457716841451832') === 'China UnionPay');
+		assert(detectNetwork('6225453024005222020') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622546 and a length of 19', function() {
-		assert(detectNetwork('6225464033992017232') === 'China UnionPay');
+		assert(detectNetwork('6225461134853832079') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622547 and a length of 19', function() {
-		assert(detectNetwork('6225477090661962932') === 'China UnionPay');
+		assert(detectNetwork('6225475812361711357') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622548 and a length of 19', function() {
-		assert(detectNetwork('6225481552999385412') === 'China UnionPay');
+		assert(detectNetwork('6225483627835509362') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622549 and a length of 19', function() {
-		assert(detectNetwork('6225493888871207142') === 'China UnionPay');
+		assert(detectNetwork('6225499423523869175') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622550 and a length of 19', function() {
-		assert(detectNetwork('6225502178727488486') === 'China UnionPay');
+		assert(detectNetwork('6225505334024538947') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622551 and a length of 19', function() {
-		assert(detectNetwork('6225510912392750435') === 'China UnionPay');
+		assert(detectNetwork('6225516195612110862') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622552 and a length of 19', function() {
-		assert(detectNetwork('6225521306239687023') === 'China UnionPay');
+		assert(detectNetwork('6225528771454430195') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622553 and a length of 19', function() {
-		assert(detectNetwork('6225539470976460445') === 'China UnionPay');
+		assert(detectNetwork('6225536254849841360') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622554 and a length of 19', function() {
-		assert(detectNetwork('6225544401816377089') === 'China UnionPay');
+		assert(detectNetwork('6225548776356408954') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622555 and a length of 19', function() {
-		assert(detectNetwork('6225558886703364902') === 'China UnionPay');
+		assert(detectNetwork('6225553916861415701') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622556 and a length of 19', function() {
-		assert(detectNetwork('6225569052536265507') === 'China UnionPay');
+		assert(detectNetwork('6225568925358448884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622557 and a length of 19', function() {
-		assert(detectNetwork('6225579452387074370') === 'China UnionPay');
+		assert(detectNetwork('6225572610187764818') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622558 and a length of 19', function() {
-		assert(detectNetwork('6225586908347088337') === 'China UnionPay');
+		assert(detectNetwork('6225587073652109840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622559 and a length of 19', function() {
-		assert(detectNetwork('6225593068152015869') === 'China UnionPay');
+		assert(detectNetwork('6225598693843602386') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622560 and a length of 19', function() {
-		assert(detectNetwork('6225609461670959699') === 'China UnionPay');
+		assert(detectNetwork('6225609796470727984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622561 and a length of 19', function() {
-		assert(detectNetwork('6225617764437090907') === 'China UnionPay');
+		assert(detectNetwork('6225614644228467261') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622562 and a length of 19', function() {
-		assert(detectNetwork('6225625872459297590') === 'China UnionPay');
+		assert(detectNetwork('6225624741164761382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622563 and a length of 19', function() {
-		assert(detectNetwork('6225635325196877615') === 'China UnionPay');
+		assert(detectNetwork('6225631887008722822') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622564 and a length of 19', function() {
-		assert(detectNetwork('6225642496187993684') === 'China UnionPay');
+		assert(detectNetwork('6225649884635174338') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622565 and a length of 19', function() {
-		assert(detectNetwork('6225651025261180889') === 'China UnionPay');
+		assert(detectNetwork('6225657385738579955') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622566 and a length of 19', function() {
-		assert(detectNetwork('6225662723959147514') === 'China UnionPay');
+		assert(detectNetwork('6225663883280733371') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622567 and a length of 19', function() {
-		assert(detectNetwork('6225675501547677001') === 'China UnionPay');
+		assert(detectNetwork('6225677774135927068') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622568 and a length of 19', function() {
-		assert(detectNetwork('6225689911145251747') === 'China UnionPay');
+		assert(detectNetwork('6225683358196144012') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622569 and a length of 19', function() {
-		assert(detectNetwork('6225692854558608493') === 'China UnionPay');
+		assert(detectNetwork('6225695730944793345') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622570 and a length of 19', function() {
-		assert(detectNetwork('6225703586164153387') === 'China UnionPay');
+		assert(detectNetwork('6225709420952090208') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622571 and a length of 19', function() {
-		assert(detectNetwork('6225715254183306648') === 'China UnionPay');
+		assert(detectNetwork('6225716441493164561') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622572 and a length of 19', function() {
-		assert(detectNetwork('6225726203025120449') === 'China UnionPay');
+		assert(detectNetwork('6225722634743288406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622573 and a length of 19', function() {
-		assert(detectNetwork('6225730051576802037') === 'China UnionPay');
+		assert(detectNetwork('6225738814552739691') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622574 and a length of 19', function() {
-		assert(detectNetwork('6225740264396338650') === 'China UnionPay');
+		assert(detectNetwork('6225749304295988162') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622575 and a length of 19', function() {
-		assert(detectNetwork('6225759259870084556') === 'China UnionPay');
+		assert(detectNetwork('6225755074891312544') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622576 and a length of 19', function() {
-		assert(detectNetwork('6225762929711760489') === 'China UnionPay');
+		assert(detectNetwork('6225763990705177627') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622577 and a length of 19', function() {
-		assert(detectNetwork('6225775198996429412') === 'China UnionPay');
+		assert(detectNetwork('6225773627503262320') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622578 and a length of 19', function() {
-		assert(detectNetwork('6225784361378205165') === 'China UnionPay');
+		assert(detectNetwork('6225783535824539955') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622579 and a length of 19', function() {
-		assert(detectNetwork('6225792183708065357') === 'China UnionPay');
+		assert(detectNetwork('6225795865371036632') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622580 and a length of 19', function() {
-		assert(detectNetwork('6225805213822397298') === 'China UnionPay');
+		assert(detectNetwork('6225805455239581720') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622581 and a length of 19', function() {
-		assert(detectNetwork('6225814622152938672') === 'China UnionPay');
+		assert(detectNetwork('6225811056438793828') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622582 and a length of 19', function() {
-		assert(detectNetwork('6225827035155697942') === 'China UnionPay');
+		assert(detectNetwork('6225828065566123313') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622583 and a length of 19', function() {
-		assert(detectNetwork('6225839218141419325') === 'China UnionPay');
+		assert(detectNetwork('6225832205672675975') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622584 and a length of 19', function() {
-		assert(detectNetwork('6225844776358527284') === 'China UnionPay');
+		assert(detectNetwork('6225840954199019882') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622585 and a length of 19', function() {
-		assert(detectNetwork('6225857290303179980') === 'China UnionPay');
+		assert(detectNetwork('6225851747022797463') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622586 and a length of 19', function() {
-		assert(detectNetwork('6225866167744343927') === 'China UnionPay');
+		assert(detectNetwork('6225864857295966832') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622587 and a length of 19', function() {
-		assert(detectNetwork('6225875887897434993') === 'China UnionPay');
+		assert(detectNetwork('6225876140252166055') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622588 and a length of 19', function() {
-		assert(detectNetwork('6225887174205414472') === 'China UnionPay');
+		assert(detectNetwork('6225882951248595520') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622589 and a length of 19', function() {
-		assert(detectNetwork('6225897114367350751') === 'China UnionPay');
+		assert(detectNetwork('6225892835203268459') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622590 and a length of 19', function() {
-		assert(detectNetwork('6225900330934631446') === 'China UnionPay');
+		assert(detectNetwork('6225906841503919120') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622591 and a length of 19', function() {
-		assert(detectNetwork('6225911750414917066') === 'China UnionPay');
+		assert(detectNetwork('6225915528224002093') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622592 and a length of 19', function() {
-		assert(detectNetwork('6225925335514838402') === 'China UnionPay');
+		assert(detectNetwork('6225922672438206341') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622593 and a length of 19', function() {
-		assert(detectNetwork('6225935035642372637') === 'China UnionPay');
+		assert(detectNetwork('6225935544311183617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622594 and a length of 19', function() {
-		assert(detectNetwork('6225942861711135466') === 'China UnionPay');
+		assert(detectNetwork('6225943415425470018') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622595 and a length of 19', function() {
-		assert(detectNetwork('6225956627187831250') === 'China UnionPay');
+		assert(detectNetwork('6225953297083960618') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622596 and a length of 19', function() {
-		assert(detectNetwork('6225968537103577204') === 'China UnionPay');
+		assert(detectNetwork('6225962433018055400') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622597 and a length of 19', function() {
-		assert(detectNetwork('6225978798202295211') === 'China UnionPay');
+		assert(detectNetwork('6225975786330626932') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622598 and a length of 19', function() {
-		assert(detectNetwork('6225981229552355062') === 'China UnionPay');
+		assert(detectNetwork('6225983576408288686') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622599 and a length of 19', function() {
-		assert(detectNetwork('6225995743379332623') === 'China UnionPay');
+		assert(detectNetwork('6225990957177610843') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622600 and a length of 19', function() {
-		assert(detectNetwork('6226003028330839961') === 'China UnionPay');
+		assert(detectNetwork('6226002110740523490') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622601 and a length of 19', function() {
-		assert(detectNetwork('6226015820490095547') === 'China UnionPay');
+		assert(detectNetwork('6226017499525872664') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622602 and a length of 19', function() {
-		assert(detectNetwork('6226026907909221633') === 'China UnionPay');
+		assert(detectNetwork('6226020977576918600') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622603 and a length of 19', function() {
-		assert(detectNetwork('6226036462619706637') === 'China UnionPay');
+		assert(detectNetwork('6226039863494330475') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622604 and a length of 19', function() {
-		assert(detectNetwork('6226041616844783391') === 'China UnionPay');
+		assert(detectNetwork('6226046129075176666') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622605 and a length of 19', function() {
-		assert(detectNetwork('6226057974496776577') === 'China UnionPay');
+		assert(detectNetwork('6226054192383154460') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622606 and a length of 19', function() {
-		assert(detectNetwork('6226063042849428338') === 'China UnionPay');
+		assert(detectNetwork('6226066810191750054') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622607 and a length of 19', function() {
-		assert(detectNetwork('6226075856265519343') === 'China UnionPay');
+		assert(detectNetwork('6226073740623095231') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622608 and a length of 19', function() {
-		assert(detectNetwork('6226082581829984538') === 'China UnionPay');
+		assert(detectNetwork('6226088677266083910') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622609 and a length of 19', function() {
-		assert(detectNetwork('6226098093836127575') === 'China UnionPay');
+		assert(detectNetwork('6226099048947797550') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622610 and a length of 19', function() {
-		assert(detectNetwork('6226104650388834719') === 'China UnionPay');
+		assert(detectNetwork('6226105498759193958') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622611 and a length of 19', function() {
-		assert(detectNetwork('6226118824356312027') === 'China UnionPay');
+		assert(detectNetwork('6226110249204132383') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622612 and a length of 19', function() {
-		assert(detectNetwork('6226126601666431227') === 'China UnionPay');
+		assert(detectNetwork('6226129267198983288') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622613 and a length of 19', function() {
-		assert(detectNetwork('6226134991024070809') === 'China UnionPay');
+		assert(detectNetwork('6226132078119514144') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622614 and a length of 19', function() {
-		assert(detectNetwork('6226147914426663810') === 'China UnionPay');
+		assert(detectNetwork('6226149137905761548') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622615 and a length of 19', function() {
-		assert(detectNetwork('6226153720591342910') === 'China UnionPay');
+		assert(detectNetwork('6226154195270851154') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622616 and a length of 19', function() {
-		assert(detectNetwork('6226165572875710350') === 'China UnionPay');
+		assert(detectNetwork('6226167131718300617') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622617 and a length of 19', function() {
-		assert(detectNetwork('6226172318748233229') === 'China UnionPay');
+		assert(detectNetwork('6226174076896108815') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622618 and a length of 19', function() {
-		assert(detectNetwork('6226186697499475497') === 'China UnionPay');
+		assert(detectNetwork('6226188665553436989') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622619 and a length of 19', function() {
-		assert(detectNetwork('6226193880481461445') === 'China UnionPay');
+		assert(detectNetwork('6226197505868038527') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622620 and a length of 19', function() {
-		assert(detectNetwork('6226206714994474310') === 'China UnionPay');
+		assert(detectNetwork('6226201743858939037') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622621 and a length of 19', function() {
-		assert(detectNetwork('6226216161549870918') === 'China UnionPay');
+		assert(detectNetwork('6226215717902069558') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622622 and a length of 19', function() {
-		assert(detectNetwork('6226227820405322333') === 'China UnionPay');
+		assert(detectNetwork('6226228918051645867') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622623 and a length of 19', function() {
-		assert(detectNetwork('6226239667330875787') === 'China UnionPay');
+		assert(detectNetwork('6226237060943579993') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622624 and a length of 19', function() {
-		assert(detectNetwork('6226246006234542096') === 'China UnionPay');
+		assert(detectNetwork('6226244760337858387') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622625 and a length of 19', function() {
-		assert(detectNetwork('6226257966131980545') === 'China UnionPay');
+		assert(detectNetwork('6226258577184219729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622626 and a length of 19', function() {
-		assert(detectNetwork('6226266879456372920') === 'China UnionPay');
+		assert(detectNetwork('6226264139555871765') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622627 and a length of 19', function() {
-		assert(detectNetwork('6226274475150861378') === 'China UnionPay');
+		assert(detectNetwork('6226275626137502877') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622628 and a length of 19', function() {
-		assert(detectNetwork('6226284453360189463') === 'China UnionPay');
+		assert(detectNetwork('6226282374192399841') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622629 and a length of 19', function() {
-		assert(detectNetwork('6226297092942133267') === 'China UnionPay');
+		assert(detectNetwork('6226293516679653260') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622630 and a length of 19', function() {
-		assert(detectNetwork('6226309003640976694') === 'China UnionPay');
+		assert(detectNetwork('6226301518482868185') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622631 and a length of 19', function() {
-		assert(detectNetwork('6226310421097943306') === 'China UnionPay');
+		assert(detectNetwork('6226314336355797345') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622632 and a length of 19', function() {
-		assert(detectNetwork('6226327163239181773') === 'China UnionPay');
+		assert(detectNetwork('6226320780760509480') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622633 and a length of 19', function() {
-		assert(detectNetwork('6226331165967166189') === 'China UnionPay');
+		assert(detectNetwork('6226335048836552369') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622634 and a length of 19', function() {
-		assert(detectNetwork('6226341410949504354') === 'China UnionPay');
+		assert(detectNetwork('6226342452198146812') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622635 and a length of 19', function() {
-		assert(detectNetwork('6226353872190560786') === 'China UnionPay');
+		assert(detectNetwork('6226355677498090224') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622636 and a length of 19', function() {
-		assert(detectNetwork('6226369399633770846') === 'China UnionPay');
+		assert(detectNetwork('6226364922607611677') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622637 and a length of 19', function() {
-		assert(detectNetwork('6226377912782446693') === 'China UnionPay');
+		assert(detectNetwork('6226371161899801317') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622638 and a length of 19', function() {
-		assert(detectNetwork('6226388381471440938') === 'China UnionPay');
+		assert(detectNetwork('6226380354463213948') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622639 and a length of 19', function() {
-		assert(detectNetwork('6226397333269222539') === 'China UnionPay');
+		assert(detectNetwork('6226399129485056796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622640 and a length of 19', function() {
-		assert(detectNetwork('6226408766614583977') === 'China UnionPay');
+		assert(detectNetwork('6226407586972370406') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622641 and a length of 19', function() {
-		assert(detectNetwork('6226415522006330831') === 'China UnionPay');
+		assert(detectNetwork('6226414620404469035') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622642 and a length of 19', function() {
-		assert(detectNetwork('6226425694975810481') === 'China UnionPay');
+		assert(detectNetwork('6226429711739427820') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622643 and a length of 19', function() {
-		assert(detectNetwork('6226434498929456998') === 'China UnionPay');
+		assert(detectNetwork('6226432757278052545') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622644 and a length of 19', function() {
-		assert(detectNetwork('6226446094093609321') === 'China UnionPay');
+		assert(detectNetwork('6226447582237295185') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622645 and a length of 19', function() {
-		assert(detectNetwork('6226455808512872888') === 'China UnionPay');
+		assert(detectNetwork('6226453962051428832') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622646 and a length of 19', function() {
-		assert(detectNetwork('6226467154470806475') === 'China UnionPay');
+		assert(detectNetwork('6226469256996843415') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622647 and a length of 19', function() {
-		assert(detectNetwork('6226477573877517441') === 'China UnionPay');
+		assert(detectNetwork('6226471426902187804') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622648 and a length of 19', function() {
-		assert(detectNetwork('6226481831277702969') === 'China UnionPay');
+		assert(detectNetwork('6226482840370659128') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622649 and a length of 19', function() {
-		assert(detectNetwork('6226491189774071330') === 'China UnionPay');
+		assert(detectNetwork('6226494840223054687') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622650 and a length of 19', function() {
-		assert(detectNetwork('6226500970508066663') === 'China UnionPay');
+		assert(detectNetwork('6226502046683502810') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622651 and a length of 19', function() {
-		assert(detectNetwork('6226511836387666545') === 'China UnionPay');
+		assert(detectNetwork('6226510869621000081') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622652 and a length of 19', function() {
-		assert(detectNetwork('6226524935144009450') === 'China UnionPay');
+		assert(detectNetwork('6226522120233364913') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622653 and a length of 19', function() {
-		assert(detectNetwork('6226530292876305926') === 'China UnionPay');
+		assert(detectNetwork('6226535450117333914') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622654 and a length of 19', function() {
-		assert(detectNetwork('6226546288365603203') === 'China UnionPay');
+		assert(detectNetwork('6226548015125410675') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622655 and a length of 19', function() {
-		assert(detectNetwork('6226552274748706513') === 'China UnionPay');
+		assert(detectNetwork('6226550469193862772') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622656 and a length of 19', function() {
-		assert(detectNetwork('6226560492243607389') === 'China UnionPay');
+		assert(detectNetwork('6226560212007947666') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622657 and a length of 19', function() {
-		assert(detectNetwork('6226579341300781823') === 'China UnionPay');
+		assert(detectNetwork('6226570361874556840') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622658 and a length of 19', function() {
-		assert(detectNetwork('6226582308593702903') === 'China UnionPay');
+		assert(detectNetwork('6226581794282193884') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622659 and a length of 19', function() {
-		assert(detectNetwork('6226594705335990243') === 'China UnionPay');
+		assert(detectNetwork('6226594620277655844') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622660 and a length of 19', function() {
-		assert(detectNetwork('6226602978839558221') === 'China UnionPay');
+		assert(detectNetwork('6226606816870629086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622661 and a length of 19', function() {
-		assert(detectNetwork('6226618192979899990') === 'China UnionPay');
+		assert(detectNetwork('6226614654416181957') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622662 and a length of 19', function() {
-		assert(detectNetwork('6226624763483606416') === 'China UnionPay');
+		assert(detectNetwork('6226622211164720868') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622663 and a length of 19', function() {
-		assert(detectNetwork('6226636409453626236') === 'China UnionPay');
+		assert(detectNetwork('6226636702802607167') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622664 and a length of 19', function() {
-		assert(detectNetwork('6226647862377304754') === 'China UnionPay');
+		assert(detectNetwork('6226647679551996666') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622665 and a length of 19', function() {
-		assert(detectNetwork('6226659917893142651') === 'China UnionPay');
+		assert(detectNetwork('6226657159055367193') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622666 and a length of 19', function() {
-		assert(detectNetwork('6226664626318906250') === 'China UnionPay');
+		assert(detectNetwork('6226662428075690265') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622667 and a length of 19', function() {
-		assert(detectNetwork('6226674943241469676') === 'China UnionPay');
+		assert(detectNetwork('6226679786980443301') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622668 and a length of 19', function() {
-		assert(detectNetwork('6226680057365549156') === 'China UnionPay');
+		assert(detectNetwork('6226680977802417266') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622669 and a length of 19', function() {
-		assert(detectNetwork('6226696632682313613') === 'China UnionPay');
+		assert(detectNetwork('6226693540926834143') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622670 and a length of 19', function() {
-		assert(detectNetwork('6226709008934957406') === 'China UnionPay');
+		assert(detectNetwork('6226704706930785117') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622671 and a length of 19', function() {
-		assert(detectNetwork('6226717005816104143') === 'China UnionPay');
+		assert(detectNetwork('6226714013806337887') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622672 and a length of 19', function() {
-		assert(detectNetwork('6226725415163435188') === 'China UnionPay');
+		assert(detectNetwork('6226728265319488212') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622673 and a length of 19', function() {
-		assert(detectNetwork('6226735408166386440') === 'China UnionPay');
+		assert(detectNetwork('6226736851188157645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622674 and a length of 19', function() {
-		assert(detectNetwork('6226741002797677388') === 'China UnionPay');
+		assert(detectNetwork('6226744630746144192') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622675 and a length of 19', function() {
-		assert(detectNetwork('6226751449479036574') === 'China UnionPay');
+		assert(detectNetwork('6226750308566736265') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622676 and a length of 19', function() {
-		assert(detectNetwork('6226760104741654993') === 'China UnionPay');
+		assert(detectNetwork('6226761343378182276') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622677 and a length of 19', function() {
-		assert(detectNetwork('6226770286653416086') === 'China UnionPay');
+		assert(detectNetwork('6226772743696364647') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622678 and a length of 19', function() {
-		assert(detectNetwork('6226782783251981547') === 'China UnionPay');
+		assert(detectNetwork('6226787230450890984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622679 and a length of 19', function() {
-		assert(detectNetwork('6226797841805679509') === 'China UnionPay');
+		assert(detectNetwork('6226796796586411037') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622680 and a length of 19', function() {
-		assert(detectNetwork('6226804397931197491') === 'China UnionPay');
+		assert(detectNetwork('6226805845347647812') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622681 and a length of 19', function() {
-		assert(detectNetwork('6226813567074358073') === 'China UnionPay');
+		assert(detectNetwork('6226812045723449337') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622682 and a length of 19', function() {
-		assert(detectNetwork('6226822008945127983') === 'China UnionPay');
+		assert(detectNetwork('6226825018175706821') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622683 and a length of 19', function() {
-		assert(detectNetwork('6226837293535193291') === 'China UnionPay');
+		assert(detectNetwork('6226830404021595752') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622684 and a length of 19', function() {
-		assert(detectNetwork('6226842196844273187') === 'China UnionPay');
+		assert(detectNetwork('6226845716556643983') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622685 and a length of 19', function() {
-		assert(detectNetwork('6226856824936450322') === 'China UnionPay');
+		assert(detectNetwork('6226858523244964245') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622686 and a length of 19', function() {
-		assert(detectNetwork('6226866271576293122') === 'China UnionPay');
+		assert(detectNetwork('6226860660826088805') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622687 and a length of 19', function() {
-		assert(detectNetwork('6226876009574630165') === 'China UnionPay');
+		assert(detectNetwork('6226877364550448195') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622688 and a length of 19', function() {
-		assert(detectNetwork('6226884552227065120') === 'China UnionPay');
+		assert(detectNetwork('6226881940723592254') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622689 and a length of 19', function() {
-		assert(detectNetwork('6226890205902544313') === 'China UnionPay');
+		assert(detectNetwork('6226890737470267847') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622690 and a length of 19', function() {
-		assert(detectNetwork('6226904075821546326') === 'China UnionPay');
+		assert(detectNetwork('6226907917399831607') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622691 and a length of 19', function() {
-		assert(detectNetwork('6226912344192008865') === 'China UnionPay');
+		assert(detectNetwork('6226917615373467319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622692 and a length of 19', function() {
-		assert(detectNetwork('6226924056268530909') === 'China UnionPay');
+		assert(detectNetwork('6226928332888045263') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622693 and a length of 19', function() {
-		assert(detectNetwork('6226930910704326610') === 'China UnionPay');
+		assert(detectNetwork('6226931499478295825') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622694 and a length of 19', function() {
-		assert(detectNetwork('6226949246614502267') === 'China UnionPay');
+		assert(detectNetwork('6226945332593545491') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622695 and a length of 19', function() {
-		assert(detectNetwork('6226954580754261676') === 'China UnionPay');
+		assert(detectNetwork('6226953616146234635') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622696 and a length of 19', function() {
-		assert(detectNetwork('6226963131198764690') === 'China UnionPay');
+		assert(detectNetwork('6226967347720523025') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622697 and a length of 19', function() {
-		assert(detectNetwork('6226973990687851251') === 'China UnionPay');
+		assert(detectNetwork('6226977913564928198') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622698 and a length of 19', function() {
-		assert(detectNetwork('6226989913042526332') === 'China UnionPay');
+		assert(detectNetwork('6226985483302020305') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622699 and a length of 19', function() {
-		assert(detectNetwork('6226995154615341506') === 'China UnionPay');
+		assert(detectNetwork('6226997757759444670') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622700 and a length of 19', function() {
-		assert(detectNetwork('6227000977758166959') === 'China UnionPay');
+		assert(detectNetwork('6227009983655581910') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622701 and a length of 19', function() {
-		assert(detectNetwork('6227015198252067612') === 'China UnionPay');
+		assert(detectNetwork('6227011277650927724') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622702 and a length of 19', function() {
-		assert(detectNetwork('6227022722792041822') === 'China UnionPay');
+		assert(detectNetwork('6227026216339691139') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622703 and a length of 19', function() {
-		assert(detectNetwork('6227037172054920201') === 'China UnionPay');
+		assert(detectNetwork('6227032546070899290') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622704 and a length of 19', function() {
-		assert(detectNetwork('6227040094951836460') === 'China UnionPay');
+		assert(detectNetwork('6227049756184015982') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622705 and a length of 19', function() {
-		assert(detectNetwork('6227059502526779795') === 'China UnionPay');
+		assert(detectNetwork('6227058352008008256') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622706 and a length of 19', function() {
-		assert(detectNetwork('6227066852541441025') === 'China UnionPay');
+		assert(detectNetwork('6227060194198925812') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622707 and a length of 19', function() {
-		assert(detectNetwork('6227076812713077842') === 'China UnionPay');
+		assert(detectNetwork('6227078393949531819') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622708 and a length of 19', function() {
-		assert(detectNetwork('6227082492710759082') === 'China UnionPay');
+		assert(detectNetwork('6227084962169130478') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622709 and a length of 19', function() {
-		assert(detectNetwork('6227090775666228305') === 'China UnionPay');
+		assert(detectNetwork('6227094595217625229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622710 and a length of 19', function() {
-		assert(detectNetwork('6227107887555676554') === 'China UnionPay');
+		assert(detectNetwork('6227106320738703743') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622711 and a length of 19', function() {
-		assert(detectNetwork('6227119363024069909') === 'China UnionPay');
+		assert(detectNetwork('6227111870800474260') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622712 and a length of 19', function() {
-		assert(detectNetwork('6227123244215225428') === 'China UnionPay');
+		assert(detectNetwork('6227121315613779322') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622713 and a length of 19', function() {
-		assert(detectNetwork('6227134639022321658') === 'China UnionPay');
+		assert(detectNetwork('6227139038007042484') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622714 and a length of 19', function() {
-		assert(detectNetwork('6227149911234443430') === 'China UnionPay');
+		assert(detectNetwork('6227149010339842277') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622715 and a length of 19', function() {
-		assert(detectNetwork('6227152934787473954') === 'China UnionPay');
+		assert(detectNetwork('6227154775430465606') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622716 and a length of 19', function() {
-		assert(detectNetwork('6227163722817550306') === 'China UnionPay');
+		assert(detectNetwork('6227168890113875852') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622717 and a length of 19', function() {
-		assert(detectNetwork('6227173604013185383') === 'China UnionPay');
+		assert(detectNetwork('6227171204503538976') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622718 and a length of 19', function() {
-		assert(detectNetwork('6227180660683190738') === 'China UnionPay');
+		assert(detectNetwork('6227185469743395008') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622719 and a length of 19', function() {
-		assert(detectNetwork('6227193277122586826') === 'China UnionPay');
+		assert(detectNetwork('6227192806098487427') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622720 and a length of 19', function() {
-		assert(detectNetwork('6227204273781491602') === 'China UnionPay');
+		assert(detectNetwork('6227205054333978608') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622721 and a length of 19', function() {
-		assert(detectNetwork('6227211116269383399') === 'China UnionPay');
+		assert(detectNetwork('6227216556649282080') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622722 and a length of 19', function() {
-		assert(detectNetwork('6227220358226093131') === 'China UnionPay');
+		assert(detectNetwork('6227221282512975363') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622723 and a length of 19', function() {
-		assert(detectNetwork('6227237680536542111') === 'China UnionPay');
+		assert(detectNetwork('6227231237592700624') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622724 and a length of 19', function() {
-		assert(detectNetwork('6227243314856913218') === 'China UnionPay');
+		assert(detectNetwork('6227243879293722999') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622725 and a length of 19', function() {
-		assert(detectNetwork('6227250703850961839') === 'China UnionPay');
+		assert(detectNetwork('6227253422941828325') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622726 and a length of 19', function() {
-		assert(detectNetwork('6227267954554106702') === 'China UnionPay');
+		assert(detectNetwork('6227260867530523131') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622727 and a length of 19', function() {
-		assert(detectNetwork('6227275048217254658') === 'China UnionPay');
+		assert(detectNetwork('6227275213832835326') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622728 and a length of 19', function() {
-		assert(detectNetwork('6227288541036999863') === 'China UnionPay');
+		assert(detectNetwork('6227284816775463426') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622729 and a length of 19', function() {
-		assert(detectNetwork('6227290899467764161') === 'China UnionPay');
+		assert(detectNetwork('6227290673328423402') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622730 and a length of 19', function() {
-		assert(detectNetwork('6227305201417195709') === 'China UnionPay');
+		assert(detectNetwork('6227305627804496395') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622731 and a length of 19', function() {
-		assert(detectNetwork('6227314190399358201') === 'China UnionPay');
+		assert(detectNetwork('6227312250754652476') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622732 and a length of 19', function() {
-		assert(detectNetwork('6227322494503980144') === 'China UnionPay');
+		assert(detectNetwork('6227326145030071051') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622733 and a length of 19', function() {
-		assert(detectNetwork('6227333428608975068') === 'China UnionPay');
+		assert(detectNetwork('6227333464614885075') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622734 and a length of 19', function() {
-		assert(detectNetwork('6227348906306433311') === 'China UnionPay');
+		assert(detectNetwork('6227341015287868540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622735 and a length of 19', function() {
-		assert(detectNetwork('6227353941310851218') === 'China UnionPay');
+		assert(detectNetwork('6227353975328236556') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622736 and a length of 19', function() {
-		assert(detectNetwork('6227364528860409846') === 'China UnionPay');
+		assert(detectNetwork('6227369895390107495') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622737 and a length of 19', function() {
-		assert(detectNetwork('6227372011966314304') === 'China UnionPay');
+		assert(detectNetwork('6227377698716643639') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622738 and a length of 19', function() {
-		assert(detectNetwork('6227388791355639928') === 'China UnionPay');
+		assert(detectNetwork('6227386322345904512') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622739 and a length of 19', function() {
-		assert(detectNetwork('6227392342995697238') === 'China UnionPay');
+		assert(detectNetwork('6227395411280299294') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622740 and a length of 19', function() {
-		assert(detectNetwork('6227403843755973745') === 'China UnionPay');
+		assert(detectNetwork('6227400234094219650') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622741 and a length of 19', function() {
-		assert(detectNetwork('6227418118289405937') === 'China UnionPay');
+		assert(detectNetwork('6227414409567745810') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622742 and a length of 19', function() {
-		assert(detectNetwork('6227421510484270723') === 'China UnionPay');
+		assert(detectNetwork('6227423361983491464') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622743 and a length of 19', function() {
-		assert(detectNetwork('6227437976139138196') === 'China UnionPay');
+		assert(detectNetwork('6227435323044169278') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622744 and a length of 19', function() {
-		assert(detectNetwork('6227444210502741004') === 'China UnionPay');
+		assert(detectNetwork('6227447450489463859') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622745 and a length of 19', function() {
-		assert(detectNetwork('6227458461701092944') === 'China UnionPay');
+		assert(detectNetwork('6227451957377018695') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622746 and a length of 19', function() {
-		assert(detectNetwork('6227462775684121358') === 'China UnionPay');
+		assert(detectNetwork('6227460334205550032') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622747 and a length of 19', function() {
-		assert(detectNetwork('6227474905931444544') === 'China UnionPay');
+		assert(detectNetwork('6227478482338310228') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622748 and a length of 19', function() {
-		assert(detectNetwork('6227483787426419061') === 'China UnionPay');
+		assert(detectNetwork('6227487112771758434') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622749 and a length of 19', function() {
-		assert(detectNetwork('6227492723287901465') === 'China UnionPay');
+		assert(detectNetwork('6227495512731595540') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622750 and a length of 19', function() {
-		assert(detectNetwork('6227500971347005315') === 'China UnionPay');
+		assert(detectNetwork('6227506962151249517') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622751 and a length of 19', function() {
-		assert(detectNetwork('6227519102274041007') === 'China UnionPay');
+		assert(detectNetwork('6227515103619904532') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622752 and a length of 19', function() {
-		assert(detectNetwork('6227523807891996820') === 'China UnionPay');
+		assert(detectNetwork('6227520769868094221') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622753 and a length of 19', function() {
-		assert(detectNetwork('6227531236512250456') === 'China UnionPay');
+		assert(detectNetwork('6227531315405399853') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622754 and a length of 19', function() {
-		assert(detectNetwork('6227542300553243621') === 'China UnionPay');
+		assert(detectNetwork('6227546945097350279') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622755 and a length of 19', function() {
-		assert(detectNetwork('6227556897305122874') === 'China UnionPay');
+		assert(detectNetwork('6227555061198391705') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622756 and a length of 19', function() {
-		assert(detectNetwork('6227562861988232138') === 'China UnionPay');
+		assert(detectNetwork('6227560195535524536') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622757 and a length of 19', function() {
-		assert(detectNetwork('6227575836589112034') === 'China UnionPay');
+		assert(detectNetwork('6227579554686061645') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622758 and a length of 19', function() {
-		assert(detectNetwork('6227588602727283287') === 'China UnionPay');
+		assert(detectNetwork('6227583091271514599') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622759 and a length of 19', function() {
-		assert(detectNetwork('6227599731181122816') === 'China UnionPay');
+		assert(detectNetwork('6227593543960253964') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622760 and a length of 19', function() {
-		assert(detectNetwork('6227607260476854576') === 'China UnionPay');
+		assert(detectNetwork('6227603525841378232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622761 and a length of 19', function() {
-		assert(detectNetwork('6227612737151653581') === 'China UnionPay');
+		assert(detectNetwork('6227616038065826248') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622762 and a length of 19', function() {
-		assert(detectNetwork('6227623051448954349') === 'China UnionPay');
+		assert(detectNetwork('6227622435558443461') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622763 and a length of 19', function() {
-		assert(detectNetwork('6227635207377268844') === 'China UnionPay');
+		assert(detectNetwork('6227639990489704005') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622764 and a length of 19', function() {
-		assert(detectNetwork('6227641166304811487') === 'China UnionPay');
+		assert(detectNetwork('6227648302131338445') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622765 and a length of 19', function() {
-		assert(detectNetwork('6227655988421679129') === 'China UnionPay');
+		assert(detectNetwork('6227656456886841037') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622766 and a length of 19', function() {
-		assert(detectNetwork('6227669429379272107') === 'China UnionPay');
+		assert(detectNetwork('6227664961765118459') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622767 and a length of 19', function() {
-		assert(detectNetwork('6227670369184095197') === 'China UnionPay');
+		assert(detectNetwork('6227678846191085247') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622768 and a length of 19', function() {
-		assert(detectNetwork('6227686022828609429') === 'China UnionPay');
+		assert(detectNetwork('6227682886387574391') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622769 and a length of 19', function() {
-		assert(detectNetwork('6227697049906648925') === 'China UnionPay');
+		assert(detectNetwork('6227695796233238967') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622770 and a length of 19', function() {
-		assert(detectNetwork('6227707222045261161') === 'China UnionPay');
+		assert(detectNetwork('6227709229387894002') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622771 and a length of 19', function() {
-		assert(detectNetwork('6227714539215878964') === 'China UnionPay');
+		assert(detectNetwork('6227716729395752319') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622772 and a length of 19', function() {
-		assert(detectNetwork('6227727432355504480') === 'China UnionPay');
+		assert(detectNetwork('6227725264189617562') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622773 and a length of 19', function() {
-		assert(detectNetwork('6227733436248709033') === 'China UnionPay');
+		assert(detectNetwork('6227732512222618067') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622774 and a length of 19', function() {
-		assert(detectNetwork('6227741434610337961') === 'China UnionPay');
+		assert(detectNetwork('6227743996826113359') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622775 and a length of 19', function() {
-		assert(detectNetwork('6227759830996353210') === 'China UnionPay');
+		assert(detectNetwork('6227757777258270704') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622776 and a length of 19', function() {
-		assert(detectNetwork('6227760226888970436') === 'China UnionPay');
+		assert(detectNetwork('6227764311417985335') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622777 and a length of 19', function() {
-		assert(detectNetwork('6227773566205751808') === 'China UnionPay');
+		assert(detectNetwork('6227770676721931464') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622778 and a length of 19', function() {
-		assert(detectNetwork('6227786618028909597') === 'China UnionPay');
+		assert(detectNetwork('6227785714439524950') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622779 and a length of 19', function() {
-		assert(detectNetwork('6227791476841023517') === 'China UnionPay');
+		assert(detectNetwork('6227792518696437298') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622780 and a length of 19', function() {
-		assert(detectNetwork('6227805061505838168') === 'China UnionPay');
+		assert(detectNetwork('6227803044515267174') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622781 and a length of 19', function() {
-		assert(detectNetwork('6227819312082009279') === 'China UnionPay');
+		assert(detectNetwork('6227813131012920575') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622782 and a length of 19', function() {
-		assert(detectNetwork('6227826957594134477') === 'China UnionPay');
+		assert(detectNetwork('6227828064592468086') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622783 and a length of 19', function() {
-		assert(detectNetwork('6227837838313309465') === 'China UnionPay');
+		assert(detectNetwork('6227835281419796589') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622784 and a length of 19', function() {
-		assert(detectNetwork('6227844524474351084') === 'China UnionPay');
+		assert(detectNetwork('6227841594540484261') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622785 and a length of 19', function() {
-		assert(detectNetwork('6227851491757458718') === 'China UnionPay');
+		assert(detectNetwork('6227859554248784241') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622786 and a length of 19', function() {
-		assert(detectNetwork('6227861161910716784') === 'China UnionPay');
+		assert(detectNetwork('6227867984007522051') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622787 and a length of 19', function() {
-		assert(detectNetwork('6227873761331086130') === 'China UnionPay');
+		assert(detectNetwork('6227874155353463613') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622788 and a length of 19', function() {
-		assert(detectNetwork('6227884321527598355') === 'China UnionPay');
+		assert(detectNetwork('6227881431980146673') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622789 and a length of 19', function() {
-		assert(detectNetwork('6227890237133037994') === 'China UnionPay');
+		assert(detectNetwork('6227898881869890049') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622790 and a length of 19', function() {
-		assert(detectNetwork('6227901034350033303') === 'China UnionPay');
+		assert(detectNetwork('6227904653780542249') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622791 and a length of 19', function() {
-		assert(detectNetwork('6227918308692513125') === 'China UnionPay');
+		assert(detectNetwork('6227918458816991767') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622792 and a length of 19', function() {
-		assert(detectNetwork('6227924319220137240') === 'China UnionPay');
+		assert(detectNetwork('6227929514111638678') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622793 and a length of 19', function() {
-		assert(detectNetwork('6227930080036998959') === 'China UnionPay');
+		assert(detectNetwork('6227932068450046276') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622794 and a length of 19', function() {
-		assert(detectNetwork('6227944471241377065') === 'China UnionPay');
+		assert(detectNetwork('6227941512603392033') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622795 and a length of 19', function() {
-		assert(detectNetwork('6227953208004612821') === 'China UnionPay');
+		assert(detectNetwork('6227959929476465768') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622796 and a length of 19', function() {
-		assert(detectNetwork('6227960770000144560') === 'China UnionPay');
+		assert(detectNetwork('6227967223431780611') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622797 and a length of 19', function() {
-		assert(detectNetwork('6227971378344805928') === 'China UnionPay');
+		assert(detectNetwork('6227970879482672327') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622798 and a length of 19', function() {
-		assert(detectNetwork('6227989345482747604') === 'China UnionPay');
+		assert(detectNetwork('6227988854230055275') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622799 and a length of 19', function() {
-		assert(detectNetwork('6227997138291570815') === 'China UnionPay');
+		assert(detectNetwork('6227994615011972108') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622800 and a length of 19', function() {
-		assert(detectNetwork('6228001724756539616') === 'China UnionPay');
+		assert(detectNetwork('6228003308052947929') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622801 and a length of 19', function() {
-		assert(detectNetwork('6228015521477134408') === 'China UnionPay');
+		assert(detectNetwork('6228015706310031028') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622802 and a length of 19', function() {
-		assert(detectNetwork('6228025488061016546') === 'China UnionPay');
+		assert(detectNetwork('6228026583604989342') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622803 and a length of 19', function() {
-		assert(detectNetwork('6228033532262451815') === 'China UnionPay');
+		assert(detectNetwork('6228039195157432786') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622804 and a length of 19', function() {
-		assert(detectNetwork('6228043707292279549') === 'China UnionPay');
+		assert(detectNetwork('6228043433545421878') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622805 and a length of 19', function() {
-		assert(detectNetwork('6228058374939522630') === 'China UnionPay');
+		assert(detectNetwork('6228051585127144780') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622806 and a length of 19', function() {
-		assert(detectNetwork('6228064351159299978') === 'China UnionPay');
+		assert(detectNetwork('6228061523706650953') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622807 and a length of 19', function() {
-		assert(detectNetwork('6228071435969533546') === 'China UnionPay');
+		assert(detectNetwork('6228073536941302914') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622808 and a length of 19', function() {
-		assert(detectNetwork('6228086861613547047') === 'China UnionPay');
+		assert(detectNetwork('6228086908701312736') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622809 and a length of 19', function() {
-		assert(detectNetwork('6228093060511317643') === 'China UnionPay');
+		assert(detectNetwork('6228098947210035855') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622810 and a length of 19', function() {
-		assert(detectNetwork('6228105282095209199') === 'China UnionPay');
+		assert(detectNetwork('6228106694517890346') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622811 and a length of 19', function() {
-		assert(detectNetwork('6228117462352435777') === 'China UnionPay');
+		assert(detectNetwork('6228111006818583288') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622812 and a length of 19', function() {
-		assert(detectNetwork('6228122408939840811') === 'China UnionPay');
+		assert(detectNetwork('6228127646343823266') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622813 and a length of 19', function() {
-		assert(detectNetwork('6228133816672703245') === 'China UnionPay');
+		assert(detectNetwork('6228132717723188921') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622814 and a length of 19', function() {
-		assert(detectNetwork('6228140808519985720') === 'China UnionPay');
+		assert(detectNetwork('6228140963017973709') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622815 and a length of 19', function() {
-		assert(detectNetwork('6228154034467009463') === 'China UnionPay');
+		assert(detectNetwork('6228157216240812232') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622816 and a length of 19', function() {
-		assert(detectNetwork('6228163392117772268') === 'China UnionPay');
+		assert(detectNetwork('6228166340418900679') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622817 and a length of 19', function() {
-		assert(detectNetwork('6228171128534779027') === 'China UnionPay');
+		assert(detectNetwork('6228175235253089776') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622818 and a length of 19', function() {
-		assert(detectNetwork('6228180539793835946') === 'China UnionPay');
+		assert(detectNetwork('6228185076655886509') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622819 and a length of 19', function() {
-		assert(detectNetwork('6228194258592351503') === 'China UnionPay');
+		assert(detectNetwork('6228197031751814866') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622820 and a length of 19', function() {
-		assert(detectNetwork('6228201668115591032') === 'China UnionPay');
+		assert(detectNetwork('6228204726032264574') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622821 and a length of 19', function() {
-		assert(detectNetwork('6228217971130047227') === 'China UnionPay');
+		assert(detectNetwork('6228213232383687022') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622822 and a length of 19', function() {
-		assert(detectNetwork('6228229385114044581') === 'China UnionPay');
+		assert(detectNetwork('6228226299736618707') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622823 and a length of 19', function() {
-		assert(detectNetwork('6228235402681691623') === 'China UnionPay');
+		assert(detectNetwork('6228236697585291984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622824 and a length of 19', function() {
-		assert(detectNetwork('6228244697874094352') === 'China UnionPay');
+		assert(detectNetwork('6228248908895006765') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622825 and a length of 19', function() {
-		assert(detectNetwork('6228255875286171280') === 'China UnionPay');
+		assert(detectNetwork('6228252455998949524') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622826 and a length of 19', function() {
-		assert(detectNetwork('6228266884720818379') === 'China UnionPay');
+		assert(detectNetwork('6228260817282049133') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622827 and a length of 19', function() {
-		assert(detectNetwork('6228277017518935318') === 'China UnionPay');
+		assert(detectNetwork('6228272119418823354') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622828 and a length of 19', function() {
-		assert(detectNetwork('6228285534899239272') === 'China UnionPay');
+		assert(detectNetwork('6228283082251316475') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622829 and a length of 19', function() {
-		assert(detectNetwork('6228295460441217640') === 'China UnionPay');
+		assert(detectNetwork('6228297987966170784') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622830 and a length of 19', function() {
-		assert(detectNetwork('6228308731901626065') === 'China UnionPay');
+		assert(detectNetwork('6228309222077700715') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622831 and a length of 19', function() {
-		assert(detectNetwork('6228317599924302772') === 'China UnionPay');
+		assert(detectNetwork('6228312193662572734') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622832 and a length of 19', function() {
-		assert(detectNetwork('6228320108740334260') === 'China UnionPay');
+		assert(detectNetwork('6228320266180450181') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622833 and a length of 19', function() {
-		assert(detectNetwork('6228335213552281448') === 'China UnionPay');
+		assert(detectNetwork('6228339862689803592') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622834 and a length of 19', function() {
-		assert(detectNetwork('6228348093867373189') === 'China UnionPay');
+		assert(detectNetwork('6228344349271642729') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622835 and a length of 19', function() {
-		assert(detectNetwork('6228353112996062644') === 'China UnionPay');
+		assert(detectNetwork('6228350589668810339') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622836 and a length of 19', function() {
-		assert(detectNetwork('6228366512699129282') === 'China UnionPay');
+		assert(detectNetwork('6228362261868220429') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622837 and a length of 19', function() {
-		assert(detectNetwork('6228373572793501500') === 'China UnionPay');
+		assert(detectNetwork('6228378026744903904') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622838 and a length of 19', function() {
-		assert(detectNetwork('6228382711113529958') === 'China UnionPay');
+		assert(detectNetwork('6228384073649758682') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622839 and a length of 19', function() {
-		assert(detectNetwork('6228391909896755552') === 'China UnionPay');
+		assert(detectNetwork('6228394745853380262') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622840 and a length of 19', function() {
-		assert(detectNetwork('6228406957980031561') === 'China UnionPay');
+		assert(detectNetwork('6228409505808184019') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622841 and a length of 19', function() {
-		assert(detectNetwork('6228412790041111054') === 'China UnionPay');
+		assert(detectNetwork('6228415555313628258') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622842 and a length of 19', function() {
-		assert(detectNetwork('6228428037721818905') === 'China UnionPay');
+		assert(detectNetwork('6228428702919254418') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622843 and a length of 19', function() {
-		assert(detectNetwork('6228430452735530652') === 'China UnionPay');
+		assert(detectNetwork('6228433172798829449') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622844 and a length of 19', function() {
-		assert(detectNetwork('6228448351313033456') === 'China UnionPay');
+		assert(detectNetwork('6228447999716361864') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622845 and a length of 19', function() {
-		assert(detectNetwork('6228451631545139315') === 'China UnionPay');
+		assert(detectNetwork('6228457612721776045') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622846 and a length of 19', function() {
-		assert(detectNetwork('6228461883811269139') === 'China UnionPay');
+		assert(detectNetwork('6228460947781590360') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622847 and a length of 19', function() {
-		assert(detectNetwork('6228479620472873702') === 'China UnionPay');
+		assert(detectNetwork('6228472856023015775') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622848 and a length of 19', function() {
-		assert(detectNetwork('6228482014173582534') === 'China UnionPay');
+		assert(detectNetwork('6228481445493637024') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622849 and a length of 19', function() {
-		assert(detectNetwork('6228493481307795286') === 'China UnionPay');
+		assert(detectNetwork('6228495636713188803') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622850 and a length of 19', function() {
-		assert(detectNetwork('6228506396802113646') === 'China UnionPay');
+		assert(detectNetwork('6228507033184273518') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622851 and a length of 19', function() {
-		assert(detectNetwork('6228515759980398900') === 'China UnionPay');
+		assert(detectNetwork('6228518111966041285') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622852 and a length of 19', function() {
-		assert(detectNetwork('6228521760552132990') === 'China UnionPay');
+		assert(detectNetwork('6228525609285407710') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622853 and a length of 19', function() {
-		assert(detectNetwork('6228535407073763762') === 'China UnionPay');
+		assert(detectNetwork('6228532308655545701') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622854 and a length of 19', function() {
-		assert(detectNetwork('6228548700182388756') === 'China UnionPay');
+		assert(detectNetwork('6228540971695406708') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622855 and a length of 19', function() {
-		assert(detectNetwork('6228559066128210568') === 'China UnionPay');
+		assert(detectNetwork('6228559129292046843') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622856 and a length of 19', function() {
-		assert(detectNetwork('6228562181193975088') === 'China UnionPay');
+		assert(detectNetwork('6228562410744935890') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622857 and a length of 19', function() {
-		assert(detectNetwork('6228575305047575203') === 'China UnionPay');
+		assert(detectNetwork('6228570466119568719') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622858 and a length of 19', function() {
-		assert(detectNetwork('6228585224523058688') === 'China UnionPay');
+		assert(detectNetwork('6228583707179896977') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622859 and a length of 19', function() {
-		assert(detectNetwork('6228596141556671038') === 'China UnionPay');
+		assert(detectNetwork('6228599416421771128') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622860 and a length of 19', function() {
-		assert(detectNetwork('6228609298915896631') === 'China UnionPay');
+		assert(detectNetwork('6228603989348958208') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622861 and a length of 19', function() {
-		assert(detectNetwork('6228616842068223815') === 'China UnionPay');
+		assert(detectNetwork('6228618921980465984') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622862 and a length of 19', function() {
-		assert(detectNetwork('6228621470943012630') === 'China UnionPay');
+		assert(detectNetwork('6228621722105867457') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622863 and a length of 19', function() {
-		assert(detectNetwork('6228636986005258504') === 'China UnionPay');
+		assert(detectNetwork('6228631609209527900') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622864 and a length of 19', function() {
-		assert(detectNetwork('6228644580856192861') === 'China UnionPay');
+		assert(detectNetwork('6228648288657279776') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622865 and a length of 19', function() {
-		assert(detectNetwork('6228650588327848435') === 'China UnionPay');
+		assert(detectNetwork('6228657752868268716') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622866 and a length of 19', function() {
-		assert(detectNetwork('6228662872078263005') === 'China UnionPay');
+		assert(detectNetwork('6228660751048933440') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622867 and a length of 19', function() {
-		assert(detectNetwork('6228678423024507199') === 'China UnionPay');
+		assert(detectNetwork('6228679448835870129') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622868 and a length of 19', function() {
-		assert(detectNetwork('6228688987674964317') === 'China UnionPay');
+		assert(detectNetwork('6228683345339032934') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622869 and a length of 19', function() {
-		assert(detectNetwork('6228698847670093373') === 'China UnionPay');
+		assert(detectNetwork('6228697532558840985') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622870 and a length of 19', function() {
-		assert(detectNetwork('6228703731704479689') === 'China UnionPay');
+		assert(detectNetwork('6228706763309642776') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622871 and a length of 19', function() {
-		assert(detectNetwork('6228713343006376910') === 'China UnionPay');
+		assert(detectNetwork('6228714147792070112') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622872 and a length of 19', function() {
-		assert(detectNetwork('6228720089198782370') === 'China UnionPay');
+		assert(detectNetwork('6228726287173180222') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622873 and a length of 19', function() {
-		assert(detectNetwork('6228734752646826298') === 'China UnionPay');
+		assert(detectNetwork('6228738868366296087') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622874 and a length of 19', function() {
-		assert(detectNetwork('6228741591547309339') === 'China UnionPay');
+		assert(detectNetwork('6228740992221528202') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622875 and a length of 19', function() {
-		assert(detectNetwork('6228757707235323502') === 'China UnionPay');
+		assert(detectNetwork('6228758987918664305') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622876 and a length of 19', function() {
-		assert(detectNetwork('6228769475596286512') === 'China UnionPay');
+		assert(detectNetwork('6228767345614412934') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622877 and a length of 19', function() {
-		assert(detectNetwork('6228775137362454581') === 'China UnionPay');
+		assert(detectNetwork('6228773374552739375') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622878 and a length of 19', function() {
-		assert(detectNetwork('6228781454777270630') === 'China UnionPay');
+		assert(detectNetwork('6228780747489507799') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622879 and a length of 19', function() {
-		assert(detectNetwork('6228799760178407037') === 'China UnionPay');
+		assert(detectNetwork('6228791948583215547') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622880 and a length of 19', function() {
-		assert(detectNetwork('6228806430094994011') === 'China UnionPay');
+		assert(detectNetwork('6228803616188473907') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622881 and a length of 19', function() {
-		assert(detectNetwork('6228813323665666805') === 'China UnionPay');
+		assert(detectNetwork('6228813341755170348') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622882 and a length of 19', function() {
-		assert(detectNetwork('6228823956287868373') === 'China UnionPay');
+		assert(detectNetwork('6228827501292844136') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622883 and a length of 19', function() {
-		assert(detectNetwork('6228837532820940784') === 'China UnionPay');
+		assert(detectNetwork('6228832104382238390') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622884 and a length of 19', function() {
-		assert(detectNetwork('6228842265477304130') === 'China UnionPay');
+		assert(detectNetwork('6228845896311112703') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622885 and a length of 19', function() {
-		assert(detectNetwork('6228851883375975807') === 'China UnionPay');
+		assert(detectNetwork('6228853424111256629') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622886 and a length of 19', function() {
-		assert(detectNetwork('6228863030528926353') === 'China UnionPay');
+		assert(detectNetwork('6228863517592047011') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622887 and a length of 19', function() {
-		assert(detectNetwork('6228876079378382658') === 'China UnionPay');
+		assert(detectNetwork('6228872319387573202') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622888 and a length of 19', function() {
-		assert(detectNetwork('6228884004328312093') === 'China UnionPay');
+		assert(detectNetwork('6228882181308897740') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622889 and a length of 19', function() {
-		assert(detectNetwork('6228898045792078418') === 'China UnionPay');
+		assert(detectNetwork('6228895775533505340') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622890 and a length of 19', function() {
-		assert(detectNetwork('6228905073941912385') === 'China UnionPay');
+		assert(detectNetwork('6228900129137191465') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622891 and a length of 19', function() {
-		assert(detectNetwork('6228911146338022430') === 'China UnionPay');
+		assert(detectNetwork('6228918176443121715') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622892 and a length of 19', function() {
-		assert(detectNetwork('6228927049999007139') === 'China UnionPay');
+		assert(detectNetwork('6228926937261243548') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622893 and a length of 19', function() {
-		assert(detectNetwork('6228930631042103144') === 'China UnionPay');
+		assert(detectNetwork('6228932004044959382') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622894 and a length of 19', function() {
-		assert(detectNetwork('6228940024749131503') === 'China UnionPay');
+		assert(detectNetwork('6228941187678448061') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622895 and a length of 19', function() {
-		assert(detectNetwork('6228956629072548685') === 'China UnionPay');
+		assert(detectNetwork('6228957193419608350') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622896 and a length of 19', function() {
-		assert(detectNetwork('6228965296323806107') === 'China UnionPay');
+		assert(detectNetwork('6228964205888525059') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622897 and a length of 19', function() {
-		assert(detectNetwork('6228978714969685831') === 'China UnionPay');
+		assert(detectNetwork('6228971591801104453') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622898 and a length of 19', function() {
-		assert(detectNetwork('6228981851340607080') === 'China UnionPay');
+		assert(detectNetwork('6228986047854451443') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622899 and a length of 19', function() {
-		assert(detectNetwork('6228991520605896488') === 'China UnionPay');
+		assert(detectNetwork('6228997181019305829') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622900 and a length of 19', function() {
-		assert(detectNetwork('6229006190765730737') === 'China UnionPay');
+		assert(detectNetwork('6229004457360299501') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622901 and a length of 19', function() {
-		assert(detectNetwork('6229018064496633452') === 'China UnionPay');
+		assert(detectNetwork('6229015964322149228') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622902 and a length of 19', function() {
-		assert(detectNetwork('6229023525964952031') === 'China UnionPay');
+		assert(detectNetwork('6229020352688045638') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622903 and a length of 19', function() {
-		assert(detectNetwork('6229034903684908174') === 'China UnionPay');
+		assert(detectNetwork('6229035710216724896') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622904 and a length of 19', function() {
-		assert(detectNetwork('6229045140767736606') === 'China UnionPay');
+		assert(detectNetwork('6229044320111309066') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622905 and a length of 19', function() {
-		assert(detectNetwork('6229050025638348156') === 'China UnionPay');
+		assert(detectNetwork('6229050835412860244') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622906 and a length of 19', function() {
-		assert(detectNetwork('6229067963060586058') === 'China UnionPay');
+		assert(detectNetwork('6229062941764670311') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622907 and a length of 19', function() {
-		assert(detectNetwork('6229076374816749443') === 'China UnionPay');
+		assert(detectNetwork('6229078493914497332') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622908 and a length of 19', function() {
-		assert(detectNetwork('6229085209851471603') === 'China UnionPay');
+		assert(detectNetwork('6229088620607053938') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622909 and a length of 19', function() {
-		assert(detectNetwork('6229092261450219081') === 'China UnionPay');
+		assert(detectNetwork('6229099245199378229') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622910 and a length of 19', function() {
-		assert(detectNetwork('6229103215867131363') === 'China UnionPay');
+		assert(detectNetwork('6229106724325868425') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622911 and a length of 19', function() {
-		assert(detectNetwork('6229111123582262421') === 'China UnionPay');
+		assert(detectNetwork('6229115244240571796') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622912 and a length of 19', function() {
-		assert(detectNetwork('6229128058815234781') === 'China UnionPay');
+		assert(detectNetwork('6229128710181398221') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622913 and a length of 19', function() {
-		assert(detectNetwork('6229134204928429113') === 'China UnionPay');
+		assert(detectNetwork('6229133607946985352') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622914 and a length of 19', function() {
-		assert(detectNetwork('6229147631984558820') === 'China UnionPay');
+		assert(detectNetwork('6229143643122478413') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622915 and a length of 19', function() {
-		assert(detectNetwork('6229156796889878025') === 'China UnionPay');
+		assert(detectNetwork('6229152958277035471') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622916 and a length of 19', function() {
-		assert(detectNetwork('6229161175331434995') === 'China UnionPay');
+		assert(detectNetwork('6229163444251993851') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622917 and a length of 19', function() {
-		assert(detectNetwork('6229170398750854624') === 'China UnionPay');
+		assert(detectNetwork('6229170037143484470') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622918 and a length of 19', function() {
-		assert(detectNetwork('6229182351332665611') === 'China UnionPay');
+		assert(detectNetwork('6229181526011467492') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622919 and a length of 19', function() {
-		assert(detectNetwork('6229197848933155188') === 'China UnionPay');
+		assert(detectNetwork('6229191102500739631') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622920 and a length of 19', function() {
-		assert(detectNetwork('6229209460280812389') === 'China UnionPay');
+		assert(detectNetwork('6229206962844523330') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622921 and a length of 19', function() {
-		assert(detectNetwork('6229210552185940648') === 'China UnionPay');
+		assert(detectNetwork('6229216230252546060') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622922 and a length of 19', function() {
-		assert(detectNetwork('6229224252072101448') === 'China UnionPay');
+		assert(detectNetwork('6229228857950919636') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622923 and a length of 19', function() {
-		assert(detectNetwork('6229232933510441969') === 'China UnionPay');
+		assert(detectNetwork('6229231208384561097') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622924 and a length of 19', function() {
-		assert(detectNetwork('6229249428416722240') === 'China UnionPay');
+		assert(detectNetwork('6229242389963462177') === 'China UnionPay');
 	});
 
 	it('has a prefix of 622925 and a length of 19', function() {
-		assert(detectNetwork('6229253731075722648') === 'China UnionPay');
+		assert(detectNetwork('6229259097665268103') === 'China UnionPay');
+	});
+
+});
+
+describe('Switch', function() {
+
+	var assert = chai.assert;
+
+	it('has a prefix of 4903 and a length of 16', function() {
+		assert(detectNetwork('4903916976629717') === 'Switch');
+	});
+
+	it('has a prefix of 4905 and a length of 16', function() {
+		assert(detectNetwork('4905681715883506') === 'Switch');
+	});
+
+	it('has a prefix of 4911 and a length of 16', function() {
+		assert(detectNetwork('4911638134599835') === 'Switch');
+	});
+
+	it('has a prefix of 4936 and a length of 16', function() {
+		assert(detectNetwork('4936663379151064') === 'Switch');
+	});
+
+	it('has a prefix of 564182 and a length of 16', function() {
+		assert(detectNetwork('5641825031252603') === 'Switch');
+	});
+
+	it('has a prefix of 633110 and a length of 16', function() {
+		assert(detectNetwork('6331107876579037') === 'Switch');
+	});
+
+	it('has a prefix of 6333 and a length of 16', function() {
+		assert(detectNetwork('6333695007119060') === 'Switch');
+	});
+
+	it('has a prefix of 6759 and a length of 16', function() {
+		assert(detectNetwork('6759000239813831') === 'Switch');
+	});
+
+	it('has a prefix of 4903 and a length of 18', function() {
+		assert(detectNetwork('490326568035990488') === 'Switch');
+	});
+
+	it('has a prefix of 4905 and a length of 18', function() {
+		assert(detectNetwork('490598879374548668') === 'Switch');
+	});
+
+	it('has a prefix of 4911 and a length of 18', function() {
+		assert(detectNetwork('491150964280818205') === 'Switch');
+	});
+
+	it('has a prefix of 4936 and a length of 18', function() {
+		assert(detectNetwork('493649951279689062') === 'Switch');
+	});
+
+	it('has a prefix of 564182 and a length of 18', function() {
+		assert(detectNetwork('564182192236288174') === 'Switch');
+	});
+
+	it('has a prefix of 633110 and a length of 18', function() {
+		assert(detectNetwork('633110039425736270') === 'Switch');
+	});
+
+	it('has a prefix of 6333 and a length of 18', function() {
+		assert(detectNetwork('633317502608305939') === 'Switch');
+	});
+
+	it('has a prefix of 6759 and a length of 18', function() {
+		assert(detectNetwork('675900915162333294') === 'Switch');
+	});
+
+	it('has a prefix of 4903 and a length of 19', function() {
+		assert(detectNetwork('4903604135955691516') === 'Switch');
+	});
+
+	it('has a prefix of 4905 and a length of 19', function() {
+		assert(detectNetwork('4905417633392142454') === 'Switch');
+	});
+
+	it('has a prefix of 4911 and a length of 19', function() {
+		assert(detectNetwork('4911798795581861865') === 'Switch');
+	});
+
+	it('has a prefix of 4936 and a length of 19', function() {
+		assert(detectNetwork('4936543419413442072') === 'Switch');
+	});
+
+	it('has a prefix of 564182 and a length of 19', function() {
+		assert(detectNetwork('5641822701882822569') === 'Switch');
+	});
+
+	it('has a prefix of 633110 and a length of 19', function() {
+		assert(detectNetwork('6331107325899797551') === 'Switch');
+	});
+
+	it('has a prefix of 6333 and a length of 19', function() {
+		assert(detectNetwork('6333692250088607502') === 'Switch');
+	});
+
+	it('has a prefix of 6759 and a length of 19', function() {
+		assert(detectNetwork('6759424918418631849') === 'Switch');
 	});
 
 });
