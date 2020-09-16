@@ -6,6 +6,10 @@ var data = [
   { name: 'Maestro',
     prefixes: ['5018', '5020', '5038', '6304'],
     lengths: [12, 13, 14, 15, 16, 17, 18, 19]
+  },
+  { name: 'Discover',
+    prefixes: ['6011', '644', '645', '646', '647', '648', '649', '65'],
+    lengths: [16, 19]
   }
 ];
 
@@ -23,7 +27,7 @@ function detectNetwork(cardNumber) {
     if (network.lengths.includes(cardNumber.length)) {
       for (var j = 0; j < network.prefixes.length; j++) {
         var prefix = network.prefixes[j];
-        if (prefix === cardNumber.slice(prefix.length)) {
+        if (prefix === cardNumber.slice(0, prefix.length)) {
           if (maxLength < prefix.length) {
             result = network.name;
             maxLength = prefix.length;
